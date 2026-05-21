@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Campaña - GRUPO BARTOLOMÉ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f5f5;
+            color: #2d3748;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 3px solid #4A5568;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 42px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 10px;
+        }
+
+        .header .subtitle {
+            font-size: 24px;
+            color: #718096;
+            font-weight: 300;
+        }
+
+        .header .period {
+            font-size: 18px;
+            color: #4A5568;
+            margin-top: 15px;
+            font-weight: 500;
+        }
+
+        /* Section */
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #4A5568;
+        }
+
+        /* Metrics Grid */
+        .metrics-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .metric-card {
+            flex: 1;
+            min-width: 200px;
+            background: #f7fafc;
+            padding: 25px;
+            border-left: 4px solid #4A5568;
+            border-radius: 4px;
+        }
+
+        .metric-value {
+            font-size: 32px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 8px;
+        }
+
+        .metric-label {
+            font-size: 13px;
+            color: #718096;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+        }
+
+        thead {
+            background: #4A5568;
+            color: white;
+        }
+
+        th {
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #e2e8f0;
+            font-size: 14px;
+        }
+
+        tbody tr:hover {
+            background: #f7fafc;
+        }
+
+        /* Insights */
+        .insights {
+            margin: 30px 0;
+        }
+
+        .insight {
+            background: #f7fafc;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 4px solid #4A5568;
+            border-radius: 4px;
+        }
+
+        .insight-alerta {
+            border-left-color: #E53E3E;
+            background: #FFF5F5;
+        }
+
+        .insight-oportunidad {
+            border-left-color: #D69E2E;
+            background: #FFFAF0;
+        }
+
+        .insight-exito {
+            border-left-color: #38A169;
+            background: #F0FFF4;
+        }
+
+        .insight-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 8px;
+        }
+
+        .insight-description {
+            font-size: 14px;
+            color: #4A5568;
+            margin-bottom: 8px;
+        }
+
+        .insight-action {
+            font-size: 13px;
+            color: #2D3748;
+            font-weight: 500;
+        }
+
+        /* AdSet Detail */
+        .adset-detail {
+            margin: 40px 0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .adset-header {
+            background: #4A5568;
+            color: white;
+            padding: 20px 25px;
+        }
+
+        .adset-title {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .adset-metrics {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .adset-metric {
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .adset-metric-value {
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        .adset-metric-label {
+            font-size: 12px;
+            opacity: 0.9;
+            text-transform: uppercase;
+        }
+
+        /* Tabla comparativa de anuncios */
+        .comparison-table-wrap {
+            overflow-x: auto;
+            background: white;
+        }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        .comparison-table thead tr {
+            background: #edf2f7;
+        }
+
+        .comparison-table th {
+            padding: 11px 14px;
+            text-align: center;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+            color: #4A5568;
+            border-bottom: 2px solid #cbd5e0;
+            white-space: nowrap;
+        }
+
+        .comparison-table th.col-ad {
+            text-align: left;
+            min-width: 200px;
+        }
+
+        .comparison-table td {
+            padding: 14px;
+            border-bottom: 1px solid #e2e8f0;
+            text-align: center;
+            vertical-align: middle;
+            color: #2d3748;
+        }
+
+        .comparison-table td.col-ad {
+            text-align: left;
+        }
+
+        .comparison-table tbody tr:hover {
+            background: #f7fafc;
+        }
+
+        .comparison-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        .ad-cell {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .ad-thumb {
+            flex-shrink: 0;
+            width: 60px;
+            height: 60px;
+            border-radius: 6px;
+            overflow: hidden;
+            background: #edf2f7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #e2e8f0;
+        }
+
+        .ad-thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .ad-cell-name {
+            font-weight: 600;
+            color: #1a202c;
+            font-size: 14px;
+        }
+
+        .metric-highlight {
+            font-weight: 700;
+            color: #1a202c;
+        }
+
+        .tag-best {
+            display: inline-block;
+            background: #c6f6d5;
+            color: #22543d;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 2px 6px;
+            border-radius: 10px;
+            margin-left: 4px;
+            vertical-align: middle;
+        }
+
+        .tag-low {
+            display: inline-block;
+            background: #fed7d7;
+            color: #742a2a;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 2px 6px;
+            border-radius: 10px;
+            margin-left: 4px;
+            vertical-align: middle;
+        }
+
+        /* Glossary */
+        .glossary {
+            background: #f7fafc;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+        }
+
+        .glossary-item {
+            margin-bottom: 20px;
+        }
+
+        .glossary-term {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 5px;
+        }
+
+        .glossary-definition {
+            font-size: 14px;
+            color: #4A5568;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+            text-align: center;
+            color: #718096;
+            font-size: 13px;
+        }
+
+        @media print {
+            @page { size: A4 landscape; margin: 12mm 15mm; }
+            body { background: white; padding: 0; font-size: 11px; }
+            .container { box-shadow: none; padding: 0; max-width: 100%; }
+
+            /* Header compacto */
+            .header { padding: 16px 20px; margin-bottom: 14px; }
+            .header h1 { font-size: 22px; }
+            .header .subtitle { font-size: 14px; }
+
+            /* Métricas resumen más pequeñas */
+            .metrics-grid { gap: 8px; margin-bottom: 14px; }
+            .metric-card { padding: 10px 12px; }
+            .metric-value { font-size: 20px; }
+            .metric-label { font-size: 10px; }
+
+            /* Secciones sin sombra */
+            .adset-detail { box-shadow: none; border: 1px solid #e2e8f0; margin-bottom: 14px; page-break-inside: avoid; }
+            .adset-header { padding: 10px 14px; }
+            .adset-title { font-size: 13px; }
+
+            /* Tablas compactas */
+            .comparison-table-wrap { overflow: visible; }
+            .comparison-table { font-size: 10px; width: 100%; }
+            .comparison-table th { padding: 6px 8px; font-size: 9px; }
+            .comparison-table td { padding: 6px 8px; }
+            .comparison-table th.col-ad { min-width: 140px; }
+
+            /* Miniaturas más pequeñas */
+            .ad-thumb { width: 36px; height: 36px; flex-shrink: 0; }
+            .ad-cell { gap: 7px; }
+            .ad-cell-name { font-size: 11px; }
+            .tag-best, .tag-low { font-size: 9px; padding: 1px 4px; }
+
+            /* Insights compactos */
+            .insights { margin-top: 12px; }
+            .insight { padding: 8px 12px; margin-bottom: 6px; }
+            .insight-title { font-size: 11px; }
+            .insight-description, .insight-action { font-size: 10px; }
+
+            /* No cortar filas entre páginas */
+            .comparison-table tbody tr { page-break-inside: avoid; }
+            .adset-metrics { gap: 6px; }
+            .adset-metric { padding: 6px 10px; }
+        }
+
+        /* RESPONSIVE MOBILE */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .header .subtitle {
+                font-size: 18px;
+            }
+
+            .section-title {
+                font-size: 24px;
+            }
+
+            /* Tablas responsive */
+            table {
+                font-size: 12px;
+            }
+
+            table th, table td {
+                padding: 8px 4px;
+            }
+
+            /* Hacer tablas scrolleables horizontalmente */
+            .table-container {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            /* Métricas en columna */
+            .metrics-grid {
+                flex-direction: column;
+            }
+
+            .metric-card {
+                min-width: 100%;
+            }
+
+            /* Anuncios en columna */
+            .ad-header {
+                flex-direction: column;
+            }
+
+            .ad-image-container {
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+            }
+
+            .ad-image {
+                width: 100%;
+                height: auto;
+            }
+
+            .ad-metrics {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+
+            .ad-metric {
+                min-width: calc(50% - 5px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- HEADER -->
+        <div class="header">
+            <h1>GRUPO BARTOLOMÉ</h1>
+            <div class="subtitle">Reporte de Campaña Publicitaria</div>
+            <div class="period">Abril 2026</div>
+        </div>
+
+        <!-- RESUMEN EJECUTIVO -->
+        <div class="section">
+            <h2 class="section-title">Resumen Ejecutivo</h2>
+
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">$249.979,64</div>
+                    <div class="metric-label">Inversión Total (ARS)</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">585.137</div>
+                    <div class="metric-label">Alcance Total</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">700.535</div>
+                    <div class="metric-label">Impresiones</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">6</div>
+                    <div class="metric-label">Anuncios Corridos</div>
+                </div>
+            </div>
+
+            <h3 style="font-size: 20px; margin: 30px 0 15px 0; color: #1a202c;">Rendimiento por Campaña</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Campaña</th>
+                        <th>Alcance</th>
+                        <th>Frecuencia</th>
+                        <th>Inversión</th>
+                        <th>Resultado Principal</th>
+                        <th>Costo por Resultado</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td><strong>Views - Lotes</strong></td>
+                        <td>329.244</td>
+                        <td>1.96</td>
+                        <td>$174.987,54</td>
+                        <td>28.511 reproducciones</td>
+                        <td>$6,14</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>Mensajes - Lotes</strong></td>
+                        <td>25.692</td>
+                        <td>2.20</td>
+                        <td>$74.992,10</td>
+                        <td>64 conversaciones</td>
+                        <td>$1.171,75</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Insights y Recomendaciones</h2>
+            <div class="insights">
+
+                <div class="insight insight-oportunidad">
+                    <div class="insight-title">💡 CTR bajo en 'DON NICOLAS'</div>
+                    <div class="insight-description">CTR de 0.10% está muy por debajo del promedio (0.38%). El anuncio no está generando interés.</div>
+                    <div class="insight-action">→ Testear nuevo copy o creatividad más llamativa</div>
+                </div>
+
+                <div class="insight insight-oportunidad">
+                    <div class="insight-title">💡 CTR bajo en 'LA ANTONIA'</div>
+                    <div class="insight-description">CTR de 0.13% está muy por debajo del promedio (0.38%). El anuncio no está generando interés.</div>
+                    <div class="insight-action">→ Testear nuevo copy o creatividad más llamativa</div>
+                </div>
+
+                <div class="insight insight-oportunidad">
+                    <div class="insight-title">💡 CTR bajo en 'LA ANTONIA - obra de LUZ'</div>
+                    <div class="insight-description">CTR de 0.15% está muy por debajo del promedio (0.38%). El anuncio no está generando interés.</div>
+                    <div class="insight-action">→ Testear nuevo copy o creatividad más llamativa</div>
+                </div>
+
+                <div class="insight insight-oportunidad">
+                    <div class="insight-title">💡 CTR bajo en 'LA RUFINA - AVANCES'</div>
+                    <div class="insight-description">CTR de 0.12% está muy por debajo del promedio (0.38%). El anuncio no está generando interés.</div>
+                    <div class="insight-action">→ Testear nuevo copy o creatividad más llamativa</div>
+                </div>
+
+                <div class="insight insight-oportunidad">
+                    <div class="insight-title">💡 Subinversión en anuncio con potencial: 'INVERTIR EN TIERRA'</div>
+                    <div class="insight-description">Este anuncio tiene buen CTR (0.41%) pero recibe poca inversión ($3,075). Podría escalar.</div>
+                    <div class="insight-action">→ Aumentar presupuesto para este anuncio</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Glosario de Métricas</h2>
+            <div class="glossary">
+                <div class="glossary-item">
+                    <div class="glossary-term">Impresiones</div>
+                    <div class="glossary-definition">Cantidad de veces que tu anuncio fue mostrado en pantalla.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">Alcance</div>
+                    <div class="glossary-definition">Número de personas únicas que vieron tu anuncio al menos una vez.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">Frecuencia</div>
+                    <div class="glossary-definition">Promedio de veces que cada persona vio tu anuncio. Idealmente entre 2-4.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">CTR (Click-Through Rate)</div>
+                    <div class="glossary-definition">Porcentaje de personas que hicieron click después de ver el anuncio.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">CPC (Costo Por Click)</div>
+                    <div class="glossary-definition">Cuánto pagaste en promedio por cada click en tu anuncio.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">CPM (Costo Por Mil impresiones)</div>
+                    <div class="glossary-definition">Cuánto pagaste por cada 1,000 veces que tu anuncio fue mostrado.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Comparativa por Campaña</h2>
+
+            <div class="adset-detail">
+                <div class="adset-header">
+                    <div class="adset-title">Views - Lotes</div>
+                    <div class="adset-metrics">
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">28.511</div>
+                            <div class="adset-metric-label">Reproducciones de video</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">$6,14</div>
+                            <div class="adset-metric-label">Costo por resultado</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">$174.987,54</div>
+                            <div class="adset-metric-label">Inversión Total</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">329.244</div>
+                            <div class="adset-metric-label">Alcance</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">1.96</div>
+                            <div class="adset-metric-label">Frecuencia</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comparison-table-wrap">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th class="col-ad">Anuncio</th>
+                                <th>Alcance</th>
+                                <th>Impresiones</th>
+                                <th>Frecuencia</th>
+                                <th>Inversión</th>
+                                <th>CTR</th>
+                                <th>CPC</th>
+                                <th>CPM</th>
+                                <th>Reproducciones</th>
+                                <th>Costo / reprod.</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div class="ad-thumb"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE4MDAxMDAwMGQ1MDEwMDAwNTEwMjAwMDA3ZTAyMDAwMGFjMDIwMDAwMmQwMzAwMDAyNjA0MDAwMDQwMDQwMDAwNjkwNDAwMDA4NjA0MDAwMGFmMDUwMDAwAP/bAIQABgcHDQkNDAwMDBENDg0REREQEBERExASERIQExMUExUVExQTFBMXFxcTFBUXGRkXFRccGxwXGxkZGx4bHhsbFgEGBgYLCAsKCwsKDQkLCQ0MDAoKDAwPCwwLDAsPEA4NDg4NDhAODQ0KDQ0ODw4QEA4PEAwODBAPEBAPFxkXFxfB/8IAEQgAQABAAwEiAAIRAQMRAf/EAEsAAAEFAQAAAAAAAAAAAAAAAAIAAQMEBgUQAAECBAIIBQMEAwAAAAAAAAEAEQIhMUFRYQMQEhMUcYGhIJHB0fAEIrEwM0JSkuHx/9oADAMBAAIAAwAAAAHZ8fRNarY3q9tGGQ527jMcKGuhljrtkZK1jWtnKKW2jxhMW1LHSCWN0PMt86/3IopDGfO94ksrW03HYiFKv0RdE6SZiQOSZf/aAAgBAQABBQLh4X0ugLiCcWhgUWiTJky3iijCEa20dlEQI6OFDQQrfLfrfLfLfBbYQ0i2lxUKh020hpHXFQrioVxUK4sBcaEy+jgESOj0Zg4XRiE/QQFfUaA6KMQFmKZQR7C46JuMdH6iBbWi0h0whHhZQllEXTeF/D//2gAIAQMAAT8Bi0cJyQ0IF36I6DNbkrYiWxEtmLBbBW7W7K2FsLdLdrcrdL//2gAIAQIAAT8Bh0sQOKi05NiOqh+pxBXEBbUGK2oMVtQYoxhbadOiU62ltJ1//9oACAEBAAY/Asj8qjQdnU08IpMvgierZHw466fqXRYGSorq6uqKmrSPtOIYooZsJBaOMRRj7oRMttf2IwZOTe0cP9mEP+M3X2mL9zYsZAs9FFDhioumszIcNLAoDakG/iLcmX8esJT7qE5i3YIndkV9Gujsggfb5zfx4AUH6f8A/9oACAEBAAE/IZyZE5sGRwyBT0EwE4HopQqQCItUfSYTrJGRYDg8rZeAAZY3wWBkQDWU+yIdu6MrHnbkjHkPJG4JxOYyKkGKGpeboYhRMs0FPN2RwfjqhgTCvqh0GfKze4Rwuz3WQmX2LHOy5Tqnc7oWIu4HMVzNOkF9KZMKhipJA47YukBBi7l02KBgsSWBcJLpkT80NrsxpHmAbSvlyRhMJJ4lvxrFAIIUk6gmESlmTkAZbwRMismgayXncBqTCMdio5PB5EpdXq2MtJJnIcdtCCWzQwjJs3BZcdynernmSU+oLkTinMWIwUhKwKD3JudTrrdBiI8H/9oADAMBAAIAAwAAABBU25deHwjs2F14Oxr/2gAIAQMAAT8QGeaSEGR2MwWGA9VngrJWSU8gvOi7UPFXU65NVlW1f//aAAgBAgABPxBeFhQdB1CGCRkssssmKLYkfopj/9oACAEBAAE/EKnYDIvMlNEZtVi4OQ5u0kyQkCZGdUmxsp6AsEQzNYBNHARAAnKYnzP9CKlSrECzv9ioshgqcEjunyaq6Wj4ssgQHok5eiBXMxJlKnNYLUyHIYdNQD8n3RBs0JQyr3ZP8Mr+3NSJ9J8HZG1PqzH1TCROgQ20waZTeyGzicndVLW6z1Qftou/g90PkPVC7sC7CsDnEB6Iv0NyV10DrpxEwkOmtFS4bkWqXBUB+YOFkOg+RcQNh4Tz3jECjkq+24NF6kzVBZoaXKVTQSvNMNhW7IgwKdfORy6l8xsTRfhWzEHfKEdedMWi5OsK8cz4SFRj4Dy1JXQVmi6Y5ggPACCGJVVLn2qJqVDMA7/0EzyYB2PYLLWkRikrg6p8UAmdf//Z" alt=""/></div>
+                                        <span class="ad-cell-name">DON NICOLAS</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">121.265</td>
+                                <td>141.647</td>
+                                <td>1.17</td>
+                                <td class="metric-highlight">$38.463,44</td>
+                                <td>0.10%</td>
+                                <td>$263,45</td>
+                                <td>$271,54</td>
+                                <td class="metric-highlight">6362</td>
+                                <td>$6,05</td>
+                            </tr>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div class="ad-thumb"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE4MTAxMDAwMGQ1MDEwMDAwNDYwMjAwMDA4ODAyMDAwMGE3MDIwMDAwZmEwMjAwMDBmZDAzMDAwMDE3MDQwMDAwNTgwNDAwMDA3MzA0MDAwMGMyMDUwMDAwAP/bAIQABgcHDQkNDAwMDBENDg0REREQEBERExASERIQExMUExUVExQTFBMXFxcTFBUXGRkXFRccGxwXGxkZGx4bHhsbFgEGBgYLCAsKCwsKDQkLCQ0MDAoKDAwPCwwLDAsPEA4NDg4NDhAODQ0KDQ0ODw4QEA4PEAwODBAPEBAPFxkXFxfB/8IAEQgAQABAAwEiAAIRAQMRAf/EAEwAAAEFAQAAAAAAAAAAAAAAAAEAAgMEBQYQAAEDAgMGBAQFBQAAAAAAAAEAESExQQJRYQMQcYGRoRIgsdETMsHwBCIz4fEjMEJTkv/aAAwDAQACAAMAAAABzWGGpZnmgnE3Qy8y8rb55MfXY2SQQR24OqJwq+hXa7OdpZLg2zTnQXY8J2JWPtYlhpv8xo5KFOF0yFuwrgkoVtDLDXhAD//aAAgBAQABBQJeIIY0CvjbMIfiNmsW2wYsKZ18NDZhDZBHYr4LLDgAO4FYVhhFFMd2FYisS2OzHh29flPiwjdgJWJkcTjAPyHF4lsabYwqmqGGcOPwjaLZ7cYB8QHESiUAtnuxeSqCwr4eBYsGHcN3/9oACAEDAAE/Adnh2ZH58Zwl7B4bhn/C8Gwn+pi/5rw5ZsvhbD/birfCaRpVn5stqMAbwHxBpfPoLN5gjvFnjf8A/9oACAECAAE/AS9l+bJDFiyCcmu5txjcCsJlYjubf//aAAgBAQAGPwLyEuzgf4uzV6oUZza1liwipMRvr6qvqvmXzL5qoHxU4/24CdAsohYT6KhfhHkCDHPeQ7ncEJCzRH3O5k9K+keevm/UHdfqDv5P/9oACAEBAAE/IXAFUQCtUA3CCbhAoAkCCWjYIXgZT6ACYhsN05o8ANJa7tdqdE1dFZdtUQenWPYgrTy9iKzM1iIHJCZvQbE6aoiBBZZDu1+CIkJB2HsQLyeKdT8UUoJIM0B6URiYHunZTNLJsmATaU1hmZxqjTRJLzzQAEAq7IF0fWqzJsGH/ERMnmhDrboigC7zVqxXRAqW1l7QmLIIdfQqsNXkp19yxygI2oAAJ66q5CDsbumETmeaeqYDH3xQypLtDGAjQYDAz2ThAl5hshE8FPHDQCah3FVE5yCeNJ905k9T96ImDckQjbm6kDJoZ4zRpRExFAU2RgTSWQotVQnqv//aAAwDAQACAAMAAAAQ3IHNrFyMqpQetqKb/9oACAEDAAE/EK1CABAsGqrgZccTqmEbMZVGhg7MqnR10RxF1DyOhJkkcQMzjCA1CCO76eQZ0IgTLlnYZtdGue7/2gAIAQIAAT8QMKFwOu+RCVJNuLeQE6oTMiv/2gAIAQEAAT8QFhZoaLJVdEGHuIGwIaVuaBezBnBgUKQn7J1I/JE2KhmwdXiouNYc1pBmc8dJRMtYrVrRriWf9Bj3JiYDpAyyB2CJF1v2TQBxBIV9ww7+iEHFE5Crv37J0nIzTSBPAPKocVdEfQGyBMdEZzAEexGmzaiNUTgDpFpbtKJTQcwUHDNEMCAcgYFoQESHwA/RNSAcAXsom0GKsEo7yLSjnqfVRH50uJWSZUakQPrZgsNToFMGvQOR7ozwqgFTQ1kVj1Ik5oIA28Nqck1BMSRf+BFidcn1RCiocddJCgKjC6C8LPwfV0QkSUhBIePvNA+c4YDZZpuTNB+ISlT5qhpvrdUcFlyVyvQQ2KBs4ij6IBLk1+KaQCoH7IMl0e5BcdjIGDVEuaUVZqlbJZbhomr8mdk8E90+bVC8XTZhwqsfIOVQkkUkDkv/2Q==" alt=""/></div>
+                                        <span class="ad-cell-name">LA ANTONIA</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">129.363</td>
+                                <td>151.662</td>
+                                <td>1.17</td>
+                                <td class="metric-highlight">$33.911,64</td>
+                                <td>0.13%</td>
+                                <td>$172,14</td>
+                                <td>$223,60</td>
+                                <td class="metric-highlight">0</td>
+                                <td>-</td>
+                            </tr>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div class="ad-thumb"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE3ZDAxMDAwMGQ4MDEwMDAwNWYwMjAwMDA5NTAyMDAwMGQyMDIwMDAwMWQwMzAwMDAwYTA0MDAwMDI0MDQwMDAwNjcwNDAwMDA5NDA0MDAwMGQ2MDUwMDAwAP/bAIQABgcHDQkNDAwMDBENDg0REREQEBERExASERIQExMUExUVExQTFBMXFxcTFBUXGRkXFRccGxwXGxkZGx4bHhsbFgEGBgYLCAsKCwsKDQkLCQ0MDAoKDAwPCwwLDAsPEA4NDg4NDhAODQ0KDQ0ODw4QEA4PEAwODBAPEBAPFxkXFxfB/8IAEQgAQABAAwEiAAIRAQMRAf/EAEgAAAIDAQEBAAAAAAAAAAAAAAMFAgQGAQAHEAACAQIDBQgCAwEBAAAAAAAAAREhMQJBUQMSYXGRBBAggaGxwfDR4RQi8RNS/9oADAMBAAIAAwAAAAGiOiG0u1g6b+9TVxcenBSv0uZCVLFXJO32Wv8Ald4ot+uwfvc2mWVjgSsexZgauxrtxyThsglGpy6HvHPGZocoUnpfFIrdKuzSCYVoVv/aAAgBAQABBQLtD/r2fF/VDRum6QbNzi2sNKi7NtJN03TdNw7N/bG9ot2TseCMbhGPHhwmLtOE/ko2O03cLshE4oclhmERhMDJHiqtoO6xH8fGLs2JvHsWjZ7PZYsO07LjF2bEPYtGDYtjZhZuLEfxWnvbRmIxYBYDDgeIeHDOHCpHfaDIP//aAAgBAwABPwHBsFubvH1g2mzeFw+p/wAzBs6Y50p1N0x7HedxdnRh2aRBuEd242YcOo1Tu//aAAgBAgABPwHadoax7y/89VJs9ssaldD/AKG02lcEa/Bvehg7RuqIMXanlQxbV4vupI0bsd26YW0Yqkn/2gAIAQEABj8CYkV8OJaDxTd27t3w48Qlzb+BGLeuipJSo085MWrjwa+Pz8HUgsZdSrSIxYtzGuhk+KZkTKMvBOF9RrFHl4IGT4v/2gAIAQEAAT8hgQmppPJiUw6y0SrCZ++3czJd1r50sFS6kTwRl6lI54l+drcu5DQiNBdL/Lp6ImOlGNXwcBSVj04/6LZgplE6NL5oQJZJasQtnZJ00dBZpOpTwiCnwO+GSFoTUqygdOWmY/AaHdvUUhNtHk59BM6cPrQasrLkps7JitpMXMkn6mqhrnT3EITc6wNNS0Ea6PIX+1ItDmgcRC71pl8k2lpLl3l5C7pTyTXU/JSfPgYXhrI51dx01HcXeoroXpv5oaUmtKfwPlDGOqGTWY+5jRQVeFlqXRy4ClSVxJre4/kZMlmrkT//2gAMAwEAAgADAAAAEO8GR6yLtSLnWbDwL//aAAgBAwABPxBqRvO3Zr4CWUxaF0S1XUeoydMr1hboUebnqVR8Fhe9SVWTinImJnwpNaShec4EzR8Rj/BiVRQdP2f/2gAIAQIAAT8QoU0afoFo030PuyzorlWlSkydxhnJ6hN1DGeaxQsmhmA4Tn//2gAIAQEAAT8QRlYM1X7ERjlQ0vK9x5JDS9FDnXo8iW1B688oFmPuaN4cmfEOoPkEcMpOatenQm1zSZX+mzkE/MPikVtTTzX5H8ucNRxJ+YaoPxX7FJzWhms11DgPSUnKJ+iF4qohdWJdtOUybkgy+eCfolT6F1kk67arJOgkF2pBBCl6hp6OY57yCTzZROJqyWTR5pHGI6vtHoaLsH6E4fWSe5QpVZ24WfuMzX9iV9RnCHRyUvJNPc0Q/qZJhvUaT86FI5AfkAOcuvyDSAq0BJTKlqiWBW6s9mLHKOpcX4OTKlSn15n2CrmWbATaj34WdRmX1AqafQqX+RkRm8wu+lBzdBd+EsqDlxn2txzZrVZuPRFaZM+T4DRInPNfBPUygU2aHBTyiyqHdg0/SoxJo/AiO1XYVIbEuBkFm55yf//Z" alt=""/></div>
+                                        <span class="ad-cell-name">LA ANTONIA - obra de LUZ</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">143.810</td>
+                                <td>160.909</td>
+                                <td>1.12</td>
+                                <td class="metric-highlight">$43.454,56</td>
+                                <td>0.15%<span class="tag-best">MEJOR</span></td>
+                                <td>$179,56</td>
+                                <td>$270,06</td>
+                                <td class="metric-highlight">9706</td>
+                                <td>$4,48<span class="tag-best">MENOR</span></td>
+                            </tr>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div class="ad-thumb"><img src="data:image/jpeg;base64,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" alt=""/></div>
+                                        <span class="ad-cell-name">LA RUFINA - AVANCES</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">164.227</td>
+                                <td>189.681</td>
+                                <td>1.15</td>
+                                <td class="metric-highlight">$59.157,90</td>
+                                <td>0.12%</td>
+                                <td>$257,21</td>
+                                <td>$311,88</td>
+                                <td class="metric-highlight">12443<span class="tag-best">MEJOR</span></td>
+                                <td>$4,75</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="adset-detail">
+                <div class="adset-header">
+                    <div class="adset-title">Mensajes - Lotes</div>
+                    <div class="adset-metrics">
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">64</div>
+                            <div class="adset-metric-label">Conversaciones iniciadas</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">$1.171,75</div>
+                            <div class="adset-metric-label">Costo por resultado</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">$74.992,10</div>
+                            <div class="adset-metric-label">Inversión Total</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">25.692</div>
+                            <div class="adset-metric-label">Alcance</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">2.20</div>
+                            <div class="adset-metric-label">Frecuencia</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comparison-table-wrap">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th class="col-ad">Anuncio</th>
+                                <th>Alcance</th>
+                                <th>Impresiones</th>
+                                <th>Frecuencia</th>
+                                <th>Inversión</th>
+                                <th>CTR</th>
+                                <th>CPC</th>
+                                <th>CPM</th>
+                                <th>Conversaciones</th>
+                                <th>Costo / conv.</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div class="ad-thumb"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE4MjAxMDAwMGQzMDEwMDAwMmUwMjAwMDA1ODAyMDAwMDdiMDIwMDAwZTIwMjAwMDBhNjAzMDAwMGMwMDMwMDAwZjUwMzAwMDAxYjA0MDAwMDMzMDUwMDAwAP/bAIQABgcHDQkNDAwMDBENDg0REREQEBERExASERIQExMUExUVExQTFBMXFxcTFBUXGRkXFRccGxwXGxkZGx4bHhsbFgEGBgYLCAsKCwsKDQkLCQ0MDAoKDAwPCwwLDAsPEA4NDg4NDhAODQ0KDQ0ODw4QEA4PEAwODBAPEBAPFxkXFxfB/8IAEQgAQABAAwEiAAIRAQMRAf/EAE0AAAEFAQAAAAAAAAAAAAAAAAEAAgMEBQYQAAIBAQQHBAoCAwAAAAAAAAERACECMUFRAxASYXGBkROhsfAEBRQgMDLB0eHxFUIiI0D/2gAMAwEAAgADAAAAAc11iXoeRprTjaqJvlKgbSeyWOKHO17z6VktkfBOgTUJbweyyTG6rp7PKTJnS81ZmSyKe1nh9SSAxX7DQUnJhSfNCAf/2gAIAQEAAQUCUUUUUUUUUsy2ItaimzrWpRRT2gSzpBaItKWbcFoPbEGmC7cTaM9CtLSmx/pO0Jt256RotJatnR6SzY2beoUm3O2nam1DpzZml0u3Hqc2tT+J/9oACAEDAAE/AdqGc45Z9XXy16tMPq21lP461lOynZTs4NHOznZzsp2U/9oACAECAAE/ASYLc290cPpU9rE9qGc9qGc25tzam1HHHHP/2gAIAQEABj8C+Fx1XfGw6w1EvFZeI9dh2WCQKifIEr6PtNu7pLezoi2T/TEt8kQIHozS2TdZNMP7YS2rBV9U1CCEdr6HXcDxnyDzzny99r7yhtA8SX1n+dsknCnfQ9Jzd+5YD/i//9oACAEBAAE/IfgkAEXKjN4BpFHHrODwiFfs3xDKHWMVAHWCAGxl7nBauX5A484smXJhBPEVv4RgcJjCh0qTnK/qQIKdcIN50MOEE0VgAca4yoIo5GZAc32QqalfEJzB05i6xz3t0KylADBBX0oYq4xBqBMlbzBBhCwTd+6UlTr+IEd/OX3iE8tjwjEDfvlFLhsIbtV+Wd16gJAOtAgHMahpuY1iOLqEhgi4jQADGcWoz5UeGt5+sA8qAb44KwCUGMGp6v/aAAwDAQACAAMAAAAQgV+oGpGFcfHFfxtE/9oACAEDAAE/EA5GG+MyHdu4+ec8qGGSpgbguMDaBOXdHKEkOqD7+6EbqOp5UlH2mZ7m4J//2gAIAQIAAT8QSCRU5RoBXfw/PSP+wg5YClRBmQTeUZw+7yarz//aAAgBAQABPxCA9AL4SBIIRFCOEHvPieyPUhDpfygGQSrEO6Tvc4BZKVAxoO7p9JkGHBRl3FblCIBjQYKtFXnXdAFIKg7tV8oExZr6QYALiu+NJGRXhAkC+9qjV4ZBFcaTLABqVX90Xd+hG7K0rsF1+hQS+igCaAo9MZQuAB138vzK5NGFFGe4AYiRwSaYzJYZXNqjUvCAKhmVanqco4F8oYDfiFTnDGYhusU0BivuDUVLwQYVN15QF1zJK6boIHlB+PIuUC6FblfnSwYmc85iEWUQr+TAyJhj9x0AjQQEw6GXAA4MfWBbo5+kca+EZFN/6hVEDN+Iv8wBxuGQQpxdYgqu6FejMVGBkukN8KQFYuBsIwcZ/9k=" alt=""/></div>
+                                        <span class="ad-cell-name">LA ANTONIA</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">23.832</td>
+                                <td>53.252</td>
+                                <td>2.23</td>
+                                <td class="metric-highlight">$71.917,27</td>
+                                <td>1.34%<span class="tag-best">MEJOR</span></td>
+                                <td>$100,44</td>
+                                <td>$1.350,51</td>
+                                <td class="metric-highlight">64<span class="tag-best">MEJOR</span></td>
+                                <td>$1.123,71<span class="tag-best">MENOR</span></td>
+                            </tr>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div class="ad-thumb"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE4MDAxMDAwMGQxMDEwMDAwM2MwMjAwMDA1NjAyMDAwMDdkMDIwMDAwY2YwMjAwMDBhNjAzMDAwMGMwMDMwMDAwZTgwMzAwMDAwOTA0MDAwMDNlMDUwMDAwAP/bAIQABgcHDQkNDAwMDBENDg0REREQEBERExASERIQExMUExUVExQTFBMXFxcTFBUXGRkXFRccGxwXGxkZGx4bHhsbFgEGBgYLCAsKCwsKDQkLCQ0MDAoKDAwPCwwLDAsPEA4NDg4NDhAODQ0KDQ0ODw4QEA4PEAwODBAPEBAPFxkXFxfB/8IAEQgAQABAAwEiAAIRAQMRAf/EAEsAAAIDAQEAAAAAAAAAAAAAAAECAwQFAAYQAAIBAgMFBQgCAwEAAAAAAAABESExAkFREGFxkaEDEhSB0RMgIjKxweHwBPEVMEBS/9oADAMBAAIAAwAAAAGQ7lPQoVvQ4ewjjVpZsE+pQ3E4YFrxblPZp4xA/sE8eCPWR+YhZMBrSUrLQyzx9mjVA7Ni1qxKFHAciRePRcOmjMXd/9oACAEBAAEFAvZPZgg73cO/g7Q7O3h8M4uwO9hxmLCjumDsjEpF3p9oPtDuyYcED+E9uP8AkMxdtI+2PbH+TPHnjJH/ACkeLR4rCeKwni0P+P2hgo8TQ5IZ3SGQzFikWzCyZ92CCPej3mf/2gAIAQMAAT8BxYYszsnu2PAj2ZU+IjF/p//aAAgBAgABPwFY5uoO1jUuLtMR7TeStScJ38Go8Q8bO+9BY59xH//aAAgBAQAGPwK2yonGR8U0LzOpORXyzPi5yfCnsv1KJF7bKbLwUezL3LdT5Sx8pYsyzPlZ8opbwrOCFix1/wDVD5ns/JTZXE8XChT4fr/z/wD/2gAIAQEAAT8hUrVyuJ0iFyIbGt6dR0KjebhZWpI65k4n0FSojSm4Oa0p8suZXcnFoqT5DdpilEq8xmu8TVE81AyFLRp6BqQx5w51sLEmydmgkprmLVnmT1MZ6okjcrpp9ylavevQ13J6iczKGxweYrr0Nm8w+KtxEpllA9V0PxUDyOkQfgEITetqr1GaU0qZfQUjNVSX7sZ1cm8tx19B/s/wJ8/1yIpzcR09OJ0cUOY0WLgrzMcK19XVkG8Wkhw8hwO8PaQgTuPI6CvfYtwayEoG2SSJmf/aAAwDAQACAAMAAAAQ/khiv8B9LKd8mL+K/9oACAEDAAE/EMkPzryGTm6QWcxXVDOizFGtW+MELZR5yMbjbBE+7//aAAgBAgABPxDPH0c9gsiRQryLyk1wtfYIPd0E7xolqf/aAAgBAQABPxCpWGUcKF5vTQ0EdZhNN5Ii1TbM4Vqm71J0C+I1OSv4yPN0a8SuBJqZaVknpMzGiPVZE701smgyC9XKHkiEVKStoUFNVW+okRJLVQLwalqSOQdFtLVoJDchIbhOtFBCRwmyWkpHAChy2K05FirqurqSQPqrYvsHAtpJSXm1eSHb8GT+j7lj3kx9MvIQqK+ZPIcP3OhQl0GdLXHSd8zRqqmRvU79gfcaGefzKU0tfRY0rjKYT1ZGl84PcgMzCnoknBtuM6quXqaVHfFsLmFCfvdRtjU1GXH9RSkC0Tb0SJ6Qmwkf06/qDKVufeiRNWaocxN7lwRIseVRP6HETKp1FUkdRbo6CbYpWfUaIKBMyGTablnFyVouRmegRTN5wL/WYhWRPrI1zEuiKH//2Q==" alt=""/></div>
+                                        <span class="ad-cell-name">INVERTIR EN TIERRA</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">2.640</td>
+                                <td>3.384</td>
+                                <td>1.28</td>
+                                <td class="metric-highlight">$3.074,83</td>
+                                <td>0.41%</td>
+                                <td>$219,63</td>
+                                <td>$908,64</td>
+                                <td class="metric-highlight">0</td>
+                                <td>-</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            Reporte generado el 06 de May de 2026 a las 09:27
+        </div>
+
+    </div>
+</body>
+</html>

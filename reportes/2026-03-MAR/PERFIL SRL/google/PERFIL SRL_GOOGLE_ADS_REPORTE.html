@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte Google Ads - PERFIL SRL - Marzo 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; background: #f5f5f5; color: #2d3748; line-height: 1.6; padding: 20px; }
+        .container { max-width: 1400px; margin: 0 auto; background: white; padding: 50px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+
+        .header { text-align: center; padding: 50px 0; border-bottom: 4px solid #4285F4; margin-bottom: 50px; }
+        .header h1 { font-size: 48px; font-weight: 700; color: #1a202c; margin-bottom: 15px; }
+        .header .subtitle { font-size: 26px; color: #718096; font-weight: 300; }
+        .header .period { font-size: 20px; color: #4285F4; margin-top: 15px; font-weight: 500; }
+        .google-logo { display: flex; justify-content: center; gap: 3px; margin-bottom: 20px; }
+        .google-logo span { font-size: 36px; font-weight: 700; }
+        .g-blue { color: #4285F4; } .g-red { color: #EA4335; } .g-yellow { color: #FBBC05; } .g-green { color: #34A853; }
+
+        .section { margin-bottom: 60px; }
+        .section-title { font-size: 28px; font-weight: 700; color: #1a202c; margin-bottom: 25px; padding-bottom: 12px; border-bottom: 3px solid #4285F4; }
+
+        .summary { display: flex; gap: 20px; flex-wrap: wrap; margin: 30px 0; }
+        .summary-card { flex: 1; min-width: 160px; background: linear-gradient(135deg, #f8f9fa 0%, #e8f0fe 100%); padding: 22px; border-radius: 12px; border-left: 4px solid #4285F4; }
+        .summary-card.conversions { border-left-color: #34A853; }
+        .summary-card.clicks { border-left-color: #FBBC05; }
+        .summary-card.cost { border-left-color: #EA4335; }
+        .summary-card .value { font-size: 26px; font-weight: 700; color: #1a202c; }
+        .summary-card .label { font-size: 11px; color: #718096; text-transform: uppercase; margin-top: 5px; }
+        .summary-card .change { font-size: 12px; margin-top: 8px; font-weight: 600; }
+
+        .campaign-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 25px; margin-bottom: 25px; }
+        .campaign-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 2px solid #e2e8f0; }
+        .campaign-name { font-size: 20px; font-weight: 700; color: #1a202c; }
+        .campaign-type { padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; text-transform: uppercase; }
+        .type-search { background: #e8f0fe; color: #4285F4; }
+        .type-display { background: #fef3e8; color: #EA4335; }
+        .type-pmax { background: #e8f5e9; color: #34A853; }
+        .type-video { background: #fce4ec; color: #c62828; }
+
+        .metrics-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 15px; }
+        .metric-box { text-align: center; padding: 15px 10px; background: #f8f9fa; border-radius: 8px; }
+        .metric-box .value { font-size: 20px; font-weight: 700; color: #1a202c; }
+        .metric-box .label { font-size: 10px; color: #718096; text-transform: uppercase; margin-top: 3px; }
+        .metric-box .compare { font-size: 10px; color: #718096; margin-top: 5px; }
+        .metric-box .change { font-weight: 600; font-size: 11px; }
+
+        .change-positive { color: #34A853; } .change-negative { color: #EA4335; } .change-neutral { color: #718096; }
+
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th { background: #4285F4; color: white; padding: 12px; text-align: left; font-size: 11px; text-transform: uppercase; }
+        td { padding: 12px; border-bottom: 1px solid #e2e8f0; font-size: 13px; }
+
+        .insight-box { background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); padding: 20px; border-radius: 12px; margin: 15px 0; border-left: 4px solid #34A853; }
+        .insight-box.warning { background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); border-left-color: #FBBC05; }
+        .insight-box.info { background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); border-left-color: #4285F4; }
+        .insight-box h4 { color: #1a202c; margin-bottom: 8px; font-size: 15px; }
+        .insight-box p { color: #4a5568; font-size: 14px; }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <div class="header">
+        <div class="google-logo">
+            <span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span>
+            <span style="color: #718096; margin-left: 10px;">Ads</span>
+        </div>
+        <h1>PERFIL SRL</h1>
+        <div class="subtitle">Reporte de Performance</div>
+        <div class="period">Marzo 2026</div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">📊 Resumen Ejecutivo</h2>
+        <div class="summary">
+            
+        <div class="summary-card">
+            <div class="value">$139.130,81</div>
+            <div class="label">Inversión Total</div>
+            <div class="change change-positive">-7.6% vs FEB</div>
+        </div>
+        <div class="summary-card conversions">
+            <div class="value">84</div>
+            <div class="label">Conversiones</div>
+            <div class="change change-negative">-3.4% vs FEB</div>
+        </div>
+        <div class="summary-card clicks">
+            <div class="value">1.634</div>
+            <div class="label">Clicks</div>
+            <div class="change change-negative">-52.4% vs FEB</div>
+        </div>
+        <div class="summary-card cost">
+            <div class="value">$1.656,32</div>
+            <div class="label">Costo/Conversión</div>
+            <div class="change change-positive">-4.2% vs FEB</div>
+        </div>
+        <div class="summary-card">
+            <div class="value">$85,15</div>
+            <div class="label">CPC Promedio</div>
+            <div class="change change-negative">+94.3% vs FEB</div>
+        </div>
+    
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">🎯 Rendimiento por Campaña</h2>
+        
+        <div class="campaign-card">
+            <div class="campaign-header">
+                <div class="campaign-name">Hormigón-Search-1</div>
+                <span class="campaign-type type-search">Search</span>
+            </div>
+            <div class="metrics-row">
+                <div class="metric-box">
+                    <div class="value">$46.495,73</div>
+                    <div class="label">Inversión</div>
+                    <div class="compare">FEB: $50.615,10</div>
+                    <div class="change change-positive">-8.1%</div>
+                </div>
+                <div class="metric-box">
+                    <div class="value" style="color: #34A853;">44</div>
+                    <div class="label">Conversiones</div>
+                    <div class="compare">FEB: 55</div>
+                    <div class="change change-negative">-20.0%</div>
+                </div>
+                <div class="metric-box">
+                    <div class="value">468</div>
+                    <div class="label">Clicks</div>
+                    <div class="compare">FEB: 479</div>
+                    <div class="change change-negative">-2.3%</div>
+                </div>
+                <div class="metric-box">
+                    <div class="value" style="color: #FBBC05;">$99,35</div>
+                    <div class="label">CPC</div>
+                    <div class="compare">FEB: $105,67</div>
+                    <div class="change change-positive">-6.0%</div>
+                </div>
+                <div class="metric-box">
+                    <div class="value">$1.056,72</div>
+                    <div class="label">Costo/Conv</div>
+                    <div class="compare">FEB: $920,27</div>
+                </div>
+                <div class="metric-box">
+                    <div class="value">3.486</div>
+                    <div class="label">Impresiones</div>
+                </div>
+                <div class="metric-box">
+                    <div class="value">13.43%</div>
+                    <div class="label">CTR</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="campaign-card">
+            <div class="campaign-header">
+                <div class="campaign-name">PMax: Hormigón-Display-1</div>
+                <span class="campaign-type type-pmax">PMax</span>
+            </div>
+            <div class="metrics-row">
+                <div class="metric-box">
+                    <div class="value">$45.956,33</div>
+                    <div class="label">Inversión</div>
+                    <div class="compare">FEB: $49.278,67</div>
+                    <div class="change change-positive">-6.7%</div>
+                </div>
+                <div class="metric-box">
+                    <div class="value" style="color: #34A853;">40</div>
+                    <div class="label">Conversiones</div>
+                    <div class="compare">FEB: 32</div>
+                    <div class="change change-positive">+25.0%</div>
+                </div>
+                <div class="metric-box">
+                    <div class="value">292</div>
+                    <div class="label">Clicks</div>
+                    <div class="compare">FEB: 388</div>
+                    <div class="change change-negative">-24.7%</div>
+                </div>
+                <div class="metric-box">
+                    <div class="value" style="color: #FBBC05;">$157,38</div>
+                    <div class="label">CPC</div>
+                    <div class="compare">FEB: $127,01</div>
+                    <div class="change change-negative">+23.9%</div>
+                </div>
+                <div class="metric-box">
+                    <div class="value">$1.148,91</div>
+                    <div class="label">Costo/Conv</div>
+                    <div class="compare">FEB: $1.539,96</div>
+                </div>
+                <div class="metric-box">
+                    <div class="value">3.621</div>
+                    <div class="label">Impresiones</div>
+                </div>
+                <div class="metric-box">
+                    <div class="value">8.06%</div>
+                    <div class="label">CTR</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="campaign-card">
+            <div class="campaign-header">
+                <div class="campaign-name">Véneto - Display</div>
+                <span class="campaign-type type-display">Display</span>
+            </div>
+            <div class="metrics-row">
+                <div class="metric-box">
+                    <div class="value">$46.678,75</div>
+                    <div class="label">Inversión</div>
+                    <div class="compare">FEB: $50.600,21</div>
+                    <div class="change change-positive">-7.7%</div>
+                </div>
+                <div class="metric-box">
+                    <div class="value" style="color: #34A853;">0</div>
+                    <div class="label">Conversiones</div>
+                    <div class="compare">FEB: 0</div>
+                    
+                </div>
+                <div class="metric-box">
+                    <div class="value">874</div>
+                    <div class="label">Clicks</div>
+                    <div class="compare">FEB: 2.568</div>
+                    <div class="change change-negative">-66.0%</div>
+                </div>
+                <div class="metric-box">
+                    <div class="value" style="color: #FBBC05;">$53,41</div>
+                    <div class="label">CPC</div>
+                    <div class="compare">FEB: $19,70</div>
+                    <div class="change change-negative">+171.1%</div>
+                </div>
+                <div class="metric-box">
+                    <div class="value">-</div>
+                    <div class="label">Costo/Conv</div>
+                    <div class="compare">FEB: -</div>
+                </div>
+                <div class="metric-box">
+                    <div class="value">14.663</div>
+                    <div class="label">Impresiones</div>
+                </div>
+                <div class="metric-box">
+                    <div class="value">5.96%</div>
+                    <div class="label">CTR</div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">📈 Comparación Mensual (FEB vs Mar)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Campaña</th>
+                    <th>Tipo</th>
+                    <th>Conv FEB</th>
+                    <th>Conv Mar</th>
+                    <th>Var Conv</th>
+                    <th>CPC FEB</th>
+                    <th>CPC Mar</th>
+                    <th>Var CPC</th>
+                    <th>Costo/Conv Mar</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td><strong>Hormigón-Search-1</strong></td>
+                    <td>Search</td>
+                    <td>55</td>
+                    <td>44</td>
+                    <td class="change-positive">-20.0%</td>
+                    <td>$105,67</td>
+                    <td>$99,35</td>
+                    <td class="change-positive">-6.0%</td>
+                    <td>$1.056,72</td>
+                </tr>
+        
+                <tr>
+                    <td><strong>PMax: Hormigón-Display-1</strong></td>
+                    <td>PMax</td>
+                    <td>32</td>
+                    <td>40</td>
+                    <td class="change-negative">+25.0%</td>
+                    <td>$127,01</td>
+                    <td>$157,38</td>
+                    <td class="change-negative">+23.9%</td>
+                    <td>$1.148,91</td>
+                </tr>
+        
+                <tr>
+                    <td><strong>Véneto - Display</strong></td>
+                    <td>Display</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td class="change-neutral">0%</td>
+                    <td>$19,70</td>
+                    <td>$53,41</td>
+                    <td class="change-negative">+171.1%</td>
+                    <td>-</td>
+                </tr>
+        
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">💡 Insights</h2>
+        
+        <div class="insight-box">
+            <h4>✅ Campaña con mayor volumen de conversiones</h4>
+            <p><strong>Hormigón-Search-1</strong> lidera con 44 conversiones
+            a un costo por conversión de $1.056,72.</p>
+        </div>
+        
+        <div class="insight-box warning">
+            <h4>⚠️ Display sin conversiones directas</h4>
+            <p><strong>Véneto - Display</strong> tiene CPC de $53,41 pero no registra conversiones.
+            Evaluar si el objetivo es branding o reasignar presupuesto.</p>
+        </div>
+        
+        <div class="insight-box info">
+            <h4>📊 Evolución mensual</h4>
+            <p>El total de conversiones bajó un <strong>3.4%</strong> respecto a FEB.
+            La inversión total fue de $139.130,81.</p>
+        </div>
+        
+    </div>
+
+</div>
+</body>
+</html>

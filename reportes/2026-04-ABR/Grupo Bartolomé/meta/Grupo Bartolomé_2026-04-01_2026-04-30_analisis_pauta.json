@@ -1,0 +1,739 @@
+{
+  "metadata": {
+    "cliente": "Grupo Bartolomé",
+    "periodo": "2026-04-01_2026-04-30",
+    "fecha_generacion": "2026-05-06 08:32",
+    "ad_account_id": "act_586457407081824"
+  },
+  "resumen": {
+    "inversion_total": 249979.63999999998,
+    "alcance_total": 585137,
+    "impresiones_totales": 700535,
+    "total_anuncios": 6,
+    "total_conjuntos": 2
+  },
+  "conjuntos_de_anuncios": [
+    {
+      "adset_name": "Views - Lotes",
+      "impressions": 643899,
+      "reach": 329244,
+      "frequency": 1.955689,
+      "spend": 174987.54,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 3,
+        "link_click": 465,
+        "page_engagement": 29066,
+        "onsite_conversion.post_unlike": 37,
+        "post_engagement": 29066,
+        "post_interaction_gross": 90,
+        "post_interaction_net": 127,
+        "onsite_conversion.messaging_user_depth_2_message_send": 2,
+        "onsite_conversion.messaging_first_reply": 2,
+        "post": 5,
+        "onsite_conversion.post_save": 4,
+        "onsite_conversion.messaging_user_depth_3_message_send": 1,
+        "onsite_conversion.post_net_save": 4,
+        "onsite_conversion.post_net_like": 44,
+        "onsite_conversion.messaging_user_depth_5_message_send": 2,
+        "onsite_conversion.messaging_conversation_started_7d": 2,
+        "video_view": 28511,
+        "post_reaction": 81
+      },
+      "cost_per_actions": {
+        "video_view": 6.137545,
+        "link_click": 376.31729,
+        "post_interaction_gross": 1944.306,
+        "onsite_conversion.total_messaging_connection": 58329.18,
+        "post_engagement": 6.020352,
+        "onsite_conversion.messaging_user_depth_5_message_send": 87493.77,
+        "onsite_conversion.messaging_user_depth_2_message_send": 87493.77,
+        "onsite_conversion.messaging_user_depth_3_message_send": 174987.54,
+        "page_engagement": 6.020352,
+        "onsite_conversion.messaging_first_reply": 87493.77,
+        "onsite_conversion.messaging_conversation_started_7d": 87493.77
+      }
+    },
+    {
+      "adset_name": "Mensajes - Lotes",
+      "impressions": 56636,
+      "reach": 25692,
+      "frequency": 2.204422,
+      "spend": 74992.1,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 64,
+        "onsite_conversion.messaging_block": 1,
+        "link_click": 231,
+        "page_engagement": 6919,
+        "onsite_conversion.post_unlike": 10,
+        "post_engagement": 6919,
+        "post_interaction_gross": 87,
+        "comment": 3,
+        "post_interaction_net": 97,
+        "onsite_conversion.messaging_user_depth_2_message_send": 9,
+        "onsite_conversion.messaging_first_reply": 54,
+        "post": 18,
+        "onsite_conversion.post_save": 8,
+        "onsite_conversion.post_net_comment": 3,
+        "onsite_conversion.post_net_save": 8,
+        "onsite_conversion.post_net_like": 48,
+        "onsite_conversion.messaging_conversation_started_7d": 64,
+        "onsite_conversion.messaging_conversation_replied_7d": 1,
+        "video_view": 6601,
+        "post_reaction": 58
+      },
+      "cost_per_actions": {
+        "video_view": 11.360718,
+        "link_click": 324.641126,
+        "post_interaction_gross": 861.978161,
+        "onsite_conversion.total_messaging_connection": 1171.751563,
+        "post_engagement": 10.838575,
+        "onsite_conversion.messaging_user_depth_2_message_send": 8332.455556,
+        "onsite_conversion.messaging_conversation_replied_7d": 74992.1,
+        "page_engagement": 10.838575,
+        "onsite_conversion.messaging_first_reply": 1388.742593,
+        "onsite_conversion.messaging_conversation_started_7d": 1171.751563
+      }
+    }
+  ],
+  "anuncios": [
+    {
+      "campaign_name": "Campaña | Views",
+      "adset_name": "Views - Lotes",
+      "ad_name": "DON NICOLAS",
+      "ad_id": "120238183049440078",
+      "impressions": 141647,
+      "reach": 121265,
+      "frequency": 1.168078,
+      "clicks": 146,
+      "spend": 38463.44,
+      "cpc": 263.448219,
+      "cpm": 271.544332,
+      "ctr": 0.103073,
+      "actions": {
+        "link_click": 77,
+        "page_engagement": 6454,
+        "onsite_conversion.post_unlike": 11,
+        "post_engagement": 6454,
+        "post_interaction_gross": 15,
+        "post_interaction_net": 26,
+        "onsite_conversion.post_net_like": 4,
+        "video_view": 6362,
+        "post_reaction": 15
+      },
+      "cost_per_actions": {
+        "video_view": 6.045809,
+        "link_click": 499.525195,
+        "post_interaction_gross": 2564.229333,
+        "post_engagement": 5.959628,
+        "page_engagement": 5.959628
+      },
+      "creative": {
+        "title": "",
+        "body": "¡Ahora les compartimos los lotes disponibles en Don Nicolás! 🏡\n\nUbicados en Allen, a metros de la Ruta 65, con una ubicación estratégica y unidades que van desde 260 a 460 m².\n\nEl loteo ya se encuentra en etapa de servicios y cuenta con financiamiento disponible hasta febrero 2027.\n\nInvertí en tu futuro hoy mismo 🤝🏻\n📞 Contáctanos:\nCipolletti: 2995328768\n📍 Mengelle 59, Piso 4 Oficina 7\nGral. Roca: 2984436877\n📍 Av. Gral. Julio A. Roca 1277, Piso 4 Oficina 405\n\n#grupobartolome #terreno #loteos #inversion",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/605487127_1578626276473636_9063456837547947356_n.jpg?_nc_cat=107&ccb=1-7&_nc_eui2=AeE26QXZvjuXTkMhzAPdFLd-8B8xWh9Lh3HwHzFaH0uHcU4WGRaEtn80uAesXI3sHJY&_nc_ohc=fQnbtQkOgnoQ7kNvwGE20eZ&_nc_oc=AdrGApnsXVKY_UProqSmFpin_vR66p78YA-3Us1zcBt07U7a6I3qa__h6QvBe7Y9gHQ2ix3O6s6mq4qsxoNnKQCG&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=Q42FRpY0zTWBwYDpuMNc7Q&_nc_tpa=Q5bMBQEZAY_QoqWAFP3UHf4E6EKZrYQhwfvNO09TOysDa1Q1faQowuUkD9zcoOyIlkFDMtPa2gpKWdLF&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Af7dfjPxc18eAc9EJ-5PEbzrfgZ3Nc5jLK9kRStTEMA_Vg&oe=6A00F3C9",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/Grupo Bartolomé/meta/images/120238183049440078.jpg"
+      }
+    },
+    {
+      "campaign_name": "Campaña | Views",
+      "adset_name": "Views - Lotes",
+      "ad_name": "LA ANTONIA",
+      "ad_id": "120238183049500078",
+      "impressions": 151662,
+      "reach": 129363,
+      "frequency": 1.172375,
+      "clicks": 197,
+      "spend": 33911.64,
+      "cpc": 172.140305,
+      "cpm": 223.600111,
+      "ctr": 0.129894,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 3,
+        "link_click": 146,
+        "page_engagement": 149,
+        "onsite_conversion.post_unlike": 3,
+        "post_engagement": 149,
+        "post_interaction_gross": 3,
+        "post_interaction_net": 6,
+        "onsite_conversion.messaging_user_depth_2_message_send": 2,
+        "onsite_conversion.messaging_first_reply": 2,
+        "onsite_conversion.messaging_user_depth_3_message_send": 1,
+        "onsite_conversion.post_net_like": 0,
+        "onsite_conversion.messaging_user_depth_5_message_send": 2,
+        "onsite_conversion.messaging_conversation_started_7d": 2,
+        "post_reaction": 3
+      },
+      "cost_per_actions": {
+        "link_click": 232.271507,
+        "post_interaction_gross": 11303.88,
+        "onsite_conversion.total_messaging_connection": 11303.88,
+        "post_engagement": 227.594899,
+        "onsite_conversion.messaging_user_depth_5_message_send": 16955.82,
+        "onsite_conversion.messaging_user_depth_2_message_send": 16955.82,
+        "onsite_conversion.messaging_user_depth_3_message_send": 33911.64,
+        "page_engagement": 227.594899,
+        "onsite_conversion.messaging_first_reply": 16955.82,
+        "onsite_conversion.messaging_conversation_started_7d": 16955.82
+      },
+      "creative": {
+        "title": "Grupo Bartolome",
+        "body": "Hoy te presentamos nuestro catálogo de lotes disponibles en desarrollos ubicados en zonas estratégicas del Alto Valle, ideales para proyectos de inversión.\n\nNuestros loteos se encuentran en etapa de desarrollo de servicios y cuentan con opciones de financiación, adaptadas a distintos objetivos.\n\nLas unidades disponibles son limitadas.\nInvertir en tierra es apostar a un futuro seguro. 🤝🏻\n\n📞 Contactanos:\n\nCipolletti: 2995328768\n📍 Mengelle 59, Piso 4 Oficina 7\nGral. Roca: 2984436877\n📍 Av. Gral. Julio A. Roca 1277, Piso 4 Oficina 405\n\n#grupobartolome #terreno #loteos #inversion",
+        "image_url": "",
+        "thumbnail_url": "https://external.fnqn2-1.fna.fbcdn.net/emg1/v/t13/11665326128242935787?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJMuLzfyx2PzVp6nyidsuS-oBxgMftIpga3Gw4TgwnfHH__4yT1yzaZDu3qX_BJo6StKe3sOoOHg6bbpTTD_NOqmSOQ4RRlfOR_yiBOxxByQTFQvqnDeFNLY3JpyvtxYwo-kQJD-E9emyXQclfKinOh&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AAT1rw8EAAAA&_nc_gid=bwrwcXLbVhiHG1YhyUjfoQ&_nc_eui2=AeHBU02Ssrfje7x5-5NpoCfmgZbN_Zx_8peBls39nH_yl7V8rQtdu9X8fXdSPAjmaUs&_nc_oc=AdoVWSp6jPihfGIkGMNmRy1SvcBu_Cz9RKyA7q9HO0BuuRDf4ruItGBTfdfz_ZKu3u66wK0EwYeyt3-4WSpGgg79&ccb=13-1&oh=06_Q3--AdIxJSqOmzqaofGFkMryTFQVxU-sdyS3ajWgrNcjY6SM&oe=69FD1784&_nc_sid=58080a",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/Grupo Bartolomé/meta/images/120238183049500078.jpg"
+      }
+    },
+    {
+      "campaign_name": "Mensajes",
+      "adset_name": "Mensajes - Lotes",
+      "ad_name": "LA ANTONIA",
+      "ad_id": "120240327467580078",
+      "impressions": 53252,
+      "reach": 23832,
+      "frequency": 2.234475,
+      "clicks": 716,
+      "spend": 71917.27,
+      "cpc": 100.443115,
+      "cpm": 1350.508338,
+      "ctr": 1.34455,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 64,
+        "onsite_conversion.messaging_block": 1,
+        "link_click": 227,
+        "page_engagement": 6668,
+        "onsite_conversion.post_unlike": 9,
+        "post_engagement": 6668,
+        "post_interaction_gross": 82,
+        "comment": 3,
+        "post_interaction_net": 91,
+        "onsite_conversion.messaging_user_depth_2_message_send": 9,
+        "onsite_conversion.messaging_first_reply": 54,
+        "post": 17,
+        "onsite_conversion.post_save": 8,
+        "onsite_conversion.post_net_comment": 3,
+        "onsite_conversion.post_net_save": 8,
+        "onsite_conversion.post_net_like": 45,
+        "onsite_conversion.messaging_conversation_started_7d": 64,
+        "onsite_conversion.messaging_conversation_replied_7d": 1,
+        "video_view": 6359,
+        "post_reaction": 54
+      },
+      "cost_per_actions": {
+        "video_view": 11.309525,
+        "link_click": 316.816167,
+        "post_interaction_gross": 877.039878,
+        "onsite_conversion.total_messaging_connection": 1123.707344,
+        "post_engagement": 10.785433,
+        "onsite_conversion.messaging_user_depth_2_message_send": 7990.807778,
+        "onsite_conversion.messaging_conversation_replied_7d": 71917.27,
+        "page_engagement": 10.785433,
+        "onsite_conversion.messaging_first_reply": 1331.801296,
+        "onsite_conversion.messaging_conversation_started_7d": 1123.707344
+      },
+      "creative": {
+        "title": "",
+        "body": "Hoy te mostramos La Antonia, nuestro desarrollo en el corazón de General Fernandez Oro, ubicado a metros de la ruta chica (RP 65) en una ubicación ideal.\n\nEl loteo se encuentra en la etapa de desarrollo de los servicios.\n\nCon posibilidad de financiamiento hasta Agosto 2026, las unidades disponibles a la venta son muy pocas. \n\nNo te pierdas la oportunidad de invertir en tu futuro. 🤝🏻\n\n📞 Contáctanos:\nCipolletti: 2995328768\n📍 Mengelle 59, Piso 4 Oficina 7\nGral. Roca: 2984436877\n📍 Av. Gral. Julio A. Roca 1277, Piso 4 Oficina 405\n\n#grupobartolome #loteos #inversion #terreno",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/629837396_882664104394373_8185636212148787961_n.jpg?_nc_cat=107&ccb=1-7&_nc_eui2=AeEHsgPxlQsMDVUuOpJzWE0Xz08mwFy61ZXPTybAXLrVlQk_NsvnkTEgU1lFLrCGnNc&_nc_ohc=OTFkSU5PwPwQ7kNvwENmZ91&_nc_oc=Adpi9e_ggmpDkOkKgzVpXYJuEhId36-Y93gNrnBRWPuIGxOfDr33wHU0VHWzmUijmo1CTBf7BsAt82EzRORXM_mX&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=OQMFxkiPm69UxYNQ4s6a9A&_nc_tpa=Q5bMBQEj8GH68CEgWt3t3lyMuMSrwXxBcDb3SgZ2lIjEJoxGupXn5JEDEyuGCfs8mEP7QkQl_7jZKJZ6&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Af7W3D4kH6VE2-DEoqBBQI4pTMRM4XdZcoqwWhWYN6CngQ&oe=6A00F711",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/Grupo Bartolomé/meta/images/120240327467580078.jpg"
+      }
+    },
+    {
+      "campaign_name": "Mensajes",
+      "adset_name": "Mensajes - Lotes",
+      "ad_name": "INVERTIR EN TIERRA",
+      "ad_id": "120240327467590078",
+      "impressions": 3384,
+      "reach": 2640,
+      "frequency": 1.281818,
+      "clicks": 14,
+      "spend": 3074.83,
+      "cpc": 219.630714,
+      "cpm": 908.637707,
+      "ctr": 0.413712,
+      "actions": {
+        "link_click": 4,
+        "page_engagement": 251,
+        "onsite_conversion.post_unlike": 1,
+        "post_engagement": 251,
+        "post_interaction_gross": 5,
+        "post_interaction_net": 6,
+        "post": 1,
+        "onsite_conversion.post_net_like": 3,
+        "video_view": 242,
+        "post_reaction": 4
+      },
+      "cost_per_actions": {
+        "video_view": 12.705909,
+        "link_click": 768.7075,
+        "post_interaction_gross": 614.966,
+        "post_engagement": 12.250319,
+        "page_engagement": 12.250319
+      },
+      "creative": {
+        "title": "",
+        "body": "Invertir en tierra es decidir hoy el futuro que querés construir.\nNuestros terrenos son una inversión estratégica respaldada por la experiencia y la confianza.\nPorque las buenas decisiones no se improvisan. En este 2026, aprovechá la oportunidad 🤝\n\n#grupobartolome #loteos #inversion",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t51.82787-10/605204077_18086013347094468_6044555320445345996_n.jpg?_nc_cat=108&ccb=1-7&_nc_eui2=AeGVaWw96KQUD0SisAH0jxax0Av5GU75gxvQC_kZTvmDG0fy1x1585LKPN434SjtxWY&_nc_ohc=p-L4kYtQRP0Q7kNvwE2dgPv&_nc_oc=AdrgHegYCL6QfvuWlSEhoBEVIAU1W2p-jSogxLZljnISfhSlJWbu6IqWYkzxNw-H0q80YYge3mgkTuLRkkj1rJpa&_nc_zt=23&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=rhdiCwlRSp7z1LpiRKfR0Q&_nc_tpa=Q5bMBQGSiNR8RSFObG0RJsZuNELpqjptx5pIQmBBMBTCZ0r-DSXbNwzF-6fDDk_ykP_cavuM2OnL_GLC&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af52C6WhU17rI3Dh4-kj-UJFc3fqH_TzatKMJBZ-Gukbzg&oe=6A010E53",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/Grupo Bartolomé/meta/images/120240327467590078.jpg"
+      }
+    },
+    {
+      "campaign_name": "Campaña | Views",
+      "adset_name": "Views - Lotes",
+      "ad_name": "LA ANTONIA - obra de LUZ",
+      "ad_id": "120243045322340078",
+      "impressions": 160909,
+      "reach": 143810,
+      "frequency": 1.1189,
+      "clicks": 242,
+      "spend": 43454.56,
+      "cpc": 179.564298,
+      "cpm": 270.05674,
+      "ctr": 0.150396,
+      "actions": {
+        "link_click": 110,
+        "page_engagement": 9851,
+        "onsite_conversion.post_unlike": 10,
+        "post_engagement": 9851,
+        "post_interaction_gross": 35,
+        "post_interaction_net": 45,
+        "post": 1,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_save": 1,
+        "onsite_conversion.post_net_like": 23,
+        "video_view": 9706,
+        "post_reaction": 33
+      },
+      "cost_per_actions": {
+        "video_view": 4.477082,
+        "link_click": 395.041455,
+        "post_interaction_gross": 1241.558857,
+        "post_engagement": 4.411183,
+        "page_engagement": 4.411183
+      },
+      "creative": {
+        "title": "",
+        "body": "Seguimos avanzando con la Obra de Luz de LA ANTONIA.\nHabiendo casi finalizado la totalidad de las bases fundacionales, avanzamos con la puesta a punto de los postes, los cuales se lijan y pintan, quedando asi listos para su colocación.\nDe esta manera, en las próximas semanas seran colocados los mismos, dando lugar al paso siguiente: el tendido electrico (cableado).\nSeguimos trabajando 💪🏼\n\n#grupobartolome #loteos #terreno",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/661707230_952293727760393_3896853097777893206_n.jpg?_nc_cat=105&ccb=1-7&_nc_eui2=AeFzgxM71i0aGZAmBfiaLNTaM9v9YHcto4Ez2_1gdy2jgU3uY1ddqM4M3xMhBrfx1LE&_nc_ohc=z-k_ZdZKMjgQ7kNvwE2rdFh&_nc_oc=AdrgRDTwdL3p_BSh-dSz8mUGcLKlGbR6uNGjsP8H8YGChMjQlAfyVRf4jrF1PWfgWnBytV81AVzH9Ds4h0Y9p87C&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=Vb_mymYlRmrmkWHDXKmuLg&_nc_tpa=Q5bMBQHip2cs8UoBk73yDaPkcuKhSK7PHfnDEfAtzbFfktNGxp69k1H20e-yK5GwrYXxxe55lrlrAW2Y&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Af4wFQMlz_DSFR6FsLRTrRSF57_Psd0TowL7VuwhLi_cRA&oe=6A010A74",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/Grupo Bartolomé/meta/images/120243045322340078.jpg"
+      }
+    },
+    {
+      "campaign_name": "Campaña | Views",
+      "adset_name": "Views - Lotes",
+      "ad_name": "LA RUFINA - AVANCES",
+      "ad_id": "120243932399960078",
+      "impressions": 189681,
+      "reach": 164227,
+      "frequency": 1.154993,
+      "clicks": 230,
+      "spend": 59157.9,
+      "cpc": 257.208261,
+      "cpm": 311.881,
+      "ctr": 0.121256,
+      "actions": {
+        "link_click": 132,
+        "page_engagement": 12612,
+        "onsite_conversion.post_unlike": 13,
+        "post_engagement": 12612,
+        "post_interaction_gross": 37,
+        "post_interaction_net": 50,
+        "post": 4,
+        "onsite_conversion.post_save": 3,
+        "onsite_conversion.post_net_save": 3,
+        "onsite_conversion.post_net_like": 17,
+        "video_view": 12443,
+        "post_reaction": 30
+      },
+      "cost_per_actions": {
+        "video_view": 4.754312,
+        "link_click": 448.165909,
+        "post_interaction_gross": 1598.862162,
+        "post_engagement": 4.690604,
+        "page_engagement": 4.690604
+      },
+      "creative": {
+        "title": "",
+        "body": "En el resumen de esta semana les compartimos los avances de obra del loteo La Rufina.\nDurante las últimas semanas estuvimos trabajando en el enrripiado de las calles de la segunda etapa, que consiste en la colocación de material (ripio y calcareo) sobre las mismas. De esta forma, no solo las calles quedan bien delimitadas, sino que además se vuelven más transitables.\nCon la culminación de esta obra obtendremos entonces el certificado final de ripio del desarrollo.\nSeguimos trabajando, con el mismo compromiso de siempre 🫱🏽‍🫲🏼",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/677922752_1255357129650637_1150040014816912120_n.jpg?_nc_cat=105&ccb=1-7&_nc_eui2=AeFjK53-NKOj_Zu4jjHJ3oiSBPanROZHev0E9qdE5kd6_TVWaZVsv8pJ_M23GlDVK5U&_nc_ohc=dlRpPWI1KYwQ7kNvwFzjzee&_nc_oc=Adr6BHklbYzIxtbIXbYttesSWJhtgyxKuU89W6XSPhHAHR5XoS4hd7Zrfv9d9SzM1GzfET1J7iuhg2PD8sMvyzYf&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=-AiotxU9sStVsvN-5So_fg&_nc_tpa=Q5bMBQHk0iEuMaCn5mydJgzSVgONmC59EHznnYlc8sznygodgDGInhVrj-CFwTOFhKu9j60WWdaFjW8g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Af4PhxIib9P0ESjxOc6Hl2LFpLw2IvurjBrP52SUCs8SOg&oe=6A00E877",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/Grupo Bartolomé/meta/images/120243932399960078.jpg"
+      }
+    }
+  ],
+  "datos_diarios": [
+    {
+      "date": "2026-04-02",
+      "impressions": 0,
+      "reach": 0,
+      "spend": 0.0,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-03",
+      "impressions": 3402,
+      "reach": 2872,
+      "spend": 2685.53,
+      "conversaciones": 4
+    },
+    {
+      "date": "2026-04-04",
+      "impressions": 31286,
+      "reach": 29290,
+      "spend": 9380.56,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-04-05",
+      "impressions": 40076,
+      "reach": 38017,
+      "spend": 10919.93,
+      "conversaciones": 4
+    },
+    {
+      "date": "2026-04-06",
+      "impressions": 33353,
+      "reach": 31558,
+      "spend": 9661.89,
+      "conversaciones": 5
+    },
+    {
+      "date": "2026-04-07",
+      "impressions": 29312,
+      "reach": 27014,
+      "spend": 9740.21,
+      "conversaciones": 6
+    },
+    {
+      "date": "2026-04-08",
+      "impressions": 25943,
+      "reach": 24824,
+      "spend": 9120.26,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-04-09",
+      "impressions": 26045,
+      "reach": 24514,
+      "spend": 9265.7,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-10",
+      "impressions": 24002,
+      "reach": 22420,
+      "spend": 9026.21,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-11",
+      "impressions": 33631,
+      "reach": 30382,
+      "spend": 10265.31,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-12",
+      "impressions": 33354,
+      "reach": 30081,
+      "spend": 9477.67,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-13",
+      "impressions": 28226,
+      "reach": 26896,
+      "spend": 9860.25,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-04-14",
+      "impressions": 25323,
+      "reach": 24421,
+      "spend": 9496.81,
+      "conversaciones": 5
+    },
+    {
+      "date": "2026-04-15",
+      "impressions": 24976,
+      "reach": 23577,
+      "spend": 9079.67,
+      "conversaciones": 3
+    },
+    {
+      "date": "2026-04-16",
+      "impressions": 25009,
+      "reach": 24039,
+      "spend": 9306.81,
+      "conversaciones": 5
+    },
+    {
+      "date": "2026-04-17",
+      "impressions": 23672,
+      "reach": 22803,
+      "spend": 9017.73,
+      "conversaciones": 4
+    },
+    {
+      "date": "2026-04-18",
+      "impressions": 27001,
+      "reach": 26441,
+      "spend": 9756.57,
+      "conversaciones": 3
+    },
+    {
+      "date": "2026-04-19",
+      "impressions": 28535,
+      "reach": 26022,
+      "spend": 9617.58,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-04-20",
+      "impressions": 27397,
+      "reach": 25337,
+      "spend": 9838.08,
+      "conversaciones": 3
+    },
+    {
+      "date": "2026-04-21",
+      "impressions": 26292,
+      "reach": 24544,
+      "spend": 9297.35,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-04-22",
+      "impressions": 24733,
+      "reach": 22877,
+      "spend": 9129.36,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-04-23",
+      "impressions": 23172,
+      "reach": 22732,
+      "spend": 8317.94,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-24",
+      "impressions": 19652,
+      "reach": 19305,
+      "spend": 8376.12,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-25",
+      "impressions": 22461,
+      "reach": 21821,
+      "spend": 9240.23,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-26",
+      "impressions": 24645,
+      "reach": 23092,
+      "spend": 9862.15,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-27",
+      "impressions": 21787,
+      "reach": 20081,
+      "spend": 9213.06,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-28",
+      "impressions": 19604,
+      "reach": 18145,
+      "spend": 8430.57,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-29",
+      "impressions": 19198,
+      "reach": 18089,
+      "spend": 8460.9,
+      "conversaciones": 4
+    },
+    {
+      "date": "2026-04-30",
+      "impressions": 8448,
+      "reach": 8203,
+      "spend": 4135.19,
+      "conversaciones": 0
+    }
+  ],
+  "analisis": {
+    "total_spend": 249979.63999999998,
+    "total_reach": 585137,
+    "total_impressions": 700535,
+    "total_ads": 6,
+    "total_adsets": 2,
+    "best_ad": {
+      "campaign_name": "Campaña | Views",
+      "adset_name": "Views - Lotes",
+      "ad_name": "LA RUFINA - AVANCES",
+      "ad_id": "120243932399960078",
+      "impressions": 189681,
+      "reach": 164227,
+      "frequency": 1.154993,
+      "clicks": 230,
+      "spend": 59157.9,
+      "cpc": 257.208261,
+      "cpm": 311.881,
+      "ctr": 0.121256,
+      "actions": {
+        "link_click": 132,
+        "page_engagement": 12612,
+        "onsite_conversion.post_unlike": 13,
+        "post_engagement": 12612,
+        "post_interaction_gross": 37,
+        "post_interaction_net": 50,
+        "post": 4,
+        "onsite_conversion.post_save": 3,
+        "onsite_conversion.post_net_save": 3,
+        "onsite_conversion.post_net_like": 17,
+        "video_view": 12443,
+        "post_reaction": 30
+      },
+      "cost_per_actions": {
+        "video_view": 4.754312,
+        "link_click": 448.165909,
+        "post_interaction_gross": 1598.862162,
+        "post_engagement": 4.690604,
+        "page_engagement": 4.690604
+      },
+      "creative": {
+        "title": "",
+        "body": "En el resumen de esta semana les compartimos los avances de obra del loteo La Rufina.\nDurante las últimas semanas estuvimos trabajando en el enrripiado de las calles de la segunda etapa, que consiste en la colocación de material (ripio y calcareo) sobre las mismas. De esta forma, no solo las calles quedan bien delimitadas, sino que además se vuelven más transitables.\nCon la culminación de esta obra obtendremos entonces el certificado final de ripio del desarrollo.\nSeguimos trabajando, con el mismo compromiso de siempre 🫱🏽‍🫲🏼",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/677922752_1255357129650637_1150040014816912120_n.jpg?_nc_cat=105&ccb=1-7&_nc_eui2=AeFjK53-NKOj_Zu4jjHJ3oiSBPanROZHev0E9qdE5kd6_TVWaZVsv8pJ_M23GlDVK5U&_nc_ohc=dlRpPWI1KYwQ7kNvwFzjzee&_nc_oc=Adr6BHklbYzIxtbIXbYttesSWJhtgyxKuU89W6XSPhHAHR5XoS4hd7Zrfv9d9SzM1GzfET1J7iuhg2PD8sMvyzYf&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=-AiotxU9sStVsvN-5So_fg&_nc_tpa=Q5bMBQHk0iEuMaCn5mydJgzSVgONmC59EHznnYlc8sznygodgDGInhVrj-CFwTOFhKu9j60WWdaFjW8g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Af4PhxIib9P0ESjxOc6Hl2LFpLw2IvurjBrP52SUCs8SOg&oe=6A00E877",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/Grupo Bartolomé/meta/images/120243932399960078.jpg"
+      }
+    },
+    "worst_ad": {
+      "campaign_name": "Mensajes",
+      "adset_name": "Mensajes - Lotes",
+      "ad_name": "INVERTIR EN TIERRA",
+      "ad_id": "120240327467590078",
+      "impressions": 3384,
+      "reach": 2640,
+      "frequency": 1.281818,
+      "clicks": 14,
+      "spend": 3074.83,
+      "cpc": 219.630714,
+      "cpm": 908.637707,
+      "ctr": 0.413712,
+      "actions": {
+        "link_click": 4,
+        "page_engagement": 251,
+        "onsite_conversion.post_unlike": 1,
+        "post_engagement": 251,
+        "post_interaction_gross": 5,
+        "post_interaction_net": 6,
+        "post": 1,
+        "onsite_conversion.post_net_like": 3,
+        "video_view": 242,
+        "post_reaction": 4
+      },
+      "cost_per_actions": {
+        "video_view": 12.705909,
+        "link_click": 768.7075,
+        "post_interaction_gross": 614.966,
+        "post_engagement": 12.250319,
+        "page_engagement": 12.250319
+      },
+      "creative": {
+        "title": "",
+        "body": "Invertir en tierra es decidir hoy el futuro que querés construir.\nNuestros terrenos son una inversión estratégica respaldada por la experiencia y la confianza.\nPorque las buenas decisiones no se improvisan. En este 2026, aprovechá la oportunidad 🤝\n\n#grupobartolome #loteos #inversion",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t51.82787-10/605204077_18086013347094468_6044555320445345996_n.jpg?_nc_cat=108&ccb=1-7&_nc_eui2=AeGVaWw96KQUD0SisAH0jxax0Av5GU75gxvQC_kZTvmDG0fy1x1585LKPN434SjtxWY&_nc_ohc=p-L4kYtQRP0Q7kNvwE2dgPv&_nc_oc=AdrgHegYCL6QfvuWlSEhoBEVIAU1W2p-jSogxLZljnISfhSlJWbu6IqWYkzxNw-H0q80YYge3mgkTuLRkkj1rJpa&_nc_zt=23&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=rhdiCwlRSp7z1LpiRKfR0Q&_nc_tpa=Q5bMBQGSiNR8RSFObG0RJsZuNELpqjptx5pIQmBBMBTCZ0r-DSXbNwzF-6fDDk_ykP_cavuM2OnL_GLC&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af52C6WhU17rI3Dh4-kj-UJFc3fqH_TzatKMJBZ-Gukbzg&oe=6A010E53",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/Grupo Bartolomé/meta/images/120240327467590078.jpg"
+      }
+    },
+    "adsets_analysis": [
+      {
+        "name": "Views - Lotes",
+        "reach": 329244,
+        "frequency": 1.955689,
+        "spend": 174987.54,
+        "objective_type": "video_view",
+        "objective_label": "Reproducciones de video",
+        "objective_short_label": "reproducciones",
+        "main_result": 28511,
+        "cost_per_result": 6.137545,
+        "conversations": 2,
+        "cost_per_conversation": 87493.77
+      },
+      {
+        "name": "Mensajes - Lotes",
+        "reach": 25692,
+        "frequency": 2.204422,
+        "spend": 74992.1,
+        "objective_type": "onsite_conversion.messaging_conversation_started_7d",
+        "objective_label": "Conversaciones iniciadas",
+        "objective_short_label": "conversaciones",
+        "main_result": 64,
+        "cost_per_result": 1171.751563,
+        "conversations": 64,
+        "cost_per_conversation": 1171.751563
+      }
+    ],
+    "insights": [
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "media",
+        "titulo": "CTR bajo en 'DON NICOLAS'",
+        "descripcion": "CTR de 0.10% está muy por debajo del promedio (0.38%). El anuncio no está generando interés.",
+        "metrica": "CTR: 0.10%",
+        "accion": "Testear nuevo copy o creatividad más llamativa"
+      },
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "media",
+        "titulo": "CTR bajo en 'LA ANTONIA'",
+        "descripcion": "CTR de 0.13% está muy por debajo del promedio (0.38%). El anuncio no está generando interés.",
+        "metrica": "CTR: 0.13%",
+        "accion": "Testear nuevo copy o creatividad más llamativa"
+      },
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "media",
+        "titulo": "CTR bajo en 'LA ANTONIA - obra de LUZ'",
+        "descripcion": "CTR de 0.15% está muy por debajo del promedio (0.38%). El anuncio no está generando interés.",
+        "metrica": "CTR: 0.15%",
+        "accion": "Testear nuevo copy o creatividad más llamativa"
+      },
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "media",
+        "titulo": "CTR bajo en 'LA RUFINA - AVANCES'",
+        "descripcion": "CTR de 0.12% está muy por debajo del promedio (0.38%). El anuncio no está generando interés.",
+        "metrica": "CTR: 0.12%",
+        "accion": "Testear nuevo copy o creatividad más llamativa"
+      },
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "alta",
+        "titulo": "Subinversión en anuncio con potencial: 'INVERTIR EN TIERRA'",
+        "descripcion": "Este anuncio tiene buen CTR (0.41%) pero recibe poca inversión ($3,075). Podría escalar.",
+        "metrica": "CTR: 0.41% | Inversión: $3,075",
+        "accion": "Aumentar presupuesto para este anuncio"
+      }
+    ]
+  }
+}

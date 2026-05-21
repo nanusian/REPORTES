@@ -1,0 +1,996 @@
+{
+  "metadata": {
+    "cliente": "HDI",
+    "periodo": "2026-04-01_2026-04-30",
+    "fecha_generacion": "2026-05-05 15:31",
+    "ad_account_id": "act_7705227589601205"
+  },
+  "resumen": {
+    "inversion_total": 369885.24,
+    "alcance_total": 202123,
+    "impresiones_totales": 519172,
+    "total_anuncios": 9,
+    "total_conjuntos": 4
+  },
+  "conjuntos_de_anuncios": [
+    {
+      "adset_name": "Tráfico IG - Nov.25 - BRAND",
+      "impressions": 251430,
+      "reach": 109487,
+      "frequency": 2.296437,
+      "spend": 149954.67,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 4,
+        "onsite_conversion.messaging_block": 2,
+        "link_click": 2892,
+        "page_engagement": 23677,
+        "landing_page_view": 4,
+        "omni_landing_page_view": 4,
+        "onsite_conversion.post_unlike": 22,
+        "post_engagement": 23675,
+        "like": 2,
+        "post_interaction_gross": 36,
+        "post_interaction_net": 58,
+        "onsite_conversion.messaging_user_depth_2_message_send": 3,
+        "onsite_conversion.messaging_first_reply": 3,
+        "post": 2,
+        "onsite_conversion.post_save": 5,
+        "onsite_conversion.messaging_user_depth_3_message_send": 1,
+        "onsite_conversion.post_net_save": 5,
+        "onsite_conversion.post_net_like": 7,
+        "onsite_conversion.messaging_conversation_started_7d": 4,
+        "onsite_conversion.messaging_conversation_replied_7d": 3,
+        "video_view": 20747,
+        "post_reaction": 29
+      },
+      "cost_per_actions": {
+        "video_view": 7.227776,
+        "link_click": 51.851546,
+        "like": 74977.335,
+        "post_interaction_gross": 4165.4075,
+        "onsite_conversion.total_messaging_connection": 37488.6675,
+        "post_engagement": 6.333883,
+        "onsite_conversion.messaging_user_depth_2_message_send": 49984.89,
+        "onsite_conversion.messaging_conversation_replied_7d": 49984.89,
+        "onsite_conversion.messaging_user_depth_3_message_send": 149954.67,
+        "landing_page_view": 37488.6675,
+        "page_engagement": 6.333348,
+        "onsite_conversion.messaging_first_reply": 49984.89,
+        "omni_landing_page_view": 37488.6675,
+        "onsite_conversion.messaging_conversation_started_7d": 37488.6675
+      }
+    },
+    {
+      "adset_name": "Tráfico IG - Nov.25 - Producto",
+      "impressions": 214345,
+      "reach": 68080,
+      "frequency": 3.148428,
+      "spend": 99987.57,
+      "actions": {
+        "link_click": 5190,
+        "page_engagement": 11499,
+        "onsite_conversion.post_unlike": 15,
+        "post_engagement": 11499,
+        "post_interaction_gross": 8,
+        "post_interaction_net": 23,
+        "post": 1,
+        "onsite_conversion.post_net_like": 0,
+        "video_view": 6301,
+        "post_reaction": 7
+      },
+      "cost_per_actions": {
+        "video_view": 15.868524,
+        "link_click": 19.265428,
+        "post_interaction_gross": 12498.44625,
+        "post_engagement": 8.695327,
+        "page_engagement": 8.695327
+      }
+    },
+    {
+      "adset_name": "NQN",
+      "impressions": 38393,
+      "reach": 12430,
+      "frequency": 3.088737,
+      "spend": 84962.15,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 21,
+        "link_click": 99,
+        "page_engagement": 5531,
+        "onsite_conversion.post_unlike": 2,
+        "post_engagement": 5527,
+        "like": 4,
+        "post_interaction_gross": 23,
+        "comment": 1,
+        "post_interaction_net": 25,
+        "onsite_conversion.messaging_user_depth_2_message_send": 13,
+        "onsite_conversion.messaging_first_reply": 21,
+        "onsite_conversion.post_save": 2,
+        "onsite_conversion.post_net_comment": 1,
+        "onsite_conversion.messaging_user_depth_3_message_send": 10,
+        "onsite_conversion.post_net_save": 2,
+        "onsite_conversion.post_net_like": 18,
+        "onsite_conversion.messaging_user_depth_5_message_send": 2,
+        "onsite_conversion.messaging_conversation_started_7d": 21,
+        "video_view": 5405,
+        "post_reaction": 20
+      },
+      "cost_per_actions": {
+        "video_view": 15.719177,
+        "link_click": 858.203535,
+        "like": 21240.5375,
+        "post_interaction_gross": 3694.006522,
+        "onsite_conversion.total_messaging_connection": 4045.816667,
+        "post_engagement": 15.3722,
+        "onsite_conversion.messaging_user_depth_5_message_send": 42481.075,
+        "onsite_conversion.messaging_user_depth_2_message_send": 6535.55,
+        "onsite_conversion.messaging_user_depth_3_message_send": 8496.215,
+        "page_engagement": 15.361083,
+        "onsite_conversion.messaging_first_reply": 4045.816667,
+        "onsite_conversion.messaging_conversation_started_7d": 4045.816667
+      }
+    },
+    {
+      "adset_name": "CIPO",
+      "impressions": 15004,
+      "reach": 5594,
+      "frequency": 2.682159,
+      "spend": 34980.85,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 7,
+        "link_click": 39,
+        "page_engagement": 2158,
+        "onsite_conversion.post_unlike": 1,
+        "post_engagement": 2158,
+        "post_interaction_gross": 15,
+        "comment": 1,
+        "post_interaction_net": 16,
+        "onsite_conversion.messaging_user_depth_2_message_send": 6,
+        "onsite_conversion.messaging_first_reply": 6,
+        "post": 1,
+        "onsite_conversion.post_net_comment": 1,
+        "onsite_conversion.messaging_user_depth_3_message_send": 2,
+        "onsite_conversion.post_net_like": 12,
+        "onsite_conversion.messaging_conversation_started_7d": 6,
+        "video_view": 2104,
+        "post_reaction": 13
+      },
+      "cost_per_actions": {
+        "video_view": 16.625879,
+        "link_click": 896.944872,
+        "post_interaction_gross": 2332.056667,
+        "onsite_conversion.total_messaging_connection": 4997.264286,
+        "post_engagement": 16.209847,
+        "onsite_conversion.messaging_user_depth_2_message_send": 5830.141667,
+        "onsite_conversion.messaging_user_depth_3_message_send": 17490.425,
+        "page_engagement": 16.209847,
+        "onsite_conversion.messaging_first_reply": 5830.141667,
+        "onsite_conversion.messaging_conversation_started_7d": 5830.141667
+      }
+    }
+  ],
+  "anuncios": [
+    {
+      "campaign_name": "Tráfico - Perfil IG - Nov.25",
+      "adset_name": "Tráfico IG - Nov.25 - BRAND",
+      "ad_name": "Alto Valle no se detiene",
+      "ad_id": "120235619260750378",
+      "impressions": 10550,
+      "reach": 8960,
+      "frequency": 1.177455,
+      "clicks": 128,
+      "spend": 6064.99,
+      "cpc": 47.382734,
+      "cpm": 574.880569,
+      "ctr": 1.21327,
+      "actions": {
+        "link_click": 128,
+        "page_engagement": 1064,
+        "onsite_conversion.post_unlike": 3,
+        "post_engagement": 1064,
+        "post_interaction_gross": 1,
+        "post_interaction_net": 4,
+        "onsite_conversion.post_net_like": 0,
+        "video_view": 935,
+        "post_reaction": 1
+      },
+      "cost_per_actions": {
+        "video_view": 6.48662,
+        "link_click": 47.382734,
+        "post_interaction_gross": 6064.99,
+        "post_engagement": 5.700179,
+        "page_engagement": 5.700179
+      },
+      "creative": {
+        "title": "",
+        "body": "El Alto Valle no se detiene, y nosotros tampoco.\nHace más de dos décadas acompañamos su crecimiento con trabajo, visión y tecnología.\n\nEn todo este tiempo fuimos parte de proyectos que impulsaron a la región:\n🏘️ Soluciones habitacionales industrializadas en Neuquén\n🛢️ Infraestructura para YPF en Loma Campana, Añelo\n💧 Obras esenciales para el abastecimiento de agua en Lago Mari Menuco\n🛣️ Intervenciones estratégicas en la Autovía RN22\n\nMás de veinte años construyendo presente y futuro en el Alto Valle.\n\n#hdi #hormigonerahdi #hormigonhdi #calidadcertificada #hormigónelaborado #hormigón #construcción #obras #calidad",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t15.5256-10/583506077_2002856557176308_841131482425508022_n.jpg?_nc_cat=101&ccb=1-7&_nc_eui2=AeFx0aRVaDfeGAeV_w8nWRL-KyByXgQs2zkrIHJeBCzbOY_XMV5n7SwbhqsuMWuKzLw&_nc_ohc=9Yzj_1nknqYQ7kNvwFF08SF&_nc_oc=AdoujBYLZw6XIlttknHKBAkXvsjwZdJSF63RLEZzb_F8lYZ5UZ3WIJMajQhFrafUb3TXy2SJYI4K6sPXFvdHOyCe&_nc_zt=23&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=JNhlXjA6lHU-4VMIt0zrcA&_nc_tpa=Q5bMBQGK0s2FEBcRsqNP9LpMgJFkgMinP4QCZOExV4LEgFMuh3nZkv2YuKO_0P_qDbLIrbt5pYrb64PY&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Af7v_IkZZlfu_EMT508x6ZRO_1woOXYBpyKDzD2rXerM4A&oe=69FFFDD9",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/HDI/meta/images/120235619260750378.jpg"
+      }
+    },
+    {
+      "campaign_name": "Tráfico - Perfil IG - Nov.25",
+      "adset_name": "Tráfico IG - Nov.25 - Producto",
+      "ad_name": "Hormigón visto",
+      "ad_id": "120236098199580378",
+      "impressions": 2118,
+      "reach": 1867,
+      "frequency": 1.13444,
+      "clicks": 34,
+      "spend": 913.25,
+      "cpc": 26.860294,
+      "cpm": 431.18508,
+      "ctr": 1.605288,
+      "actions": {
+        "link_click": 27,
+        "page_engagement": 30,
+        "post_engagement": 30,
+        "post_interaction_gross": 2,
+        "post_interaction_net": 2,
+        "onsite_conversion.post_net_like": 2,
+        "video_view": 1,
+        "post_reaction": 2
+      },
+      "cost_per_actions": {
+        "video_view": 913.25,
+        "link_click": 33.824074,
+        "post_interaction_gross": 456.625,
+        "post_engagement": 30.441667,
+        "page_engagement": 30.441667
+      },
+      "creative": {
+        "title": "Hormigonera HDI",
+        "body": "El 𝗵𝗼𝗿𝗺𝗶𝗴𝗼́𝗻 𝘃𝗶𝘀𝘁𝗼 es sinónimo de solidez y diseño contemporáneo.\nVersátil, duradero y estéticamente atemporal, aporta carácter y coherencia a cada espacio.\n\n👉 Hoy te contamos por qué y dónde aplicarlo\n\n#hormigonvisto #arquitectura #interiorismo #diseño #hdi #hormigonera #construccion",
+        "image_url": "",
+        "thumbnail_url": "https://external.fnqn2-1.fna.fbcdn.net/emg1/v/t13/4100606249832557201?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQINkFezteyxh0lU_J-JkL_cmXuhVnNCg5RKkSTbDbB2OQe8S_CBFrfBUZMoKzM4okD0oHSyfgbaYini3iukoCPk8LJtQbN0yHVOxW1xpmYAt3Qu9oS6FRHXNeu1wCu8PR2_0MBwwzH9U_M-azmqojaJ&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AAT1rw8EAAAA&_nc_gid=k__kj6aW4Pa4ewo9_w3UNQ&_nc_eui2=AeFQwnO4GQSkbiTs84zx9SRfq_NJcyd_uNKr80lzJ3-40rbyV0mCb77pNGL9q5NweX0&_nc_oc=AdoulbHuejEfmeXNbe-HAHPvHqZWD3EajI1SErhQfwGK3Nb1GY_oKUtPi5-iENsbzTIo8XEqM78Ab4ya1Pg79p7o&ccb=13-1&oh=06_Q3--AZss2cVLJeELxSfbR5GYHOj0zpppEi5JlTaw7la9GnjE&oe=69FC26D0&_nc_sid=58080a",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/HDI/meta/images/120236098199580378.jpg"
+      }
+    },
+    {
+      "campaign_name": "Tráfico - Perfil IG - Nov.25",
+      "adset_name": "Tráfico IG - Nov.25 - Producto",
+      "ad_name": "6 líneas",
+      "ad_id": "120238678515990378",
+      "impressions": 1552,
+      "reach": 1154,
+      "frequency": 1.344887,
+      "clicks": 41,
+      "spend": 1482.29,
+      "cpc": 36.153415,
+      "cpm": 955.083763,
+      "ctr": 2.641753,
+      "actions": {
+        "link_click": 30,
+        "page_engagement": 433,
+        "post_engagement": 433,
+        "post_interaction_gross": 6,
+        "post_interaction_net": 6,
+        "post": 1,
+        "onsite_conversion.post_net_like": 5,
+        "video_view": 397,
+        "post_reaction": 5
+      },
+      "cost_per_actions": {
+        "video_view": 3.733728,
+        "link_click": 49.409667,
+        "post_interaction_gross": 247.048333,
+        "post_engagement": 3.423303,
+        "page_engagement": 3.423303
+      },
+      "creative": {
+        "title": "",
+        "body": "En HDI desarrollamos 6 lineas de servicios a medida de cada obra:\n\n▪️ Hormigón y sus aplicaciones\n▪️ Impermeabilizaciones\n▪️ Pisos industriales\n▪️ Obras arquitectónicas\n▪️ Reparación y refuerzo estructural\n▪️ Soluciones para Oil & Gas\n\nHace más de 20 años acompañamos el crecimiento del Alto Valle con soluciones integrales para la construcción. \n\n⛰️ Si estás en el Alto Valle, tenemos una solución para vos.\n\n📲 Comunicate con tu planta más cercana:\n📞 Cipolletti: 2984 370106\n📞 Neuquén: 299 5809141\n 📞 Gral. Roca: 2984 586030\n\n✉️ ventas@hormigonerahdi.com.ar\n\n#hormigon #construccion #altovalle",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/617355880_1641674063864875_6870811392118426776_n.jpg?_nc_cat=103&ccb=1-7&_nc_eui2=AeHaZG6uxOybHbJHxaWztEA2ksrCuw2PAK-SysK7DY8Ar2lL6ql2K4k8JKTRzfv4_iI&_nc_ohc=buxFCF1hrLUQ7kNvwFlFHIy&_nc_oc=AdqpFr8439eDqTpy_vxCyqLB05RlEdaUWBs8n8lsawWaD2rqMA7QhflUlF-NrQqcTZnpqggP_e0VcfEn8DNxTWxO&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=a3UEktd2lxcY1DKD53cJ-w&_nc_tpa=Q5bMBQEIEkHdovFdUoOc-D_dyoDRHOiS4SZd_bV0Nal8C6bSk3QfUW3LAybO00PM2-Ul1OqcdoooHV6C&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Af590nqox6iCl31KkzpyxSIWkWebJyQ6lFa9w1bXrrNSOg&oe=69FFF590",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/HDI/meta/images/120238678515990378.jpg"
+      }
+    },
+    {
+      "campaign_name": "Tráfico - Perfil IG - Nov.25",
+      "adset_name": "Tráfico IG - Nov.25 - BRAND",
+      "ad_name": "+ de 2 décadas",
+      "ad_id": "120238678562140378",
+      "impressions": 232159,
+      "reach": 99958,
+      "frequency": 2.322565,
+      "clicks": 2749,
+      "spend": 139219.32,
+      "cpc": 50.643623,
+      "cpm": 599.672294,
+      "ctr": 1.184102,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 4,
+        "onsite_conversion.messaging_block": 2,
+        "link_click": 2734,
+        "page_engagement": 20979,
+        "onsite_conversion.post_unlike": 19,
+        "post_engagement": 20978,
+        "like": 1,
+        "post_interaction_gross": 25,
+        "post_interaction_net": 44,
+        "onsite_conversion.messaging_user_depth_2_message_send": 3,
+        "onsite_conversion.messaging_first_reply": 3,
+        "post": 2,
+        "onsite_conversion.post_save": 2,
+        "onsite_conversion.messaging_user_depth_3_message_send": 1,
+        "onsite_conversion.post_net_save": 2,
+        "onsite_conversion.post_net_like": 2,
+        "onsite_conversion.messaging_conversation_started_7d": 4,
+        "onsite_conversion.messaging_conversation_replied_7d": 3,
+        "video_view": 18219,
+        "post_reaction": 21
+      },
+      "cost_per_actions": {
+        "video_view": 7.641436,
+        "link_click": 50.921478,
+        "like": 139219.32,
+        "post_interaction_gross": 5568.7728,
+        "onsite_conversion.total_messaging_connection": 34804.83,
+        "post_engagement": 6.636444,
+        "onsite_conversion.messaging_user_depth_2_message_send": 46406.44,
+        "onsite_conversion.messaging_conversation_replied_7d": 46406.44,
+        "onsite_conversion.messaging_user_depth_3_message_send": 139219.32,
+        "page_engagement": 6.636128,
+        "onsite_conversion.messaging_first_reply": 46406.44,
+        "onsite_conversion.messaging_conversation_started_7d": 34804.83
+      },
+      "creative": {
+        "title": "",
+        "body": "Hace más de dos décadas acompañamos el crecimiento del Alto Valle.\nSi estás en Neuquén o Río Negro, estamos cerca tuyo.\n\nSigamos avanzando en tu proyecto.\n\n📲 Comunicate con tu planta más cercana\n\n📞 Cipolletti: 2984 370106\n📞 Neuquén: 299 5809141\n📞 Gral. Roca: 2984 586030\n\n✉️ ventas@hormigonerahdi.com.ar\n\n#hormigon #hormigonera #construccion",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/615961066_33016323728011341_6949460881149102432_n.jpg?_nc_cat=105&ccb=1-7&_nc_eui2=AeGng3wucNefVjoQjccOWOKUdvAqtRpB7_d28Cq1GkHv9yT4LZDiebwdSpOWqOw1o8o&_nc_ohc=VPzTXb4nVF8Q7kNvwGChzew&_nc_oc=Ado04Jy7pB0KtI3E8ydRBQsQF5D-dlzWUR5v6J9cW2GzjTiRaucJmYCzijl47j8SmVYgtLMiTaSUC8jqEwXzInln&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=rjKLcKA7_-0fJ2IJO194jQ&_nc_tpa=Q5bMBQFnHRy13fiSz9JoL52HL152QjO0qza6cObTDeKUXa5CNJvPCwjYbmYhUZbbuvJoGztldDRo_pN1&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Af44yagFB6yk0zPg_JHVmfCCWnKjj_RmfyJn9qOHn9j5wg&oe=6A001944",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/HDI/meta/images/120238678562140378.jpg"
+      }
+    },
+    {
+      "campaign_name": "Tráfico - Perfil IG - Nov.25",
+      "adset_name": "Tráfico IG - Nov.25 - Producto",
+      "ad_name": "PROFESIONALES",
+      "ad_id": "120241827077480378",
+      "impressions": 210675,
+      "reach": 65712,
+      "frequency": 3.206035,
+      "clicks": 5076,
+      "spend": 97592.03,
+      "cpc": 19.226168,
+      "cpm": 463.234983,
+      "ctr": 2.409398,
+      "actions": {
+        "link_click": 5133,
+        "page_engagement": 11036,
+        "onsite_conversion.post_unlike": 15,
+        "post_engagement": 11036,
+        "post_interaction_net": 15,
+        "onsite_conversion.post_net_like": 0,
+        "video_view": 5903
+      },
+      "cost_per_actions": {
+        "video_view": 16.532616,
+        "link_click": 19.012669,
+        "post_engagement": 8.843062,
+        "page_engagement": 8.843062
+      },
+      "creative": {
+        "title": "",
+        "body": "🏗️ Cada desafío requiere experiencia, coordinación y equipos preparados.\n\nEn HDI trabajamos todos los días para que cada despacho, cada bombeo y cada servicio llegue a obra con la precisión que el trabajo exige.\n\nMás de 25 años acompañando el crecimiento del Alto Valle, con procesos certificados bajo normas IRAM – ISO 9001:2015.\n\n⛰️ Si estás en el Alto Valle, tenemos una solución para vos.\n\n📞 Comunicate con tu planta más cercana:\n📱 Gral. Roca: 298 458-6030\n📱 Villa Regina: 298 458-6030\n📱 Cipolletti: 298 437-0106\n📱 Neuquén: 299 580-9141\n📱 Añelo: 299 536-7940\n\n✉️ ventas@hormigonerahdi.com.ar\n\n#HDI #HormigónElaborado #Construcción #AltoValle #IndustriaArgentina",
+        "image_url": "",
+        "thumbnail_url": "",
+        "link_url": "",
+        "local_image_path": null
+      }
+    },
+    {
+      "campaign_name": "Tráfico - Perfil IG - Nov.25",
+      "adset_name": "Tráfico IG - Nov.25 - BRAND",
+      "ad_name": "SI ESTÁS EN ALTO VALLE",
+      "ad_id": "120241827093820378",
+      "impressions": 64,
+      "reach": 55,
+      "frequency": 1.163636,
+      "clicks": 8,
+      "spend": 55.34,
+      "cpc": 6.9175,
+      "cpm": 864.6875,
+      "ctr": 12.5,
+      "actions": {
+        "link_click": 2,
+        "page_engagement": 27,
+        "post_engagement": 27,
+        "video_view": 25
+      },
+      "cost_per_actions": {
+        "video_view": 2.2136,
+        "link_click": 27.67,
+        "post_engagement": 2.04963,
+        "page_engagement": 2.04963
+      },
+      "creative": {
+        "title": "",
+        "body": "Contamos con 6 líneas de servicios para acompañar el crecimiento productivo del Alto Valle.\n\n📞 Comunicate con tu planta más cercana:\n📱 Gral. Roca: 298 458-6030\n📱 Villa Regina: 298 458-6030\n📱 Cipolletti: 298 437-0106\n📱 Neuquén: 299 580-9141\n📱 Añelo: 299 536-7940\n🔗 Todos los enlaces de WhatsApp en la bio\n\n✉️ ventas@hormigonerahdi.com.ar\n\nHDI. Soluciones concretas\nMás de 25 años haciendo lo que nos apasiona en la región que amamos.\n\n#HDI #HormigónElaborado #Construcción #AltoValle #IndustriaArgentinai",
+        "image_url": "",
+        "thumbnail_url": "",
+        "link_url": "",
+        "local_image_path": null
+      }
+    },
+    {
+      "campaign_name": "Tráfico - Perfil IG - Nov.25",
+      "adset_name": "Tráfico IG - Nov.25 - BRAND",
+      "ad_name": "Avance VMOS",
+      "ad_id": "120242430811530378",
+      "impressions": 8657,
+      "reach": 6393,
+      "frequency": 1.354137,
+      "clicks": 109,
+      "spend": 4615.02,
+      "cpc": 42.339633,
+      "cpm": 533.096916,
+      "ctr": 1.259097,
+      "actions": {
+        "link_click": 28,
+        "page_engagement": 1607,
+        "landing_page_view": 4,
+        "omni_landing_page_view": 4,
+        "post_engagement": 1606,
+        "like": 1,
+        "post_interaction_gross": 10,
+        "post_interaction_net": 10,
+        "onsite_conversion.post_save": 3,
+        "onsite_conversion.post_net_save": 3,
+        "onsite_conversion.post_net_like": 7,
+        "video_view": 1568,
+        "post_reaction": 7
+      },
+      "cost_per_actions": {
+        "video_view": 2.943253,
+        "link_click": 164.822143,
+        "like": 4615.02,
+        "post_interaction_gross": 461.502,
+        "post_engagement": 2.873611,
+        "landing_page_view": 1153.755,
+        "page_engagement": 2.871823,
+        "omni_landing_page_view": 1153.755
+      },
+      "creative": {
+        "title": "",
+        "body": "𝗠𝗔𝗥𝗭𝗢 𝟮𝟬𝟮𝟲 | 𝗔𝗩𝗔𝗡𝗖𝗘𝗦 𝗩𝗠𝗢𝗦\n\nEste mes, como todos los meses, en HDI seguimos aportando nuestra experiencia y trayectoria en los avances del VMOS (Vaca Muerta Oil Sur), una de las obras de infraestructura energética más importantes del país.\n\nA lo largo de marzo trabajamos de manera continua en obra, acompañando cada etapa con la responsabilidad que implica ser parte de un proyecto estratégico para el desarrollo energético de la región y de la Argentina.\n\n📊 Descargamos alrededor de 1100 m³ de hormigón durante marzo, un volumen que refleja nuestro ritmo de trabajo mensual sostenido dentro del proyecto.\n\nSer parte del VMOS es un orgullo para nosotros.\n\nCerramos un nuevo mes de trabajo, con la misma convicción de siempre: ofrecer soluciones concretas y seguir acompañando proyectos que hacen crecer al Alto Valle.\n\n⛰️ Más de 25 años haciendo lo que nos apasiona en la región que amamos.\n\n#VMOS #AltoValle #VacaMuerta #EnergíaArgentina",
+        "image_url": "",
+        "thumbnail_url": "",
+        "link_url": "",
+        "local_image_path": null
+      }
+    },
+    {
+      "campaign_name": "MENSAJES - ABR 2026",
+      "adset_name": "NQN",
+      "ad_name": "TELEFONOS",
+      "ad_id": "120243317680990378",
+      "impressions": 38393,
+      "reach": 12430,
+      "frequency": 3.088737,
+      "clicks": 346,
+      "spend": 84962.15,
+      "cpc": 245.555347,
+      "cpm": 2212.959394,
+      "ctr": 0.901206,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 21,
+        "link_click": 99,
+        "page_engagement": 5531,
+        "onsite_conversion.post_unlike": 2,
+        "post_engagement": 5527,
+        "like": 4,
+        "post_interaction_gross": 23,
+        "comment": 1,
+        "post_interaction_net": 25,
+        "onsite_conversion.messaging_user_depth_2_message_send": 13,
+        "onsite_conversion.messaging_first_reply": 21,
+        "onsite_conversion.post_save": 2,
+        "onsite_conversion.post_net_comment": 1,
+        "onsite_conversion.messaging_user_depth_3_message_send": 10,
+        "onsite_conversion.post_net_save": 2,
+        "onsite_conversion.post_net_like": 18,
+        "onsite_conversion.messaging_user_depth_5_message_send": 2,
+        "onsite_conversion.messaging_conversation_started_7d": 21,
+        "video_view": 5405,
+        "post_reaction": 20
+      },
+      "cost_per_actions": {
+        "video_view": 15.719177,
+        "link_click": 858.203535,
+        "like": 21240.5375,
+        "post_interaction_gross": 3694.006522,
+        "onsite_conversion.total_messaging_connection": 4045.816667,
+        "post_engagement": 15.3722,
+        "onsite_conversion.messaging_user_depth_5_message_send": 42481.075,
+        "onsite_conversion.messaging_user_depth_2_message_send": 6535.55,
+        "onsite_conversion.messaging_user_depth_3_message_send": 8496.215,
+        "page_engagement": 15.361083,
+        "onsite_conversion.messaging_first_reply": 4045.816667,
+        "onsite_conversion.messaging_conversation_started_7d": 4045.816667
+      },
+      "creative": {
+        "title": "",
+        "body": "⛰️ Si estás en el Alto Valle, estamos cerca tuyo.\n\n📞 Comunicate con tu planta más cercana:\n📱 Gral. Roca: 298 458-6030\n📱 Villa Regina: 298 458-6030\n📱 Cipolletti: 298 437-0106\n📱 Neuquén: 299 580-9141\n📱 Añelo: 299 536-7940\n\n🔗 Todos los enlaces de WhatsApp en la bio\n\nHDI — Soluciones concretas\nMás de 25 años haciendo lo que nos apasiona en la región que amamos. \n\n#HDI #HormigónElaborado #Construcción #AltoValle #IndustriaArgentina",
+        "image_url": "",
+        "thumbnail_url": "",
+        "link_url": "",
+        "local_image_path": null
+      }
+    },
+    {
+      "campaign_name": "MENSAJES - ABR 2026",
+      "adset_name": "CIPO",
+      "ad_name": "TELÉFONO",
+      "ad_id": "120243317758680378",
+      "impressions": 15004,
+      "reach": 5594,
+      "frequency": 2.682159,
+      "clicks": 135,
+      "spend": 34980.85,
+      "cpc": 259.117407,
+      "cpm": 2331.434951,
+      "ctr": 0.89976,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 7,
+        "link_click": 39,
+        "page_engagement": 2158,
+        "onsite_conversion.post_unlike": 1,
+        "post_engagement": 2158,
+        "post_interaction_gross": 15,
+        "comment": 1,
+        "post_interaction_net": 16,
+        "onsite_conversion.messaging_user_depth_2_message_send": 6,
+        "onsite_conversion.messaging_first_reply": 6,
+        "post": 1,
+        "onsite_conversion.post_net_comment": 1,
+        "onsite_conversion.messaging_user_depth_3_message_send": 2,
+        "onsite_conversion.post_net_like": 12,
+        "onsite_conversion.messaging_conversation_started_7d": 6,
+        "video_view": 2104,
+        "post_reaction": 13
+      },
+      "cost_per_actions": {
+        "video_view": 16.625879,
+        "link_click": 896.944872,
+        "post_interaction_gross": 2332.056667,
+        "onsite_conversion.total_messaging_connection": 4997.264286,
+        "post_engagement": 16.209847,
+        "onsite_conversion.messaging_user_depth_2_message_send": 5830.141667,
+        "onsite_conversion.messaging_user_depth_3_message_send": 17490.425,
+        "page_engagement": 16.209847,
+        "onsite_conversion.messaging_first_reply": 5830.141667,
+        "onsite_conversion.messaging_conversation_started_7d": 5830.141667
+      },
+      "creative": {
+        "title": "",
+        "body": "⛰️ Si estás en el Alto Valle, estamos cerca tuyo.\n\n📞 Comunicate con tu planta más cercana:\n📱 Gral. Roca: 298 458-6030\n📱 Villa Regina: 298 458-6030\n📱 Cipolletti: 298 437-0106\n📱 Neuquén: 299 580-9141\n📱 Añelo: 299 536-7940\n\n🔗 Todos los enlaces de WhatsApp en la bio\n\nHDI — Soluciones concretas\nMás de 25 años haciendo lo que nos apasiona en la región que amamos. \n\n#HDI #HormigónElaborado #Construcción #AltoValle #IndustriaArgentina",
+        "image_url": "",
+        "thumbnail_url": "",
+        "link_url": "",
+        "local_image_path": null
+      }
+    }
+  ],
+  "datos_diarios": [
+    {
+      "date": "2026-04-03",
+      "impressions": 11966,
+      "reach": 9630,
+      "spend": 5125.53,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-04",
+      "impressions": 22763,
+      "reach": 18939,
+      "spend": 11429.17,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-05",
+      "impressions": 27961,
+      "reach": 22485,
+      "spend": 10297.55,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-06",
+      "impressions": 21749,
+      "reach": 17379,
+      "spend": 9933.22,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-07",
+      "impressions": 19803,
+      "reach": 15523,
+      "spend": 8984.19,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-08",
+      "impressions": 15815,
+      "reach": 12747,
+      "spend": 8901.6,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-09",
+      "impressions": 14172,
+      "reach": 11728,
+      "spend": 8478.62,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-10",
+      "impressions": 16039,
+      "reach": 12877,
+      "spend": 9113.11,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-11",
+      "impressions": 18040,
+      "reach": 14934,
+      "spend": 9873.45,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-12",
+      "impressions": 19733,
+      "reach": 15985,
+      "spend": 9752.42,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-13",
+      "impressions": 18469,
+      "reach": 14955,
+      "spend": 8925.7,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-14",
+      "impressions": 16926,
+      "reach": 14530,
+      "spend": 8363.01,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-15",
+      "impressions": 18408,
+      "reach": 15597,
+      "spend": 9374.6,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-16",
+      "impressions": 17858,
+      "reach": 15266,
+      "spend": 8630.24,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-17",
+      "impressions": 17825,
+      "reach": 15326,
+      "spend": 8970.93,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-18",
+      "impressions": 15499,
+      "reach": 13790,
+      "spend": 8919.95,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-19",
+      "impressions": 16853,
+      "reach": 14533,
+      "spend": 9317.65,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-20",
+      "impressions": 21933,
+      "reach": 18552,
+      "spend": 17600.84,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-21",
+      "impressions": 22797,
+      "reach": 17044,
+      "spend": 22265.06,
+      "conversaciones": 4
+    },
+    {
+      "date": "2026-04-22",
+      "impressions": 21540,
+      "reach": 16992,
+      "spend": 21195.05,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-04-23",
+      "impressions": 20891,
+      "reach": 16002,
+      "spend": 20213.82,
+      "conversaciones": 3
+    },
+    {
+      "date": "2026-04-24",
+      "impressions": 18997,
+      "reach": 14898,
+      "spend": 19807.26,
+      "conversaciones": 4
+    },
+    {
+      "date": "2026-04-25",
+      "impressions": 17154,
+      "reach": 13923,
+      "spend": 18962.38,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-26",
+      "impressions": 15295,
+      "reach": 12884,
+      "spend": 20500.54,
+      "conversaciones": 4
+    },
+    {
+      "date": "2026-04-27",
+      "impressions": 20407,
+      "reach": 16904,
+      "spend": 19963.98,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-28",
+      "impressions": 18313,
+      "reach": 14703,
+      "spend": 21087.54,
+      "conversaciones": 6
+    },
+    {
+      "date": "2026-04-29",
+      "impressions": 16144,
+      "reach": 12920,
+      "spend": 17987.95,
+      "conversaciones": 4
+    },
+    {
+      "date": "2026-04-30",
+      "impressions": 15822,
+      "reach": 13002,
+      "spend": 15909.88,
+      "conversaciones": 1
+    }
+  ],
+  "analisis": {
+    "total_spend": 369885.24,
+    "total_reach": 202123,
+    "total_impressions": 519172,
+    "total_ads": 9,
+    "total_adsets": 4,
+    "best_ad": {
+      "campaign_name": "Tráfico - Perfil IG - Nov.25",
+      "adset_name": "Tráfico IG - Nov.25 - BRAND",
+      "ad_name": "+ de 2 décadas",
+      "ad_id": "120238678562140378",
+      "impressions": 232159,
+      "reach": 99958,
+      "frequency": 2.322565,
+      "clicks": 2749,
+      "spend": 139219.32,
+      "cpc": 50.643623,
+      "cpm": 599.672294,
+      "ctr": 1.184102,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 4,
+        "onsite_conversion.messaging_block": 2,
+        "link_click": 2734,
+        "page_engagement": 20979,
+        "onsite_conversion.post_unlike": 19,
+        "post_engagement": 20978,
+        "like": 1,
+        "post_interaction_gross": 25,
+        "post_interaction_net": 44,
+        "onsite_conversion.messaging_user_depth_2_message_send": 3,
+        "onsite_conversion.messaging_first_reply": 3,
+        "post": 2,
+        "onsite_conversion.post_save": 2,
+        "onsite_conversion.messaging_user_depth_3_message_send": 1,
+        "onsite_conversion.post_net_save": 2,
+        "onsite_conversion.post_net_like": 2,
+        "onsite_conversion.messaging_conversation_started_7d": 4,
+        "onsite_conversion.messaging_conversation_replied_7d": 3,
+        "video_view": 18219,
+        "post_reaction": 21
+      },
+      "cost_per_actions": {
+        "video_view": 7.641436,
+        "link_click": 50.921478,
+        "like": 139219.32,
+        "post_interaction_gross": 5568.7728,
+        "onsite_conversion.total_messaging_connection": 34804.83,
+        "post_engagement": 6.636444,
+        "onsite_conversion.messaging_user_depth_2_message_send": 46406.44,
+        "onsite_conversion.messaging_conversation_replied_7d": 46406.44,
+        "onsite_conversion.messaging_user_depth_3_message_send": 139219.32,
+        "page_engagement": 6.636128,
+        "onsite_conversion.messaging_first_reply": 46406.44,
+        "onsite_conversion.messaging_conversation_started_7d": 34804.83
+      },
+      "creative": {
+        "title": "",
+        "body": "Hace más de dos décadas acompañamos el crecimiento del Alto Valle.\nSi estás en Neuquén o Río Negro, estamos cerca tuyo.\n\nSigamos avanzando en tu proyecto.\n\n📲 Comunicate con tu planta más cercana\n\n📞 Cipolletti: 2984 370106\n📞 Neuquén: 299 5809141\n📞 Gral. Roca: 2984 586030\n\n✉️ ventas@hormigonerahdi.com.ar\n\n#hormigon #hormigonera #construccion",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/615961066_33016323728011341_6949460881149102432_n.jpg?_nc_cat=105&ccb=1-7&_nc_eui2=AeGng3wucNefVjoQjccOWOKUdvAqtRpB7_d28Cq1GkHv9yT4LZDiebwdSpOWqOw1o8o&_nc_ohc=VPzTXb4nVF8Q7kNvwGChzew&_nc_oc=Ado04Jy7pB0KtI3E8ydRBQsQF5D-dlzWUR5v6J9cW2GzjTiRaucJmYCzijl47j8SmVYgtLMiTaSUC8jqEwXzInln&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=rjKLcKA7_-0fJ2IJO194jQ&_nc_tpa=Q5bMBQFnHRy13fiSz9JoL52HL152QjO0qza6cObTDeKUXa5CNJvPCwjYbmYhUZbbuvJoGztldDRo_pN1&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Af44yagFB6yk0zPg_JHVmfCCWnKjj_RmfyJn9qOHn9j5wg&oe=6A001944",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/HDI/meta/images/120238678562140378.jpg"
+      }
+    },
+    "worst_ad": {
+      "campaign_name": "Tráfico - Perfil IG - Nov.25",
+      "adset_name": "Tráfico IG - Nov.25 - BRAND",
+      "ad_name": "SI ESTÁS EN ALTO VALLE",
+      "ad_id": "120241827093820378",
+      "impressions": 64,
+      "reach": 55,
+      "frequency": 1.163636,
+      "clicks": 8,
+      "spend": 55.34,
+      "cpc": 6.9175,
+      "cpm": 864.6875,
+      "ctr": 12.5,
+      "actions": {
+        "link_click": 2,
+        "page_engagement": 27,
+        "post_engagement": 27,
+        "video_view": 25
+      },
+      "cost_per_actions": {
+        "video_view": 2.2136,
+        "link_click": 27.67,
+        "post_engagement": 2.04963,
+        "page_engagement": 2.04963
+      },
+      "creative": {
+        "title": "",
+        "body": "Contamos con 6 líneas de servicios para acompañar el crecimiento productivo del Alto Valle.\n\n📞 Comunicate con tu planta más cercana:\n📱 Gral. Roca: 298 458-6030\n📱 Villa Regina: 298 458-6030\n📱 Cipolletti: 298 437-0106\n📱 Neuquén: 299 580-9141\n📱 Añelo: 299 536-7940\n🔗 Todos los enlaces de WhatsApp en la bio\n\n✉️ ventas@hormigonerahdi.com.ar\n\nHDI. Soluciones concretas\nMás de 25 años haciendo lo que nos apasiona en la región que amamos.\n\n#HDI #HormigónElaborado #Construcción #AltoValle #IndustriaArgentinai",
+        "image_url": "",
+        "thumbnail_url": "",
+        "link_url": "",
+        "local_image_path": null
+      }
+    },
+    "adsets_analysis": [
+      {
+        "name": "Tráfico IG - Nov.25 - BRAND",
+        "reach": 109487,
+        "frequency": 2.296437,
+        "spend": 149954.67,
+        "objective_type": "link_click",
+        "objective_label": "Clics al perfil/enlace",
+        "objective_short_label": "clics",
+        "main_result": 2892,
+        "cost_per_result": 51.851546,
+        "conversations": 4,
+        "cost_per_conversation": 37488.6675
+      },
+      {
+        "name": "Tráfico IG - Nov.25 - Producto",
+        "reach": 68080,
+        "frequency": 3.148428,
+        "spend": 99987.57,
+        "objective_type": "link_click",
+        "objective_label": "Clics al perfil/enlace",
+        "objective_short_label": "clics",
+        "main_result": 5190,
+        "cost_per_result": 19.265428,
+        "conversations": 0,
+        "cost_per_conversation": 0
+      },
+      {
+        "name": "NQN",
+        "reach": 12430,
+        "frequency": 3.088737,
+        "spend": 84962.15,
+        "objective_type": "onsite_conversion.messaging_conversation_started_7d",
+        "objective_label": "Conversaciones iniciadas",
+        "objective_short_label": "conversaciones",
+        "main_result": 21,
+        "cost_per_result": 4045.816667,
+        "conversations": 21,
+        "cost_per_conversation": 4045.816667
+      },
+      {
+        "name": "CIPO",
+        "reach": 5594,
+        "frequency": 2.682159,
+        "spend": 34980.85,
+        "objective_type": "onsite_conversion.messaging_conversation_started_7d",
+        "objective_label": "Conversaciones iniciadas",
+        "objective_short_label": "conversaciones",
+        "main_result": 6,
+        "cost_per_result": 5830.141667,
+        "conversations": 6,
+        "cost_per_conversation": 5830.141667
+      }
+    ],
+    "insights": [
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "media",
+        "titulo": "CTR bajo en 'TELEFONOS'",
+        "descripcion": "CTR de 0.90% está muy por debajo del promedio (2.73%). El anuncio no está generando interés.",
+        "metrica": "CTR: 0.90%",
+        "accion": "Testear nuevo copy o creatividad más llamativa"
+      },
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "media",
+        "titulo": "CTR bajo en 'TELÉFONO'",
+        "descripcion": "CTR de 0.90% está muy por debajo del promedio (2.73%). El anuncio no está generando interés.",
+        "metrica": "CTR: 0.90%",
+        "accion": "Testear nuevo copy o creatividad más llamativa"
+      },
+      {
+        "tipo": "ALERTA",
+        "prioridad": "alta",
+        "titulo": "Costo por click alto en 'TELEFONOS'",
+        "descripcion": "CPC de $246 es 50% más alto que el promedio ($82). Estás pagando de más por cada click.",
+        "metrica": "CPC: $246",
+        "accion": "Optimizar segmentación o pausar si no convierte"
+      },
+      {
+        "tipo": "ALERTA",
+        "prioridad": "alta",
+        "titulo": "Costo por click alto en 'TELÉFONO'",
+        "descripcion": "CPC de $259 es 50% más alto que el promedio ($82). Estás pagando de más por cada click.",
+        "metrica": "CPC: $259",
+        "accion": "Optimizar segmentación o pausar si no convierte"
+      },
+      {
+        "tipo": "ÉXITO",
+        "prioridad": "baja",
+        "titulo": "Excelente performance en '6 líneas'",
+        "descripcion": "CTR de 2.64% con frecuencia controlada (1.3). Este anuncio está funcionando muy bien.",
+        "metrica": "CTR: 2.64% | Frecuencia: 1.3",
+        "accion": "Escalar presupuesto si hay margen"
+      },
+      {
+        "tipo": "ÉXITO",
+        "prioridad": "baja",
+        "titulo": "Excelente performance en 'PROFESIONALES'",
+        "descripcion": "CTR de 2.41% con frecuencia controlada (3.2). Este anuncio está funcionando muy bien.",
+        "metrica": "CTR: 2.41% | Frecuencia: 3.2",
+        "accion": "Escalar presupuesto si hay margen"
+      },
+      {
+        "tipo": "ÉXITO",
+        "prioridad": "baja",
+        "titulo": "Excelente performance en 'SI ESTÁS EN ALTO VALLE'",
+        "descripcion": "CTR de 12.50% con frecuencia controlada (1.2). Este anuncio está funcionando muy bien.",
+        "metrica": "CTR: 12.50% | Frecuencia: 1.2",
+        "accion": "Escalar presupuesto si hay margen"
+      },
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "alta",
+        "titulo": "Subinversión en anuncio con potencial: 'SI ESTÁS EN ALTO VALLE'",
+        "descripcion": "Este anuncio tiene buen CTR (12.50%) pero recibe poca inversión ($55). Podría escalar.",
+        "metrica": "CTR: 12.50% | Inversión: $55",
+        "accion": "Aumentar presupuesto para este anuncio"
+      }
+    ]
+  }
+}

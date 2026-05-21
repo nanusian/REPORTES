@@ -1,0 +1,654 @@
+{
+  "metadata": {
+    "cliente": "MEDICAL HAIR",
+    "periodo": "2026-03-01_2026-03-31",
+    "customer_id": "8216579278",
+    "fecha_generacion": "2026-04-21 18:10"
+  },
+  "resumen": {
+    "inversion_total": 226363.59139200003,
+    "impresiones_totales": 18116,
+    "clicks_totales": 618,
+    "conversiones_totales": 0.0,
+    "total_campanas": 1
+  },
+  "campanas": [
+    {
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "impressions": 18116,
+      "clicks": 618,
+      "cost": 226363.59139200003,
+      "conversions": 0.0,
+      "conversions_value": 0.0,
+      "ctr": 3.4113490836829325,
+      "avg_cpc": 366.28412846601947,
+      "avg_cpm": 12495.230260101569,
+      "cost_per_conversion": 0
+    }
+  ],
+  "datos_diarios": [
+    {
+      "date": "2026-03-01",
+      "impressions": 926,
+      "clicks": 21,
+      "cost": 9677.92,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-02",
+      "impressions": 801,
+      "clicks": 26,
+      "cost": 11540.910839,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-03",
+      "impressions": 574,
+      "clicks": 22,
+      "cost": 10157.282954,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-04",
+      "impressions": 523,
+      "clicks": 23,
+      "cost": 9726.576663,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-05",
+      "impressions": 706,
+      "clicks": 31,
+      "cost": 10376.97,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-06",
+      "impressions": 650,
+      "clicks": 24,
+      "cost": 11784.084269,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-07",
+      "impressions": 510,
+      "clicks": 13,
+      "cost": 7198.499914,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-08",
+      "impressions": 693,
+      "clicks": 19,
+      "cost": 5155.67,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-09",
+      "impressions": 1178,
+      "clicks": 30,
+      "cost": 15910.663458,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-10",
+      "impressions": 425,
+      "clicks": 12,
+      "cost": 10482.63176,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-11",
+      "impressions": 475,
+      "clicks": 18,
+      "cost": 10677.940128,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-12",
+      "impressions": 221,
+      "clicks": 11,
+      "cost": 1162.288671,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-13",
+      "impressions": 203,
+      "clicks": 17,
+      "cost": 1204.180603,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-14",
+      "impressions": 304,
+      "clicks": 16,
+      "cost": 2366.340058,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-15",
+      "impressions": 495,
+      "clicks": 18,
+      "cost": 5813.881009,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-16",
+      "impressions": 640,
+      "clicks": 24,
+      "cost": 6802.925376,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-17",
+      "impressions": 501,
+      "clicks": 21,
+      "cost": 2953.25,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-18",
+      "impressions": 505,
+      "clicks": 21,
+      "cost": 13062.345782,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-19",
+      "impressions": 581,
+      "clicks": 23,
+      "cost": 4621.750682,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-20",
+      "impressions": 594,
+      "clicks": 22,
+      "cost": 4879.006455,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-21",
+      "impressions": 533,
+      "clicks": 23,
+      "cost": 10721.028002,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-22",
+      "impressions": 609,
+      "clicks": 26,
+      "cost": 5647.334442,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-23",
+      "impressions": 696,
+      "clicks": 10,
+      "cost": 3964.22,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-24",
+      "impressions": 695,
+      "clicks": 20,
+      "cost": 10506.517152,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-25",
+      "impressions": 590,
+      "clicks": 22,
+      "cost": 10948.551642,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-26",
+      "impressions": 600,
+      "clicks": 22,
+      "cost": 7337.416107,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-27",
+      "impressions": 434,
+      "clicks": 12,
+      "cost": 2077.548397,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-28",
+      "impressions": 470,
+      "clicks": 16,
+      "cost": 3918.932597,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-29",
+      "impressions": 605,
+      "clicks": 16,
+      "cost": 3891.32,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-30",
+      "impressions": 667,
+      "clicks": 22,
+      "cost": 5253.275968,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-03-31",
+      "impressions": 712,
+      "clicks": 17,
+      "cost": 6542.328464,
+      "conversions": 0.0
+    }
+  ],
+  "datos_detallados": [
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-01",
+      "impressions": 926,
+      "clicks": 21,
+      "cost": 9677.92,
+      "conversions": 0.0,
+      "ctr": 2.267818574514039,
+      "avg_cpc": 460.8533333333333,
+      "avg_cpm": 10451.317494600431
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-02",
+      "impressions": 801,
+      "clicks": 26,
+      "cost": 11540.910839,
+      "conversions": 0.0,
+      "ctr": 3.245942571785269,
+      "avg_cpc": 443.88118611538465,
+      "avg_cpm": 14408.12838826467
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-03",
+      "impressions": 574,
+      "clicks": 22,
+      "cost": 10157.282954,
+      "conversions": 0.0,
+      "ctr": 3.8327526132404177,
+      "avg_cpc": 461.6946797272727,
+      "avg_cpm": 17695.614902439025
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-04",
+      "impressions": 523,
+      "clicks": 23,
+      "cost": 9726.576663,
+      "conversions": 0.0,
+      "ctr": 4.397705544933078,
+      "avg_cpc": 422.8946375217391,
+      "avg_cpm": 18597.660923518164
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-05",
+      "impressions": 706,
+      "clicks": 31,
+      "cost": 10376.97,
+      "conversions": 0.0,
+      "ctr": 4.390934844192635,
+      "avg_cpc": 334.7409677419355,
+      "avg_cpm": 14698.257790368272
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-06",
+      "impressions": 650,
+      "clicks": 24,
+      "cost": 11784.084269,
+      "conversions": 0.0,
+      "ctr": 3.6923076923076925,
+      "avg_cpc": 491.0035112083333,
+      "avg_cpm": 18129.360413846152
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-07",
+      "impressions": 510,
+      "clicks": 13,
+      "cost": 7198.499914,
+      "conversions": 0.0,
+      "ctr": 2.549019607843137,
+      "avg_cpc": 553.7307626153846,
+      "avg_cpm": 14114.70571372549
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-08",
+      "impressions": 693,
+      "clicks": 19,
+      "cost": 5155.67,
+      "conversions": 0.0,
+      "ctr": 2.7417027417027415,
+      "avg_cpc": 271.3510526315789,
+      "avg_cpm": 7439.63924963925
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-09",
+      "impressions": 1178,
+      "clicks": 30,
+      "cost": 15910.663458,
+      "conversions": 0.0,
+      "ctr": 2.5466893039049237,
+      "avg_cpc": 530.3554486,
+      "avg_cpm": 13506.505482173174
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-10",
+      "impressions": 425,
+      "clicks": 12,
+      "cost": 10482.63176,
+      "conversions": 0.0,
+      "ctr": 2.823529411764706,
+      "avg_cpc": 873.5526466666666,
+      "avg_cpm": 24665.015905882352
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-11",
+      "impressions": 475,
+      "clicks": 18,
+      "cost": 10677.940128,
+      "conversions": 0.0,
+      "ctr": 3.7894736842105265,
+      "avg_cpc": 593.218896,
+      "avg_cpm": 22479.87395368421
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-12",
+      "impressions": 221,
+      "clicks": 11,
+      "cost": 1162.288671,
+      "conversions": 0.0,
+      "ctr": 4.97737556561086,
+      "avg_cpc": 105.66260645454545,
+      "avg_cpm": 5259.224755656108
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-13",
+      "impressions": 203,
+      "clicks": 17,
+      "cost": 1204.180603,
+      "conversions": 0.0,
+      "ctr": 8.374384236453201,
+      "avg_cpc": 70.83415311764705,
+      "avg_cpm": 5931.924152709359
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-14",
+      "impressions": 304,
+      "clicks": 16,
+      "cost": 2366.340058,
+      "conversions": 0.0,
+      "ctr": 5.263157894736842,
+      "avg_cpc": 147.896253625,
+      "avg_cpm": 7784.0133486842105
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-15",
+      "impressions": 495,
+      "clicks": 18,
+      "cost": 5813.881009,
+      "conversions": 0.0,
+      "ctr": 3.6363636363636362,
+      "avg_cpc": 322.9933893888889,
+      "avg_cpm": 11745.214159595958
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-16",
+      "impressions": 640,
+      "clicks": 24,
+      "cost": 6802.925376,
+      "conversions": 0.0,
+      "ctr": 3.75,
+      "avg_cpc": 283.455224,
+      "avg_cpm": 10629.5709
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-17",
+      "impressions": 501,
+      "clicks": 21,
+      "cost": 2953.25,
+      "conversions": 0.0,
+      "ctr": 4.191616766467066,
+      "avg_cpc": 140.63095238095238,
+      "avg_cpm": 5894.710578842316
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-18",
+      "impressions": 505,
+      "clicks": 21,
+      "cost": 13062.345782,
+      "conversions": 0.0,
+      "ctr": 4.158415841584159,
+      "avg_cpc": 622.0164658095238,
+      "avg_cpm": 25866.03125148515
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-19",
+      "impressions": 581,
+      "clicks": 23,
+      "cost": 4621.750682,
+      "conversions": 0.0,
+      "ctr": 3.9586919104991396,
+      "avg_cpc": 200.94568182608697,
+      "avg_cpm": 7954.820450946644
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-20",
+      "impressions": 594,
+      "clicks": 22,
+      "cost": 4879.006455,
+      "conversions": 0.0,
+      "ctr": 3.7037037037037033,
+      "avg_cpc": 221.7730206818182,
+      "avg_cpm": 8213.815580808081
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-21",
+      "impressions": 533,
+      "clicks": 23,
+      "cost": 10721.028002,
+      "conversions": 0.0,
+      "ctr": 4.315196998123827,
+      "avg_cpc": 466.13165226086954,
+      "avg_cpm": 20114.49906566604
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-22",
+      "impressions": 609,
+      "clicks": 26,
+      "cost": 5647.334442,
+      "conversions": 0.0,
+      "ctr": 4.269293924466338,
+      "avg_cpc": 217.20517084615386,
+      "avg_cpm": 9273.127162561577
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-23",
+      "impressions": 696,
+      "clicks": 10,
+      "cost": 3964.22,
+      "conversions": 0.0,
+      "ctr": 1.4367816091954022,
+      "avg_cpc": 396.422,
+      "avg_cpm": 5695.718390804598
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-24",
+      "impressions": 695,
+      "clicks": 20,
+      "cost": 10506.517152,
+      "conversions": 0.0,
+      "ctr": 2.877697841726619,
+      "avg_cpc": 525.3258576000001,
+      "avg_cpm": 15117.290866187052
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-25",
+      "impressions": 590,
+      "clicks": 22,
+      "cost": 10948.551642,
+      "conversions": 0.0,
+      "ctr": 3.728813559322034,
+      "avg_cpc": 497.66143827272725,
+      "avg_cpm": 18556.867189830507
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-26",
+      "impressions": 600,
+      "clicks": 22,
+      "cost": 7337.416107,
+      "conversions": 0.0,
+      "ctr": 3.6666666666666665,
+      "avg_cpc": 333.51891395454544,
+      "avg_cpm": 12229.026845
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-27",
+      "impressions": 434,
+      "clicks": 12,
+      "cost": 2077.548397,
+      "conversions": 0.0,
+      "ctr": 2.7649769585253456,
+      "avg_cpc": 173.12903308333335,
+      "avg_cpm": 4786.977873271889
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-28",
+      "impressions": 470,
+      "clicks": 16,
+      "cost": 3918.932597,
+      "conversions": 0.0,
+      "ctr": 3.404255319148936,
+      "avg_cpc": 244.9332873125,
+      "avg_cpm": 8338.154461702128
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-29",
+      "impressions": 605,
+      "clicks": 16,
+      "cost": 3891.32,
+      "conversions": 0.0,
+      "ctr": 2.644628099173554,
+      "avg_cpc": 243.2075,
+      "avg_cpm": 6431.93388429752
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-30",
+      "impressions": 667,
+      "clicks": 22,
+      "cost": 5253.275968,
+      "conversions": 0.0,
+      "ctr": 3.2983508245877062,
+      "avg_cpc": 238.78527127272727,
+      "avg_cpm": 7875.975964017991
+    },
+    {
+      "campaign_id": 16154490716,
+      "campaign_name": "Search 2022",
+      "campaign_type": "SEARCH",
+      "date": "2026-03-31",
+      "impressions": 712,
+      "clicks": 17,
+      "cost": 6542.328464,
+      "conversions": 0.0,
+      "ctr": 2.387640449438202,
+      "avg_cpc": 384.84285082352943,
+      "avg_cpm": 9188.663573033708
+    }
+  ]
+}

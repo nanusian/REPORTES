@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "cliente": "ASPA",
+    "periodo": "2025-09-01_2025-09-30",
+    "fecha_generacion": "2025-12-29 19:07",
+    "plataforma": "Google Ads",
+    "fuente": "CSV Export"
+  },
+  "resumen": {
+    "inversion_total": 556792.2,
+    "clics_totales": 3912,
+    "impresiones_totales": 430539,
+    "conversiones_totales": 210.96,
+    "total_grupos": 2
+  },
+  "grupos_de_anuncios": [
+    {
+      "campaign_name": "Buscadores 2025",
+      "ad_group_name": "Grupo de anuncios 1",
+      "estado": "Habilitado",
+      "impressions": 43251,
+      "clicks": 1850,
+      "cost": 313780.35,
+      "conversions": 140.96,
+      "ctr": 4.277357748953781,
+      "avg_cpc": 169.611,
+      "cost_per_conversion": 2226.024049375709
+    },
+    {
+      "campaign_name": "Gran Alameda 2025",
+      "ad_group_name": "Grupo Anuncio 01",
+      "estado": "Detenido",
+      "impressions": 387288,
+      "clicks": 2062,
+      "cost": 243011.85,
+      "conversions": 70.0,
+      "ctr": 0.5324203176963913,
+      "avg_cpc": 117.85249757516974,
+      "cost_per_conversion": 3471.5978571428573
+    }
+  ],
+  "datos_detallados": [
+    {
+      "campaign_name": "Buscadores 2025",
+      "ad_group_name": "Grupo de anuncios 1",
+      "estado": "Habilitado",
+      "impressions": 43251,
+      "clicks": 1850,
+      "cost": 313780.35,
+      "conversions": 140.96,
+      "ctr": 4.28,
+      "avg_cpc": 169.61,
+      "cost_per_conversion": 2226.0
+    },
+    {
+      "campaign_name": "Gran Alameda 2025",
+      "ad_group_name": "Grupo Anuncio 01",
+      "estado": "Detenido",
+      "impressions": 387288,
+      "clicks": 2062,
+      "cost": 243011.85,
+      "conversions": 70.0,
+      "ctr": 0.53,
+      "avg_cpc": 117.85,
+      "cost_per_conversion": 3471.6
+    }
+  ],
+  "datos_diarios": [
+    {
+      "date": "2025-09-01",
+      "impressions": 430539,
+      "clicks": 3912,
+      "cost": 556792.2,
+      "conversions": 210.96
+    }
+  ]
+}

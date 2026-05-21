@@ -1,0 +1,291 @@
+{
+  "metadata": {
+    "cliente": "CREAR",
+    "periodo": "2025-11-01_2025-11-30",
+    "fecha_generacion": "2025-12-03 15:42",
+    "ad_account_id": "act_116915868648801"
+  },
+  "resumen": {
+    "inversion_total": 52694.7,
+    "alcance_total": 6155,
+    "impresiones_totales": 13191,
+    "total_anuncios": 1,
+    "total_conjuntos": 1
+  },
+  "conjuntos_de_anuncios": [
+    {
+      "adset_name": "Lote en Terrazas inversores",
+      "impressions": 13191,
+      "reach": 6155,
+      "frequency": 2.143136,
+      "spend": 52694.7,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 15,
+        "link_click": 46,
+        "page_engagement": 2444,
+        "post_engagement": 2443,
+        "onsite_conversion.messaging_user_depth_2_message_send": 3,
+        "onsite_conversion.messaging_user_depth_3_message_send": 3,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_save": 1,
+        "onsite_conversion.messaging_first_reply": 13,
+        "post_interaction_gross": 9,
+        "like": 1,
+        "onsite_conversion.messaging_conversation_started_7d": 15,
+        "video_view": 2388,
+        "post_reaction": 8
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 3512.98,
+        "video_view": 22.066457,
+        "link_click": 1145.536957,
+        "like": 52694.7,
+        "post_interaction_gross": 5854.966667,
+        "onsite_conversion.messaging_user_depth_2_message_send": 17564.9,
+        "onsite_conversion.messaging_user_depth_3_message_send": 17564.9,
+        "post_engagement": 21.569668,
+        "page_engagement": 21.560843,
+        "onsite_conversion.messaging_first_reply": 4053.438462,
+        "onsite_conversion.messaging_conversation_started_7d": 3512.98
+      }
+    }
+  ],
+  "anuncios": [
+    {
+      "campaign_name": "Lote en Terrazas inversores",
+      "adset_name": "Lote en Terrazas inversores",
+      "ad_name": "Lote en Terrazas inversores",
+      "ad_id": "120235654559380345",
+      "impressions": 13191,
+      "reach": 6155,
+      "frequency": 2.143136,
+      "clicks": 251,
+      "spend": 52694.7,
+      "cpc": 209.939044,
+      "cpm": 3994.746418,
+      "ctr": 1.902813,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 15,
+        "link_click": 46,
+        "page_engagement": 2444,
+        "post_engagement": 2443,
+        "onsite_conversion.messaging_user_depth_2_message_send": 3,
+        "onsite_conversion.messaging_user_depth_3_message_send": 3,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_save": 1,
+        "onsite_conversion.messaging_first_reply": 13,
+        "post_interaction_gross": 9,
+        "like": 1,
+        "onsite_conversion.messaging_conversation_started_7d": 15,
+        "video_view": 2388,
+        "post_reaction": 8
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 3512.98,
+        "video_view": 22.066457,
+        "link_click": 1145.536957,
+        "like": 52694.7,
+        "post_interaction_gross": 5854.966667,
+        "onsite_conversion.messaging_user_depth_2_message_send": 17564.9,
+        "onsite_conversion.messaging_user_depth_3_message_send": 17564.9,
+        "post_engagement": 21.569668,
+        "page_engagement": 21.560843,
+        "onsite_conversion.messaging_first_reply": 4053.438462,
+        "onsite_conversion.messaging_conversation_started_7d": 3512.98
+      },
+      "creative": {
+        "title": "",
+        "body": "VENTA. Terreno único en Terrazas del Neuquén, ideal inversión inmobiliaria. La ciudad que más crece en el país te espera. Estamos para asesorarte, contáctanos.\n#inmobiliaria #neuquén #venta #inversiones #terreno #construcción",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/567635590_1353099839494292_6779188629491180284_n.jpg?_nc_cat=107&ccb=1-7&_nc_eui2=AeGWRkxA5dp_z6oqFBLnbAbM4BGSrjbSS-LgEZKuNtJL4oh-ZIhe_AFgAcguc0YXgWw&_nc_ohc=QjQODPa2bdkQ7kNvwH7qF7m&_nc_oc=AdnfOvuwfCBbVbWiB2b86pmuzomtfx2XvnShsIbaMBf1UvbGnV0EqqiOjE0j7U0aMSGcFCp0YO2RmmzmcsG4sMuo&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=21FuhY0FOmnS6Zalu2skAg&_nc_tpa=Q5bMBQETfVnTS_YymOnZ7Sx9yHAPt4ymjHjX6hD-hoI1asETh5ZbZua0l0SJ69WR77BWzktCeeeKIqk3&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AflFCGY8-YE4o8KUFjmWW6bv2hubaRbkyoi6N5JVNNOAfA&oe=693641CC",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/NOV-25/CREAR/images/120235654559380345.jpg"
+      }
+    }
+  ],
+  "datos_diarios": [
+    {
+      "date": "2025-11-01",
+      "impressions": 1833,
+      "reach": 1326,
+      "spend": 6324.13,
+      "conversaciones": 2
+    },
+    {
+      "date": "2025-11-02",
+      "impressions": 2880,
+      "reach": 2214,
+      "spend": 6259.42,
+      "conversaciones": 1
+    },
+    {
+      "date": "2025-11-03",
+      "impressions": 1399,
+      "reach": 1085,
+      "spend": 6832.28,
+      "conversaciones": 4
+    },
+    {
+      "date": "2025-11-04",
+      "impressions": 1504,
+      "reach": 1078,
+      "spend": 7085.23,
+      "conversaciones": 3
+    },
+    {
+      "date": "2025-11-05",
+      "impressions": 1335,
+      "reach": 1016,
+      "spend": 6036.44,
+      "conversaciones": 1
+    },
+    {
+      "date": "2025-11-06",
+      "impressions": 1288,
+      "reach": 1018,
+      "spend": 5873.8,
+      "conversaciones": 1
+    },
+    {
+      "date": "2025-11-07",
+      "impressions": 954,
+      "reach": 700,
+      "spend": 5107.98,
+      "conversaciones": 2
+    },
+    {
+      "date": "2025-11-08",
+      "impressions": 913,
+      "reach": 676,
+      "spend": 5306.18,
+      "conversaciones": 1
+    },
+    {
+      "date": "2025-11-09",
+      "impressions": 1085,
+      "reach": 840,
+      "spend": 3869.24,
+      "conversaciones": 0
+    }
+  ],
+  "analisis": {
+    "total_spend": 52694.7,
+    "total_reach": 6155,
+    "total_impressions": 13191,
+    "total_ads": 1,
+    "total_adsets": 1,
+    "best_ad": {
+      "campaign_name": "Lote en Terrazas inversores",
+      "adset_name": "Lote en Terrazas inversores",
+      "ad_name": "Lote en Terrazas inversores",
+      "ad_id": "120235654559380345",
+      "impressions": 13191,
+      "reach": 6155,
+      "frequency": 2.143136,
+      "clicks": 251,
+      "spend": 52694.7,
+      "cpc": 209.939044,
+      "cpm": 3994.746418,
+      "ctr": 1.902813,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 15,
+        "link_click": 46,
+        "page_engagement": 2444,
+        "post_engagement": 2443,
+        "onsite_conversion.messaging_user_depth_2_message_send": 3,
+        "onsite_conversion.messaging_user_depth_3_message_send": 3,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_save": 1,
+        "onsite_conversion.messaging_first_reply": 13,
+        "post_interaction_gross": 9,
+        "like": 1,
+        "onsite_conversion.messaging_conversation_started_7d": 15,
+        "video_view": 2388,
+        "post_reaction": 8
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 3512.98,
+        "video_view": 22.066457,
+        "link_click": 1145.536957,
+        "like": 52694.7,
+        "post_interaction_gross": 5854.966667,
+        "onsite_conversion.messaging_user_depth_2_message_send": 17564.9,
+        "onsite_conversion.messaging_user_depth_3_message_send": 17564.9,
+        "post_engagement": 21.569668,
+        "page_engagement": 21.560843,
+        "onsite_conversion.messaging_first_reply": 4053.438462,
+        "onsite_conversion.messaging_conversation_started_7d": 3512.98
+      },
+      "creative": {
+        "title": "",
+        "body": "VENTA. Terreno único en Terrazas del Neuquén, ideal inversión inmobiliaria. La ciudad que más crece en el país te espera. Estamos para asesorarte, contáctanos.\n#inmobiliaria #neuquén #venta #inversiones #terreno #construcción",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/567635590_1353099839494292_6779188629491180284_n.jpg?_nc_cat=107&ccb=1-7&_nc_eui2=AeGWRkxA5dp_z6oqFBLnbAbM4BGSrjbSS-LgEZKuNtJL4oh-ZIhe_AFgAcguc0YXgWw&_nc_ohc=QjQODPa2bdkQ7kNvwH7qF7m&_nc_oc=AdnfOvuwfCBbVbWiB2b86pmuzomtfx2XvnShsIbaMBf1UvbGnV0EqqiOjE0j7U0aMSGcFCp0YO2RmmzmcsG4sMuo&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=21FuhY0FOmnS6Zalu2skAg&_nc_tpa=Q5bMBQETfVnTS_YymOnZ7Sx9yHAPt4ymjHjX6hD-hoI1asETh5ZbZua0l0SJ69WR77BWzktCeeeKIqk3&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AflFCGY8-YE4o8KUFjmWW6bv2hubaRbkyoi6N5JVNNOAfA&oe=693641CC",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/NOV-25/CREAR/images/120235654559380345.jpg"
+      }
+    },
+    "worst_ad": {
+      "campaign_name": "Lote en Terrazas inversores",
+      "adset_name": "Lote en Terrazas inversores",
+      "ad_name": "Lote en Terrazas inversores",
+      "ad_id": "120235654559380345",
+      "impressions": 13191,
+      "reach": 6155,
+      "frequency": 2.143136,
+      "clicks": 251,
+      "spend": 52694.7,
+      "cpc": 209.939044,
+      "cpm": 3994.746418,
+      "ctr": 1.902813,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 15,
+        "link_click": 46,
+        "page_engagement": 2444,
+        "post_engagement": 2443,
+        "onsite_conversion.messaging_user_depth_2_message_send": 3,
+        "onsite_conversion.messaging_user_depth_3_message_send": 3,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_save": 1,
+        "onsite_conversion.messaging_first_reply": 13,
+        "post_interaction_gross": 9,
+        "like": 1,
+        "onsite_conversion.messaging_conversation_started_7d": 15,
+        "video_view": 2388,
+        "post_reaction": 8
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 3512.98,
+        "video_view": 22.066457,
+        "link_click": 1145.536957,
+        "like": 52694.7,
+        "post_interaction_gross": 5854.966667,
+        "onsite_conversion.messaging_user_depth_2_message_send": 17564.9,
+        "onsite_conversion.messaging_user_depth_3_message_send": 17564.9,
+        "post_engagement": 21.569668,
+        "page_engagement": 21.560843,
+        "onsite_conversion.messaging_first_reply": 4053.438462,
+        "onsite_conversion.messaging_conversation_started_7d": 3512.98
+      },
+      "creative": {
+        "title": "",
+        "body": "VENTA. Terreno único en Terrazas del Neuquén, ideal inversión inmobiliaria. La ciudad que más crece en el país te espera. Estamos para asesorarte, contáctanos.\n#inmobiliaria #neuquén #venta #inversiones #terreno #construcción",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/567635590_1353099839494292_6779188629491180284_n.jpg?_nc_cat=107&ccb=1-7&_nc_eui2=AeGWRkxA5dp_z6oqFBLnbAbM4BGSrjbSS-LgEZKuNtJL4oh-ZIhe_AFgAcguc0YXgWw&_nc_ohc=QjQODPa2bdkQ7kNvwH7qF7m&_nc_oc=AdnfOvuwfCBbVbWiB2b86pmuzomtfx2XvnShsIbaMBf1UvbGnV0EqqiOjE0j7U0aMSGcFCp0YO2RmmzmcsG4sMuo&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=21FuhY0FOmnS6Zalu2skAg&_nc_tpa=Q5bMBQETfVnTS_YymOnZ7Sx9yHAPt4ymjHjX6hD-hoI1asETh5ZbZua0l0SJ69WR77BWzktCeeeKIqk3&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AflFCGY8-YE4o8KUFjmWW6bv2hubaRbkyoi6N5JVNNOAfA&oe=693641CC",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/NOV-25/CREAR/images/120235654559380345.jpg"
+      }
+    },
+    "adsets_analysis": [
+      {
+        "name": "Lote en Terrazas inversores",
+        "reach": 6155,
+        "frequency": 2.143136,
+        "spend": 52694.7,
+        "conversations": 15,
+        "cost_per_conversation": 3512.98
+      }
+    ],
+    "insights": []
+  }
+}

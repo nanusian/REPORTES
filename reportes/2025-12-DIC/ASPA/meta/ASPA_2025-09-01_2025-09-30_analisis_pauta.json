@@ -1,0 +1,882 @@
+{
+  "metadata": {
+    "cliente": "ASPA",
+    "periodo": "2025-09-01_2025-09-30",
+    "fecha_generacion": "2025-12-17 18:27",
+    "ad_account_id": "act_586457407081824"
+  },
+  "resumen": {
+    "inversion_total": 173056.97999999998,
+    "alcance_total": 340370,
+    "impresiones_totales": 425415,
+    "total_anuncios": 7,
+    "total_conjuntos": 7
+  },
+  "conjuntos_de_anuncios": [
+    {
+      "adset_name": "Nuevo conjunto de anuncios de Reconocimiento",
+      "impressions": 47492,
+      "reach": 44316,
+      "frequency": 1.071667,
+      "spend": 10384.29,
+      "actions": {
+        "link_click": 14,
+        "page_engagement": 364,
+        "post_engagement": 364,
+        "post_interaction_gross": 1,
+        "photo_view": 19,
+        "onsite_conversion.post_net_like": 1,
+        "video_view": 330,
+        "post_reaction": 1
+      },
+      "cost_per_actions": {
+        "video_view": 31.467545,
+        "link_click": 741.735,
+        "post_interaction_gross": 10384.29,
+        "post_engagement": 28.528269,
+        "page_engagement": 28.528269
+      }
+    },
+    {
+      "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+      "impressions": 40694,
+      "reach": 28374,
+      "frequency": 1.4342,
+      "spend": 34700.81,
+      "actions": {
+        "link_click": 602,
+        "page_engagement": 4232,
+        "post_engagement": 4232,
+        "comment": 1,
+        "post_interaction_gross": 14,
+        "post": 2,
+        "onsite_conversion.post_net_like": 11,
+        "video_view": 3616,
+        "post_reaction": 11
+      },
+      "cost_per_actions": {
+        "video_view": 9.596463,
+        "link_click": 57.642542,
+        "post_interaction_gross": 2478.629286,
+        "post_engagement": 8.199624,
+        "page_engagement": 8.199624
+      }
+    },
+    {
+      "adset_name": "Nuevo conjunto de anuncios de Reconocimiento",
+      "impressions": 71556,
+      "reach": 69425,
+      "frequency": 1.030695,
+      "spend": 13714.3,
+      "actions": {
+        "page_engagement": 6383,
+        "post_engagement": 6383,
+        "post_interaction_gross": 8,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_like": 7,
+        "onsite_conversion.post_net_save": 1,
+        "video_view": 6375,
+        "post_reaction": 7
+      },
+      "cost_per_actions": {
+        "video_view": 2.151263,
+        "post_interaction_gross": 1714.2875,
+        "post_engagement": 2.148567,
+        "page_engagement": 2.148567
+      }
+    },
+    {
+      "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+      "impressions": 29737,
+      "reach": 15502,
+      "frequency": 1.918269,
+      "spend": 41901.53,
+      "actions": {
+        "link_click": 661,
+        "page_engagement": 9415,
+        "post_engagement": 9413,
+        "comment": 9,
+        "like": 2,
+        "post_interaction_gross": 60,
+        "post": 11,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_like": 39,
+        "onsite_conversion.post_net_save": 1,
+        "onsite_conversion.messaging_first_reply": 2,
+        "onsite_conversion.messaging_conversation_started_7d": 2,
+        "video_view": 8692,
+        "post_reaction": 39
+      },
+      "cost_per_actions": {
+        "video_view": 4.820701,
+        "link_click": 63.39112,
+        "like": 20950.765,
+        "post_interaction_gross": 698.358833,
+        "post_engagement": 4.451453,
+        "page_engagement": 4.450508,
+        "onsite_conversion.messaging_first_reply": 20950.765,
+        "onsite_conversion.messaging_conversation_started_7d": 20950.765
+      }
+    },
+    {
+      "adset_name": "Nuevo conjunto de anuncios de Reconocimiento",
+      "impressions": 49274,
+      "reach": 25982,
+      "frequency": 1.896467,
+      "spend": 17485.63,
+      "actions": {
+        "page_engagement": 6284,
+        "post_engagement": 6284,
+        "post_interaction_gross": 24,
+        "post": 2,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_like": 21,
+        "onsite_conversion.post_net_save": 1,
+        "video_view": 6260,
+        "post_reaction": 21
+      },
+      "cost_per_actions": {
+        "video_view": 2.793232,
+        "post_interaction_gross": 728.567917,
+        "post_engagement": 2.782564,
+        "page_engagement": 2.782564
+      }
+    },
+    {
+      "adset_name": "Nuevo conjunto de anuncios de Reconocimiento",
+      "impressions": 76359,
+      "reach": 46468,
+      "frequency": 1.64326,
+      "spend": 24985.34,
+      "actions": {
+        "page_engagement": 1458,
+        "post_engagement": 1458,
+        "post_interaction_gross": 1,
+        "onsite_conversion.post_net_like": 1,
+        "video_view": 1457,
+        "post_reaction": 1
+      },
+      "cost_per_actions": {
+        "video_view": 17.148483,
+        "post_interaction_gross": 24985.34,
+        "post_engagement": 17.136722,
+        "page_engagement": 17.136722
+      }
+    },
+    {
+      "adset_name": "Nuevo conjunto de anuncios de Reconocimiento",
+      "impressions": 110303,
+      "reach": 110303,
+      "frequency": 1.0,
+      "spend": 29885.08,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 1,
+        "link_click": 40,
+        "page_engagement": 7605,
+        "post_engagement": 7605,
+        "post_interaction_gross": 9,
+        "post": 1,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_like": 7,
+        "onsite_conversion.post_net_save": 1,
+        "onsite_conversion.messaging_first_reply": 1,
+        "onsite_conversion.messaging_conversation_started_7d": 1,
+        "video_view": 7556,
+        "post_reaction": 7
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 29885.08,
+        "video_view": 3.955146,
+        "link_click": 747.127,
+        "post_interaction_gross": 3320.564444,
+        "post_engagement": 3.929662,
+        "page_engagement": 3.929662,
+        "onsite_conversion.messaging_first_reply": 29885.08,
+        "onsite_conversion.messaging_conversation_started_7d": 29885.08
+      }
+    }
+  ],
+  "anuncios": [
+    {
+      "campaign_name": "08-25 alca 3",
+      "adset_name": "Nuevo conjunto de anuncios de Reconocimiento",
+      "ad_name": "Nuevo anuncio de Reconocimiento",
+      "ad_id": "120231561275240078",
+      "impressions": 47492,
+      "reach": 44316,
+      "frequency": 1.071667,
+      "clicks": 48,
+      "spend": 10384.29,
+      "cpc": 216.339375,
+      "cpm": 218.653457,
+      "ctr": 0.10107,
+      "actions": {
+        "link_click": 14,
+        "page_engagement": 364,
+        "post_engagement": 364,
+        "post_interaction_gross": 1,
+        "photo_view": 19,
+        "onsite_conversion.post_net_like": 1,
+        "video_view": 330,
+        "post_reaction": 1
+      },
+      "cost_per_actions": {
+        "video_view": 31.467545,
+        "link_click": 741.735,
+        "post_interaction_gross": 10384.29,
+        "post_engagement": 28.528269,
+        "page_engagement": 28.528269
+      },
+      "creative": {
+        "title": "",
+        "body": "Seguridad y crecimiento en cada decisión de inversión 🌱\n\nContactanos para dar el primer paso 👇🏽\n📍 𝗚𝗲𝗻𝗲𝗿𝗮𝗹 𝗥𝗼𝗰𝗮 | Avenida Roca 1277. Piso 4, oficina 405\n☎️ 4436877\n📲 298 4753957\n📩 roca@grupobartolome.com\n\n📍 𝗖𝗶𝗽𝗼𝗹𝗹𝗲𝘁𝘁𝗶 | Mengelle 59. Piso 4, oficina 7\n☎️ 299 4771403\n📲 299 5328768\n📩 administracion@grupobartolome.com\n\n#Loteos #Inmobiliaria #Inversion #Familia #Futuro #Desarrolloinmobiliario #Terreno #GrupoBartolome #RioNegro #Patagonia #Financiacion",
+        "image_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t45.1600-4/539700828_10162571169032935_405681156477299945_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=890911&_nc_eui2=AeH8T7TJkKW-luGl804dB1hloTrXmciNvZGhOteZyI29kZB1-9kKm0D1O4TtMsBEHfU&_nc_ohc=HbSSC2R6HroQ7kNvwH7rTs1&_nc_oc=AdnjCxy5m3W7ApiduwmftDIHg5uViAreZc0PJ7QrbKQVrN7zOb-pToD2ZnVEVYs6kuCfMbFannVRZ0a8oF9MVVLy&_nc_zt=1&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=g9TCa9tjnBT4Go3Zum_sqA&_nc_tpa=Q5bMBQGHHLl8S7rBFfUYdNTFn0MXGU2Ii0dc2JUrrdzulQrI6Rrdf_bNWPUeruIKnjPcO9guzXHTwoji&oh=00_Afmomg_hAGmamwKC-8el8oW5IODxPuPx4OdxtDCrCApYdg&oe=694902FE",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t39.30808-6/555996600_1298203318986792_258385313002461758_n.jpg?_nc_cat=100&ccb=1-7&_nc_eui2=AeHa8zf6tRvoCNFIZFREG3jV0ltLRSq_aTXSW0tFKr9pNVNulu173CrVe3KPPbWRgNk&_nc_ohc=y4PhraYM2mYQ7kNvwFOhiru&_nc_oc=AdmyHIPhcOZJXvGRsIHtxGrND2r5OwgCUiLw1WNKdZ3uidbq6uRa6uGp3VEgm1GtGGwqxYc-sbEQVF1nn1Q443nF&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=g9TCa9tjnBT4Go3Zum_sqA&_nc_tpa=Q5bMBQEYGkMHNevPElPlLg5Yjy8XbGo44ZGtbIfawK8e8vbrL31B8NBOpgEvyfWvX6_niyROlVp6bmg1&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=de5bcf&_nc_sid=58080a&oh=00_AflHdvzKri2UXl7tVJv4ZFc9f0y58IAw87E62Bw9_yRVQQ&oe=69490E7B",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/SEP-25/ASPA/images/120231561275240078.jpg"
+      }
+    },
+    {
+      "campaign_name": "08-25 seguidores",
+      "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+      "ad_name": "Nuevo anuncio de Tráfico",
+      "ad_id": "120231561318900078",
+      "impressions": 40694,
+      "reach": 28374,
+      "frequency": 1.4342,
+      "clicks": 567,
+      "spend": 34700.81,
+      "cpc": 61.200723,
+      "cpm": 852.725463,
+      "ctr": 1.393326,
+      "actions": {
+        "link_click": 602,
+        "page_engagement": 4232,
+        "post_engagement": 4232,
+        "comment": 1,
+        "post_interaction_gross": 14,
+        "post": 2,
+        "onsite_conversion.post_net_like": 11,
+        "video_view": 3616,
+        "post_reaction": 11
+      },
+      "cost_per_actions": {
+        "video_view": 9.596463,
+        "link_click": 57.642542,
+        "post_interaction_gross": 2478.629286,
+        "post_engagement": 8.199624,
+        "page_engagement": 8.199624
+      },
+      "creative": {
+        "title": "",
+        "body": "🔑 Nuestra experiencia en el desarrollo de loteos nos permite valorar cada terreno como el comienzo de una historia única.\n\nComprometidos con la calidad y el progreso, trabajamos para que cada familia encuentre su espacio ideal 🌳🏡\n\nPara más información comunicarse con nuestras oficinas 👇🏽\n📍 𝗚𝗲𝗻𝗲𝗿𝗮𝗹 𝗥𝗼𝗰𝗮 | Avenida Roca 1277. Piso 4, oficina 405\n☎️ 4436877\n📲 298 4753957\n📩 roca@grupobartolome.com\n\n📍 𝗖𝗶𝗽𝗼𝗹𝗹𝗲𝘁𝘁𝗶 | Mengelle 59. Piso 4, oficina 7\n☎️ 299 4771403\n📲 299 5328768\n📩 administracion@grupobartolome.com\n\n#Loteos #Inmobiliaria #Inversion #Desarrolloinmobiliario #Terreno #GrupoBartolome #RioNegro #Patagonia",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/541272230_1480972229756529_4524599690348014815_n.jpg?_nc_cat=107&ccb=1-7&_nc_eui2=AeEKGSmHvcsbi9mGE8_gsW7q8swC85N6LnbyzALzk3oudurpmytDn-DNjwjJ_YUQbaw&_nc_ohc=TXK7P2ui8tYQ7kNvwGRx8Ov&_nc_oc=AdkGegc6PfTIb1fE4c_y-J6wV5U6VA675z7KQ4-qEfHFPmGFCXLbjEBG1mqEHrrbOt3AlIAcN4tOkpYsyuL6YXmy&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=tPtRFQy-ypizmuodaSDEdA&_nc_tpa=Q5bMBQEquQ6oFFMpxoMT3pxCHdf5cC1mpSebo-MpP-5oio3fr0MjrIh0SzPnOBqMwRHGTVCFsRNvXV7f&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AfkOWJmNmTRCjh2o7MlgBKvfnBb-slsCio_19yQ26qupLw&oe=6948FE60",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/SEP-25/ASPA/images/120231561318900078.jpg"
+      }
+    },
+    {
+      "campaign_name": "08-25 alca 4",
+      "adset_name": "Nuevo conjunto de anuncios de Reconocimiento",
+      "ad_name": "Nuevo anuncio de Reconocimiento - Copia",
+      "ad_id": "120231561406930078",
+      "impressions": 71556,
+      "reach": 69425,
+      "frequency": 1.030695,
+      "clicks": 95,
+      "spend": 13714.3,
+      "cpc": 144.361053,
+      "cpm": 191.658282,
+      "ctr": 0.132763,
+      "actions": {
+        "page_engagement": 6383,
+        "post_engagement": 6383,
+        "post_interaction_gross": 8,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_like": 7,
+        "onsite_conversion.post_net_save": 1,
+        "video_view": 6375,
+        "post_reaction": 7
+      },
+      "cost_per_actions": {
+        "video_view": 2.151263,
+        "post_interaction_gross": 1714.2875,
+        "post_engagement": 2.148567,
+        "page_engagement": 2.148567
+      },
+      "creative": {
+        "title": "",
+        "body": "🚧 Finalizando la obra de Red Cloacal en 𝐋𝐚 𝐀𝐧𝐭𝐨𝐧𝐢𝐚 💧\n\nAvanzamos en cada etapa para garantizar un sistema eficiente que brindará calidad de vida y servicios óptimos a cada lote del desarrollo.\n\nEscribinos para más información 👇🏽\n📍 𝗚𝗲𝗻𝗲𝗿𝗮𝗹 𝗥𝗼𝗰𝗮 | Avenida Roca 1277. Piso 4, oficina 405\n☎️ 4436877\n📲 298 4753957\n📩 roca@grupobartolome.com\n\n📍 𝗖𝗶𝗽𝗼𝗹𝗹𝗲𝘁𝘁𝗶 | Mengelle 59. Piso 4, oficina 7\n☎️ 299 4771403\n📲 299 5328768\n📩 administracion@grupobartolome.com\n\n#Loteos #Inmobiliaria #Inversion #Desarrolloinmobiliario #Terreno #GrupoBartolome #RioNegro #Patagonia",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/539189913_1800396080864504_8488055564927723865_n.jpg?_nc_cat=111&ccb=1-7&_nc_eui2=AeGrvcxhGv-irN3MnDLAjUxYGO9vT6qYAk4Y729PqpgCTogXFycZUakc82N7SsWDdIU&_nc_ohc=UoxUws9NQkQQ7kNvwFmDeg6&_nc_oc=AdmIyfnG5q0WPBWHrX4-GEEofVWrDv-D02ukfg18uPFHQ6S0MaQvxYZg9o-0dbTPyu8-SzS_wLAmP-QDpwZtqOBn&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=V4HU68BEtX3GK1y2wUkaiQ&_nc_tpa=Q5bMBQGfjc46ea63qRP8Z5glrNZxmBnDBDi4mbnyHOXvXaIp6YwwIS_IJaw5TvDBj3UB6ZTVFM07dowx&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AflJx04gECxAmJjlEGbrxc9NsTQPYBcyDcrVvtJuF7VhjA&oe=69490DC7",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/SEP-25/ASPA/images/120231561406930078.jpg"
+      }
+    },
+    {
+      "campaign_name": "09-25 seguidores con reel de pili",
+      "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+      "ad_name": "Nuevo anuncio de Tráfico",
+      "ad_id": "120232150469760078",
+      "impressions": 29737,
+      "reach": 15502,
+      "frequency": 1.918269,
+      "clicks": 717,
+      "spend": 41901.53,
+      "cpc": 58.44007,
+      "cpm": 1409.070518,
+      "ctr": 2.411138,
+      "actions": {
+        "link_click": 661,
+        "page_engagement": 9415,
+        "post_engagement": 9413,
+        "comment": 9,
+        "like": 2,
+        "post_interaction_gross": 60,
+        "post": 11,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_like": 39,
+        "onsite_conversion.post_net_save": 1,
+        "onsite_conversion.messaging_first_reply": 2,
+        "onsite_conversion.messaging_conversation_started_7d": 2,
+        "video_view": 8692,
+        "post_reaction": 39
+      },
+      "cost_per_actions": {
+        "video_view": 4.820701,
+        "link_click": 63.39112,
+        "like": 20950.765,
+        "post_interaction_gross": 698.358833,
+        "post_engagement": 4.451453,
+        "page_engagement": 4.450508,
+        "onsite_conversion.messaging_first_reply": 20950.765,
+        "onsite_conversion.messaging_conversation_started_7d": 20950.765
+      },
+      "creative": {
+        "title": "",
+        "body": "Tu patrimonio merece seguridad, facilidades y proyección a futuro 💼\n\nVos, ¿ya estás pensando en tu próxima inversión? 🚀\n\nConocé nuestros desarrollos y planificá tu próximo paso 👉🏼 www.grupobartolome.com\n\n#Loteos #Inmobiliaria #Inversion #Desarrolloinmobiliario #Terreno #GrupoBartolome #RioNegro #Patagonia",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/544917296_1076847114660798_8562282269876592955_n.jpg?_nc_cat=105&ccb=1-7&_nc_eui2=AeHOzqsdYjsUwdlycFVGokt8cdtUjiVOeMdx21SOJU54x53WtsUHK3zD8oTYCczlnSs&_nc_ohc=NcCe-_K5nR4Q7kNvwGhNvoo&_nc_oc=AdlhaTnZfhVM6Lq3K8OJZqFmkpe6hN_enrN39vEpGq8vcAjZMHg6Jvaf-9nWq5M4itnAoDZUTI5sFtKlDNrRs14k&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=Q0_fBfpkgxeK7iAEFHEnZg&_nc_tpa=Q5bMBQFX5z6c9ubLbuqDU5xUJoz6jN_rx-9P0VYabU9BfXsvwn5mHAdPAcmR1IQEfA2jiDlfTqe7BdG3&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AfnRqoHpgEjb4scpW9oEyH0XqIh7NKRZ8tk3k5wW8orMMw&oe=6948F705",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/SEP-25/ASPA/images/120232150469760078.jpg"
+      }
+    },
+    {
+      "campaign_name": "09-25 alca avances x2",
+      "adset_name": "Nuevo conjunto de anuncios de Reconocimiento",
+      "ad_name": "Nuevo anuncio de Reconocimiento - Copia",
+      "ad_id": "120232150998930078",
+      "impressions": 49274,
+      "reach": 25982,
+      "frequency": 1.896467,
+      "clicks": 165,
+      "spend": 17485.63,
+      "cpc": 105.973515,
+      "cpm": 354.865243,
+      "ctr": 0.334862,
+      "actions": {
+        "page_engagement": 6284,
+        "post_engagement": 6284,
+        "post_interaction_gross": 24,
+        "post": 2,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_like": 21,
+        "onsite_conversion.post_net_save": 1,
+        "video_view": 6260,
+        "post_reaction": 21
+      },
+      "cost_per_actions": {
+        "video_view": 2.793232,
+        "post_interaction_gross": 728.567917,
+        "post_engagement": 2.782564,
+        "page_engagement": 2.782564
+      },
+      "creative": {
+        "title": "",
+        "body": "Avanzamos con la obra de cordón cuneta en el loteo La Antonia de Fernández Oro 🚧\n\nEn esta etapa realizamos la nivelación del terreno, la preparación de las bases fundacionales y la colocación de las columnas de iluminación 💡\n\n#Loteos #Inmobiliaria #Inversion #Desarrolloinmobiliario #Terreno #GrupoBartolome #RioNegro #Patagonia",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t15.5256-10/545043691_1306422087722409_7021663215581748296_n.jpg?_nc_cat=104&ccb=1-7&_nc_eui2=AeEA_hYLPa8k8RdVXqoH0GzfoCScIIRb1WugJJwghFvVa11QuKmQgiBJoPOCeQAAt0o&_nc_ohc=zZ-CvzKTd-UQ7kNvwEd1dzU&_nc_oc=AdmOJJH42HyZGnx5qE6DClxaF8ZIxj5zjtLj2r-rCNBGbtqizSi6tYaLy6Zx7gnz5k-vfygE9FM7TDtkSV-KCCzq&_nc_zt=23&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=ugK_aPk4Z7dJy1YqxTClDg&_nc_tpa=Q5bMBQFoWKJbEoExnghLodFhkC4LSI2m0KeLKGp44tfAekg5nIGGvD1fDHVc3ZJeyxrwF5FP2lf8TVtl&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AfkGW46FTUS4C8pqRGJIAMgFV8nqFeSzEW3HmgvgQnncLA&oe=6948F4BC",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/SEP-25/ASPA/images/120232150998930078.jpg"
+      }
+    },
+    {
+      "campaign_name": "09-25 alca con pili 2",
+      "adset_name": "Nuevo conjunto de anuncios de Reconocimiento",
+      "ad_name": "Nuevo anuncio de Reconocimiento",
+      "ad_id": "120232969718150078",
+      "impressions": 76359,
+      "reach": 46468,
+      "frequency": 1.64326,
+      "clicks": 30,
+      "spend": 24985.34,
+      "cpc": 832.844667,
+      "cpm": 327.208842,
+      "ctr": 0.039288,
+      "actions": {
+        "page_engagement": 1458,
+        "post_engagement": 1458,
+        "post_interaction_gross": 1,
+        "onsite_conversion.post_net_like": 1,
+        "video_view": 1457,
+        "post_reaction": 1
+      },
+      "cost_per_actions": {
+        "video_view": 17.148483,
+        "post_interaction_gross": 24985.34,
+        "post_engagement": 17.136722,
+        "page_engagement": 17.136722
+      },
+      "creative": {
+        "title": "",
+        "body": "En el Alto Valle construimos más que loteos: creamos oportunidades que crecen con vos 🌟\n\n¿Listo para dar el próximo paso?\n\n#Loteos #Inmobiliaria #Inversion #Desarrolloinmobiliario #Terreno #GrupoBartolome #RioNegro #Patagonia",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/553417372_1476887253430487_7750544788704811055_n.jpg?_nc_cat=111&ccb=1-7&_nc_eui2=AeFe4wf1SVJ0-l1s9c4I68rpsfr4YkJOAuSx-vhiQk4C5FHuSO2DJcA9DBPr3YrfmP0&_nc_ohc=_wJfK8_Y5vsQ7kNvwEvnGeC&_nc_oc=AdlhcnlT148r3CIov-NYiBdZfHSZcoQFZvlu1cjmSBPpTqmgThoOVNkhGmCoQqO4WW1DRCMl_VXgOiK1aEMuqe81&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=dBiRJzppccpVEwdE3KaWAw&_nc_tpa=Q5bMBQGkcqs7dbqHZ9_72YOpph_kumps-QCbAg0GAzSh_HpaIg3smtv3P3FeIjFireo0_HcfI6igDekr&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Afk80IVubk-ssxdFQZQe-lxU7Wsgbk8LULKb-KmKWlW49A&oe=6948DDFD",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/SEP-25/ASPA/images/120232969718150078.jpg"
+      }
+    },
+    {
+      "campaign_name": "09-25 alca 2",
+      "adset_name": "Nuevo conjunto de anuncios de Reconocimiento",
+      "ad_name": "Nuevo anuncio de Reconocimiento",
+      "ad_id": "120232969826770078",
+      "impressions": 110303,
+      "reach": 110303,
+      "frequency": 1.0,
+      "clicks": 159,
+      "spend": 29885.08,
+      "cpc": 187.956478,
+      "cpm": 270.936239,
+      "ctr": 0.144148,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 1,
+        "link_click": 40,
+        "page_engagement": 7605,
+        "post_engagement": 7605,
+        "post_interaction_gross": 9,
+        "post": 1,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_like": 7,
+        "onsite_conversion.post_net_save": 1,
+        "onsite_conversion.messaging_first_reply": 1,
+        "onsite_conversion.messaging_conversation_started_7d": 1,
+        "video_view": 7556,
+        "post_reaction": 7
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 29885.08,
+        "video_view": 3.955146,
+        "link_click": 747.127,
+        "post_interaction_gross": 3320.564444,
+        "post_engagement": 3.929662,
+        "page_engagement": 3.929662,
+        "onsite_conversion.messaging_first_reply": 29885.08,
+        "onsite_conversion.messaging_conversation_started_7d": 29885.08
+      },
+      "creative": {
+        "title": "",
+        "body": "💡 Seguimos avanzando en el Loteo La Antonia, Fernández Oro, con la realización de los pozos para las bases fundacionales de las columnas de iluminación.\n\n#Loteos #Inmobiliaria #Inversion #Desarrolloinmobiliario #Terreno #GrupoBartolome #RioNegro #Patagonia",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t15.5256-10/554718289_829725499476574_3934735916140105638_n.jpg?_nc_cat=106&ccb=1-7&_nc_eui2=AeEuryucdx00CULv3LUtmvQld1IdZ_HEd3Z3Uh1n8cR3dr_rRPPI8Cm5aK4KtkR20j0&_nc_ohc=nM66bVREOpoQ7kNvwH-BWYX&_nc_oc=AdlyFeH1Odzeao3vZLj6E2D3FuAiOQ9_7GQB5mm-DnI-zgW80nlAtnnkcbzyc-aDJBrUi0jTYlz01_PBgNQe_dY_&_nc_zt=23&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=TOOJ4t9mCLbPZPKGxhc65g&_nc_tpa=Q5bMBQH4P6mssheNDYB5S2fTNZAkpH4LjTdzQX45CswiOm8vkiCydUYeAwWLDIbEljvghhedFSUmfACj&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Afk8f2ZGC5z7vL1VLbdbWb-XV-8t0g2XL_5C0o06_HJTfQ&oe=6948E581",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/SEP-25/ASPA/images/120232969826770078.jpg"
+      }
+    }
+  ],
+  "datos_diarios": [
+    {
+      "date": "2025-09-01",
+      "impressions": 84404,
+      "reach": 80847,
+      "spend": 25196.64,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-09-02",
+      "impressions": 50312,
+      "reach": 49592,
+      "spend": 17852.73,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-09-03",
+      "impressions": 19552,
+      "reach": 19242,
+      "spend": 11452.03,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-09-04",
+      "impressions": 5474,
+      "reach": 5462,
+      "spend": 4298.0,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-09-08",
+      "impressions": 5209,
+      "reach": 4388,
+      "spend": 3003.67,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-09-09",
+      "impressions": 10701,
+      "reach": 8620,
+      "spend": 6458.88,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-09-10",
+      "impressions": 8498,
+      "reach": 7456,
+      "spend": 4619.09,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-09-11",
+      "impressions": 8469,
+      "reach": 7380,
+      "spend": 4780.08,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-09-12",
+      "impressions": 8382,
+      "reach": 8012,
+      "spend": 5146.61,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-09-13",
+      "impressions": 8026,
+      "reach": 7199,
+      "spend": 5208.59,
+      "conversaciones": 1
+    },
+    {
+      "date": "2025-09-14",
+      "impressions": 10175,
+      "reach": 8402,
+      "spend": 6192.34,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-09-15",
+      "impressions": 6133,
+      "reach": 5565,
+      "spend": 4556.99,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-09-16",
+      "impressions": 2009,
+      "reach": 1897,
+      "spend": 2776.01,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-09-17",
+      "impressions": 1829,
+      "reach": 1730,
+      "spend": 2960.02,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-09-18",
+      "impressions": 1753,
+      "reach": 1679,
+      "spend": 2772.26,
+      "conversaciones": 1
+    },
+    {
+      "date": "2025-09-19",
+      "impressions": 1893,
+      "reach": 1806,
+      "spend": 2753.63,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-09-20",
+      "impressions": 2074,
+      "reach": 2042,
+      "spend": 3185.48,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-09-21",
+      "impressions": 2754,
+      "reach": 2577,
+      "spend": 3542.64,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-09-22",
+      "impressions": 1106,
+      "reach": 1078,
+      "spend": 1430.87,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-09-24",
+      "impressions": 5555,
+      "reach": 5443,
+      "spend": 1738.24,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-09-25",
+      "impressions": 34730,
+      "reach": 30381,
+      "spend": 10178.55,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-09-26",
+      "impressions": 32901,
+      "reach": 31138,
+      "spend": 10080.94,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-09-27",
+      "impressions": 29840,
+      "reach": 28982,
+      "spend": 9108.3,
+      "conversaciones": 1
+    },
+    {
+      "date": "2025-09-28",
+      "impressions": 37908,
+      "reach": 37070,
+      "spend": 10968.32,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-09-29",
+      "impressions": 31442,
+      "reach": 29990,
+      "spend": 8936.8,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-09-30",
+      "impressions": 14286,
+      "reach": 13848,
+      "spend": 3859.27,
+      "conversaciones": 0
+    }
+  ],
+  "analisis": {
+    "total_spend": 173056.97999999998,
+    "total_reach": 340370,
+    "total_impressions": 425415,
+    "total_ads": 7,
+    "total_adsets": 7,
+    "best_ad": {
+      "campaign_name": "09-25 alca 2",
+      "adset_name": "Nuevo conjunto de anuncios de Reconocimiento",
+      "ad_name": "Nuevo anuncio de Reconocimiento",
+      "ad_id": "120232969826770078",
+      "impressions": 110303,
+      "reach": 110303,
+      "frequency": 1.0,
+      "clicks": 159,
+      "spend": 29885.08,
+      "cpc": 187.956478,
+      "cpm": 270.936239,
+      "ctr": 0.144148,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 1,
+        "link_click": 40,
+        "page_engagement": 7605,
+        "post_engagement": 7605,
+        "post_interaction_gross": 9,
+        "post": 1,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_like": 7,
+        "onsite_conversion.post_net_save": 1,
+        "onsite_conversion.messaging_first_reply": 1,
+        "onsite_conversion.messaging_conversation_started_7d": 1,
+        "video_view": 7556,
+        "post_reaction": 7
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 29885.08,
+        "video_view": 3.955146,
+        "link_click": 747.127,
+        "post_interaction_gross": 3320.564444,
+        "post_engagement": 3.929662,
+        "page_engagement": 3.929662,
+        "onsite_conversion.messaging_first_reply": 29885.08,
+        "onsite_conversion.messaging_conversation_started_7d": 29885.08
+      },
+      "creative": {
+        "title": "",
+        "body": "💡 Seguimos avanzando en el Loteo La Antonia, Fernández Oro, con la realización de los pozos para las bases fundacionales de las columnas de iluminación.\n\n#Loteos #Inmobiliaria #Inversion #Desarrolloinmobiliario #Terreno #GrupoBartolome #RioNegro #Patagonia",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t15.5256-10/554718289_829725499476574_3934735916140105638_n.jpg?_nc_cat=106&ccb=1-7&_nc_eui2=AeEuryucdx00CULv3LUtmvQld1IdZ_HEd3Z3Uh1n8cR3dr_rRPPI8Cm5aK4KtkR20j0&_nc_ohc=nM66bVREOpoQ7kNvwH-BWYX&_nc_oc=AdlyFeH1Odzeao3vZLj6E2D3FuAiOQ9_7GQB5mm-DnI-zgW80nlAtnnkcbzyc-aDJBrUi0jTYlz01_PBgNQe_dY_&_nc_zt=23&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=TOOJ4t9mCLbPZPKGxhc65g&_nc_tpa=Q5bMBQH4P6mssheNDYB5S2fTNZAkpH4LjTdzQX45CswiOm8vkiCydUYeAwWLDIbEljvghhedFSUmfACj&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Afk8f2ZGC5z7vL1VLbdbWb-XV-8t0g2XL_5C0o06_HJTfQ&oe=6948E581",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/SEP-25/ASPA/images/120232969826770078.jpg"
+      }
+    },
+    "worst_ad": {
+      "campaign_name": "09-25 seguidores con reel de pili",
+      "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+      "ad_name": "Nuevo anuncio de Tráfico",
+      "ad_id": "120232150469760078",
+      "impressions": 29737,
+      "reach": 15502,
+      "frequency": 1.918269,
+      "clicks": 717,
+      "spend": 41901.53,
+      "cpc": 58.44007,
+      "cpm": 1409.070518,
+      "ctr": 2.411138,
+      "actions": {
+        "link_click": 661,
+        "page_engagement": 9415,
+        "post_engagement": 9413,
+        "comment": 9,
+        "like": 2,
+        "post_interaction_gross": 60,
+        "post": 11,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_like": 39,
+        "onsite_conversion.post_net_save": 1,
+        "onsite_conversion.messaging_first_reply": 2,
+        "onsite_conversion.messaging_conversation_started_7d": 2,
+        "video_view": 8692,
+        "post_reaction": 39
+      },
+      "cost_per_actions": {
+        "video_view": 4.820701,
+        "link_click": 63.39112,
+        "like": 20950.765,
+        "post_interaction_gross": 698.358833,
+        "post_engagement": 4.451453,
+        "page_engagement": 4.450508,
+        "onsite_conversion.messaging_first_reply": 20950.765,
+        "onsite_conversion.messaging_conversation_started_7d": 20950.765
+      },
+      "creative": {
+        "title": "",
+        "body": "Tu patrimonio merece seguridad, facilidades y proyección a futuro 💼\n\nVos, ¿ya estás pensando en tu próxima inversión? 🚀\n\nConocé nuestros desarrollos y planificá tu próximo paso 👉🏼 www.grupobartolome.com\n\n#Loteos #Inmobiliaria #Inversion #Desarrolloinmobiliario #Terreno #GrupoBartolome #RioNegro #Patagonia",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/544917296_1076847114660798_8562282269876592955_n.jpg?_nc_cat=105&ccb=1-7&_nc_eui2=AeHOzqsdYjsUwdlycFVGokt8cdtUjiVOeMdx21SOJU54x53WtsUHK3zD8oTYCczlnSs&_nc_ohc=NcCe-_K5nR4Q7kNvwGhNvoo&_nc_oc=AdlhaTnZfhVM6Lq3K8OJZqFmkpe6hN_enrN39vEpGq8vcAjZMHg6Jvaf-9nWq5M4itnAoDZUTI5sFtKlDNrRs14k&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=Q0_fBfpkgxeK7iAEFHEnZg&_nc_tpa=Q5bMBQFX5z6c9ubLbuqDU5xUJoz6jN_rx-9P0VYabU9BfXsvwn5mHAdPAcmR1IQEfA2jiDlfTqe7BdG3&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AfnRqoHpgEjb4scpW9oEyH0XqIh7NKRZ8tk3k5wW8orMMw&oe=6948F705",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/SEP-25/ASPA/images/120232150469760078.jpg"
+      }
+    },
+    "adsets_analysis": [
+      {
+        "name": "Nuevo conjunto de anuncios de Tráfico",
+        "reach": 15502,
+        "frequency": 1.918269,
+        "spend": 41901.53,
+        "conversations": 2,
+        "cost_per_conversation": 20950.765
+      },
+      {
+        "name": "Nuevo conjunto de anuncios de Tráfico",
+        "reach": 28374,
+        "frequency": 1.4342,
+        "spend": 34700.81,
+        "conversations": 0,
+        "cost_per_conversation": 0
+      },
+      {
+        "name": "Nuevo conjunto de anuncios de Reconocimiento",
+        "reach": 110303,
+        "frequency": 1.0,
+        "spend": 29885.08,
+        "conversations": 1,
+        "cost_per_conversation": 29885.08
+      },
+      {
+        "name": "Nuevo conjunto de anuncios de Reconocimiento",
+        "reach": 46468,
+        "frequency": 1.64326,
+        "spend": 24985.34,
+        "conversations": 0,
+        "cost_per_conversation": 0
+      },
+      {
+        "name": "Nuevo conjunto de anuncios de Reconocimiento",
+        "reach": 25982,
+        "frequency": 1.896467,
+        "spend": 17485.63,
+        "conversations": 0,
+        "cost_per_conversation": 0
+      },
+      {
+        "name": "Nuevo conjunto de anuncios de Reconocimiento",
+        "reach": 69425,
+        "frequency": 1.030695,
+        "spend": 13714.3,
+        "conversations": 0,
+        "cost_per_conversation": 0
+      },
+      {
+        "name": "Nuevo conjunto de anuncios de Reconocimiento",
+        "reach": 44316,
+        "frequency": 1.071667,
+        "spend": 10384.29,
+        "conversations": 0,
+        "cost_per_conversation": 0
+      }
+    ],
+    "insights": [
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "media",
+        "titulo": "CTR bajo en 'Nuevo anuncio de Reconocimiento'",
+        "descripcion": "CTR de 0.10% está muy por debajo del promedio (0.65%). El anuncio no está generando interés.",
+        "metrica": "CTR: 0.10%",
+        "accion": "Testear nuevo copy o creatividad más llamativa"
+      },
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "media",
+        "titulo": "CTR bajo en 'Nuevo anuncio de Reconocimiento - Copia'",
+        "descripcion": "CTR de 0.13% está muy por debajo del promedio (0.65%). El anuncio no está generando interés.",
+        "metrica": "CTR: 0.13%",
+        "accion": "Testear nuevo copy o creatividad más llamativa"
+      },
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "media",
+        "titulo": "CTR bajo en 'Nuevo anuncio de Reconocimiento'",
+        "descripcion": "CTR de 0.04% está muy por debajo del promedio (0.65%). El anuncio no está generando interés.",
+        "metrica": "CTR: 0.04%",
+        "accion": "Testear nuevo copy o creatividad más llamativa"
+      },
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "media",
+        "titulo": "CTR bajo en 'Nuevo anuncio de Reconocimiento'",
+        "descripcion": "CTR de 0.14% está muy por debajo del promedio (0.65%). El anuncio no está generando interés.",
+        "metrica": "CTR: 0.14%",
+        "accion": "Testear nuevo copy o creatividad más llamativa"
+      },
+      {
+        "tipo": "ALERTA",
+        "prioridad": "alta",
+        "titulo": "Costo por click alto en 'Nuevo anuncio de Reconocimiento'",
+        "descripcion": "CPC de $833 es 50% más alto que el promedio ($230). Estás pagando de más por cada click.",
+        "metrica": "CPC: $833",
+        "accion": "Optimizar segmentación o pausar si no convierte"
+      },
+      {
+        "tipo": "ÉXITO",
+        "prioridad": "baja",
+        "titulo": "Excelente performance en 'Nuevo anuncio de Tráfico'",
+        "descripcion": "CTR de 2.41% con frecuencia controlada (1.9). Este anuncio está funcionando muy bien.",
+        "metrica": "CTR: 2.41% | Frecuencia: 1.9",
+        "accion": "Escalar presupuesto si hay margen"
+      }
+    ]
+  }
+}

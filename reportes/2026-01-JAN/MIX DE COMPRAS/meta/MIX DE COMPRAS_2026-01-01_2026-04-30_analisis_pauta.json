@@ -1,0 +1,1104 @@
+{
+  "metadata": {
+    "cliente": "MIX DE COMPRAS",
+    "periodo": "2026-01-01_2026-04-30",
+    "fecha_generacion": "2026-05-05 11:49",
+    "ad_account_id": "act_316325345744820"
+  },
+  "resumen": {
+    "inversion_total": 1668628.97,
+    "alcance_total": 2082446,
+    "impresiones_totales": 5083764,
+    "total_anuncios": 5,
+    "total_conjuntos": 1
+  },
+  "conjuntos_de_anuncios": [
+    {
+      "adset_name": "Reconocimiento - Vuelta al Cole",
+      "impressions": 5083764,
+      "reach": 1140674,
+      "frequency": 4.456807,
+      "spend": 1668628.97,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 171,
+        "onsite_conversion.messaging_block": 2,
+        "link_click": 5060,
+        "page_engagement": 267014,
+        "onsite_conversion.post_unlike": 372,
+        "post_engagement": 266886,
+        "like": 128,
+        "post_interaction_gross": 1129,
+        "comment": 18,
+        "post_interaction_net": 1501,
+        "onsite_conversion.messaging_user_depth_2_message_send": 24,
+        "onsite_conversion.messaging_first_reply": 156,
+        "post": 108,
+        "onsite_conversion.post_save": 17,
+        "onsite_conversion.post_net_comment": 18,
+        "onsite_conversion.messaging_user_depth_3_message_send": 6,
+        "onsite_conversion.post_net_save": 17,
+        "onsite_conversion.post_net_like": 614,
+        "onsite_conversion.messaging_conversation_started_7d": 163,
+        "onsite_conversion.messaging_conversation_replied_7d": 6,
+        "video_view": 260697,
+        "post_reaction": 986
+      },
+      "cost_per_actions": {
+        "video_view": 6.400645,
+        "link_click": 329.768571,
+        "like": 13036.163828,
+        "post_interaction_gross": 1477.970744,
+        "onsite_conversion.total_messaging_connection": 9758.064152,
+        "post_engagement": 6.252216,
+        "onsite_conversion.messaging_user_depth_2_message_send": 69526.207083,
+        "onsite_conversion.messaging_conversation_replied_7d": 278104.828333,
+        "onsite_conversion.messaging_user_depth_3_message_send": 278104.828333,
+        "page_engagement": 6.249219,
+        "onsite_conversion.messaging_first_reply": 10696.339551,
+        "onsite_conversion.messaging_conversation_started_7d": 10236.987546
+      }
+    }
+  ],
+  "anuncios": [
+    {
+      "campaign_name": "Reconocimiento - Vuelta al Cole",
+      "adset_name": "Reconocimiento - Vuelta al Cole",
+      "ad_name": "Mochis Silicona",
+      "ad_id": "120241837564020734",
+      "impressions": 410848,
+      "reach": 229809,
+      "frequency": 1.78778,
+      "clicks": 1126,
+      "spend": 123886.24,
+      "cpc": 110.023304,
+      "cpm": 301.537892,
+      "ctr": 0.274067,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 20,
+        "onsite_conversion.messaging_block": 2,
+        "link_click": 426,
+        "page_engagement": 34588,
+        "onsite_conversion.post_unlike": 36,
+        "post_engagement": 34576,
+        "like": 12,
+        "post_interaction_gross": 190,
+        "comment": 1,
+        "post_interaction_net": 226,
+        "onsite_conversion.messaging_user_depth_2_message_send": 2,
+        "onsite_conversion.messaging_first_reply": 18,
+        "post": 28,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_comment": 1,
+        "onsite_conversion.post_net_save": 1,
+        "onsite_conversion.post_net_like": 124,
+        "onsite_conversion.messaging_conversation_started_7d": 19,
+        "onsite_conversion.messaging_conversation_replied_7d": 1,
+        "video_view": 33960,
+        "post_reaction": 160
+      },
+      "cost_per_actions": {
+        "video_view": 3.648005,
+        "link_click": 290.81277,
+        "like": 10323.853333,
+        "post_interaction_gross": 652.032842,
+        "onsite_conversion.total_messaging_connection": 6194.312,
+        "post_engagement": 3.583012,
+        "onsite_conversion.messaging_user_depth_2_message_send": 61943.12,
+        "onsite_conversion.messaging_conversation_replied_7d": 123886.24,
+        "page_engagement": 3.581769,
+        "onsite_conversion.messaging_first_reply": 6882.568889,
+        "onsite_conversion.messaging_conversation_started_7d": 6520.328421
+      },
+      "creative": {
+        "title": "",
+        "body": "Mochis de silicona para jardín de infantes 🌈\nColores y modelos para elegir.\n\n$75.000.-\nVisitanos en 📍Sarmiento 775",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t15.5256-10/625979971_1407336141121151_1728936263995942727_n.jpg?_nc_cat=109&ccb=1-7&_nc_eui2=AeHkwZNKlj-aFQaFuUc-4Hy2wDxuzqnxh53APG7OqfGHnQw9lGR5ZARMrNeP5kuRmCU&_nc_ohc=gcBbrHevyy8Q7kNvwGV_y1d&_nc_oc=AdpkuBHAIZ-9mVnaO4n4j3-0I-cyX5bauXEQDq5mQGXKJphdd7l2DN2fKQT0TTCAgZ6xrJHhrAX8fzAvXMQr9BI7&_nc_zt=23&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=oYlDOnX6hpeIB2Gj1uXHTA&_nc_tpa=Q5bMBQH_LTYH5hnL_2_uf7f6ZiL6wEhcYE6m9uQRhpXLmcqQDnM4yeId80S48VvUHRxg0I7eAQ9befWl&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Af5ijAtQ6MgJBg95B4I3xsstt1H3NYwVy7gsD4LhiPY7DQ&oe=69FFD6FC",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-01-JAN/MIX DE COMPRAS/meta/images/120241837564020734.jpg"
+      }
+    },
+    {
+      "campaign_name": "Reconocimiento - Vuelta al Cole",
+      "adset_name": "Reconocimiento - Vuelta al Cole",
+      "ad_name": "6 Mochis",
+      "ad_id": "120241838404570734",
+      "impressions": 748743,
+      "reach": 326669,
+      "frequency": 2.292054,
+      "clicks": 2183,
+      "spend": 219303.37,
+      "cpc": 100.459629,
+      "cpm": 292.895386,
+      "ctr": 0.291555,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 56,
+        "link_click": 632,
+        "page_engagement": 34784,
+        "onsite_conversion.post_unlike": 35,
+        "post_engagement": 34751,
+        "like": 33,
+        "post_interaction_gross": 172,
+        "comment": 8,
+        "post_interaction_net": 207,
+        "onsite_conversion.messaging_user_depth_2_message_send": 10,
+        "onsite_conversion.messaging_first_reply": 50,
+        "post": 16,
+        "onsite_conversion.post_save": 4,
+        "onsite_conversion.post_net_comment": 8,
+        "onsite_conversion.messaging_user_depth_3_message_send": 4,
+        "onsite_conversion.post_net_save": 4,
+        "onsite_conversion.post_net_like": 109,
+        "onsite_conversion.messaging_conversation_started_7d": 51,
+        "video_view": 33947,
+        "post_reaction": 144
+      },
+      "cost_per_actions": {
+        "video_view": 6.460169,
+        "link_click": 346.999003,
+        "like": 6645.556667,
+        "post_interaction_gross": 1275.019593,
+        "onsite_conversion.total_messaging_connection": 3916.131607,
+        "post_engagement": 6.310707,
+        "onsite_conversion.messaging_user_depth_2_message_send": 21930.337,
+        "onsite_conversion.messaging_user_depth_3_message_send": 54825.8425,
+        "page_engagement": 6.30472,
+        "onsite_conversion.messaging_first_reply": 4386.0674,
+        "onsite_conversion.messaging_conversation_started_7d": 4300.066078
+      },
+      "creative": {
+        "title": "",
+        "body": "Hoy te mostramos en detalle 6 mochis que te van a encantar. 🩷📚✏️💻 ¿Cuál es tu favorita?\n\nTenemos todo para inicial, primaria y media, con opciones para toda la familia y precios mayoristas.\n📚🖍️ Marcadores, útiles y mucho más para arrancar el año con todo.\n\n📍 Sarmiento 775 – NQN\n🕘 Lun a vie de 9 a 17:30 hs | Sáb de 9 a 13 hs",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t15.5256-10/624502155_2081700835954549_4097935196476148567_n.jpg?_nc_cat=109&ccb=1-7&_nc_eui2=AeE1PVMb8cWyzHPfVLAFkrdx_DgLCtv31Wn8OAsK2_fVaTW2YgvaoYBtka1HqISYD2c&_nc_ohc=HsXJMVcnRpMQ7kNvwFD2eR1&_nc_oc=AdoPIxJylWxEjjrAxVXoTMeF-dEpW-NHslBvwM2FZUqYGI8TL5rRiNnyhz0RXwtWBRwCLpH4JcvHGVe23KATCHBc&_nc_zt=23&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=8KgX60JrKt-zROd8Ksi--w&_nc_tpa=Q5bMBQG-LictSrZlq9Zii6UVmEHyhjVYObRFEdUS4-sfPU9_rlRN6jy2QioLHhzTV3UfBz4ElFSMxS5G&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Af64G9m-YkRXxwjdZuOcxH1xy5B17DErEukHvjFqo1VNQg&oe=69FFE1BE",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-01-JAN/MIX DE COMPRAS/meta/images/120241838404570734.jpg"
+      }
+    },
+    {
+      "campaign_name": "Reconocimiento - Vuelta al Cole",
+      "adset_name": "Reconocimiento - Vuelta al Cole",
+      "ad_name": "Carpetas",
+      "ad_id": "120241838433650734",
+      "impressions": 1258009,
+      "reach": 445430,
+      "frequency": 2.824257,
+      "clicks": 2669,
+      "spend": 441552.78,
+      "cpc": 165.437535,
+      "cpm": 350.993339,
+      "ctr": 0.212161,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 38,
+        "link_click": 1337,
+        "page_engagement": 62821,
+        "onsite_conversion.post_unlike": 105,
+        "post_engagement": 62785,
+        "like": 36,
+        "post_interaction_gross": 222,
+        "comment": 5,
+        "post_interaction_net": 327,
+        "onsite_conversion.messaging_user_depth_2_message_send": 6,
+        "onsite_conversion.messaging_first_reply": 37,
+        "post": 23,
+        "onsite_conversion.post_save": 3,
+        "onsite_conversion.post_net_comment": 5,
+        "onsite_conversion.messaging_user_depth_3_message_send": 1,
+        "onsite_conversion.post_net_save": 3,
+        "onsite_conversion.post_net_like": 86,
+        "onsite_conversion.messaging_conversation_started_7d": 38,
+        "video_view": 61226,
+        "post_reaction": 191
+      },
+      "cost_per_actions": {
+        "video_view": 7.211851,
+        "link_click": 330.25638,
+        "like": 12265.355,
+        "post_interaction_gross": 1988.976486,
+        "onsite_conversion.total_messaging_connection": 11619.81,
+        "post_engagement": 7.032775,
+        "onsite_conversion.messaging_user_depth_2_message_send": 73592.13,
+        "onsite_conversion.messaging_user_depth_3_message_send": 441552.78,
+        "page_engagement": 7.028745,
+        "onsite_conversion.messaging_first_reply": 11933.858919,
+        "onsite_conversion.messaging_conversation_started_7d": 11619.81
+      },
+      "creative": {
+        "title": "",
+        "body": "Carpetas desde $2.550.- 🙀\n¡Y para los gustos, los colores!\n\nPasá por Mix y elegí tu favorita 🩵",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t51.71878-10/616060431_887830587541142_7795172812022700608_n.jpg?_nc_cat=100&ccb=1-7&_nc_eui2=AeFz6JzTuAZQn0IlJneyeo90hPCtUKOX7CCE8K1Qo5fsILDJa_1brxA_tiGsp4OsePM&_nc_ohc=EQUiiDKnCwIQ7kNvwEvsouC&_nc_oc=Adqg6jDXPTlac1Lz2HWVSM2yr2JlHRSrqR8IS6mvtfRCiJLoCnkWgamvK70ZmfNAvQPva_cmtRIGQkr1dD61BQbX&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=u-GgFFTR1XbIR8WroxiXbg&_nc_tpa=Q5bMBQGev8eJGOI2q2pvMdYfNrLldbAwN4Zf5HSNs6MAUoGDjDT4qMTRnlFnCm3uRbGJHZbUbMBXjrM2&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af6xbtPFogESVJrSSE1196FdkJY1r52LcGSy4LMFLHX-yw&oe=69FFBC32",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-01-JAN/MIX DE COMPRAS/meta/images/120241838433650734.jpg"
+      }
+    },
+    {
+      "campaign_name": "Reconocimiento - Vuelta al Cole",
+      "adset_name": "Reconocimiento - Vuelta al Cole",
+      "ad_name": "Mochis LISTA",
+      "ad_id": "120242513252100734",
+      "impressions": 1320152,
+      "reach": 537147,
+      "frequency": 2.457711,
+      "clicks": 2541,
+      "spend": 438649.62,
+      "cpc": 172.628737,
+      "cpm": 332.272057,
+      "ctr": 0.192478,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 25,
+        "link_click": 1332,
+        "page_engagement": 63830,
+        "onsite_conversion.post_unlike": 94,
+        "post_engagement": 63811,
+        "like": 19,
+        "post_interaction_gross": 228,
+        "comment": 4,
+        "post_interaction_net": 322,
+        "onsite_conversion.messaging_user_depth_2_message_send": 5,
+        "onsite_conversion.messaging_first_reply": 22,
+        "post": 26,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_comment": 4,
+        "onsite_conversion.messaging_user_depth_3_message_send": 1,
+        "onsite_conversion.post_net_save": 1,
+        "onsite_conversion.post_net_like": 103,
+        "onsite_conversion.messaging_conversation_started_7d": 24,
+        "onsite_conversion.messaging_conversation_replied_7d": 2,
+        "video_view": 62251,
+        "post_reaction": 197
+      },
+      "cost_per_actions": {
+        "video_view": 7.046467,
+        "link_click": 329.316532,
+        "like": 23086.822105,
+        "post_interaction_gross": 1923.901842,
+        "onsite_conversion.total_messaging_connection": 17545.9848,
+        "post_engagement": 6.874201,
+        "onsite_conversion.messaging_user_depth_2_message_send": 87729.924,
+        "onsite_conversion.messaging_conversation_replied_7d": 219324.81,
+        "onsite_conversion.messaging_user_depth_3_message_send": 438649.62,
+        "page_engagement": 6.872154,
+        "onsite_conversion.messaging_first_reply": 19938.619091,
+        "onsite_conversion.messaging_conversation_started_7d": 18277.0675
+      },
+      "creative": {
+        "title": "",
+        "body": "Mochi lista ✅ para la vuelta al cole!\nEn Mix encontrás TODO lo que necesitás y más!",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t15.5256-10/636852430_1595061891632644_183420010359167847_n.jpg?_nc_cat=102&ccb=1-7&_nc_eui2=AeGWG6GnwCy6EwEhBDJnWOkIEx1khs4yhwsTHWSGzjKHC-flEIDfdN5aDkeSAffWL9A&_nc_ohc=PS91POPhn9QQ7kNvwHmzOIx&_nc_oc=Ado3R7kvDVmAHxhcigU4etjlL5h0MhRKPOFuQubUOt_IsXTeLQ1TyPirW1_ioxSVtPtCqSns2D3wxtQvlDJfkMne&_nc_zt=23&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=V_E-udFHsYq1juuYNW50Og&_nc_tpa=Q5bMBQGGaHEka_WqlFdHzK4ppjmhr-vCluwKWFbGea7du-6D4o9QipLh346GaNpEps6nwjiIWPZuvf4w&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Af5LwnOjtkpGAijhyc6F6H0mtTBSsCT1lvYTN8iO0esN8w&oe=69FFE0B3",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-01-JAN/MIX DE COMPRAS/meta/images/120242513252100734.jpg"
+      }
+    },
+    {
+      "campaign_name": "Reconocimiento - Vuelta al Cole",
+      "adset_name": "Reconocimiento - Vuelta al Cole",
+      "ad_name": "KINDER BACK PACK",
+      "ad_id": "120242868634160734",
+      "impressions": 1346012,
+      "reach": 543391,
+      "frequency": 2.47706,
+      "clicks": 3013,
+      "spend": 445236.96,
+      "cpc": 147.771975,
+      "cpm": 330.782311,
+      "ctr": 0.223846,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 32,
+        "link_click": 1333,
+        "page_engagement": 70991,
+        "onsite_conversion.post_unlike": 102,
+        "post_engagement": 70963,
+        "like": 28,
+        "post_interaction_gross": 317,
+        "post_interaction_net": 419,
+        "onsite_conversion.messaging_user_depth_2_message_send": 1,
+        "onsite_conversion.messaging_first_reply": 29,
+        "post": 15,
+        "onsite_conversion.post_save": 8,
+        "onsite_conversion.post_net_save": 8,
+        "onsite_conversion.post_net_like": 192,
+        "onsite_conversion.messaging_conversation_started_7d": 31,
+        "onsite_conversion.messaging_conversation_replied_7d": 3,
+        "video_view": 69313,
+        "post_reaction": 294
+      },
+      "cost_per_actions": {
+        "video_view": 6.423571,
+        "link_click": 334.011223,
+        "like": 15901.32,
+        "post_interaction_gross": 1404.532997,
+        "onsite_conversion.total_messaging_connection": 13913.655,
+        "post_engagement": 6.274213,
+        "onsite_conversion.messaging_user_depth_2_message_send": 445236.96,
+        "onsite_conversion.messaging_conversation_replied_7d": 148412.32,
+        "page_engagement": 6.271738,
+        "onsite_conversion.messaging_first_reply": 15352.998621,
+        "onsite_conversion.messaging_conversation_started_7d": 14362.482581
+      },
+      "creative": {
+        "title": "",
+        "body": "Te mostramos en detalle las nuevas KINDER BACKPACK🎒\n Mochilas de silicona para jardín de infantes.\n\nTenemos diferentes modelos y tamaños para que vayas con el peque a que elija su favorita!",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/637904126_3248487448672935_4311502187281366212_n.jpg?_nc_cat=103&ccb=1-7&_nc_eui2=AeGgh5I7UCl9FqQbQmEOt5TmOOVqEPG087Q45WoQ8bTztKnvaIaPdq5IrChS4PKC75k&_nc_ohc=tGvlnfmXQPsQ7kNvwGJzlaD&_nc_oc=AdoCwy1CbybgeMBd_pHzygH2MMM080wHp34Rt_eOb05E6qWyRyGaNo99PmX8Rt-HUG7xa5R44VzQKv1NBr2Tqj49&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=3EGwFlwgcONWGPqiqnFtjA&_nc_tpa=Q5bMBQH3xIENmmVvwFDqaSCLgj1ayNl-HQuQDCt_cYwSrlRzUWImhSjsmkXhDAmMtKuG_KxWeZBzlYmk&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Af7HjVeWqQs2Swnfe_idRdb2uy30WN2ohoKCaAst_8OF1w&oe=69FFEEC5",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-01-JAN/MIX DE COMPRAS/meta/images/120242868634160734.jpg"
+      }
+    }
+  ],
+  "datos_diarios": [
+    {
+      "date": "2026-02-02",
+      "impressions": 32623,
+      "reach": 24848,
+      "spend": 8226.23,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-02-03",
+      "impressions": 67536,
+      "reach": 51173,
+      "spend": 16435.46,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-02-04",
+      "impressions": 63930,
+      "reach": 53733,
+      "spend": 16238.78,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-02-05",
+      "impressions": 59295,
+      "reach": 50266,
+      "spend": 16413.21,
+      "conversaciones": 4
+    },
+    {
+      "date": "2026-02-06",
+      "impressions": 58526,
+      "reach": 51005,
+      "spend": 16865.19,
+      "conversaciones": 4
+    },
+    {
+      "date": "2026-02-07",
+      "impressions": 54350,
+      "reach": 45566,
+      "spend": 16310.48,
+      "conversaciones": 3
+    },
+    {
+      "date": "2026-02-08",
+      "impressions": 64159,
+      "reach": 49211,
+      "spend": 18339.97,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-02-09",
+      "impressions": 62545,
+      "reach": 51245,
+      "spend": 17351.38,
+      "conversaciones": 11
+    },
+    {
+      "date": "2026-02-10",
+      "impressions": 56941,
+      "reach": 47591,
+      "spend": 16573.99,
+      "conversaciones": 5
+    },
+    {
+      "date": "2026-02-11",
+      "impressions": 53479,
+      "reach": 44911,
+      "spend": 16788.71,
+      "conversaciones": 6
+    },
+    {
+      "date": "2026-02-12",
+      "impressions": 55234,
+      "reach": 48232,
+      "spend": 17104.63,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-02-13",
+      "impressions": 48657,
+      "reach": 37753,
+      "spend": 16455.86,
+      "conversaciones": 4
+    },
+    {
+      "date": "2026-02-14",
+      "impressions": 50658,
+      "reach": 38879,
+      "spend": 16385.46,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-02-15",
+      "impressions": 62202,
+      "reach": 51466,
+      "spend": 18696.4,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-02-16",
+      "impressions": 58788,
+      "reach": 45980,
+      "spend": 17089.29,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-02-17",
+      "impressions": 60889,
+      "reach": 48522,
+      "spend": 16963.13,
+      "conversaciones": 5
+    },
+    {
+      "date": "2026-02-18",
+      "impressions": 57662,
+      "reach": 45717,
+      "spend": 16612.27,
+      "conversaciones": 4
+    },
+    {
+      "date": "2026-02-19",
+      "impressions": 58372,
+      "reach": 50295,
+      "spend": 17009.44,
+      "conversaciones": 5
+    },
+    {
+      "date": "2026-02-20",
+      "impressions": 55547,
+      "reach": 44846,
+      "spend": 17164.4,
+      "conversaciones": 3
+    },
+    {
+      "date": "2026-02-21",
+      "impressions": 49432,
+      "reach": 39824,
+      "spend": 15465.07,
+      "conversaciones": 4
+    },
+    {
+      "date": "2026-02-22",
+      "impressions": 61555,
+      "reach": 49676,
+      "spend": 18277.93,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-02-23",
+      "impressions": 52470,
+      "reach": 39092,
+      "spend": 15834.13,
+      "conversaciones": 8
+    },
+    {
+      "date": "2026-02-24",
+      "impressions": 52465,
+      "reach": 43970,
+      "spend": 16180.3,
+      "conversaciones": 3
+    },
+    {
+      "date": "2026-02-25",
+      "impressions": 51159,
+      "reach": 42825,
+      "spend": 17198.41,
+      "conversaciones": 3
+    },
+    {
+      "date": "2026-02-26",
+      "impressions": 51157,
+      "reach": 40976,
+      "spend": 17950.52,
+      "conversaciones": 8
+    },
+    {
+      "date": "2026-02-27",
+      "impressions": 53876,
+      "reach": 46154,
+      "spend": 19296.85,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-02-28",
+      "impressions": 43863,
+      "reach": 36176,
+      "spend": 15459.87,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-03-01",
+      "impressions": 72978,
+      "reach": 60802,
+      "spend": 21485.2,
+      "conversaciones": 3
+    },
+    {
+      "date": "2026-03-02",
+      "impressions": 85007,
+      "reach": 70834,
+      "spend": 22374.03,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-03-03",
+      "impressions": 65983,
+      "reach": 54502,
+      "spend": 18466.26,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-03-04",
+      "impressions": 64020,
+      "reach": 53358,
+      "spend": 19527.87,
+      "conversaciones": 3
+    },
+    {
+      "date": "2026-03-05",
+      "impressions": 59892,
+      "reach": 48299,
+      "spend": 19223.3,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-03-06",
+      "impressions": 56950,
+      "reach": 44684,
+      "spend": 19506.45,
+      "conversaciones": 3
+    },
+    {
+      "date": "2026-03-07",
+      "impressions": 55777,
+      "reach": 47905,
+      "spend": 19416.73,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-03-08",
+      "impressions": 67846,
+      "reach": 57827,
+      "spend": 22260.53,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-03-09",
+      "impressions": 63034,
+      "reach": 53631,
+      "spend": 20225.84,
+      "conversaciones": 4
+    },
+    {
+      "date": "2026-03-10",
+      "impressions": 55418,
+      "reach": 43217,
+      "spend": 19911.48,
+      "conversaciones": 4
+    },
+    {
+      "date": "2026-03-11",
+      "impressions": 53601,
+      "reach": 42685,
+      "spend": 19721.83,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-03-12",
+      "impressions": 52516,
+      "reach": 43094,
+      "spend": 19992.86,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-03-13",
+      "impressions": 49825,
+      "reach": 41105,
+      "spend": 18997.05,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-03-14",
+      "impressions": 50514,
+      "reach": 40183,
+      "spend": 18890.41,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-03-15",
+      "impressions": 58593,
+      "reach": 47193,
+      "spend": 20679.31,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-03-16",
+      "impressions": 60345,
+      "reach": 47954,
+      "spend": 20599.26,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-03-17",
+      "impressions": 59580,
+      "reach": 46809,
+      "spend": 20579.4,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-03-18",
+      "impressions": 54641,
+      "reach": 42096,
+      "spend": 19454.98,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-03-19",
+      "impressions": 53276,
+      "reach": 43958,
+      "spend": 19511.92,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-03-20",
+      "impressions": 54073,
+      "reach": 42888,
+      "spend": 19809.0,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-03-21",
+      "impressions": 53978,
+      "reach": 44542,
+      "spend": 19362.34,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-03-22",
+      "impressions": 63642,
+      "reach": 52628,
+      "spend": 21881.83,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-03-23",
+      "impressions": 59265,
+      "reach": 44918,
+      "spend": 20474.65,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-03-24",
+      "impressions": 58846,
+      "reach": 47164,
+      "spend": 19492.74,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-03-25",
+      "impressions": 58179,
+      "reach": 47760,
+      "spend": 19772.48,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-03-26",
+      "impressions": 52904,
+      "reach": 41338,
+      "spend": 19362.73,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-03-27",
+      "impressions": 55506,
+      "reach": 47085,
+      "spend": 20000.55,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-03-28",
+      "impressions": 53110,
+      "reach": 41574,
+      "spend": 19015.02,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-03-29",
+      "impressions": 64225,
+      "reach": 50682,
+      "spend": 21861.89,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-03-30",
+      "impressions": 61435,
+      "reach": 47453,
+      "spend": 20683.24,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-03-31",
+      "impressions": 57640,
+      "reach": 44224,
+      "spend": 20071.38,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-01",
+      "impressions": 61908,
+      "reach": 51363,
+      "spend": 19565.43,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-02",
+      "impressions": 61982,
+      "reach": 48791,
+      "spend": 19657.92,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-03",
+      "impressions": 65459,
+      "reach": 53315,
+      "spend": 19464.67,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-04",
+      "impressions": 66263,
+      "reach": 51671,
+      "spend": 18695.47,
+      "conversaciones": 5
+    },
+    {
+      "date": "2026-04-05",
+      "impressions": 81448,
+      "reach": 62589,
+      "spend": 22167.67,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-06",
+      "impressions": 69922,
+      "reach": 54999,
+      "spend": 19777.88,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-07",
+      "impressions": 61081,
+      "reach": 49956,
+      "spend": 18614.08,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-08",
+      "impressions": 62720,
+      "reach": 51456,
+      "spend": 20436.04,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-09",
+      "impressions": 57816,
+      "reach": 47044,
+      "spend": 19554.88,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-04-10",
+      "impressions": 55857,
+      "reach": 43597,
+      "spend": 19402.44,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-11",
+      "impressions": 57348,
+      "reach": 47824,
+      "spend": 20047.01,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-12",
+      "impressions": 64067,
+      "reach": 53972,
+      "spend": 22363.11,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-04-13",
+      "impressions": 60646,
+      "reach": 48819,
+      "spend": 20291.22,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-04-14",
+      "impressions": 58137,
+      "reach": 47428,
+      "spend": 19496.26,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-15",
+      "impressions": 57618,
+      "reach": 49395,
+      "spend": 19634.67,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-16",
+      "impressions": 57844,
+      "reach": 48783,
+      "spend": 20043.28,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-17",
+      "impressions": 50575,
+      "reach": 41400,
+      "spend": 18144.65,
+      "conversaciones": 4
+    },
+    {
+      "date": "2026-04-18",
+      "impressions": 55852,
+      "reach": 45195,
+      "spend": 19954.73,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-19",
+      "impressions": 60544,
+      "reach": 50439,
+      "spend": 20667.79,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-20",
+      "impressions": 57100,
+      "reach": 49569,
+      "spend": 19161.8,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-04-21",
+      "impressions": 58175,
+      "reach": 46960,
+      "spend": 20062.2,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-22",
+      "impressions": 55368,
+      "reach": 46540,
+      "spend": 20302.22,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-23",
+      "impressions": 53415,
+      "reach": 44789,
+      "spend": 20421.06,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-24",
+      "impressions": 51493,
+      "reach": 41156,
+      "spend": 19764.21,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-25",
+      "impressions": 48582,
+      "reach": 42730,
+      "spend": 19437.0,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-26",
+      "impressions": 60496,
+      "reach": 48922,
+      "spend": 21745.96,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-27",
+      "impressions": 54111,
+      "reach": 44058,
+      "spend": 19590.83,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-28",
+      "impressions": 49821,
+      "reach": 41542,
+      "spend": 19359.75,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-29",
+      "impressions": 49016,
+      "reach": 39285,
+      "spend": 19277.89,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-30",
+      "impressions": 49131,
+      "reach": 41064,
+      "spend": 20226.93,
+      "conversaciones": 2
+    }
+  ],
+  "analisis": {
+    "total_spend": 1668628.97,
+    "total_reach": 2082446,
+    "total_impressions": 5083764,
+    "total_ads": 5,
+    "total_adsets": 1,
+    "best_ad": {
+      "campaign_name": "Reconocimiento - Vuelta al Cole",
+      "adset_name": "Reconocimiento - Vuelta al Cole",
+      "ad_name": "KINDER BACK PACK",
+      "ad_id": "120242868634160734",
+      "impressions": 1346012,
+      "reach": 543391,
+      "frequency": 2.47706,
+      "clicks": 3013,
+      "spend": 445236.96,
+      "cpc": 147.771975,
+      "cpm": 330.782311,
+      "ctr": 0.223846,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 32,
+        "link_click": 1333,
+        "page_engagement": 70991,
+        "onsite_conversion.post_unlike": 102,
+        "post_engagement": 70963,
+        "like": 28,
+        "post_interaction_gross": 317,
+        "post_interaction_net": 419,
+        "onsite_conversion.messaging_user_depth_2_message_send": 1,
+        "onsite_conversion.messaging_first_reply": 29,
+        "post": 15,
+        "onsite_conversion.post_save": 8,
+        "onsite_conversion.post_net_save": 8,
+        "onsite_conversion.post_net_like": 192,
+        "onsite_conversion.messaging_conversation_started_7d": 31,
+        "onsite_conversion.messaging_conversation_replied_7d": 3,
+        "video_view": 69313,
+        "post_reaction": 294
+      },
+      "cost_per_actions": {
+        "video_view": 6.423571,
+        "link_click": 334.011223,
+        "like": 15901.32,
+        "post_interaction_gross": 1404.532997,
+        "onsite_conversion.total_messaging_connection": 13913.655,
+        "post_engagement": 6.274213,
+        "onsite_conversion.messaging_user_depth_2_message_send": 445236.96,
+        "onsite_conversion.messaging_conversation_replied_7d": 148412.32,
+        "page_engagement": 6.271738,
+        "onsite_conversion.messaging_first_reply": 15352.998621,
+        "onsite_conversion.messaging_conversation_started_7d": 14362.482581
+      },
+      "creative": {
+        "title": "",
+        "body": "Te mostramos en detalle las nuevas KINDER BACKPACK🎒\n Mochilas de silicona para jardín de infantes.\n\nTenemos diferentes modelos y tamaños para que vayas con el peque a que elija su favorita!",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/637904126_3248487448672935_4311502187281366212_n.jpg?_nc_cat=103&ccb=1-7&_nc_eui2=AeGgh5I7UCl9FqQbQmEOt5TmOOVqEPG087Q45WoQ8bTztKnvaIaPdq5IrChS4PKC75k&_nc_ohc=tGvlnfmXQPsQ7kNvwGJzlaD&_nc_oc=AdoCwy1CbybgeMBd_pHzygH2MMM080wHp34Rt_eOb05E6qWyRyGaNo99PmX8Rt-HUG7xa5R44VzQKv1NBr2Tqj49&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=3EGwFlwgcONWGPqiqnFtjA&_nc_tpa=Q5bMBQH3xIENmmVvwFDqaSCLgj1ayNl-HQuQDCt_cYwSrlRzUWImhSjsmkXhDAmMtKuG_KxWeZBzlYmk&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Af7HjVeWqQs2Swnfe_idRdb2uy30WN2ohoKCaAst_8OF1w&oe=69FFEEC5",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-01-JAN/MIX DE COMPRAS/meta/images/120242868634160734.jpg"
+      }
+    },
+    "worst_ad": {
+      "campaign_name": "Reconocimiento - Vuelta al Cole",
+      "adset_name": "Reconocimiento - Vuelta al Cole",
+      "ad_name": "Mochis Silicona",
+      "ad_id": "120241837564020734",
+      "impressions": 410848,
+      "reach": 229809,
+      "frequency": 1.78778,
+      "clicks": 1126,
+      "spend": 123886.24,
+      "cpc": 110.023304,
+      "cpm": 301.537892,
+      "ctr": 0.274067,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 20,
+        "onsite_conversion.messaging_block": 2,
+        "link_click": 426,
+        "page_engagement": 34588,
+        "onsite_conversion.post_unlike": 36,
+        "post_engagement": 34576,
+        "like": 12,
+        "post_interaction_gross": 190,
+        "comment": 1,
+        "post_interaction_net": 226,
+        "onsite_conversion.messaging_user_depth_2_message_send": 2,
+        "onsite_conversion.messaging_first_reply": 18,
+        "post": 28,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_comment": 1,
+        "onsite_conversion.post_net_save": 1,
+        "onsite_conversion.post_net_like": 124,
+        "onsite_conversion.messaging_conversation_started_7d": 19,
+        "onsite_conversion.messaging_conversation_replied_7d": 1,
+        "video_view": 33960,
+        "post_reaction": 160
+      },
+      "cost_per_actions": {
+        "video_view": 3.648005,
+        "link_click": 290.81277,
+        "like": 10323.853333,
+        "post_interaction_gross": 652.032842,
+        "onsite_conversion.total_messaging_connection": 6194.312,
+        "post_engagement": 3.583012,
+        "onsite_conversion.messaging_user_depth_2_message_send": 61943.12,
+        "onsite_conversion.messaging_conversation_replied_7d": 123886.24,
+        "page_engagement": 3.581769,
+        "onsite_conversion.messaging_first_reply": 6882.568889,
+        "onsite_conversion.messaging_conversation_started_7d": 6520.328421
+      },
+      "creative": {
+        "title": "",
+        "body": "Mochis de silicona para jardín de infantes 🌈\nColores y modelos para elegir.\n\n$75.000.-\nVisitanos en 📍Sarmiento 775",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t15.5256-10/625979971_1407336141121151_1728936263995942727_n.jpg?_nc_cat=109&ccb=1-7&_nc_eui2=AeHkwZNKlj-aFQaFuUc-4Hy2wDxuzqnxh53APG7OqfGHnQw9lGR5ZARMrNeP5kuRmCU&_nc_ohc=gcBbrHevyy8Q7kNvwGV_y1d&_nc_oc=AdpkuBHAIZ-9mVnaO4n4j3-0I-cyX5bauXEQDq5mQGXKJphdd7l2DN2fKQT0TTCAgZ6xrJHhrAX8fzAvXMQr9BI7&_nc_zt=23&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=oYlDOnX6hpeIB2Gj1uXHTA&_nc_tpa=Q5bMBQH_LTYH5hnL_2_uf7f6ZiL6wEhcYE6m9uQRhpXLmcqQDnM4yeId80S48VvUHRxg0I7eAQ9befWl&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Af5ijAtQ6MgJBg95B4I3xsstt1H3NYwVy7gsD4LhiPY7DQ&oe=69FFD6FC",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-01-JAN/MIX DE COMPRAS/meta/images/120241837564020734.jpg"
+      }
+    },
+    "adsets_analysis": [
+      {
+        "name": "Reconocimiento - Vuelta al Cole",
+        "reach": 1140674,
+        "frequency": 4.456807,
+        "spend": 1668628.97,
+        "objective_type": "video_view",
+        "objective_label": "Reproducciones de video",
+        "objective_short_label": "reproducciones",
+        "main_result": 260697,
+        "cost_per_result": 6.4006450783860185,
+        "conversations": 163,
+        "cost_per_conversation": 10236.987546
+      }
+    ],
+    "insights": []
+  }
+}

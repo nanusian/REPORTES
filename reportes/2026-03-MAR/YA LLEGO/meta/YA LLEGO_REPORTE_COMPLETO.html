@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YA LLEGO — Reporte de Campaña · Marzo 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:#0C0F14; --surface:#151921; --surface-alt:#1B2230;
+    --border:rgba(255,255,255,0.06); --text:#E8ECF1; --text-dim:#7A8499;
+    --accent:#FB923C; --accent-soft:rgba(251,146,60,0.12);
+    --gold:#FACC15;  --gold-soft:rgba(250,204,21,0.12);
+    --green:#34D399; --green-soft:rgba(52,211,153,0.12);
+    --blue:#60A5FA;  --blue-soft:rgba(96,165,250,0.12);
+    --red:#F87171;   --red-soft:rgba(248,113,113,0.12);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  .noise{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:0.03;
+    background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");}
+  .container{position:relative;z-index:1;max-width:1100px;margin:0 auto;padding:48px 24px 80px;}
+
+  .header{margin-bottom:48px;}
+  .header-top{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-bottom:20px;}
+  .client-badge{display:inline-flex;align-items:center;gap:10px;
+    background:linear-gradient(135deg,rgba(251,146,60,0.15) 0%,rgba(250,204,21,0.10) 100%);
+    border:1px solid rgba(251,146,60,0.25);padding:10px 20px;border-radius:14px;}
+  .client-name{font-family:'Playfair Display',serif;font-weight:900;font-size:22px;letter-spacing:3px;
+    color:var(--accent);}
+  .client-sub{font-size:11px;color:var(--text-dim);text-transform:uppercase;letter-spacing:1px;margin-top:2px;}
+  .period-badge{display:inline-flex;align-items:center;gap:6px;background:var(--surface);
+    border:1px solid var(--border);color:var(--text-dim);font-size:12px;font-weight:500;
+    letter-spacing:0.5px;padding:8px 16px;border-radius:100px;}
+  .dot{width:6px;height:6px;border-radius:50%;background:var(--accent);animation:pulse 2s infinite;}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:0.3}}
+  .header h1{font-family:'Playfair Display',serif;font-weight:900;
+    font-size:clamp(28px,5vw,46px);line-height:1.1;
+    color:#fff;}
+  .header .subtitle{color:var(--text-dim);font-size:15px;margin-top:6px;}
+
+  .alert-banner{background:var(--gold-soft);border:1px solid rgba(250,204,21,0.3);
+    border-radius:12px;padding:14px 20px;margin-bottom:32px;
+    display:flex;align-items:center;gap:12px;font-size:14px;color:var(--gold);}
+
+  .kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-bottom:48px;}
+  .kpi{background:var(--surface);border:1px solid var(--border);border-radius:16px;
+    padding:24px 24px 20px;position:relative;overflow:hidden;transition:transform 0.2s;}
+  .kpi:hover{transform:translateY(-2px);}
+  .kpi .label{font-size:11px;color:var(--text-dim);text-transform:uppercase;letter-spacing:1.2px;margin-bottom:10px;font-weight:500;}
+  .kpi .value{font-family:'Playfair Display',serif;font-size:36px;font-weight:900;line-height:1;}
+  .kpi .sub{font-size:13px;color:var(--text-dim);margin-top:6px;}
+  .kpi .glow{position:absolute;top:-30px;right:-30px;width:80px;height:80px;border-radius:50%;filter:blur(40px);opacity:0.25;}
+
+  .section{margin-bottom:48px;}
+  .section-title{font-family:'Playfair Display',serif;font-size:22px;font-weight:700;margin-bottom:20px;color:#fff;}
+
+  .objective-box{background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--accent);
+    border-radius:16px;padding:24px;margin-bottom:32px;}
+  .objective-box p{font-size:15px;line-height:1.7;color:var(--text-dim);}
+  .objective-box p strong{color:#fff;}
+
+  .ads-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;}
+  .ad-card{background:var(--surface);border:1px solid var(--border);border-radius:16px;overflow:hidden;}
+  .ad-img{width:100%;height:180px;object-fit:cover;display:block;background:var(--surface-alt);}
+  .ad-body{padding:18px;}
+  .ad-name{font-weight:700;font-size:14px;margin-bottom:14px;}
+  .ad-metrics{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:12px;}
+  .ad-stat-val{font-family:'Playfair Display',serif;font-size:22px;font-weight:900;}
+  .ad-stat-label{font-size:10px;color:var(--text-dim);text-transform:uppercase;letter-spacing:0.8px;margin-top:2px;}
+
+  .bar-row{display:flex;align-items:center;gap:14px;margin-bottom:12px;}
+  .bar-label{font-size:13px;color:var(--text-dim);width:70px;flex-shrink:0;text-align:right;}
+  .bar-track{flex:1;height:34px;background:var(--surface-alt);border-radius:8px;overflow:hidden;}
+  .bar-fill{height:100%;border-radius:8px;}
+  .bar-value{font-size:13px;font-weight:700;color:var(--text);width:70px;flex-shrink:0;text-align:right;}
+
+  .geo-card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:28px;}
+  .geo-row{display:flex;align-items:center;gap:16px;margin-bottom:18px;}
+  .geo-label{font-size:14px;font-weight:600;width:100px;flex-shrink:0;}
+  .geo-track{flex:1;height:44px;background:var(--surface-alt);border-radius:10px;overflow:hidden;}
+  .geo-fill{height:100%;border-radius:10px;}
+  .geo-stats{font-size:12px;color:var(--text-dim);width:130px;flex-shrink:0;}
+
+  .efficiency-card{background:var(--surface);border:1px solid var(--border);border-radius:16px;
+    padding:32px;display:flex;align-items:center;gap:32px;flex-wrap:wrap;}
+  .gauge-wrap{position:relative;width:140px;height:140px;flex-shrink:0;}
+  .gauge-wrap svg{transform:rotate(-90deg);}
+  .gauge-label{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;}
+  .g-val{font-family:'Playfair Display',serif;font-size:26px;font-weight:900;color:var(--accent);}
+  .g-sub{font-size:10px;color:var(--text-dim);text-transform:uppercase;letter-spacing:0.8px;margin-top:2px;}
+  .efficiency-text{flex:1;min-width:200px;}
+  .efficiency-text p{font-size:15px;line-height:1.7;color:var(--text-dim);}
+  .efficiency-text p strong{color:#fff;}
+
+  .gender-bar{display:flex;height:12px;border-radius:100px;overflow:hidden;margin:12px 0;}
+  .gender-legend{display:flex;gap:20px;font-size:12px;color:var(--text-dim);}
+  .gdot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:5px;}
+
+  .insights{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:28px;}
+  .insight-row{display:flex;align-items:flex-start;gap:14px;padding:16px 0;border-bottom:1px solid var(--border);}
+  .insight-row:last-child{border-bottom:none;}
+  .insight-icon{width:38px;height:38px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;}
+  .insight-text{font-size:14px;line-height:1.6;}
+  .insight-text strong{color:#fff;}
+
+  .footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--border);
+    display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-size:12px;color:var(--text-dim);}
+
+  @media(max-width:640px){
+    .kpi .value{font-size:28px;} .bar-label{width:50px;font-size:11px;}
+    .geo-label{width:70px;} .geo-stats{display:none;}
+    .efficiency-card{flex-direction:column;}
+    .ads-grid{grid-template-columns:1fr 1fr;}
+  }
+</style>
+</head>
+<body>
+<div class="noise"></div>
+<div class="container">
+
+  <div class="header">
+    <div class="header-top">
+      <div class="client-badge">
+        <div>
+          <div class="client-name">YA LLEGO</div>
+          <div class="client-sub">App de estacionamiento · Neuquén</div>
+        </div>
+      </div>
+      <div class="period-badge"><span class="dot"></span>25 — 31 de Marzo 2026</div>
+    </div>
+    <h1>Reporte de Campaña</h1>
+    <div class="subtitle">Meta Ads · Campaña de reconocimiento de marca · Neuquén &amp; Río Negro</div>
+  </div>
+
+  <div class="alert-banner">
+    <span>⏱</span>
+    <span>La campaña estuvo activa <strong>5 días</strong> sobre los 31 del mes (arrancó el 25 de marzo). Los resultados son proporcionales al tiempo corrido.</span>
+  </div>
+
+  <div class="objective-box">
+    <p>
+      <strong>¿Cuál era el objetivo?</strong> Esta campaña no buscaba ventas inmediatas, sino
+      <strong>dar a conocer la app YA LLEGO</strong> a la mayor cantidad de personas posible en Neuquén y zona.
+      El foco estaba en que la gente vea el video y quede con la marca en mente. Por eso la métrica
+      principal es el <strong>alcance</strong> (cuántas personas lo vieron) y las <strong>reproducciones de video</strong>.
+    </p>
+  </div>
+
+  <div class="kpi-grid">
+    <div class="kpi">
+      <div class="glow" style="background:var(--accent)"></div>
+      <div class="label">Personas alcanzadas</div>
+      <div class="value" style="color:var(--accent)">111,514</div>
+      <div class="sub">Personas únicas que vieron el aviso</div>
+    </div>
+    <div class="kpi">
+      <div class="glow" style="background:var(--gold)"></div>
+      <div class="label">Reproducciones de video</div>
+      <div class="value" style="color:var(--gold)">7,947</div>
+      <div class="sub">$10 ARS por reproducción</div>
+    </div>
+    <div class="kpi">
+      <div class="glow" style="background:var(--blue)"></div>
+      <div class="label">Inversión total</div>
+      <div class="value" style="color:var(--blue)">$82,059</div>
+      <div class="sub">ARS en 5 días</div>
+    </div>
+    <div class="kpi">
+      <div class="glow" style="background:var(--green)"></div>
+      <div class="label">Interacciones</div>
+      <div class="value" style="color:var(--green)">83</div>
+      <div class="sub">Likes, comentarios y guardados</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Los 4 Avisos</div>
+    <div class="ads-grid">
+      
+      <div class="ad-card">
+        <img class="ad-img" src="data:image/jpeg;base64,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" alt="Playa" />
+        <div class="ad-body">
+          <div class="ad-name">Playa</div>
+          <div class="ad-metrics">
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--accent)">4,218</div>
+              <div class="ad-stat-label">Reproducciones</div>
+            </div>
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--blue)">41</div>
+              <div class="ad-stat-label">Interacciones</div>
+            </div>
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--gold)">$36,661</div>
+              <div class="ad-stat-label">Inversión</div>
+            </div>
+          </div>
+          <div style="margin-top:14px;">
+            <div style="height:6px;background:var(--surface-alt);border-radius:100px;overflow:hidden;">
+              <div style="width:53%;height:100%;background:linear-gradient(90deg,var(--accent),var(--blue));border-radius:100px;"></div>
+            </div>
+            <div style="font-size:11px;color:var(--text-dim);margin-top:5px;">53% del total de reproducciones</div>
+          </div>
+        </div>
+      </div>
+      <div class="ad-card">
+        <img class="ad-img" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE4MDAxMDAwMGQ0MDEwMDAwNjQwMjAwMDA3MDAyMDAwMDdjMDIwMDAwZjQwMjAwMDBlYTAzMDAwMDA0MDQwMDAwMTAwNDAwMDAxYzA0MDAwMDQ2MDUwMDAwAP/bAIQABgcHDQkNDAwMDBENDg0REREQEBERExASERIQExMUExUVExQTFBMXFxcTFBUXGRkXFRccGxwXGxkZGx4bHhsbFgEGBgYLCAsKCwsKDQkLCQ0MDAoKDAwPCwwLDAsPEA4NDg4NDhAODQ0KDQ0ODw4QEA4PEAwODBAPEBAPFxkXFxfB/8IAEQgAQABAAwEiAAIRAQMRAf/EAEsAAAEFAQEBAAAAAAAAAAAAAAABAgUGBwQDCBAAAQIDBAcHBQEAAAAAAAAAAQARAiExA0FRYQQQcYGRobEFEhMgIsHwMkDR4fFS/9oADAMBAAIAAwAAAAG9+cbnQX6qUayBfp/GmBsaU+5Bj1cXzD2moNQ9OZzQ6dmo8+FIj9XzcINzUBUToD6HrU/FBF0a4xgZw5FBezn7A0lvfOh//9oACAEBAAEFAoEHftI92E2hjVlavrKttKgsIbXtOOJG0JNmLSFaVGQoO0bWBaH2gI0V2la9+11WGleGI4u8SrIRRHRO+IYi58hWiWZsIfGcw6BaxK2sIrGLWFZQtBFo48awXaMfetdYC8RoLMqH0RdpWbRa7OtlaReGLULS7eDxdLs/Es9TKAsrCz7whhEK/9oACAEDAAE/AfsP/9oACAECAAE/AfsP/9oACAEBAAY/AkS8kIrxEhdmoYaeQd6/BNB6BzTxF9q9JcIAn1VOS+p9s0II/qxx1ECkMtbVwRJv1NDMprQglE4+YWkQlaUOqg4ruxeWEXCEIm5qZ6jl5AFCcQGW1RQoRf69vI5UL3Bg+azAXdB9QrtWYn5QCmC//9oACAEBAAE/ISllNA9CSMgxlMZtyQnZgGGIMijk7AzOaeEyiEVyd2OA3mqu1iI+YgAHJk6eMgv46DcE45jcSWNaqlxJglj1RB7OhTANt6HgBoOwxufNCDDcfTawKoQZwq8SK85bkEyO5DBwZIs5Ep6gWAkoAmAcUauwm9PxeJ4l0ED5HtSYNDg9RihM3UCpnCqUFyHkXQkinb5ihfcgtchbYAhg6gLLir+UDLYOB7+6rqK3wg0K8WHshmZr1JxC4lNbcY7f0QKdDPUWImwVHLkhGE3J2uWBkrtQ2Flz4tVPRGC9+S3IDcgCqxxKBQjDohoAwEl//9oADAMBAAIAAwAAABCDCzRTyjQDRwhCTTD/2gAIAQMAAT8Q+w//2gAIAQIAAT8Q+w//2gAIAQEAAT8QBM9XA5Q8okwHMP4JkZwuUIBFLAqbqJjSo14QQaSXCglhzOZvFNqDJPpmHGGYGDXrLqsMrnP6IVfcjzUHJnlBPDApOwTHlL4URo4YBAeK5d7EKgGpcr/BRBJsRBQC0Lz0qEmLFaH4SdHrdCkiKvL8jIDFMKiA8WDEBsh6o35Y4l9SAcFftQKCY/q5XBQYDPf2EL+yYrqMCgpjd9bajcykKHII4GT4lAzFgEx6Cs0xJco6Q4HEhASTMeyOB/DQSwFOsF5W2jB3XJhvPAS+wJlAXnMXJqSKC4vbncHeEOjPgWLOGpahvSpIaiDocrr907CGmFwTuYkz0dVPcijED2EcafkQkQDFMzgV+LZn8IZXuIR0QZHAhGxAGgGDKta1X//Z" alt="Consultorio" />
+        <div class="ad-body">
+          <div class="ad-name">Consultorio</div>
+          <div class="ad-metrics">
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--accent)">1,813</div>
+              <div class="ad-stat-label">Reproducciones</div>
+            </div>
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--blue)">15</div>
+              <div class="ad-stat-label">Interacciones</div>
+            </div>
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--gold)">$23,864</div>
+              <div class="ad-stat-label">Inversión</div>
+            </div>
+          </div>
+          <div style="margin-top:14px;">
+            <div style="height:6px;background:var(--surface-alt);border-radius:100px;overflow:hidden;">
+              <div style="width:23%;height:100%;background:linear-gradient(90deg,var(--accent),var(--blue));border-radius:100px;"></div>
+            </div>
+            <div style="font-size:11px;color:var(--text-dim);margin-top:5px;">23% del total de reproducciones</div>
+          </div>
+        </div>
+      </div>
+      <div class="ad-card">
+        <img class="ad-img" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE4MDAxMDAwMGQ4MDEwMDAwNDEwMjAwMDBhYjAyMDAwMDA2MDMwMDAwM2UwMzAwMDBmYzAzMDAwMDE2MDQwMDAwODAwNDAwMDBjMDA0MDAwMGMwMDUwMDAwAP/bAIQABgcHDQkNDAwMDBENDg0REREQEBERExASERIQExMUExUVExQTFBMXFxcTFBUXGRkXFRccGxwXGxkZGx4bHhsbFgEGBgYLCAsKCwsKDQkLCQ0MDAoKDAwPCwwLDAsPEA4NDg4NDhAODQ0KDQ0ODw4QEA4PEAwODBAPEBAPFxkXFxfB/8IAEQgAQABAAwEiAAIRAQMRAf/EAEsAAAIDAQEBAAAAAAAAAAAAAAIEAQMFBgAHEAABAgQCCAUEAgMAAAAAAAABABECITFBA1EEEBJhcYGRoSAiscHwEzLR4QUGM0Dx/9oADAMBAAIAAwAAAAH5tpfRciLud3+a2ojchcgLTryFxa502/dFy65M6STgV35AzrtYnQ3X4Y2Du81WdlXvHUxGe2LNEMVekSZXi6u0xKhxPNeyjdTsj//aAAgBAQABBQJYJTscOJYlMBYmzGooYEdCgWNgQCA1wiiHMflERdAoOg4RgdQRssPSFpGLtqHFhTAptUJZCKCJY2yBCmWh6X9IamUKjUInEsOHaOsKqvEVhxNrKGomeOFH/j8eMfL/AP/aAAgBAwABPwGGAA/eKE/riVtImSH8VittGCJw0oQIne8oqBu6OmF5SZYemQxfcdg9lpWkGGGRlKe4rRf7BjQDZijkzAtSwogU7hU0cfLlaNC8UDiW113aoljeXCw4efzqsON/pw5Rguv/2gAIAQIAAT8B2nsiEz81sAuNozr8ZDQYWnN1i6FHD9o+oO4WiaPDHH5gRXy0mM1pH8WK4YneF0yZihPSTw9gtJiaGNjPZPEb9QWj+bGxYuXf9LGgb6kWcBDL/9oACAEBAAY/Ak3gsmiLsnh7J/phs/hRMAEj7+GjeB9U1C1tX68HmgQ2RVHVsxB4fT/X3Ll46av/2gAIAQEAAT8hdV8y7FSwy37E+l0AmDIePd0ZzkBizDknDFWkxpIMOHcDENm4YhAFwVbfRTJtlXaIw8GILAcboLmzhZu6bIJJ4TRGGJIBtnyVpIZI0ifsiirIIFcxvJMA5OTs6DSbA3JD9d0JUzohOKrPLMJujAme8rIXbkXXqThOXN3G25Mmmik0kEgpzgqXyQNxXUUULzUp0zIACZVWZDUFNJAyZABOgMCbg/BVmoxuzeGwRmiGDTDJOnyX/9oADAMBAAIAAwAAABBXUBzuL5yT08LNCez/2gAIAQMAAT8QCiC7wHbeA3CEx4poqMAeYRhvIAawSWZEqz2KbMckKrnRvVwNufVOcRqDPgWyzTc7QawQuFtKPnVdwKY3UO9EkA1JIY2neycNLE6OIPFPsUUUgLe6mK4dnRDy2cbEi1iv/9oACAECAAE/ECwZrKQhSTiwTJLHEC7aveF+XRNApc/IJu8+Qzo9ikEDsWA9r3TbraW85OKCGpUtWLE1f3xNf//aAAgBAQABPxALMpNlyr2Q6IERhBlIAgOT2N6FLlZuH/BApOZEc3VA77BdIbr4BmIAIyqGeBOriq8WouEFNxMspzTjDUlN05hYhFTaF2CfyVlMkfAEDJ1VC6hkZ39UJbIXaZ4gmYBS6Ozv16IFJG+lRSHuAc5uE/aS1V3BIcmQZ0TB7qikEzTLmf0VODsh9RMLkkc0LSPzKvRsegoKAgYQzTs7o3OqnOKfZNb0EEoVMFT5vBm1lkhmEDAlG4HdPJWcEZGS7BFkh5dVLziQ5qoQTT5SCIAQrLVbsngNx/KvlPBvT5sgHwEUOxQKBDp0B6iqXBU8hng4QhRKYd1//9k=" alt="Manejando" />
+        <div class="ad-body">
+          <div class="ad-name">Manejando</div>
+          <div class="ad-metrics">
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--accent)">1,100</div>
+              <div class="ad-stat-label">Reproducciones</div>
+            </div>
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--blue)">16</div>
+              <div class="ad-stat-label">Interacciones</div>
+            </div>
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--gold)">$13,007</div>
+              <div class="ad-stat-label">Inversión</div>
+            </div>
+          </div>
+          <div style="margin-top:14px;">
+            <div style="height:6px;background:var(--surface-alt);border-radius:100px;overflow:hidden;">
+              <div style="width:14%;height:100%;background:linear-gradient(90deg,var(--accent),var(--blue));border-radius:100px;"></div>
+            </div>
+            <div style="font-size:11px;color:var(--text-dim);margin-top:5px;">14% del total de reproducciones</div>
+          </div>
+        </div>
+      </div>
+      <div class="ad-card">
+        <img class="ad-img" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE3ZjAxMDAwMGQzMDEwMDAwNTIwMjAwMDA4ZTAyMDAwMGNjMDIwMDAwMTUwMzAwMDAxMzA0MDAwMDJkMDQwMDAwNTUwNDAwMDA3YjA0MDAwMGVmMDUwMDAwAP/bAIQABgcHDQkNDAwMDBENDg0REREQEBERExASERIQExMUExUVExQTFBMXFxcTFBUXGRkXFRccGxwXGxkZGx4bHhsbFgEGBgYLCAsKCwsKDQkLCQ0MDAoKDAwPCwwLDAsPEA4NDg4NDhAODQ0KDQ0ODw4QEA4PEAwODBAPEBAPFxkXFxfB/8IAEQgAQABAAwEiAAIRAQMRAf/EAEoAAAEFAQAAAAAAAAAAAAAAAAQAAgMFBgEQAAECBAIHCAICAwAAAAAAAAEAEQIhMUFRYQMQcYGRofASExQyUrHR8QQgIsEwQuH/2gAMAwEAAgADAAAAAVWSsH61sbmqwGHOSbHOQ9VC0UJo4Y9u6NVNg6aJX7hRZnFNzMBI+tWPnXNZ3HTLup7TMShWoPBOxMm04uZAq9d1VoWk4l//2gAIAQEAAQUChiACiLlRaQxIBdrUJajVOtG6iBiQgnDJB0IHhMLKEKELRaECGTnRgqHRMu6R0aGiZQQ9lHTuBEu9C7wLvAjpAu9C70I6ULvQooyu8iXbjX8ynjXbiUcXYXiEUF2V2ENDEodAo/xhpF4OFQ/ioQww6yuyhLV//9oACAEDAAE/AW/TxWjx5FeK0fq5FeKgx5FQ/l6Mf7civDR+odbl4aPEdbl4ePEdbl4eP1Q9bk67SdOv/9oACAECAAE/AYp6n1eFi9PMKP8AEjNIeYR/B0mHMLwkfp5hD8iD0nrevEQYHreu/gwPW9d/B6Yut6ZMm1f/2gAIAQEABj8CDV1T1fyc4I5f4DknKY6ycOim1uRNS1vqrqZtXl9lTpl5cV5evpH+NV5V5V5VLXVl5tUOxeUfpRU1DJXU1Ifv/9oACAEBAAE/IZACytWxB/pAcEVqQgU2AYYqdQUOrCKjKfVE8HcCOZ3xqmbamnKYd1I+43p8xk6etkDZWD3SrgiTU6HbmikCZA2yntTklAiyr85UfJyVckerqcxQw7INon0gLBhLVATJBszYIACXV9mZkAvadGogoG8u5zRnwYO6ZsEAYp32Ky6dVrS0pSoNt6lEMY5HD0bYiaMkBa16VmHNB0m0SlJt1177C52Ik01GFJOKZLm3t8K/FA4M6bMVnlAsEn/ZNXIMEPVZ48z4pqJgAwAGHzVAwIYTvdDKgRoR3Iq/2RHnJTQTZJln8Y+EMVvkFRBFEI2ldDUDOy//2gAMAwEAAgADAAAAEDq1vlY93oBxc2K2Fv/aAAgBAwABPxDWquh8CzHRkun8CuCfRRblyT6dOf2xml+pkh31sa7/2gAIAQIAAT8QP4asykp79DfqYD+p7rCHozW0OafZp9+n2H6M6//aAAgBAQABPxBz72/A3E4EJwHOa4KxKgylxJvJgqAXDBnTjOaB8jGhQMwuxfUwhNzCxq3n/SBGwkFvbagmAI0Tg1MDiFK47xR3ojuHE4ohO4OHNCNansiZIMLpnf8AXBM4lwMAOVc4q2ENiNljH4JiK5g2Qk4mzaq1pCpgFZBnJVOcyYRiRLZOC4khlcm2bJ0lPnYb1ljkAHmGk6tbc0XmxaJiKJzvJbqzaR7E1IBaSIAGcaDihDAqu6KTFwIynQc57LEwqytStiYmDOVmDE80HJYPkAJonEwbESMwpuKCzjI6AAG9Gag3HGbIFw4k123HuqnHyh+CKjcOI2ghPBwjJkkTaHmc7OaUYUQgzAkVNO4Bi2BknacpSwgMQCLjNEhsSs0CQ8gwLTGYTrCziXFD7FSzhRMnEk5dSTEOVsdmAw90bFwXIgIog/E+SsTecp5DtOIfaiIs4hM+GRxqpaMdk+JmnHZqAewTVRNGSo+SNyf/2Q==" alt="Cuánto tiempo" />
+        <div class="ad-body">
+          <div class="ad-name">Cuánto tiempo</div>
+          <div class="ad-metrics">
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--accent)">816</div>
+              <div class="ad-stat-label">Reproducciones</div>
+            </div>
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--blue)">11</div>
+              <div class="ad-stat-label">Interacciones</div>
+            </div>
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--gold)">$8,528</div>
+              <div class="ad-stat-label">Inversión</div>
+            </div>
+          </div>
+          <div style="margin-top:14px;">
+            <div style="height:6px;background:var(--surface-alt);border-radius:100px;overflow:hidden;">
+              <div style="width:10%;height:100%;background:linear-gradient(90deg,var(--accent),var(--blue));border-radius:100px;"></div>
+            </div>
+            <div style="font-size:11px;color:var(--text-dim);margin-top:5px;">10% del total de reproducciones</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">¿Qué tan eficiente fue?</div>
+    <div class="efficiency-card">
+      <div class="gauge-wrap">
+        <svg width="140" height="140" viewBox="0 0 140 140">
+          <circle cx="70" cy="70" r="58" fill="none" stroke="var(--surface-alt)" stroke-width="10"/>
+          <circle cx="70" cy="70" r="58" fill="none" stroke="var(--accent)" stroke-width="10"
+            stroke-dasharray="364.4" stroke-dashoffset="104.7" stroke-linecap="round"/>
+        </svg>
+        <div class="gauge-label">
+          <div class="g-val">$418</div>
+          <div class="g-sub">ARS por 1.000<br>impresiones</div>
+        </div>
+      </div>
+      <div class="efficiency-text">
+        <p>
+          El aviso se mostró <strong>196,444 veces</strong> frente a <strong>111,514 personas</strong>,
+          con una frecuencia de <strong>1.76 veces por persona</strong> — un nivel ideal que no satura.
+          Cada vez que el aviso apareció 1.000 veces, costó <strong>$418 ARS</strong>,
+          un valor competitivo para campañas de reconocimiento en la región.
+          En solo 5 días se logró llegar a <strong>más de 111 mil personas</strong> en Neuquén y alrededores.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">¿Dónde se mostró?</div>
+    <div class="geo-card">
+      <p style="font-size:14px;color:var(--text-dim);margin-bottom:24px;">
+        La campaña se concentró en el <strong style="color:#fff">área metropolitana de Neuquén</strong>,
+        con extensión a Río Negro para cubrir ciudades como Cipolletti y General Roca, que forman parte
+        del mercado natural de la app.
+      </p>
+      
+      <div class="geo-row">
+        <div class="geo-label">Neuquén</div>
+        <div class="geo-track">
+          <div class="geo-fill" style="width:86%;background:linear-gradient(90deg,var(--accent),var(--blue));"></div>
+        </div>
+        <div class="geo-stats"><strong style="color:var(--accent)">86%</strong> · 98,260 pers.</div>
+      </div>
+      <div class="geo-row">
+        <div class="geo-label">Río Negro</div>
+        <div class="geo-track">
+          <div class="geo-fill" style="width:14%;background:linear-gradient(90deg,var(--accent),var(--blue));"></div>
+        </div>
+        <div class="geo-stats"><strong style="color:var(--accent)">14%</strong> · 14,682 pers.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">¿A quién le llegó?</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;">
+
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:28px;">
+        <div style="font-size:12px;color:var(--text-dim);text-transform:uppercase;letter-spacing:1px;margin-bottom:20px;">Alcance por franja etaria</div>
+        
+        <div class="bar-row">
+          <div class="bar-label">18–24</div>
+          <div class="bar-track">
+            <div class="bar-fill" style="width:100%;background:linear-gradient(90deg,var(--accent),var(--blue));"></div>
+          </div>
+          <div class="bar-value">63,189</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">25–34</div>
+          <div class="bar-track">
+            <div class="bar-fill" style="width:62%;background:linear-gradient(90deg,var(--accent),var(--blue));"></div>
+          </div>
+          <div class="bar-value">39,299</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">35–44</div>
+          <div class="bar-track">
+            <div class="bar-fill" style="width:14%;background:linear-gradient(90deg,var(--accent),var(--blue));"></div>
+          </div>
+          <div class="bar-value">8,637</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">45–54</div>
+          <div class="bar-track">
+            <div class="bar-fill" style="width:6%;background:linear-gradient(90deg,var(--accent),var(--blue));"></div>
+          </div>
+          <div class="bar-value">3,546</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">55–64</div>
+          <div class="bar-track">
+            <div class="bar-fill" style="width:2%;background:linear-gradient(90deg,var(--accent),var(--blue));"></div>
+          </div>
+          <div class="bar-value">967</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">65+</div>
+          <div class="bar-track">
+            <div class="bar-fill" style="width:1%;background:linear-gradient(90deg,var(--accent),var(--blue));"></div>
+          </div>
+          <div class="bar-value">707</div>
+        </div>
+      </div>
+
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:28px;">
+        <div style="font-size:12px;color:var(--text-dim);text-transform:uppercase;letter-spacing:1px;margin-bottom:20px;">Distribución por género</div>
+        <div class="gender-bar">
+          <div style="width:46%;background:var(--accent);border-radius:100px 0 0 100px;"></div>
+          <div style="width:54%;background:var(--blue);border-radius:0 100px 100px 0;"></div>
+        </div>
+        <div class="gender-legend" style="margin-bottom:24px;">
+          <span><span class="gdot" style="background:var(--accent)"></span>Mujeres 46%</span>
+          <span><span class="gdot" style="background:var(--blue)"></span>Hombres 54%</span>
+        </div>
+        <p style="font-size:13px;color:var(--text-dim);line-height:1.7;margin-bottom:20px;">
+          El <strong style="color:#fff">56% del alcance fue en personas de 18 a 24 años</strong>, el perfil que más usa apps
+          para resolver cosas del día a día. El segmento <strong style="color:#fff">25–34</strong> aportó otro 35%.
+          La campaña llegó exactamente a quienes más probabilidades tienen de descargar y usar la app.
+        </p>
+        <div style="background:var(--surface-alt);border-radius:12px;padding:16px;">
+          <div style="font-size:11px;color:var(--text-dim);text-transform:uppercase;letter-spacing:1px;margin-bottom:10px;">Dato clave</div>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;">
+            <div style="background:var(--accent-soft);color:var(--accent);padding:6px 14px;border-radius:100px;font-size:13px;font-weight:700;">18–24 · 63.189 personas</div>
+            <div style="background:var(--blue-soft);color:var(--blue);padding:6px 14px;border-radius:100px;font-size:13px;font-weight:700;">25–34 · 39.299 personas</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Conclusiones</div>
+    <div class="insights">
+      <div class="insight-row">
+        <div class="insight-icon" style="background:var(--accent-soft);color:var(--accent)">✦</div>
+        <div class="insight-text">
+          <strong>Lanzamiento exitoso en 5 días.</strong> Llegar a más de <strong>111.000 personas en Neuquén</strong>
+          en solo 5 días de campaña es un resultado muy sólido. El aviso "Playa" fue el más efectivo con
+          4.218 reproducciones y el mayor nivel de interacción.
+        </div>
+      </div>
+      <div class="insight-row">
+        <div class="insight-icon" style="background:var(--gold-soft);color:var(--gold)">▶</div>
+        <div class="insight-text">
+          <strong>El formato video funcionó.</strong> Se lograron <strong>7.947 reproducciones</strong> a un costo
+          promedio de $10 ARS cada una. Las personas no solo vieron el aviso — una parte importante
+          interactuó con él (83 interacciones reales: likes, comentarios y guardados).
+        </div>
+      </div>
+      <div class="insight-row">
+        <div class="insight-icon" style="background:var(--blue-soft);color:var(--blue)">👥</div>
+        <div class="insight-text">
+          <strong>Audiencia perfecta para la app.</strong> El 91% del alcance fue en personas de 18 a 34 años —
+          exactamente el perfil que más usa apps de movilidad urbana. La segmentación fue muy precisa.
+        </div>
+      </div>
+      <div class="insight-row">
+        <div class="insight-icon" style="background:var(--green-soft);color:var(--green)">→</div>
+        <div class="insight-text">
+          <strong>Proyección con un mes completo.</strong> Con este ritmo, un mes completo podría alcanzar
+          a <strong>más de 500.000 personas</strong> en la región. El próximo paso recomendado es sumar una
+          campaña de conversión (orientada a descargar la app) para convertir esa visibilidad en usuarios reales.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>Fuente: Meta Ads Manager</span>
+    <span>Período: 25–31 de Marzo 2026 · YA LLEGO</span>
+    <span>Generado el 9 de Abril, 2026</span>
+  </div>
+
+</div>
+</body>
+</html>

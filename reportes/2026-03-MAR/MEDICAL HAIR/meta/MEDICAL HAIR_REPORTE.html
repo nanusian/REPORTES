@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Campaña - MEDICAL HAIR</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f5f5;
+            color: #2d3748;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 3px solid #4A5568;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 42px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 10px;
+        }
+
+        .header .subtitle {
+            font-size: 24px;
+            color: #718096;
+            font-weight: 300;
+        }
+
+        .header .period {
+            font-size: 18px;
+            color: #4A5568;
+            margin-top: 15px;
+            font-weight: 500;
+        }
+
+        /* Section */
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #4A5568;
+        }
+
+        /* Metrics Grid */
+        .metrics-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .metric-card {
+            flex: 1;
+            min-width: 200px;
+            background: #f7fafc;
+            padding: 25px;
+            border-left: 4px solid #4A5568;
+            border-radius: 4px;
+        }
+
+        .metric-value {
+            font-size: 32px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 8px;
+        }
+
+        .metric-label {
+            font-size: 13px;
+            color: #718096;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+        }
+
+        thead {
+            background: #4A5568;
+            color: white;
+        }
+
+        th {
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #e2e8f0;
+            font-size: 14px;
+        }
+
+        tbody tr:hover {
+            background: #f7fafc;
+        }
+
+        /* Insights */
+        .insights {
+            margin: 30px 0;
+        }
+
+        .insight {
+            background: #f7fafc;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 4px solid #4A5568;
+            border-radius: 4px;
+        }
+
+        .insight-alerta {
+            border-left-color: #E53E3E;
+            background: #FFF5F5;
+        }
+
+        .insight-oportunidad {
+            border-left-color: #D69E2E;
+            background: #FFFAF0;
+        }
+
+        .insight-exito {
+            border-left-color: #38A169;
+            background: #F0FFF4;
+        }
+
+        .insight-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 8px;
+        }
+
+        .insight-description {
+            font-size: 14px;
+            color: #4A5568;
+            margin-bottom: 8px;
+        }
+
+        .insight-action {
+            font-size: 13px;
+            color: #2D3748;
+            font-weight: 500;
+        }
+
+        /* AdSet Detail */
+        .adset-detail {
+            margin: 40px 0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .adset-header {
+            background: #4A5568;
+            color: white;
+            padding: 20px 25px;
+        }
+
+        .adset-title {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .adset-metrics {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .adset-metric {
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .adset-metric-value {
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        .adset-metric-label {
+            font-size: 12px;
+            opacity: 0.9;
+            text-transform: uppercase;
+        }
+
+        /* Tabla comparativa de anuncios */
+        .comparison-table-wrap {
+            overflow-x: auto;
+            background: white;
+        }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        .comparison-table thead tr {
+            background: #edf2f7;
+        }
+
+        .comparison-table th {
+            padding: 11px 14px;
+            text-align: center;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+            color: #4A5568;
+            border-bottom: 2px solid #cbd5e0;
+            white-space: nowrap;
+        }
+
+        .comparison-table th.col-ad {
+            text-align: left;
+            min-width: 200px;
+        }
+
+        .comparison-table td {
+            padding: 14px;
+            border-bottom: 1px solid #e2e8f0;
+            text-align: center;
+            vertical-align: middle;
+            color: #2d3748;
+        }
+
+        .comparison-table td.col-ad {
+            text-align: left;
+        }
+
+        .comparison-table tbody tr:hover {
+            background: #f7fafc;
+        }
+
+        .comparison-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        .ad-cell {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .ad-thumb {
+            flex-shrink: 0;
+            width: 60px;
+            height: 60px;
+            border-radius: 6px;
+            overflow: hidden;
+            background: #edf2f7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #e2e8f0;
+        }
+
+        .ad-thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .ad-cell-name {
+            font-weight: 600;
+            color: #1a202c;
+            font-size: 14px;
+        }
+
+        .metric-highlight {
+            font-weight: 700;
+            color: #1a202c;
+        }
+
+        .tag-best {
+            display: inline-block;
+            background: #c6f6d5;
+            color: #22543d;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 2px 6px;
+            border-radius: 10px;
+            margin-left: 4px;
+            vertical-align: middle;
+        }
+
+        .tag-low {
+            display: inline-block;
+            background: #fed7d7;
+            color: #742a2a;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 2px 6px;
+            border-radius: 10px;
+            margin-left: 4px;
+            vertical-align: middle;
+        }
+
+        /* Glossary */
+        .glossary {
+            background: #f7fafc;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+        }
+
+        .glossary-item {
+            margin-bottom: 20px;
+        }
+
+        .glossary-term {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 5px;
+        }
+
+        .glossary-definition {
+            font-size: 14px;
+            color: #4A5568;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+            text-align: center;
+            color: #718096;
+            font-size: 13px;
+        }
+
+        @media print {
+            body { background: white; padding: 0; }
+            .container { box-shadow: none; padding: 20px; }
+        }
+
+        /* RESPONSIVE MOBILE */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .header .subtitle {
+                font-size: 18px;
+            }
+
+            .section-title {
+                font-size: 24px;
+            }
+
+            /* Tablas responsive */
+            table {
+                font-size: 12px;
+            }
+
+            table th, table td {
+                padding: 8px 4px;
+            }
+
+            /* Hacer tablas scrolleables horizontalmente */
+            .table-container {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            /* Métricas en columna */
+            .metrics-grid {
+                flex-direction: column;
+            }
+
+            .metric-card {
+                min-width: 100%;
+            }
+
+            /* Anuncios en columna */
+            .ad-header {
+                flex-direction: column;
+            }
+
+            .ad-image-container {
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+            }
+
+            .ad-image {
+                width: 100%;
+                height: auto;
+            }
+
+            .ad-metrics {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+
+            .ad-metric {
+                min-width: calc(50% - 5px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- HEADER -->
+        <div class="header">
+            <h1>MEDICAL HAIR</h1>
+            <div class="subtitle">Reporte de Campaña Publicitaria</div>
+            <div class="period">Marzo 2026</div>
+        </div>
+
+        <!-- RESUMEN EJECUTIVO -->
+        <div class="section">
+            <h2 class="section-title">Resumen Ejecutivo</h2>
+
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">$750.681,31</div>
+                    <div class="metric-label">Inversión Total (ARS)</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">143.077</div>
+                    <div class="metric-label">Alcance Total</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">320.551</div>
+                    <div class="metric-label">Impresiones</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">9</div>
+                    <div class="metric-label">Anuncios Corridos</div>
+                </div>
+            </div>
+
+            <h3 style="font-size: 20px; margin: 30px 0 15px 0; color: #1a202c;">Rendimiento por Campaña</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Campaña</th>
+                        <th>Alcance</th>
+                        <th>Frecuencia</th>
+                        <th>Inversión</th>
+                        <th>Resultado Principal</th>
+                        <th>Costo por Resultado</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td><strong>MESOTERAPIA</strong></td>
+                        <td>45.039</td>
+                        <td>2.50</td>
+                        <td>$249.115,71</td>
+                        <td>204 mensajes</td>
+                        <td>$1.221,16</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>CIRUGÍA</strong></td>
+                        <td>32.820</td>
+                        <td>3.16</td>
+                        <td>$250.163,05</td>
+                        <td>54 mensajes</td>
+                        <td>$4.632,65</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>CEJAS</strong></td>
+                        <td>41.402</td>
+                        <td>2.52</td>
+                        <td>$251.402,55</td>
+                        <td>374 mensajes</td>
+                        <td>$672,20</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Insights y Recomendaciones</h2>
+            <div class="insights">
+
+                <div class="insight insight-oportunidad">
+                    <div class="insight-title">💡 CTR bajo en 'CAMBIA TU PELO-CIRUGÍA'</div>
+                    <div class="insight-description">CTR de 0.65% está muy por debajo del promedio (1.58%). El anuncio no está generando interés.</div>
+                    <div class="insight-action">→ Testear nuevo copy o creatividad más llamativa</div>
+                </div>
+
+                <div class="insight insight-oportunidad">
+                    <div class="insight-title">💡 CTR bajo en 'SIEMPRE CRECE'</div>
+                    <div class="insight-description">CTR de 0.73% está muy por debajo del promedio (1.58%). El anuncio no está generando interés.</div>
+                    <div class="insight-action">→ Testear nuevo copy o creatividad más llamativa</div>
+                </div>
+
+                <div class="insight insight-alerta">
+                    <div class="insight-title">⚠️ Costo por click alto en 'CAMBIA TU PELO-CIRUGÍA'</div>
+                    <div class="insight-description">CPC de $374 es 50% más alto que el promedio ($202). Estás pagando de más por cada click.</div>
+                    <div class="insight-action">→ Optimizar segmentación o pausar si no convierte</div>
+                </div>
+
+                <div class="insight insight-éxito">
+                    <div class="insight-title">📊 Excelente performance en 'DR. MARTÍN - CEJAS'</div>
+                    <div class="insight-description">CTR de 4.24% con frecuencia controlada (2.0). Este anuncio está funcionando muy bien.</div>
+                    <div class="insight-action">→ Escalar presupuesto si hay margen</div>
+                </div>
+
+                <div class="insight insight-éxito">
+                    <div class="insight-title">📊 Excelente performance en 'CHICA - CEJAS'</div>
+                    <div class="insight-description">CTR de 2.60% con frecuencia controlada (2.3). Este anuncio está funcionando muy bien.</div>
+                    <div class="insight-action">→ Escalar presupuesto si hay margen</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Glosario de Métricas</h2>
+            <div class="glossary">
+                <div class="glossary-item">
+                    <div class="glossary-term">Impresiones</div>
+                    <div class="glossary-definition">Cantidad de veces que tu anuncio fue mostrado en pantalla.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">Alcance</div>
+                    <div class="glossary-definition">Número de personas únicas que vieron tu anuncio al menos una vez.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">Frecuencia</div>
+                    <div class="glossary-definition">Promedio de veces que cada persona vio tu anuncio. Idealmente entre 2-4.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">CTR (Click-Through Rate)</div>
+                    <div class="glossary-definition">Porcentaje de personas que hicieron click después de ver el anuncio.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">CPC (Costo Por Click)</div>
+                    <div class="glossary-definition">Cuánto pagaste en promedio por cada click en tu anuncio.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">CPM (Costo Por Mil impresiones)</div>
+                    <div class="glossary-definition">Cuánto pagaste por cada 1,000 veces que tu anuncio fue mostrado.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Comparativa por Campaña</h2>
+
+            <div class="adset-detail">
+                <div class="adset-header">
+                    <div class="adset-title">MESOTERAPIA</div>
+                    <div class="adset-metrics">
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">204</div>
+                            <div class="adset-metric-label">Mensajes iniciados</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">$1.221,16</div>
+                            <div class="adset-metric-label">Costo por resultado</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">$249.115,71</div>
+                            <div class="adset-metric-label">Inversión Total</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">45.039</div>
+                            <div class="adset-metric-label">Alcance</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">2.50</div>
+                            <div class="adset-metric-label">Frecuencia</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comparison-table-wrap">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th class="col-ad">Anuncio</th>
+                                <th>Alcance</th>
+                                <th>Impresiones</th>
+                                <th>Frecuencia</th>
+                                <th>Inversión</th>
+                                <th>CTR</th>
+                                <th>CPC</th>
+                                <th>CPM</th>
+                                <th>Conversaciones</th>
+                                <th>Costo / Conv.</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div class="ad-thumb"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE3ZTAxMDAwMGRkMDEwMDAwN2QwMjAwMDBhZDAyMDAwMGVhMDIwMDAwNDgwMzAwMDA1NzA0MDAwMDcxMDQwMDAwYWEwNDAwMDBkMjA0MDAwMDIwMDYwMDAwAP/bAIQABgcHDQkNDAwMDBENDg0REREQEBERExASERIQExMUExUVExQTFBMXFxcTFBUXGRkXFRccGxwXGxkZGx4bHhsbFgEGBgYLCAsKCwsKDQkLCQ0MDAoKDAwPCwwLDAsPEA4NDg4NDhAODQ0KDQ0ODw4QEA4PEAwODBAPEBAPFxkXFxfB/8IAEQgAQABAAwEiAAIRAQMRAf/EAEkAAAICAwEAAAAAAAAAAAAAAAMEAgYBBQcAEAABAwIDBQgBBQEAAAAAAAABABEhAjEDQVEQEmFxgQQTkaGxwdHwBSAiIzLh8f/aAAwDAQACAAMAAAAB1wkXp42a5G12Nw/U6UQXew0XoWMcFdFrSwuTdceVdarN1rpBavp3LrydelxnJkatsq8UWerVvQnCbUMHaaU1jY4ezaatN6GdKQnpeAjvUsx//9oACAEBAAEFAq60MLeR/jpwcEqqvu6Oz9rwsRbqOGEKnQqKqLLeZdqJOGKl2P8AIEIF067xGtU1LGP8f9gvxmKa6RCqqne3xQ6OBViU933ZML8TWyprY4lEUwsLGpKpC7V/esMuz43dGmlNvog07MPFqoVWJvHEK/bighYGMEcMVrF7OcJCpb6Y1AE0owqsN1h9q7pV197TRTSSwQWIF//aAAgBAwABPwEBUYYPRYn7SydOywq12igkvlZBHEAIpOdlRXuKvF3homnY77KqV//aAAgBAgABPwGpV1kWzWGN4OjSmdYlKwKwzZqsQsPsleJRViUs1F5nw+eiro31Rgmk3db0J45oAjlsBX//2gAIAQEABj8CsNhpEmpexRcAjMJqY4fobb67N2vaNtfRcRsIOSP6N3e0dHZUitNjGE42FOnudjHZBTlb2ihOLpqo4pqg4+2Kg71Ovz+p1ukQiXyi6A/bOb1Ixsdf/9oACAEBAAE/IRkwTxRjiFDTQvyMXThzIdwwwOraoBF1HDPxB1QUEB6oRAorJCQYgPoRQJbSUCYwPg6vJgCODlqiBtRZHBOMjmEAAQXBUD5j3TOpQAEML81mCVMkEOySMzoEBM2pxGqIYuFOdFuqNhZgOfZMkGzQYB8h5IWAgsVGyTYdNCFw4+hTRmhEJNwEw2d56GfVCLgECEpqk+XihQTwzQCYzA9EcgyBhEhQYI4IUtZhtB7rIz4KMJQKMOYenhZHzrNs0FgyT8QmywohyAvxTlmX06vAMxfn7HrZOh4Ay2MgiYARhxBCkdCiRgns19PhAJABILGjIDIo+CIK6AE+wRGQAXguTbR9VBfMX//aAAwDAQACAAMAAAAQ1/5kjwoEnfmLJ+On/9oACAEDAAE/EAFXdPXkOJeYv+iAdMON3kq9k+g+lHj8I9jcQUNtnOEcozccVYuJI1CZzBAkrMzC/9oACAECAAE/EC02uWEDI2j4g7Bphb93kdB3eITzgZaghZDxsAhZa//aAAgBAQABPxC5kzh7qPOhEYiRDWLtCyAmI6cxLK2w1Cg+wRYGxWQK8gm0a2RPWzJ8ylCsPESzDkgoCaMa54U5kWO52bLio0WLJESy/qOgBgHBFiCg7A+1nX1QI7kPQ/KCI0MdCAOy8E2alwrPImXUd4P9h1Rnp2zRQJS5L/NfZAMA4BPl8nFSGcdJLKR0LI5gnB1BYhpUmxPZHq1XAhJushfBUhVhyAfRBI9iC8l+a5UlD2PEn4uqMGQXkG+RT7mM9f8ACKYSDqD2bmg+bmJDeIJbUZCZPBdn7uCKj5TimjcArlhoLFzueCa8AdzrLQ8REJlgIjjXLN0eE3mH4jgQggyByEGfDvXh90EbARYRzXNKDoTqHycbIIumkKIyxHFslIT7mKFoLG6G5qy4ldxnRonqA0FeqH5IfEIgeVBUAMwMaDuc6aCygBAX/9k=" alt=""/></div>
+                                        <span class="ad-cell-name">María</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">23.995</td>
+                                <td>46.962</td>
+                                <td>1.96</td>
+                                <td class="metric-highlight">$126.029,73</td>
+                                <td>1.78%<span class="tag-best">MEJOR</span></td>
+                                <td>$150,75</td>
+                                <td>$2.683,65</td>
+                                <td class="metric-highlight">95</td>
+                                <td>$1.326,63</td>
+                            </tr>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div class="ad-thumb"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE3ZTAxMDAwMGRiMDEwMDAwN2YwMjAwMDBhNzAyMDAwMGQwMDIwMDAwMzAwMzAwMDAyZTA0MDAwMDQ4MDQwMDAwNzUwNDAwMDA5OTA0MDAwMGQ0MDUwMDAwAP/bAIQABgcHDQkNDAwMDBENDg0REREQEBERExASERIQExMUExUVExQTFBMXFxcTFBUXGRkXFRccGxwXGxkZGx4bHhsbFgEGBgYLCAsKCwsKDQkLCQ0MDAoKDAwPCwwLDAsPEA4NDg4NDhAODQ0KDQ0ODw4QEA4PEAwODBAPEBAPFxkXFxfB/8IAEQgAQABAAwEiAAIRAQMRAf/EAEkAAAIDAQEBAAAAAAAAAAAAAAIEAwUGBwABEAABAgUBBQcEAwEAAAAAAAABABECITFBUQMQEmFxkQSBobHB0fATIOHxBRQiMv/aAAwDAQACAAMAAAAB5xPGcg3GoibSf3DXNHWUt1DKXvcaBMBO+s8/o1Xa3I6OFxD3XeH6wvmOYNkS9LYtRmnYCf0auu0mRMa6du0ZhUarH1GLqJC5H6Gf0WQMf//aAAgBAQABBQJ0CtGExLT7OIYtPVh1NphdNEqKAHdhrE+mdD+VUMYjCkDHpMYdYIRrterN12TtcWidLVGqNaJzv7y0DumDQAPaBvxfQUUO6v4vVaMf6WjpFfRiUIihUGmhC41NPeh7FFu6hG6REy3kwiW6w0tXcOqoixjjdQxuNKNQ6ihdbqdaRGoNLRER1OylQ6Me99CMqGDUhUG+t0ha2kQf/9oACAEDAAE/AQv643fXa/4UERIfqMKITOwBNsIX1gIxBNzwkn2Ff//aAAgBAgABPwFHWO96bZllqMIvI5/KhMhsJTp1CV/XJgMcmHGaI2Bf/9oACAEBAAY/AtgYLe3mGPlFI/cG9kISVI96bUHenBfYxQiqyeElk7ogbOCcJ0ERaJAqLnt3chFYVlbqppsLiFCouNNgiG2iJW8LfeeRTUKmnhClCei/5Kuv9CvBUThf/9oACAEBAAE/IZEepmAmLwXaVXnlBZZjO+XsT40WtfpVMiEGoJ4uQZ5RBY6Kb2z6EMwOxpcXcoX5Q1LlN5RqamAohGRKIQSUgWo4wjuYHDMcJ8iYObflAJChRrQAX4guuYYRPEoEwP0EI5xH80GswnSB8S9AUQIrMsZjyKfsUQLpGHSYUjgTUl5qSeSJrl3EeqlAkuHD1RxVWwoh5lCeAUYeQUHEQScIyXFVJFlNNR1ZReU7KyFn+dyYaiGAZHwqcdVJIBdrKyiMSFUWsSjIFZHgrdNR7IwFpopE1yKAVHy67gdUiC1aKoyWxVMTAHkHBTknRQhmCYHIplprbzX/2gAMAwEAAgADAAAAEBxhtt5RSHWgylWW7f/aAAgBAwABPxBO+EAukHwP3tYDShdG+Y19kJyXVD9kZleVuE+DDnj0Q2OvK//aAAgBAgABPxBfEFCexqizFSIyQdMCa+1zKwvX1GW5ddp0r//aAAgBAQABPxB90sp44MA1Vtl+IOchZsASA8yQ37qEOCp3U5mcWR2WlBUyg9f5lFmxOiH9mGH5ybPNodwSMUxdV2g0WD54rhUZHzFEJXRD1xsOAYpOJNT4OqN+4SyGQg264h3VJ2MWe9giu67oNp/I7wgQvrPY2N1OGfo/HkiRVanqFTe+sW9CEmK7VQHud3KTvgmppCaTZ0cBBYlPwWein99MPATrTiyuUtMJKFwp8oSuwfs4IYS6C/MN04sqhUxOsUY40fvwpwOxzVCYSTTlBCTCDkCaLBkDgp8/a7xEMqxQpL9kWVTAvlGXkej5hFkHaXBxReNDJABtfwVWAqdEKVmpuPiEzKzYm+aE4fyqeXMB88IJdHLIQeAsh8X9gwjQuRiqwgGCc45uM0T6+lS1hH0q5oxJ0K//2Q==" alt=""/></div>
+                                        <span class="ad-cell-name">iván</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">28.421</td>
+                                <td>65.485</td>
+                                <td>2.30</td>
+                                <td class="metric-highlight">$123.085,98</td>
+                                <td>1.60%</td>
+                                <td>$117,79</td>
+                                <td>$1.879,61</td>
+                                <td class="metric-highlight">109<span class="tag-best">MEJOR</span></td>
+                                <td>$1.129,23<span class="tag-best">MENOR</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="adset-detail">
+                <div class="adset-header">
+                    <div class="adset-title">CIRUGÍA</div>
+                    <div class="adset-metrics">
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">54</div>
+                            <div class="adset-metric-label">Mensajes iniciados</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">$4.632,65</div>
+                            <div class="adset-metric-label">Costo por resultado</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">$250.163,05</div>
+                            <div class="adset-metric-label">Inversión Total</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">32.820</div>
+                            <div class="adset-metric-label">Alcance</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">3.16</div>
+                            <div class="adset-metric-label">Frecuencia</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comparison-table-wrap">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th class="col-ad">Anuncio</th>
+                                <th>Alcance</th>
+                                <th>Impresiones</th>
+                                <th>Frecuencia</th>
+                                <th>Inversión</th>
+                                <th>CTR</th>
+                                <th>CPC</th>
+                                <th>CPM</th>
+                                <th>Conversaciones</th>
+                                <th>Costo / Conv.</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div class="ad-thumb"><img src="data:image/jpeg;base64,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" alt=""/></div>
+                                        <span class="ad-cell-name">CAMBIA TU PELO-CIRUGÍA</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">9.076</td>
+                                <td>16.415</td>
+                                <td>1.81</td>
+                                <td class="metric-highlight">$39.678,49</td>
+                                <td>0.65%</td>
+                                <td>$374,33</td>
+                                <td>$2.417,21</td>
+                                <td class="metric-highlight">8</td>
+                                <td>$4.959,81</td>
+                            </tr>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div class="ad-thumb"><img src="data:image/jpeg;base64,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" alt=""/></div>
+                                        <span class="ad-cell-name">SIEMPRE CRECE</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">7.908</td>
+                                <td>14.562</td>
+                                <td>1.84</td>
+                                <td class="metric-highlight">$21.522,66</td>
+                                <td>0.73%</td>
+                                <td>$203,04</td>
+                                <td>$1.478,00</td>
+                                <td class="metric-highlight">4</td>
+                                <td>$5.380,66</td>
+                            </tr>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div class="ad-thumb"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE4MDAxMDAwMGRjMDEwMDAwNmQwMjAwMDA5MDAyMDAwMGIzMDIwMDAwNDEwMzAwMDAzNjA0MDAwMDUwMDQwMDAwNmYwNDAwMDA4MTA0MDAwMDgzMDUwMDAwAP/bAIQABgcHDQkNDAwMDBENDg0REREQEBERExASERIQExMUExUVExQTFBMXFxcTFBUXGRkXFRccGxwXGxkZGx4bHhsbFgEGBgYLCAsKCwsKDQkLCQ0MDAoKDAwPCwwLDAsPEA4NDg4NDhAODQ0KDQ0ODw4QEA4PEAwODBAPEBAPFxkXFxfB/8IAEQgAQABAAwEiAAIRAQMRAf/EAEsAAAEFAQEAAAAAAAAAAAAAAAMAAgQGBwUBEAABAgQDBQYGAwEAAAAAAAABABECAyExEEFRBBJhcZEgcoGhsfAFIjIzwdETMOFi/9oADAMBAAIAAwAAAAHKpsKaltFLtvBGWBo9c7jHYZBmwjgRgpKwT6x02vs1b9G13JGkQSIOcloA7vnjXEmV3Q/fMTZLie+KbCkJbhnXetwy5DovOpbScmI5po3/2gAIAQEAAQUCWz/cjmiESHmRTgZMUEzeG0fcwkfXHOhUJ3Efnhkxjdn/AHMJcW7FN2iOYpc9HaGQmkGIucQXQkRqKVGpk+mMMO8YPgRUzYYZRg2SGNRfBEQ2Oz/c2vaYoASAoonXw7ayYZ314bP9zbYTMW0AwqVLMxfDIoZSnfXhKLRDaCI5vzqYQpkx4zh//9oACAEDAAE/AVKDlToGrrjBFuqZM38QHRxgh3lMliCEa4f/2gAIAQIAAT8BU0sOakxPTTGOHeUEG744mJkMYyygjMR4Yf/aAAgBAQAGPwJQd4eqPBb0VVvC6hOqmd6L1xg7w9UxzQZVULZBR94+uIOhVT4ZIVV04LFE9kEA9E5hLD/krdEEI437AAzQePyTfzmmkP8Aqb+YvoR/q+svy/1NpjL70PqmZjFmq1w3SDFu5qPmfXGX3ofVQ/LX8KzYGE/WfRR8z64wniFDES6rC6+Udj//2gAIAQEAAT8hRM7b8Ja+ActF6ubDwsgWndS3JkPQAPUL2LVibH09EmBeoa1K0vZUwaJhGByOiaRAtAtwRuX2uxYPIPQq+baKdAVLMsQmpe2wT2jjuCyMYqSST4nsGJkYCsGoIMhAgjbjgAQeZoOR8TbsGuIgBzNE9oTmQBHmVewyAopcVjI16sTzs9DhxYnSjhpZHMlciDzGPsWhAo1S6wzbijL8Ug5oZuAz+SJ6csFSxyKN/Z1Yk2Z+gh7DAEtUF837RcglzBFDkMygZlV21CwHG6N/Z1YsNQg3QhUSk1q9CgAAA5qoQswBfJOB0p0RuTzOH//aAAwDAQACAAMAAAAQS8HKWgiqCgpCWWgK/9oACAEDAAE/EF4InOI6e6eaAWGPLdhrmWeBm9vbYf/aAAgBAgABPxD+7GF0MxyZh//aAAgBAQABPxBAJsP8kcDVFjhSrLRoeQ0CPMV7xWeCOTl9KBKy1sS4/DoggNX5t1JlQFx+VdUHF2Sv7ojsb3XGI/XGICAkWDZwGqpOi0Lyuqox1RwzQclLFCsyEALyRzXMakhJ64gsgiiuaqR3Puh8irwYXsTVafXiiDWRRL4g4cd6lAeZQHB6hyup56Nd8w4FpolGHDXXtfzBQhPsINCMfMYmQ0HNhdEPAuBu8gHxWTg5DMjjQQd0LA6B0rk1Y6JxMz4wQgBwaGq+mA6E526gjJnRooFCiii9Vt6XWocWuMFMGKOhKBWrjJ6wVn5kMAftFw+gMB5BHFIOM3JOpw//2Q==" alt=""/></div>
+                                        <span class="ad-cell-name">LA TECNOLOGÍA</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">263</td>
+                                <td>331</td>
+                                <td>1.26</td>
+                                <td class="metric-highlight">$720,68</td>
+                                <td>0.91%</td>
+                                <td>$240,23</td>
+                                <td>$2.177,28</td>
+                                <td class="metric-highlight">1</td>
+                                <td>$720,68<span class="tag-best">MENOR</span></td>
+                            </tr>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div class="ad-thumb"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE3ZjAxMDAwMGRlMDEwMDAwNzYwMjAwMDA5ZjAyMDAwMGM2MDIwMDAwMmYwMzAwMDAwODA0MDAwMDIyMDQwMDAwNWEwNDAwMDA4NzA0MDAwMGMwMDUwMDAwAP/bAIQABgcHDQkNDAwMDBENDg0REREQEBERExASERIQExMUExUVExQTFBMXFxcTFBUXGRkXFRccGxwXGxkZGx4bHhsbFgEGBgYLCAsKCwsKDQkLCQ0MDAoKDAwPCwwLDAsPEA4NDg4NDhAODQ0KDQ0ODw4QEA4PEAwODBAPEBAPFxkXFxfB/8IAEQgAQABAAwEiAAIRAQMRAf/EAEoAAAICAwEAAAAAAAAAAAAAAAMFBAYAAQIHEAABAwIEBAQFBAMAAAAAAAABABEhAjEDQVFhEBJxgQSRoeETscHR8CAiI/EUMDL/2gAMAwEAAgADAAAAAZFasw+8ZoWLSOfzMV8opB23mn2mNIYZJtMqLEUtaxvYKrcbEInjwrRWiB9tOAxNJ0URKPuw8oB63b0CXDi9hXyS6xYqmgCdegs1O75idjFJB//aAAgBAQABBQILHBrrwcXko8XVViFFeFxeanFpQVV6cPmQwRSvFYXPSUKzSqMcYoBRp5jRTyjG8SKTVXUTXx8Pg/EXKAsSplVQFVUF/Hi0eN8H8NBDhjUFVF1UsDFVeOKFjYFNaHDxvizh4j1VqpwMDGpBxMU1rCxjhlf5KxKMLERwaEcKheIFI4GUKgixR/bwKxC9Sdl//9oACAEDAAE/AaVVUOFFfMGzCZU0c0qqnThzKmpkan2XOqW0VIVZjh//2gAIAQIAAT8BKpwpd34VUcpfIrmRqZc2qyTKqUAM5Xw0USsMTw//2gAIAQEABj8CTMqaI/aFftx5TcfL9OqfOngCLhaHhS3BrlBHi5gJgOD8Bz0gx+SuaiaPl+hx5cdV818TC7jiaeaoBhZvqhV/IewTn4rdl+01QDduG2nCyflBO4lf8Bf8hNTSB0/0Hj//2gAIAQEAAT8hRqNgeO6KKkAPIBZCF4ye7FtUQoAKctHf2cUcB6p0w81PGe9vJDIAgcdMwrURLZGhS44BgsxZR2eZTW9AZddFNBAM+zKBDcop4KgEPqnp90QAEAJ7pggHLOTumA1QA8wADmD2CVmw3c9W2/mhlHwIkdks0Agv5opBGQ+iCuIGQ2lBIGyfVvt5cc3MABzjYrdeZyGSJtCAgO40QrbBDaQhmzdQJton0Lr6vdAoi7CKmergMFHYPZSrXREQ0RJBinZEU1yALGULkJ4H7v8AJFOT/9oADAMBAAIAAwAAABCDzTLsV3uHL4IGKkr/2gAIAQMAAT8QByHshgzM+8q8oTmxG4+6DJVwsD5r+hkrFSRoXCOwA3T0UkQXd3ZBEiXVpr8lZf/aAAgBAgABPxB7FroiARBR2W/sU634FYi6gUMkooR1LLNnXhE5Qssq+0Rlf//aAAgBAQABPxAE/wCdsYXdovdwlCBC0CphIhI3K64/AgcaFD/AI+zyQASRmiTtmGjd/QUYz6NyVlS5/g83Qi4MYDPf9Qb8HIGDfUHYo7O4zbcajhXJPaOhjvKdY/YKZULgeVnashdBG5R2eeoOqBgsGOjwrWQ9giBdCCzd1l/RE8tYJLCA5uTJTnqYHVHRpJ3Mtyumlm+tkaYSHKzWHqRD3Cvdwvp7N1hrwncMUaDE73A5H0W3kGdQdCgtBd34Eb4yQ1cUYb252NmtwpYfRIzVAcLaKTc24ZKbe8PoRt6qAvu9v3OyuQ2i90oy5e+YnqmUvcoG7YMimfzRS4Op2PaGUi40CDIXlAFkPkIR+nMA1GsTgnYD/NB+5U8GZEE6VAoD6dNEEoa7sdkbCd0eS0FgOkECsMl//9k=" alt=""/></div>
+                                        <span class="ad-cell-name">DR. MARTÍN - LO QUE ANTES</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">26.960</td>
+                                <td>70.855</td>
+                                <td>2.63</td>
+                                <td class="metric-highlight">$184.779,44</td>
+                                <td>0.93%<span class="tag-best">MEJOR</span></td>
+                                <td>$279,55</td>
+                                <td>$2.607,85</td>
+                                <td class="metric-highlight">40<span class="tag-best">MEJOR</span></td>
+                                <td>$4.619,49</td>
+                            </tr>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div class="ad-thumb"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE3ZjAxMDAwMGQzMDEwMDAwNTAwMjAwMDA2YzAyMDAwMDg1MDIwMDAwZTAwMjAwMDBjZDAzMDAwMGU3MDMwMDAwMDQwNDAwMDAxZDA0MDAwMDQ2MDUwMDAwAP/bAIQABgcHDQkNDAwMDBENDg0REREQEBERExASERIQExMUExUVExQTFBMXFxcTFBUXGRkXFRccGxwXGxkZGx4bHhsbFgEGBgYLCAsKCwsKDQkLCQ0MDAoKDAwPCwwLDAsPEA4NDg4NDhAODQ0KDQ0ODw4QEA4PEAwODBAPEBAPFxkXFxfB/8IAEQgAQABAAwEiAAIRAQMRAf/EAEoAAAEFAQEAAAAAAAAAAAAAAAQAAQIDBQYHEAABAwIFAQYFBAMAAAAAAAABABEhAjEQQVFhcQMSgZGhsfAEICLB0RMUMPEyQuH/2gAMAwEAAgADAAAAAfN63TpXLo0sW7XaNnPidPzCipOdOFHQY56cPa52tLXFpsdZmyAVXIyOfF20WCUomZ6HdHk4JsZlhnZzxd9k1PzFHUPF/wD/2gAIAQEAAQUCNT4gOv0iqumVljTcdKEF1uk9ONF6usah+ugquo5NAqTIUAoABVVUN1BSF2yqal20FSCwpKPaVXUqCPxFSqo7SqhDpFHoFDpFVUsunfrVCtU1EYdulh1aaUeuUanQ+Wjo1VL9tUiGXR+F7aPwEfs1T0KKV//aAAgBAwABPwHCmkKoNiKmRLpkcXVRdCgoUFf/2gAIAQIAAT8BwKpL4s6bALuxpCNYCNYX/9oACAEBAAY/Avluj8pNvviGv8gQBsFbHQ4D6l/lOSI7d9l9NXaumdNjamy/0QLU+3yTkUq1PgnJZ9mGOqtg7dppbhBqez7lXwDrX+CBi9VTOgRVfVTWE5+pf//aAAgBAQABPyESM2GkT2XiipIEtZmdEEAKa+yGAuCmhFjAieCLIHQNQHvhFBDDHgcMDRGX5KAdWiwVr+yVAFZcvqLd6fi1miDD+sbIISNzNJh78wyZt0hrGPEIkGXo6IQ5uVDjAQJF5y3heCA9zZMbaJNmD8JreQ3ddA+wgEgIs9+/aNHYLMCz7zb22snBEJlsoEDmNwoOQId3hDhw3C6I0coPNHkQmOxZD990CZmALMz+aSg40J7p4MmHt1OXM39oqwATlyiZ94RRQVlJwamERZhTAbhNgwyGZbeWCIYPofj8K1+EASVsoh7Ov//aAAwDAQACAAMAAAAQ1t14HsDw/jW8AXEl/9oACAEDAAE/EEyITxsCS0IyXSBKIxGFFZZLhar/2gAIAQIAAT8QT4WGEIoDUca2BAswRVpX/9oACAEBAAE/EBuiLjIIxG4APCFowbgocGFg52UBTN6rWuhHVXm7pt7hAGeovkG5QsDBmFlmxwWlDeBGHCX2QEXurSgUeRHekoLLn2UQuMEiap7kGXDf1Rg7reP5QJxmytYdw0E5BwuSpHvXPsGMheOwdRbO76tqEhkLnzvcysbZFlTueOqDtvyQSjqtiXP0NgApr1P2IMiye2M/cVBcjhP78cnuAUC8GD3kFZOESWi2W+6Oa8TLoywAHrB++yZU1f8A6BaFbAtJ7jJl8Stj5yB4IaOp1w4iZKLLD8IIOhyPNF5LVSW8jt7aJsmFtnEeROKQ1xRYMjuCyuwOcomzQoaJjM/shsv6T6op3QxQQTGQBvIECfXmLbKdiQMHLerDBZsXScEBf//Z" alt=""/></div>
+                                        <span class="ad-cell-name">Peluquero</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">959</td>
+                                <td>1.473</td>
+                                <td>1.54</td>
+                                <td class="metric-highlight">$3.461,78</td>
+                                <td>0.81%</td>
+                                <td>$288,48</td>
+                                <td>$2.350,16</td>
+                                <td class="metric-highlight">1</td>
+                                <td>$3.461,78</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="adset-detail">
+                <div class="adset-header">
+                    <div class="adset-title">CEJAS</div>
+                    <div class="adset-metrics">
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">374</div>
+                            <div class="adset-metric-label">Mensajes iniciados</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">$672,20</div>
+                            <div class="adset-metric-label">Costo por resultado</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">$251.402,55</div>
+                            <div class="adset-metric-label">Inversión Total</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">41.402</div>
+                            <div class="adset-metric-label">Alcance</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">2.52</div>
+                            <div class="adset-metric-label">Frecuencia</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comparison-table-wrap">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th class="col-ad">Anuncio</th>
+                                <th>Alcance</th>
+                                <th>Impresiones</th>
+                                <th>Frecuencia</th>
+                                <th>Inversión</th>
+                                <th>CTR</th>
+                                <th>CPC</th>
+                                <th>CPM</th>
+                                <th>Conversaciones</th>
+                                <th>Costo / Conv.</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div class="ad-thumb"><img src="data:image/jpeg;base64,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" alt=""/></div>
+                                        <span class="ad-cell-name">DR. MARTÍN - CEJAS</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">4.497</td>
+                                <td>8.815</td>
+                                <td>1.96</td>
+                                <td class="metric-highlight">$28.683,74</td>
+                                <td>4.24%<span class="tag-best">MEJOR</span></td>
+                                <td>$76,69</td>
+                                <td>$3.253,97</td>
+                                <td class="metric-highlight">34</td>
+                                <td>$843,64</td>
+                            </tr>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div class="ad-thumb"><img src="data:image/jpeg;base64,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" alt=""/></div>
+                                        <span class="ad-cell-name">CHICA - CEJAS</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">40.998</td>
+                                <td>95.653</td>
+                                <td>2.33</td>
+                                <td class="metric-highlight">$222.718,81</td>
+                                <td>2.60%</td>
+                                <td>$89,48</td>
+                                <td>$2.328,40</td>
+                                <td class="metric-highlight">340<span class="tag-best">MEJOR</span></td>
+                                <td>$655,06<span class="tag-best">MENOR</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            Reporte generado el 21 de April de 2026 a las 17:57
+        </div>
+
+    </div>
+</body>
+</html>

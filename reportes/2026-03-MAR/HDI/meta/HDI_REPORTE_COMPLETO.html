@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>HORMIGONERA HDI – Reporte META Marzo 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"/>
+<style>
+:root {
+  --bg: #0B0F1A;
+  --surface: #131826;
+  --surface-alt: #1C2333;
+  --border: #252D40;
+  --accent: #F97316;
+  --accent-soft: rgba(249,115,22,0.12);
+  --blue: #3B82F6;
+  --blue-soft: rgba(59,130,246,0.12);
+  --gold: #F59E0B;
+  --gold-soft: rgba(245,158,11,0.12);
+  --green: #10B981;
+  --green-soft: rgba(16,185,129,0.12);
+  --text: #F1F5F9;
+  --text-dim: #64748B;
+  --text-mid: #94A3B8;
+}
+* { box-sizing:border-box; margin:0; padding:0; }
+body { background:var(--bg); color:var(--text); font-family:'DM Sans',sans-serif; font-size:14px; line-height:1.5; }
+.wrapper { max-width:820px; margin:0 auto; padding:24px 20px; }
+
+.header { text-align:center; padding:40px 0 32px; }
+.header-badge { display:inline-flex; align-items:center; gap:8px; background:var(--accent-soft); border:1px solid rgba(249,115,22,0.25); border-radius:100px; padding:6px 14px; font-size:12px; color:var(--accent); margin-bottom:16px; }
+.header h1 { font-family:'Playfair Display',serif; font-size:32px; font-weight:700; color:var(--text); line-height:1.2; margin-bottom:8px; }
+.header h1 span { color:var(--accent); }
+.header-sub { color:var(--text-mid); font-size:14px; }
+
+.alert { background:linear-gradient(135deg,rgba(245,158,11,0.12),rgba(245,158,11,0.05)); border:1px solid rgba(245,158,11,0.3); border-radius:12px; padding:14px 18px; display:flex; align-items:center; gap:12px; margin-bottom:28px; }
+.alert-icon { font-size:20px; flex-shrink:0; }
+.alert-text { font-size:13px; color:var(--text-mid); }
+.alert-text strong { color:var(--gold); }
+
+.kpis { display:grid; grid-template-columns:repeat(2,1fr); gap:14px; margin-bottom:28px; }
+@media(min-width:600px) { .kpis { grid-template-columns:repeat(4,1fr); } }
+.kpi { background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:18px 16px; position:relative; overflow:hidden; }
+.kpi .glow { position:absolute; top:-30px; right:-30px; width:80px; height:80px; border-radius:50%; filter:blur(30px); opacity:0.25; }
+.kpi .label { font-size:11px; color:var(--text-dim); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:6px; }
+.kpi .value { font-size:24px; font-weight:700; line-height:1; margin-bottom:4px; }
+.kpi .sub { font-size:11px; color:var(--text-dim); }
+
+.objective-box { background:var(--accent-soft); border:1px solid rgba(249,115,22,0.25); border-radius:14px; padding:18px 20px; margin-bottom:28px; display:flex; gap:14px; }
+.obj-icon { font-size:28px; flex-shrink:0; }
+.obj-content h3 { font-size:14px; font-weight:600; color:var(--accent); margin-bottom:6px; }
+.obj-content p { font-size:13px; color:var(--text-mid); line-height:1.55; }
+
+.section { margin-bottom:28px; }
+.section-title { font-family:'Playfair Display',serif; font-size:18px; font-weight:600; color:var(--text); margin-bottom:14px; padding-bottom:8px; border-bottom:1px solid var(--border); }
+
+.ad-cards { display:flex; flex-direction:column; gap:16px; }
+.ad-card { background:var(--surface); border:1px solid var(--border); border-radius:14px; overflow:hidden; display:flex; flex-direction:row; }
+.ad-img { width:120px; min-width:120px; height:auto; object-fit:cover; background:var(--surface-alt); }
+.ad-img-placeholder { width:120px; min-width:120px; height:130px; background:var(--surface-alt); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; color:var(--text-dim); font-size:11px; }
+.ad-body { padding:16px; flex:1; }
+.ad-name { font-size:14px; font-weight:600; color:var(--text); margin-bottom:4px; }
+.ad-copy { font-size:12px; color:var(--text-dim); margin-bottom:12px; line-height:1.4; }
+.ad-metrics { display:flex; gap:16px; flex-wrap:wrap; margin-bottom:10px; }
+.ad-stat-val { font-size:18px; font-weight:700; line-height:1; }
+.ad-stat-label { font-size:11px; color:var(--text-dim); margin-top:2px; }
+
+.retention-bar-section { margin-top:8px; }
+.retention-label { font-size:11px; color:var(--text-dim); text-transform:uppercase; letter-spacing:0.05em; margin-bottom:6px; }
+.retention-bars { display:flex; flex-direction:column; gap:5px; }
+.ret-row { display:flex; align-items:center; gap:8px; }
+.ret-row span:first-child { font-size:10px; color:var(--text-dim); width:30px; flex-shrink:0; }
+.ret-track { flex:1; height:5px; background:var(--surface-alt); border-radius:100px; overflow:hidden; }
+.ret-fill { height:100%; background:linear-gradient(90deg,var(--accent),var(--blue)); border-radius:100px; }
+.ret-val { font-size:10px; color:var(--text-mid); width:28px; text-align:right; flex-shrink:0; }
+
+.efficiency-card { background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:24px; display:flex; flex-direction:column; align-items:center; }
+.gauge-label-top { font-size:11px; color:var(--text-dim); text-align:center; margin-bottom:16px; text-transform:uppercase; letter-spacing:0.06em; }
+.gauge-value-main { font-size:28px; font-weight:700; color:var(--accent); text-align:center; margin-bottom:2px; }
+.gauge-value-sub { font-size:12px; color:var(--text-dim); text-align:center; margin-bottom:8px; }
+.gauge-verdict { display:inline-block; background:var(--gold-soft); color:var(--gold); border-radius:100px; padding:4px 14px; font-size:12px; font-weight:600; }
+
+.geo-bars { display:flex; flex-direction:column; gap:12px; }
+.bar-row { display:flex; align-items:center; gap:10px; }
+.bar-label { font-size:13px; color:var(--text-mid); width:90px; flex-shrink:0; }
+.bar-track { flex:1; height:10px; background:var(--surface-alt); border-radius:100px; overflow:hidden; }
+.bar-fill { height:100%; border-radius:100px; }
+.bar-pct { font-size:13px; font-weight:600; width:36px; text-align:right; color:var(--text); }
+
+.demo-grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+.demo-section h4 { font-size:12px; color:var(--text-dim); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:12px; }
+.age-bars { display:flex; flex-direction:column; gap:9px; }
+.gender-track { height:22px; background:var(--surface-alt); border-radius:100px; overflow:hidden; display:flex; }
+.gender-male { height:100%; background:linear-gradient(90deg,#3B82F6,#6366F1); display:flex; align-items:center; padding-left:10px; font-size:11px; font-weight:600; }
+.gender-female { height:100%; background:linear-gradient(90deg,#EC4899,#A855F7); display:flex; align-items:center; justify-content:flex-end; padding-right:10px; font-size:11px; font-weight:600; }
+.gender-legend { display:flex; gap:12px; margin-top:8px; }
+.gender-chip { font-size:11px; color:var(--text-mid); display:flex; align-items:center; gap:5px; }
+.gender-chip-dot { width:8px; height:8px; border-radius:50%; }
+.highlights { margin-top:14px; display:flex; flex-wrap:wrap; gap:8px; }
+.highlight-chip { background:var(--surface-alt); border:1px solid var(--border); border-radius:100px; padding:5px 12px; font-size:11px; color:var(--text-mid); }
+.highlight-chip strong { color:var(--accent); }
+
+.insights-grid { display:flex; flex-direction:column; gap:12px; }
+.insight-row { display:flex; gap:12px; align-items:flex-start; background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:14px 16px; }
+.insight-icon { width:34px; height:34px; border-radius:10px; display:flex; align-items:center; justify-content:center; font-size:16px; flex-shrink:0; }
+.insight-text { font-size:13px; color:var(--text-mid); line-height:1.55; }
+.insight-text strong { color:var(--text); }
+
+.footer { text-align:center; margin-top:40px; padding-top:20px; border-top:1px solid var(--border); color:var(--text-dim); font-size:12px; }
+
+.adsets-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+@media(max-width:560px) { .adsets-grid { grid-template-columns:1fr; } }
+.adset-card { background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:18px; }
+.adset-name { font-size:13px; font-weight:600; color:var(--text); margin-bottom:4px; }
+.adset-campaign { font-size:11px; color:var(--text-dim); margin-bottom:14px; }
+.adset-metrics { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+.adset-metric { }
+.adset-metric-val { font-size:18px; font-weight:700; line-height:1; }
+.adset-metric-lbl { font-size:11px; color:var(--text-dim); margin-top:2px; }
+.adset-bar { margin-top:14px; }
+.adset-bar-label { font-size:11px; color:var(--text-dim); margin-bottom:5px; }
+.adset-bar-track { height:6px; background:var(--surface-alt); border-radius:100px; overflow:hidden; }
+.adset-bar-fill { height:100%; border-radius:100px; }
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+  <div class="header">
+    <div class="header-badge">▲ META Ads · Marzo 2026</div>
+    <h1>Hormigonera <span>HDI</span></h1>
+    <div class="header-sub">Campaña de Engagement y Tráfico · Reporte de Performance</div>
+  </div>
+
+  <div class="alert">
+    <div class="alert-icon">📅</div>
+    <div class="alert-text">
+      <strong>La campaña estuvo activa 25 días sobre los 31 del mes</strong> — del 3 al 27 de marzo. Los datos corresponden exclusivamente a ese período.
+    </div>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi">
+      <div class="glow" style="background:var(--accent)"></div>
+      <div class="label">Personas alcanzadas</div>
+      <div class="value" style="color:var(--accent)">136,716</div>
+      <div class="sub">Usuarios únicos</div>
+    </div>
+    <div class="kpi">
+      <div class="glow" style="background:var(--blue)"></div>
+      <div class="label">Clics al perfil</div>
+      <div class="value" style="color:var(--blue)">4,939</div>
+      <div class="sub">Visitas a Instagram</div>
+    </div>
+    <div class="kpi">
+      <div class="glow" style="background:var(--gold)"></div>
+      <div class="label">Inversión total</div>
+      <div class="value" style="color:var(--gold)">$205,268</div>
+      <div class="sub">ARS · Marzo 2026</div>
+    </div>
+    <div class="kpi">
+      <div class="glow" style="background:var(--green)"></div>
+      <div class="label">Reproducciones</div>
+      <div class="value" style="color:var(--green)">19,438</div>
+      <div class="sub">Vistas de video</div>
+    </div>
+  </div>
+
+  <div class="objective-box">
+    <div class="obj-icon">🎯</div>
+    <div class="obj-content">
+      <h3>Objetivo de la campaña: Engagement + Tráfico al perfil de Instagram</h3>
+      <p>Esta campaña combina dos objetivos: generar <strong>interacción con las publicaciones</strong> (likes, comentarios, guardados) y llevar personas al <strong>perfil de Instagram de HDI</strong> para aumentar la presencia y seguidores. El KPI clave es la cantidad de <strong>clics al perfil</strong> (4,939) y el <strong>alcance</strong> de las publicaciones (136,716 personas únicas).</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Grupos de anuncios</div>
+    <div class="adsets-grid">
+
+      <div class="adset-card">
+        <div class="adset-name">BRAND</div>
+        <div class="adset-campaign">Tráfico - Perfil IG · Nov.25</div>
+        <div class="adset-metrics">
+          <div class="adset-metric">
+            <div class="adset-metric-val" style="color:var(--accent)">86,146</div>
+            <div class="adset-metric-lbl">Alcance</div>
+          </div>
+          <div class="adset-metric">
+            <div class="adset-metric-val" style="color:var(--gold)">$130,082</div>
+            <div class="adset-metric-lbl">Inversión</div>
+          </div>
+          <div class="adset-metric">
+            <div class="adset-metric-val" style="color:var(--blue)">2,534</div>
+            <div class="adset-metric-lbl">Clics</div>
+          </div>
+          <div class="adset-metric">
+            <div class="adset-metric-val" style="color:var(--green)">16,146</div>
+            <div class="adset-metric-lbl">Reproducciones</div>
+          </div>
+        </div>
+        <div class="adset-bar">
+          <div class="adset-bar-label">63% del presupuesto total</div>
+          <div class="adset-bar-track">
+            <div class="adset-bar-fill" style="width:63%;background:linear-gradient(90deg,var(--accent),var(--blue))"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="adset-card">
+        <div class="adset-name">PRODUCTO</div>
+        <div class="adset-campaign">Tráfico - Perfil IG · Nov.25</div>
+        <div class="adset-metrics">
+          <div class="adset-metric">
+            <div class="adset-metric-val" style="color:var(--accent)">60,898</div>
+            <div class="adset-metric-lbl">Alcance</div>
+          </div>
+          <div class="adset-metric">
+            <div class="adset-metric-val" style="color:var(--gold)">$75,187</div>
+            <div class="adset-metric-lbl">Inversión</div>
+          </div>
+          <div class="adset-metric">
+            <div class="adset-metric-val" style="color:var(--blue)">2,405</div>
+            <div class="adset-metric-lbl">Clics</div>
+          </div>
+          <div class="adset-metric">
+            <div class="adset-metric-val" style="color:var(--green)">3,292</div>
+            <div class="adset-metric-lbl">Reproducciones</div>
+          </div>
+        </div>
+        <div class="adset-bar">
+          <div class="adset-bar-label">37% del presupuesto total</div>
+          <div class="adset-bar-track">
+            <div class="adset-bar-fill" style="width:37%;background:linear-gradient(90deg,var(--blue),var(--accent))"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Los 4 avisos principales</div>
+    <div class="ad-cards">
+
+      <div class="ad-card">
+        <img class="ad-img" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE3ZjAxMDAwMGQxMDEwMDAwNGYwMjAwMDA3MTAyMDAwMGIxMDIwMDAwMDMwMzAwMDBlYzAzMDAwMDA2MDQwMDAwMzIwNDAwMDA1NzA0MDAwMDc2MDUwMDAwAP/bAIQABgcHDQkNDAwMDBENDg0REREQEBERExASERIQExMUExUVExQTFBMXFxcTFBUXGRkXFRccGxwXGxkZGx4bHhsbFgEGBgYLCAsKCwsKDQkLCQ0MDAoKDAwPCwwLDAsPEA4NDg4NDhAODQ0KDQ0ODw4QEA4PEAwODBAPEBAPFxkXFxfB/8IAEQgAQABAAwEiAAIRAQMRAf/EAEoAAAIDAQEBAAAAAAAAAAAAAAIEAQMFAAYHEAACAQICBwYGAwEAAAAAAAAAAREhMQJBEFFhcYGRoQMSFCCx8AQTwdHh8SIyUpL/2gAMAwEAAgADAAAAAfSO+bY4d8EmAK0lhnms1Gkx+bv2LV2PSrTWTtuF0xpqUcQ6UlVB8vfRMJVSJxYIX9HsEa9WuxAdZcZxEPRVTHnLX0DH/9oACAEBAAEFAhpEYRYcB3cIlgGsOjxeAw9usRh+IR4pM8Wpx/E4TF8Rhwni8Gjs/iMWA8biF8bjPFYh/G42Y/iO+d4Z3SDFQkk7x3idEjHoej5yHjFUxtofk8Mj5MGHsoMSMXZj7IWEQu0xdkYO2WM7ixGJYkRhY+zg7ShJ/9oACAEDAAE/AVU7r1PkQ9T5DFSx38Ws771jr5abiDukH//aAAgBAgABPwHFGGraW9wfNw/7w/8ASPmYf9Yf+kKtVVGJLFRqUeH7P/CH2GD/AAqbDD/GiULRXTXfo70Ccn//2gAIAQEABj8CFwzL9S/Uv1L9T86LkpNi/i6bNZ/TFyP6vXY/q+RXTCik5ayy5GXIytFuJl+iqWi5fz2Leexfz0K6cvJDU+9eiUyq73qant8n/9oACAEBAAE/IalmavLYivUc9kU6n9IGJnM42Ip1Ipoz6FH1IynIuLMhuGphxtT9to2e8hBCLURdXwhrkdD8IZ2rwOCaIWiPUhNQyosu4j16jCJcuBtXyFTMSq4Mm5NZqjkmrKew0o16qCySVCsrPUanLTzyDqvef0XyiU4jWTWewfmSzUzdvXrZWPOpuSN4IokI6iDgcHCsVZFGt0KsN7QZ6aCVhhCsQ5fk1IR2M1vyGmojYQNk0e9g6ko3r7GQs80M2PeNdIRaxy0CQx9ROTCTJ7HR8zLJ7CwCcui46euqoHfiIkmR9R//2gAMAwEAAgADAAAAEKeUcU8eQj1WEYrlsf/aAAgBAwABPxBnQk29STZ+yHCtoaKWglW0G0m112lSXU4+T2ZFP3uV2qUH/9oACAECAAE/EIEJ1oTm2e0froIp3DMXwtUz9PoKUOYCWJ+cA//aAAgBAQABPxCdYgetEToCdxmEGlJCuYPQO6WX3dw9mX4ZFD8BBRQGxFHMuYr8xyzVfMSuBgKvehRoga3t1yzkKn4oM5HouWV4uuESd6Cno3bI1LknvTR+yEsigj17ACQqySKq70SqdCRkCjt6jWc3UoxjmKyhkVLIIYyHZ2Liq3vghUSwlIOLfmaOk9o58yltyTuEq9XvgYKt1olUe+idRlEITZ6kcgdjiR9RNr0/c9k+5al24ZuajE2mxLLLXwJFCuJhru7o/ZKVXqzKD7N7+w2cqaDchrkTRG3NoIuDVR51LiXVVyz0NiOf6jyyArvO4idUt5KHuRnJfqM1YL09dDJG5TR1X5I1ZUnpOgMX7MZCLJ7jZQBOqzIKj//Z" alt="Alto Valle no se detiene" />
+        <div class="ad-body">
+          <div class="ad-name">Alto Valle no se detiene</div>
+          <div class="ad-copy">Campaña de tráfico al perfil de Instagram con video de obra. El aviso de mayor presupuesto del mes.</div>
+          <div class="ad-metrics">
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--accent)">14,111</div>
+              <div class="ad-stat-label">Reproducciones</div>
+            </div>
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--text-dim)">77,397</div>
+              <div class="ad-stat-label">Alcance</div>
+            </div>
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--gold)">$116,020</div>
+              <div class="ad-stat-label">Inversión</div>
+            </div>
+          </div>
+          
+          <div class="retention-bar-section">
+            <div class="retention-label">Retención del video</div>
+            <div class="retention-bars">
+              <div class="ret-row"><span>25%</span><div class="ret-track"><div class="ret-fill" style="width:33%"></div></div><span class="ret-val">33%</span></div>
+              <div class="ret-row"><span>50%</span><div class="ret-track"><div class="ret-fill" style="width:20%;opacity:0.8"></div></div><span class="ret-val">20%</span></div>
+              <div class="ret-row"><span>75%</span><div class="ret-track"><div class="ret-fill" style="width:12%;opacity:0.6"></div></div><span class="ret-val">12%</span></div>
+              <div class="ret-row"><span>100%</span><div class="ret-track"><div class="ret-fill" style="width:8%;opacity:0.4"></div></div><span class="ret-val">8%</span></div>
+            </div>
+          </div>
+          
+          <div style="margin-top:10px;">
+            <div style="height:5px;background:var(--surface-alt);border-radius:100px;overflow:hidden;">
+              <div style="width:73%;height:100%;background:linear-gradient(90deg,var(--accent),var(--blue));border-radius:100px;"></div>
+            </div>
+            <div style="font-size:11px;color:var(--text-dim);margin-top:4px;">73% del total de reproducciones</div>
+          </div>
+        </div>
+      </div>
+      <div class="ad-card">
+        <div class="ad-img-placeholder"><span style="font-size:28px">▶</span><div>Sin imagen</div></div>
+        <div class="ad-body">
+          <div class="ad-name">PROFESIONALES</div>
+          <div class="ad-copy">Aviso dirigido a profesionales de la construcción. Alta cantidad de clics al perfil.</div>
+          <div class="ad-metrics">
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--accent)">3,093</div>
+              <div class="ad-stat-label">Reproducciones</div>
+            </div>
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--text-dim)">45,676</div>
+              <div class="ad-stat-label">Alcance</div>
+            </div>
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--gold)">$46,746</div>
+              <div class="ad-stat-label">Inversión</div>
+            </div>
+          </div>
+          
+          
+          <div style="margin-top:10px;">
+            <div style="height:5px;background:var(--surface-alt);border-radius:100px;overflow:hidden;">
+              <div style="width:16%;height:100%;background:linear-gradient(90deg,var(--accent),var(--blue));border-radius:100px;"></div>
+            </div>
+            <div style="font-size:11px;color:var(--text-dim);margin-top:4px;">16% del total de reproducciones</div>
+          </div>
+        </div>
+      </div>
+      <div class="ad-card">
+        <img class="ad-img" src="data:image/jpeg;base64,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" alt="Hormigón visto" />
+        <div class="ad-body">
+          <div class="ad-name">Hormigón visto</div>
+          <div class="ad-copy">Aviso de tráfico con imagen estática. Orientado a generar visitas directas al perfil.</div>
+          <div class="ad-metrics">
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--accent)">692</div>
+              <div class="ad-stat-label">Clics al perfil</div>
+            </div>
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--text-dim)">20,684</div>
+              <div class="ad-stat-label">Alcance</div>
+            </div>
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--gold)">$27,626</div>
+              <div class="ad-stat-label">Inversión</div>
+            </div>
+          </div>
+          
+          <div style="margin-top:10px;">
+            <div style="font-size:11px;color:var(--text-dim);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:6px;">Clics al perfil IG</div>
+            <div style="height:5px;background:var(--surface-alt);border-radius:100px;overflow:hidden;">
+              <div style="width:100%;height:100%;background:linear-gradient(90deg,var(--accent),var(--blue));border-radius:100px;"></div>
+            </div>
+            <div style="font-size:11px;color:var(--text-dim);margin-top:4px;">692 personas enviadas al perfil</div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="ad-card">
+        <img class="ad-img" src="data:image/jpeg;base64,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" alt="+ de 2 décadas" />
+        <div class="ad-body">
+          <div class="ad-name">+ de 2 décadas</div>
+          <div class="ad-copy">Aviso institucional sobre la trayectoria de HDI. Mejor retención de video del mes.</div>
+          <div class="ad-metrics">
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--accent)">2,030</div>
+              <div class="ad-stat-label">Reproducciones</div>
+            </div>
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--text-dim)">17,247</div>
+              <div class="ad-stat-label">Alcance</div>
+            </div>
+            <div class="ad-stat">
+              <div class="ad-stat-val" style="color:var(--gold)">$14,056</div>
+              <div class="ad-stat-label">Inversión</div>
+            </div>
+          </div>
+          
+          <div class="retention-bar-section">
+            <div class="retention-label">Retención del video</div>
+            <div class="retention-bars">
+              <div class="ret-row"><span>25%</span><div class="ret-track"><div class="ret-fill" style="width:53%"></div></div><span class="ret-val">53%</span></div>
+              <div class="ret-row"><span>50%</span><div class="ret-track"><div class="ret-fill" style="width:33%;opacity:0.8"></div></div><span class="ret-val">33%</span></div>
+              <div class="ret-row"><span>75%</span><div class="ret-track"><div class="ret-fill" style="width:19%;opacity:0.6"></div></div><span class="ret-val">19%</span></div>
+              <div class="ret-row"><span>100%</span><div class="ret-track"><div class="ret-fill" style="width:9%;opacity:0.4"></div></div><span class="ret-val">9%</span></div>
+            </div>
+          </div>
+          
+          <div style="margin-top:10px;">
+            <div style="height:5px;background:var(--surface-alt);border-radius:100px;overflow:hidden;">
+              <div style="width:10%;height:100%;background:linear-gradient(90deg,var(--accent),var(--blue));border-radius:100px;"></div>
+            </div>
+            <div style="font-size:11px;color:var(--text-dim);margin-top:4px;">10% del total de reproducciones</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Eficiencia de inversión</div>
+    <div class="efficiency-card">
+      <div class="gauge-label-top">Costo por 1.000 impresiones (CPM)</div>
+      <svg width="200" height="110" viewBox="0 0 200 110">
+        <defs>
+          <linearGradient id="gauge-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#10B981"/>
+            <stop offset="50%" style="stop-color:#F59E0B"/>
+            <stop offset="100%" style="stop-color:#EF4444"/>
+          </linearGradient>
+        </defs>
+        <path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="#1C2333" stroke-width="14" stroke-linecap="round"/>
+        <path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="url(#gauge-grad)" stroke-width="14" stroke-linecap="round" stroke-dasharray="251" stroke-dashoffset="0"/>
+        <line x1="100" y1="100" x2="146.1" y2="61.5" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+        <circle cx="100" cy="100" r="5" fill="white"/>
+        <text x="24" y="115" fill="#64748B" font-size="9" font-family="DM Sans">$0</text>
+        <text x="167" y="115" fill="#64748B" font-size="9" font-family="DM Sans">$800</text>
+        <text x="91" y="28" fill="#64748B" font-size="9" font-family="DM Sans">$400</text>
+      </svg>
+      <div class="gauge-value-main">$623 ARS</div>
+      <div class="gauge-value-sub">por cada 1.000 personas que vieron el aviso</div>
+      <div class="gauge-verdict">Elevado</div>
+      <p style="font-size:12px;color:var(--text-dim);margin-top:12px;text-align:center;max-width:420px;">
+        El CPM es más alto que en campañas de reconocimiento puro porque el objetivo de tráfico/engagement 
+        apunta a una audiencia más calificada y activa, lo que naturalmente eleva el costo por impresión.
+      </p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Geografía</div>
+    <div class="geo-bars">
+      <div class="bar-row">
+        <div class="bar-label">Neuquén</div>
+        <div class="bar-track">
+          <div class="bar-fill" style="width:74%;background:linear-gradient(90deg,var(--accent),var(--blue))"></div>
+        </div>
+        <div class="bar-pct">74%</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">Río Negro</div>
+        <div class="bar-track">
+          <div class="bar-fill" style="width:26%;background:linear-gradient(90deg,var(--blue),var(--accent))"></div>
+        </div>
+        <div class="bar-pct">26%</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Audiencia</div>
+    <div class="demo-grid">
+      <div class="demo-section">
+        <h4>Por franja etaria</h4>
+        <div class="age-bars">
+
+        <div class="bar-row">
+          <div class="bar-label">25–34</div>
+          <div class="bar-track">
+            <div class="bar-fill" style="width:100%;background:linear-gradient(90deg,var(--accent),var(--blue))"></div>
+          </div>
+          <div class="bar-pct">39%</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">18–24</div>
+          <div class="bar-track">
+            <div class="bar-fill" style="width:91%;background:linear-gradient(90deg,var(--accent),var(--blue))"></div>
+          </div>
+          <div class="bar-pct">36%</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">35–44</div>
+          <div class="bar-track">
+            <div class="bar-fill" style="width:29%;background:linear-gradient(90deg,var(--accent),var(--blue))"></div>
+          </div>
+          <div class="bar-pct">11%</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">65+</div>
+          <div class="bar-track">
+            <div class="bar-fill" style="width:14%;background:linear-gradient(90deg,var(--accent),var(--blue))"></div>
+          </div>
+          <div class="bar-pct">5%</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">45–54</div>
+          <div class="bar-track">
+            <div class="bar-fill" style="width:12%;background:linear-gradient(90deg,var(--accent),var(--blue))"></div>
+          </div>
+          <div class="bar-pct">5%</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">55–64</div>
+          <div class="bar-track">
+            <div class="bar-fill" style="width:10%;background:linear-gradient(90deg,var(--accent),var(--blue))"></div>
+          </div>
+          <div class="bar-pct">4%</div>
+        </div>
+        </div>
+      </div>
+      <div class="demo-section">
+        <h4>Por género</h4>
+        <div class="gender-track">
+          <div class="gender-male" style="width:63.9%">64%</div>
+          <div class="gender-female" style="width:36.1%">36%</div>
+        </div>
+        <div class="gender-legend">
+          <div class="gender-chip"><div class="gender-chip-dot" style="background:#3B82F6"></div>Hombres</div>
+          <div class="gender-chip"><div class="gender-chip-dot" style="background:#EC4899"></div>Mujeres</div>
+        </div>
+        <div class="highlights">
+          <div class="highlight-chip">Rango principal <strong>25–34</strong></div>
+          <div class="highlight-chip"><strong>64%</strong> hombres</div>
+          <div class="highlight-chip">Neuquén <strong>74%</strong></div>
+          <div class="highlight-chip">Frec. <strong>2.41x</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Conclusiones del mes</div>
+    <div class="insights-grid">
+      <div class="insight-row">
+        <div class="insight-icon" style="background:var(--accent-soft);color:var(--accent)">🏆</div>
+        <div class="insight-text">
+          <strong>"Alto Valle no se detiene" fue el aviso dominante.</strong> Concentró el <strong>56% del presupuesto</strong> (116,020 ARS) y el <strong>73% de las reproducciones de video</strong> (14.111 de 19.438). Con 77.397 personas alcanzadas, fue el aviso de mayor impacto del mes.
+        </div>
+      </div>
+      <div class="insight-row">
+        <div class="insight-icon" style="background:var(--blue-soft);color:var(--blue)">👆</div>
+        <div class="insight-text">
+          <strong>Tráfico al perfil: 4,939 clics.</strong> El costo promedio por clic fue de <strong>$41 ARS</strong> — un valor razonable para campañas de tráfico en redes. El aviso "PROFESIONALES" generó 1.700 clics solo con $46.746 ARS, siendo el más eficiente en costo por clic.
+        </div>
+      </div>
+      <div class="insight-row">
+        <div class="insight-icon" style="background:var(--gold-soft);color:var(--gold)">📺</div>
+        <div class="insight-text">
+          <strong>Retención de video saludable.</strong> En "+ de 2 décadas", el <strong>53% de quienes empezaron el video llegaron al 25%</strong> y el 9% lo vio completo — una retención sólida que indica que el contenido genera interés real. "Alto Valle no se detiene" llegó al 8% completo en una base de 14.111 reproducciones.
+        </div>
+      </div>
+      <div class="insight-row">
+        <div class="insight-icon" style="background:var(--green-soft);color:var(--green)">🎯</div>
+        <div class="insight-text">
+          <strong>Audiencia masculina del sector construcción.</strong> El <strong>64% de las impresiones fueron a hombres</strong>, con fuerte concentración en 25–34 (39%) y 18–24 (35%). El 74% del alcance se concentró en Neuquén. Esta segmentación es consistente con el perfil de tomadores de decisión en construcción e ingeniería.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    Reporte generado · Hormigonera HDI · Marzo 2026 · META Ads · LINE Agency
+  </div>
+</div>
+</body>
+</html>

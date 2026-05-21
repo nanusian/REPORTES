@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASPA - Reporte Google Ads Sep-Dic 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        .period {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            display: inline-block;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+
+        .monthly-summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+
+        .month-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 25px;
+            border-radius: 15px;
+            color: white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .month-card h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            border-bottom: 2px solid rgba(255,255,255,0.3);
+            padding-bottom: 10px;
+        }
+
+        .metric {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+            font-size: 0.95em;
+        }
+
+        .metric-value {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        h2 {
+            color: #667eea;
+            font-size: 2em;
+            margin: 40px 0 20px 0;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .comparison-table thead {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .comparison-table th {
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .comparison-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .comparison-table tbody tr:hover {
+            background: #f8f9fa;
+        }
+
+        .comparison-table tbody tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        .empty-cell {
+            color: #999;
+            font-style: italic;
+        }
+
+        .recommendations {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            padding: 30px;
+            border-radius: 15px;
+            color: white;
+            margin: 40px 0;
+        }
+
+        .recommendations h2 {
+            color: white;
+            border-bottom-color: rgba(255,255,255,0.3);
+        }
+
+        .recommendation-item {
+            background: rgba(255,255,255,0.2);
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            border-left: 5px solid white;
+        }
+
+        .recommendation-item h3 {
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .highlight {
+            background: #fff3cd;
+            padding: 2px 8px;
+            border-radius: 4px;
+            color: #856404;
+            font-weight: bold;
+        }
+
+        .positive {
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        .negative {
+            color: #dc3545;
+            font-weight: bold;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid #eee;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ASPA</h1>
+            <div class="subtitle">Reporte de Rendimiento Google Ads</div>
+            <div class="period">Septiembre - Diciembre 2025</div>
+        </header>
+
+        <h2>📊 Resumen por Mes</h2>
+        <div class="monthly-summary">
+
+            <div class="month-card">
+                <h3>Septiembre</h3>
+                <div class="metric">
+                    <span>Inversión</span>
+                    <span class="metric-value">$556,792.20</span>
+                </div>
+                <div class="metric">
+                    <span>Clics</span>
+                    <span class="metric-value">3,912</span>
+                </div>
+                <div class="metric">
+                    <span>Impresiones</span>
+                    <span class="metric-value">430,539</span>
+                </div>
+                <div class="metric">
+                    <span>Conversiones</span>
+                    <span class="metric-value">211.0</span>
+                </div>
+                <div class="metric">
+                    <span>CPC Prom</span>
+                    <span class="metric-value">$142.33</span>
+                </div>
+                <div class="metric">
+                    <span>Costo/Conv</span>
+                    <span class="metric-value">$2639.33</span>
+                </div>
+            </div>
+
+            <div class="month-card">
+                <h3>Octubre</h3>
+                <div class="metric">
+                    <span>Inversión</span>
+                    <span class="metric-value">$1,119,538.18</span>
+                </div>
+                <div class="metric">
+                    <span>Clics</span>
+                    <span class="metric-value">5,566</span>
+                </div>
+                <div class="metric">
+                    <span>Impresiones</span>
+                    <span class="metric-value">1,294,869</span>
+                </div>
+                <div class="metric">
+                    <span>Conversiones</span>
+                    <span class="metric-value">277.0</span>
+                </div>
+                <div class="metric">
+                    <span>CPC Prom</span>
+                    <span class="metric-value">$201.14</span>
+                </div>
+                <div class="metric">
+                    <span>Costo/Conv</span>
+                    <span class="metric-value">$4041.65</span>
+                </div>
+            </div>
+
+            <div class="month-card">
+                <h3>Noviembre</h3>
+                <div class="metric">
+                    <span>Inversión</span>
+                    <span class="metric-value">$1,175,454.08</span>
+                </div>
+                <div class="metric">
+                    <span>Clics</span>
+                    <span class="metric-value">5,338</span>
+                </div>
+                <div class="metric">
+                    <span>Impresiones</span>
+                    <span class="metric-value">1,076,112</span>
+                </div>
+                <div class="metric">
+                    <span>Conversiones</span>
+                    <span class="metric-value">211.5</span>
+                </div>
+                <div class="metric">
+                    <span>CPC Prom</span>
+                    <span class="metric-value">$220.20</span>
+                </div>
+                <div class="metric">
+                    <span>Costo/Conv</span>
+                    <span class="metric-value">$5557.18</span>
+                </div>
+            </div>
+
+            <div class="month-card">
+                <h3>Diciembre</h3>
+                <div class="metric">
+                    <span>Inversión</span>
+                    <span class="metric-value">$1,098,440.64</span>
+                </div>
+                <div class="metric">
+                    <span>Clics</span>
+                    <span class="metric-value">5,295</span>
+                </div>
+                <div class="metric">
+                    <span>Impresiones</span>
+                    <span class="metric-value">944,774</span>
+                </div>
+                <div class="metric">
+                    <span>Conversiones</span>
+                    <span class="metric-value">285.5</span>
+                </div>
+                <div class="metric">
+                    <span>CPC Prom</span>
+                    <span class="metric-value">$207.45</span>
+                </div>
+                <div class="metric">
+                    <span>Costo/Conv</span>
+                    <span class="metric-value">$3847.83</span>
+                </div>
+            </div>
+
+        </div>
+
+        <h2>📈 Evolución por Grupo de Anuncios</h2>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Campaña</th>
+                    <th>Grupo de Anuncios</th>
+                    <th>Métrica</th>
+                    <th>Sep</th>
+                    <th>Oct</th>
+                    <th>Nov</th>
+                    <th>Dic</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td rowspan="4"><strong>Buscadores 2025</strong></td>
+                    <td rowspan="4">Grupo de anuncios 1</td>
+                    <td><strong>Clics</strong></td>
+<td>1,850</td><td>1,969</td><td>2,203</td><td>979</td></tr><tr><td><strong>Inversión</strong></td><td>$313,780</td><td>$426,526</td><td>$461,743</td><td>$123,889</td></tr><tr><td><strong>Conversiones</strong></td><td>141.0</td><td>163.0</td><td>125.5</td><td>29.5</td></tr><tr><td><strong>Costo/Conv</strong></td><td><span class="highlight">$2,226.02</span></td><td><span class="highlight">$2,616.72</span></td><td><span class="highlight">$3,679.23</span></td><td><span class="highlight">$4,199.62</span></td></tr>
+                <tr>
+                    <td rowspan="4"><strong>Gran Alameda 2025</strong></td>
+                    <td rowspan="4">Grupo Anuncio 01</td>
+                    <td><strong>Clics</strong></td>
+<td>2,062</td><td>1,951</td><td>1,206</td><td>379</td></tr><tr><td><strong>Inversión</strong></td><td>$243,012</td><td>$289,449</td><td>$266,805</td><td>$102,221</td></tr><tr><td><strong>Conversiones</strong></td><td>70.0</td><td>80.0</td><td>73.0</td><td>48.0</td></tr><tr><td><strong>Costo/Conv</strong></td><td><span class="highlight">$3,471.60</span></td><td><span class="highlight">$3,618.11</span></td><td><span class="highlight">$3,654.86</span></td><td><span class="highlight">$2,130.05</span></td></tr>
+                <tr>
+                    <td rowspan="4"><strong>Torre Aura - Trafico 2025 - Oct</strong></td>
+                    <td rowspan="4">Ad group 1</td>
+                    <td><strong>Clics</strong></td>
+<td class="empty-cell">-</td><td>2</td><td>0</td><td>268</td></tr><tr><td><strong>Inversión</strong></td><td class="empty-cell">-</td><td>$0</td><td>$0</td><td>$59,105</td></tr><tr><td><strong>Conversiones</strong></td><td class="empty-cell">-</td><td>0.0</td><td>0.0</td><td>21.0</td></tr><tr><td><strong>Costo/Conv</strong></td><td class="empty-cell">-</td><td class="empty-cell">-</td><td class="empty-cell">-</td><td><span class="highlight">$2,815.88</span></td></tr>
+                <tr>
+                    <td rowspan="4"><strong>Torre Aura - Trafico 2025 - Oct - BsAs</strong></td>
+                    <td rowspan="4">Ad group 1</td>
+                    <td><strong>Clics</strong></td>
+<td class="empty-cell">-</td><td>0</td><td class="empty-cell">-</td><td>316</td></tr><tr><td><strong>Inversión</strong></td><td class="empty-cell">-</td><td>$0</td><td class="empty-cell">-</td><td>$82,367</td></tr><tr><td><strong>Conversiones</strong></td><td class="empty-cell">-</td><td>0.0</td><td class="empty-cell">-</td><td>42.0</td></tr><tr><td><strong>Costo/Conv</strong></td><td class="empty-cell">-</td><td class="empty-cell">-</td><td class="empty-cell">-</td><td><span class="highlight">$1,961.12</span></td></tr>
+                <tr>
+                    <td rowspan="4"><strong>La Alborada 2025</strong></td>
+                    <td rowspan="4">Anuncios Meandro</td>
+                    <td><strong>Clics</strong></td>
+<td class="empty-cell">-</td><td>1,596</td><td>1,912</td><td>2,414</td></tr><tr><td><strong>Inversión</strong></td><td class="empty-cell">-</td><td>$394,628</td><td>$443,892</td><td>$456,305</td></tr><tr><td><strong>Conversiones</strong></td><td class="empty-cell">-</td><td>34.0</td><td>12.0</td><td>26.8</td></tr><tr><td><strong>Costo/Conv</strong></td><td class="empty-cell">-</td><td><span class="highlight">$11,606.72</span></td><td><span class="highlight">$36,929.48</span></td><td><span class="highlight">$17,058.13</span></td></tr>
+                <tr>
+                    <td rowspan="4"><strong>Gran Alameda 2025</strong></td>
+                    <td rowspan="4">Grupo Anuncio 02</td>
+                    <td><strong>Clics</strong></td>
+<td class="empty-cell">-</td><td>48</td><td>17</td><td>5</td></tr><tr><td><strong>Inversión</strong></td><td class="empty-cell">-</td><td>$8,935</td><td>$3,014</td><td>$465</td></tr><tr><td><strong>Conversiones</strong></td><td class="empty-cell">-</td><td>0.0</td><td>1.0</td><td>0.0</td></tr><tr><td><strong>Costo/Conv</strong></td><td class="empty-cell">-</td><td class="empty-cell">-</td><td><span class="highlight">$3,013.57</span></td><td class="empty-cell">-</td></tr>
+                <tr>
+                    <td rowspan="4"><strong>Torre Aura - Trafico 2025 - Oct</strong></td>
+                    <td rowspan="4">DIC 2025</td>
+                    <td><strong>Clics</strong></td>
+<td class="empty-cell">-</td><td class="empty-cell">-</td><td class="empty-cell">-</td><td>272</td></tr><tr><td><strong>Inversión</strong></td><td class="empty-cell">-</td><td class="empty-cell">-</td><td class="empty-cell">-</td><td>$63,018</td></tr><tr><td><strong>Conversiones</strong></td><td class="empty-cell">-</td><td class="empty-cell">-</td><td class="empty-cell">-</td><td>46.0</td></tr><tr><td><strong>Costo/Conv</strong></td><td class="empty-cell">-</td><td class="empty-cell">-</td><td class="empty-cell">-</td><td><span class="highlight">$1,370.26</span></td></tr>
+                <tr>
+                    <td rowspan="4"><strong>Gran Alameda 2025</strong></td>
+                    <td rowspan="4">Ad group 3</td>
+                    <td><strong>Clics</strong></td>
+<td class="empty-cell">-</td><td class="empty-cell">-</td><td class="empty-cell">-</td><td>374</td></tr><tr><td><strong>Inversión</strong></td><td class="empty-cell">-</td><td class="empty-cell">-</td><td class="empty-cell">-</td><td>$151,002</td></tr><tr><td><strong>Conversiones</strong></td><td class="empty-cell">-</td><td class="empty-cell">-</td><td class="empty-cell">-</td><td>30.2</td></tr><tr><td><strong>Costo/Conv</strong></td><td class="empty-cell">-</td><td class="empty-cell">-</td><td class="empty-cell">-</td><td><span class="highlight">$4,991.81</span></td></tr>
+                <tr>
+                    <td rowspan="4"><strong>Torre Aura - Trafico 2025 - Oct - BsAs</strong></td>
+                    <td rowspan="4">DIC 2025</td>
+                    <td><strong>Clics</strong></td>
+<td class="empty-cell">-</td><td class="empty-cell">-</td><td class="empty-cell">-</td><td>288</td></tr><tr><td><strong>Inversión</strong></td><td class="empty-cell">-</td><td class="empty-cell">-</td><td class="empty-cell">-</td><td>$60,068</td></tr><tr><td><strong>Conversiones</strong></td><td class="empty-cell">-</td><td class="empty-cell">-</td><td class="empty-cell">-</td><td>42.0</td></tr><tr><td><strong>Costo/Conv</strong></td><td class="empty-cell">-</td><td class="empty-cell">-</td><td class="empty-cell">-</td><td><span class="highlight">$1,430.19</span></td></tr>
+            </tbody>
+        </table>
+
+        <div class="recommendations">
+            <h2>💡 Recomendaciones Estratégicas</h2>
+
+            <div class="recommendation-item">
+                <h3>1. Consolidar Presupuesto en Buscadores 2025</h3>
+                <p>El grupo "Buscadores 2025" muestra el mejor rendimiento consistente con un costo por conversión competitivo (~$2,226 en Sep). Recomendamos incrementar el presupuesto de esta campaña en un 30-40% redistribuyendo fondos de campañas menos eficientes.</p>
+            </div>
+
+            <div class="recommendation-item">
+                <h3>2. Optimizar La Alborada 2025</h3>
+                <p>Esta campaña mostró crecimiento en Oct-Dic con inversiones significativas. Analizar qué creatividades y palabras clave están generando las conversiones para replicar el éxito.</p>
+            </div>
+
+            <div class="recommendation-item">
+                <h3>3. Revisar Torre Aura - Tráfico</h3>
+                <p>Múltiples grupos de anuncios de Torre Aura muestran actividad esporádica. Consolidar en un único grupo optimizado podría mejorar el rendimiento y simplificar la gestión.</p>
+            </div>
+
+            <div class="recommendation-item">
+                <h3>4. Pausar Grupos de Bajo Rendimiento</h3>
+                <p>Los grupos marcados como "Detenido" con inversión residual deberían ser completamente pausados o reactivados con estrategia clara. La inversión fragmentada reduce la eficiencia del presupuesto.</p>
+            </div>
+
+            <div class="recommendation-item">
+                <h3>5. Implementar Extensiones de Anuncio</h3>
+                <p>Para campañas de búsqueda como "Buscadores 2025", agregar extensiones de llamada, ubicación y enlaces adicionales puede incrementar el CTR entre 10-25% sin costo adicional.</p>
+            </div>
+
+            <div class="recommendation-item">
+                <h3>6. Optimizar Landing Pages</h3>
+                <p>Con un costo por conversión promedio de $4010.58, mejorar la tasa de conversión de las landing pages en 15-20% podría reducir significativamente el CPL sin aumentar la inversión.</p>
+            </div>
+
+            <div class="recommendation-item">
+                <h3>7. Pruebas A/B de Creatividades</h3>
+                <p>Implementar sistema de rotación de anuncios para identificar mensajes de mayor rendimiento. Crear al menos 3 variantes por grupo de anuncios y evaluar rendimiento mensual.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>Período del Reporte:</strong> 1 de Septiembre - 28 de Diciembre 2025</p>
+            <p><strong>Inversión Total:</strong> $3,950,225.10 ARS</p>
+            <p><strong>Clics Totales:</strong> 20,111</p>
+            <p><strong>Conversiones Totales:</strong> 985.0</p>
+            <p style="margin-top: 20px; font-size: 0.9em; color: #999;">
+                Generado el 29 de December de 2025 a las 19:11
+            </p>
+        </div>
+    </div>
+</body>
+</html>

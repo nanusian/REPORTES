@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "cliente": "ASPA",
+    "periodo": "2025-11-01_2025-11-30",
+    "fecha_generacion": "2025-12-29 19:07",
+    "plataforma": "Google Ads",
+    "fuente": "CSV Export"
+  },
+  "resumen": {
+    "inversion_total": 1175454.08,
+    "clics_totales": 5338,
+    "impresiones_totales": 1076112,
+    "conversiones_totales": 211.51999999999998,
+    "total_grupos": 5
+  },
+  "grupos_de_anuncios": [
+    {
+      "campaign_name": "Gran Alameda 2025",
+      "ad_group_name": "Grupo Anuncio 01",
+      "estado": "Detenido",
+      "impressions": 98103,
+      "clicks": 1206,
+      "cost": 266805.02,
+      "conversions": 73.0,
+      "ctr": 1.2293202042750986,
+      "avg_cpc": 221.23135986733004,
+      "cost_per_conversion": 3654.863287671233
+    },
+    {
+      "campaign_name": "La Alborada 2025",
+      "ad_group_name": "Anuncios Meandro",
+      "estado": "Habilitado",
+      "impressions": 922619,
+      "clicks": 1912,
+      "cost": 443892.31,
+      "conversions": 12.02,
+      "ctr": 0.2072361397283169,
+      "avg_cpc": 232.16125,
+      "cost_per_conversion": 36929.47670549085
+    },
+    {
+      "campaign_name": "Torre Aura - Trafico 2025 - Oct",
+      "ad_group_name": "Ad group 1",
+      "estado": "Detenido",
+      "impressions": 1,
+      "clicks": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "ctr": 0.0,
+      "avg_cpc": 0.0,
+      "cost_per_conversion": 0.0
+    },
+    {
+      "campaign_name": "Buscadores 2025",
+      "ad_group_name": "Grupo de anuncios 1",
+      "estado": "Habilitado",
+      "impressions": 48785,
+      "clicks": 2203,
+      "cost": 461743.18,
+      "conversions": 125.5,
+      "ctr": 4.515732294762734,
+      "avg_cpc": 209.5974489332728,
+      "cost_per_conversion": 3679.2285258964143
+    },
+    {
+      "campaign_name": "Gran Alameda 2025",
+      "ad_group_name": "Grupo Anuncio 02",
+      "estado": "Detenido",
+      "impressions": 6604,
+      "clicks": 17,
+      "cost": 3013.57,
+      "conversions": 1.0,
+      "ctr": 0.257419745608722,
+      "avg_cpc": 177.26882352941178,
+      "cost_per_conversion": 3013.57
+    }
+  ],
+  "datos_detallados": [
+    {
+      "campaign_name": "Gran Alameda 2025",
+      "ad_group_name": "Grupo Anuncio 01",
+      "estado": "Detenido",
+      "impressions": 98103,
+      "clicks": 1206,
+      "cost": 266805.02,
+      "conversions": 73.0,
+      "ctr": 1.23,
+      "avg_cpc": 221.23,
+      "cost_per_conversion": 3655.05
+    },
+    {
+      "campaign_name": "La Alborada 2025",
+      "ad_group_name": "Anuncios Meandro",
+      "estado": "Habilitado",
+      "impressions": 922619,
+      "clicks": 1912,
+      "cost": 443892.31,
+      "conversions": 12.02,
+      "ctr": 0.21,
+      "avg_cpc": 232.16,
+      "cost_per_conversion": 36928.17
+    },
+    {
+      "campaign_name": "Torre Aura - Trafico 2025 - Oct",
+      "ad_group_name": "Ad group 1",
+      "estado": "Detenido",
+      "impressions": 1,
+      "clicks": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "ctr": 0.0,
+      "avg_cpc": 0.0,
+      "cost_per_conversion": 0.0
+    },
+    {
+      "campaign_name": "Buscadores 2025",
+      "ad_group_name": "Grupo de anuncios 1",
+      "estado": "Habilitado",
+      "impressions": 48785,
+      "clicks": 2203,
+      "cost": 461743.18,
+      "conversions": 125.5,
+      "ctr": 4.52,
+      "avg_cpc": 209.6,
+      "cost_per_conversion": 3679.23
+    },
+    {
+      "campaign_name": "Gran Alameda 2025",
+      "ad_group_name": "Grupo Anuncio 02",
+      "estado": "Detenido",
+      "impressions": 6604,
+      "clicks": 17,
+      "cost": 3013.57,
+      "conversions": 1.0,
+      "ctr": 0.26,
+      "avg_cpc": 177.27,
+      "cost_per_conversion": 3013.57
+    }
+  ],
+  "datos_diarios": [
+    {
+      "date": "2025-11-01",
+      "impressions": 1076112,
+      "clicks": 5338,
+      "cost": 1175454.08,
+      "conversions": 211.51999999999998
+    }
+  ]
+}

@@ -1,0 +1,466 @@
+{
+  "metadata": {
+    "cliente": "HORMIGONERA HDI",
+    "periodo": "2025-11-01_2025-11-30",
+    "fecha_generacion": "2025-12-09 12:32",
+    "ad_account_id": "act_7705227589601205"
+  },
+  "resumen": {
+    "inversion_total": 115568.08,
+    "alcance_total": 87140,
+    "impresiones_totales": 212839,
+    "total_anuncios": 3,
+    "total_conjuntos": 2
+  },
+  "conjuntos_de_anuncios": [
+    {
+      "adset_name": "Tráfico IG - Nov.25 - Abierto",
+      "impressions": 165329,
+      "reach": 61667,
+      "frequency": 2.680996,
+      "spend": 79959.85,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 1,
+        "link_click": 1427,
+        "page_engagement": 12883,
+        "onsite_conversion.post_unlike": 6,
+        "post_engagement": 12883,
+        "post_interaction_gross": 23,
+        "post": 2,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_like": 14,
+        "onsite_conversion.post_net_save": 1,
+        "onsite_conversion.messaging_first_reply": 1,
+        "onsite_conversion.messaging_conversation_started_7d": 1,
+        "video_view": 11433,
+        "post_reaction": 20
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 79959.85,
+        "video_view": 6.993777,
+        "link_click": 56.033532,
+        "post_interaction_gross": 3476.515217,
+        "post_engagement": 6.206617,
+        "page_engagement": 6.206617,
+        "onsite_conversion.messaging_first_reply": 79959.85,
+        "onsite_conversion.messaging_conversation_started_7d": 79959.85
+      }
+    },
+    {
+      "adset_name": "Tráfico IG - Nov.25 - Producto",
+      "impressions": 47510,
+      "reach": 24963,
+      "frequency": 1.903217,
+      "spend": 35608.23,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 1,
+        "link_click": 728,
+        "page_engagement": 1237,
+        "onsite_conversion.post_unlike": 5,
+        "post_engagement": 1234,
+        "like": 3,
+        "post_interaction_gross": 25,
+        "post": 3,
+        "onsite_conversion.post_save": 2,
+        "onsite_conversion.post_net_like": 15,
+        "onsite_conversion.post_net_save": 2,
+        "onsite_conversion.messaging_first_reply": 1,
+        "onsite_conversion.messaging_conversation_started_7d": 1,
+        "video_view": 481,
+        "post_reaction": 20
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 35608.23,
+        "video_view": 74.029584,
+        "link_click": 48.912404,
+        "like": 11869.41,
+        "post_interaction_gross": 1424.3292,
+        "post_engagement": 28.85594,
+        "page_engagement": 28.785958,
+        "onsite_conversion.messaging_first_reply": 35608.23,
+        "onsite_conversion.messaging_conversation_started_7d": 35608.23
+      }
+    }
+  ],
+  "anuncios": [
+    {
+      "campaign_name": "Tráfico - Perfil IG - Nov.25",
+      "adset_name": "Tráfico IG - Nov.25 - Abierto",
+      "ad_name": "Alto Valle no se detiene",
+      "ad_id": "120235619260750378",
+      "impressions": 165329,
+      "reach": 61667,
+      "frequency": 2.680996,
+      "clicks": 1423,
+      "spend": 79959.85,
+      "cpc": 56.19104,
+      "cpm": 483.640801,
+      "ctr": 0.860708,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 1,
+        "link_click": 1427,
+        "page_engagement": 12883,
+        "onsite_conversion.post_unlike": 6,
+        "post_engagement": 12883,
+        "post_interaction_gross": 23,
+        "post": 2,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_like": 14,
+        "onsite_conversion.post_net_save": 1,
+        "onsite_conversion.messaging_first_reply": 1,
+        "onsite_conversion.messaging_conversation_started_7d": 1,
+        "video_view": 11433,
+        "post_reaction": 20
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 79959.85,
+        "video_view": 6.993777,
+        "link_click": 56.033532,
+        "post_interaction_gross": 3476.515217,
+        "post_engagement": 6.206617,
+        "page_engagement": 6.206617,
+        "onsite_conversion.messaging_first_reply": 79959.85,
+        "onsite_conversion.messaging_conversation_started_7d": 79959.85
+      },
+      "creative": {
+        "title": "",
+        "body": "El Alto Valle no se detiene, y nosotros tampoco.\nHace más de dos décadas acompañamos su crecimiento con trabajo, visión y tecnología.\n\nEn todo este tiempo fuimos parte de proyectos que impulsaron a la región:\n🏘️ Soluciones habitacionales industrializadas en Neuquén\n🛢️ Infraestructura para YPF en Loma Campana, Añelo\n💧 Obras esenciales para el abastecimiento de agua en Lago Mari Menuco\n🛣️ Intervenciones estratégicas en la Autovía RN22\n\nMás de veinte años construyendo presente y futuro en el Alto Valle.\n\n#hdi #hormigonerahdi #hormigonhdi #calidadcertificada #hormigónelaborado #hormigón #construcción #obras #calidad",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t15.5256-10/583506077_2002856557176308_841131482425508022_n.jpg?_nc_cat=101&ccb=1-7&_nc_eui2=AeFx0aRVaDfeGAeV_w8nWRL-KyByXgQs2zkrIHJeBCzbOY_XMV5n7SwbhqsuMWuKzLw&_nc_ohc=LmeP3jpTfg0Q7kNvwGR7mnw&_nc_oc=AdkbnMVWumeSGjPsFlGiO7NeuMeyejt6RSfId6A4rLhOavk9d3EPD2ecSla9RVzrQXU&_nc_zt=23&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=_LEWHLKkiCBCORvkXhcgFA&_nc_tpa=Q5bMBQHGOx2E7DfFCpkhxXzeY0EaukhAr7SrjA5cqI_kdp2aj79b4CXvs3_qCHSyHf924BnaO9TPekwz&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AfnhnPx-Meuc1BhrGUO7DbLKaDIL0lwjGheIrX-vsYGQ8A&oe=693DF919",
+        "link_url": "",
+        "local_image_path": "output/ENTREGABLES/NOV-25/HORMIGONERA HDI/images/120235619260750378.jpg"
+      }
+    },
+    {
+      "campaign_name": "Tráfico - Perfil IG - Nov.25",
+      "adset_name": "Tráfico IG - Nov.25 - Producto",
+      "ad_name": "Hormigón visto",
+      "ad_id": "120236098199580378",
+      "impressions": 42719,
+      "reach": 21735,
+      "frequency": 1.965447,
+      "clicks": 767,
+      "spend": 31923.45,
+      "cpc": 41.621186,
+      "cpm": 747.289262,
+      "ctr": 1.795454,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 1,
+        "link_click": 677,
+        "page_engagement": 758,
+        "onsite_conversion.post_unlike": 5,
+        "post_engagement": 755,
+        "like": 3,
+        "post_interaction_gross": 21,
+        "post": 3,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_like": 12,
+        "onsite_conversion.post_net_save": 1,
+        "onsite_conversion.messaging_first_reply": 1,
+        "onsite_conversion.messaging_conversation_started_7d": 1,
+        "video_view": 57,
+        "post_reaction": 17
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 31923.45,
+        "video_view": 560.060526,
+        "link_click": 47.154284,
+        "like": 10641.15,
+        "post_interaction_gross": 1520.164286,
+        "post_engagement": 42.282715,
+        "page_engagement": 42.115369,
+        "onsite_conversion.messaging_first_reply": 31923.45,
+        "onsite_conversion.messaging_conversation_started_7d": 31923.45
+      },
+      "creative": {
+        "title": "Hormigonera HDI",
+        "body": "El 𝗵𝗼𝗿𝗺𝗶𝗴𝗼́𝗻 𝘃𝗶𝘀𝘁𝗼 es sinónimo de solidez y diseño contemporáneo.\nVersátil, duradero y estéticamente atemporal, aporta carácter y coherencia a cada espacio.\n\n👉 Hoy te contamos por qué y dónde aplicarlo\n\n#hormigonvisto #arquitectura #interiorismo #diseño #hdi #hormigonera #construccion",
+        "image_url": "",
+        "thumbnail_url": "https://external.fnqn9-1.fna.fbcdn.net/emg1/v/t13/4100606249832557201?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQINkFezteyxh0lU_J-JkL_cmXuhVnNCg5RKkSTbDbB2OQe8S_CBFrfBUZMoKzM4okD0oHSyfgbaYini3iukoCPk8LJtQbN0yHVOxW1xpmYAt3Qu9oS6FRHXNeu1wCu8PR2_0MBwwzH9U_M-azmqojaJ&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AAT1rw8EAAAA&_nc_gid=0NesHBiaGBGGcdKN_6-_dA&_nc_eui2=AeFQwnO4GQSkbiTs84zx9SRfq_NJcyd_uNKr80lzJ3-40rbyV0mCb77pNGL9q5NweX0&_nc_oc=AdmSi9OomUCV7-9TIS6norvgnUGwXvAaEy4nq0AiQ8hMoIkFn8c7S9UrUUIuTjMjfhA&ccb=13-1&oh=06_Q3-5AV4RF_aqgEo5KQ3sD57KIyi-SNPk-oJweaD6JVh00nO_&oe=693A2210&_nc_sid=58080a",
+        "link_url": "",
+        "local_image_path": "output/ENTREGABLES/NOV-25/HORMIGONERA HDI/images/120236098199580378.jpg"
+      }
+    },
+    {
+      "campaign_name": "Tráfico - Perfil IG - Nov.25",
+      "adset_name": "Tráfico IG - Nov.25 - Producto",
+      "ad_name": "Hormigón bombeado",
+      "ad_id": "120236098240530378",
+      "impressions": 4791,
+      "reach": 3738,
+      "frequency": 1.281701,
+      "clicks": 54,
+      "spend": 3684.78,
+      "cpc": 68.236667,
+      "cpm": 769.104571,
+      "ctr": 1.127113,
+      "actions": {
+        "link_click": 51,
+        "page_engagement": 479,
+        "post_engagement": 479,
+        "post_interaction_gross": 4,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_like": 3,
+        "onsite_conversion.post_net_save": 1,
+        "video_view": 424,
+        "post_reaction": 3
+      },
+      "cost_per_actions": {
+        "video_view": 8.690519,
+        "link_click": 72.250588,
+        "post_interaction_gross": 921.195,
+        "post_engagement": 7.692651,
+        "page_engagement": 7.692651
+      },
+      "creative": {
+        "title": "",
+        "body": "¡Optimizá tu obra con hormigón bombeado! 💪🏽\n\n👉 Contamos con equipos especializados para cada tipo de trabajo, maximizando la productividad y reduciendo costos.\n\nPara más información, ingresá a 🌐 www.hormigonerahdi.com.ar\n\n#altovalle #neuquen #hormigon #construccion #obras #hdi #hormigonerahdi #hormigonhdi #hormigonelaborado",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/589896834_1312252670672501_4738782556425155843_n.jpg?_nc_cat=103&ccb=1-7&_nc_eui2=AeEAa77856llOuRIts5_venYXfrh3ZH5BBBd-uHdkfkEEEke4DA3lVFIxTalhnk1ul0&_nc_ohc=AOO2tZlWlqsQ7kNvwGi6sm2&_nc_oc=AdmhqYYdgdllR56LBqR225yyxi44u4vVVIz0eXRiB2Ji3HXr_LX5O2Eoqff_4lc5zdA&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=Mkm4yfYkejCCYGpbTHKGPg&_nc_tpa=Q5bMBQEtwhVzMUg4R0EhGP-OemyNweVR5N_gWJM2gbusHWb8tXXD_8SHXCMRiY0i7b8rUaL_AtZNkPiV&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AfkjAX1_MIB6rnGC6jF1Yt6fLqJLwcW4qP8S-qnFoI6ddg&oe=693E23CA",
+        "link_url": "",
+        "local_image_path": "output/ENTREGABLES/NOV-25/HORMIGONERA HDI/images/120236098240530378.jpg"
+      }
+    }
+  ],
+  "datos_diarios": [
+    {
+      "date": "2025-11-17",
+      "impressions": 6099,
+      "reach": 5586,
+      "spend": 4110.33,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-18",
+      "impressions": 7641,
+      "reach": 6951,
+      "spend": 4191.97,
+      "conversaciones": 1
+    },
+    {
+      "date": "2025-11-19",
+      "impressions": 7058,
+      "reach": 6612,
+      "spend": 3988.09,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-20",
+      "impressions": 6921,
+      "reach": 6417,
+      "spend": 4450.95,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-21",
+      "impressions": 9824,
+      "reach": 8822,
+      "spend": 4258.96,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-22",
+      "impressions": 9727,
+      "reach": 8957,
+      "spend": 4488.75,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-23",
+      "impressions": 11660,
+      "reach": 10943,
+      "spend": 4778.81,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-24",
+      "impressions": 11053,
+      "reach": 10219,
+      "spend": 4402.18,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-25",
+      "impressions": 20349,
+      "reach": 17476,
+      "spend": 8463.09,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-26",
+      "impressions": 24389,
+      "reach": 21706,
+      "spend": 14516.89,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-27",
+      "impressions": 22726,
+      "reach": 20091,
+      "spend": 14014.1,
+      "conversaciones": 1
+    },
+    {
+      "date": "2025-11-28",
+      "impressions": 23810,
+      "reach": 19841,
+      "spend": 14157.22,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-29",
+      "impressions": 24829,
+      "reach": 21028,
+      "spend": 14862.08,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-30",
+      "impressions": 26753,
+      "reach": 22765,
+      "spend": 14884.66,
+      "conversaciones": 0
+    }
+  ],
+  "analisis": {
+    "total_spend": 115568.08,
+    "total_reach": 87140,
+    "total_impressions": 212839,
+    "total_ads": 3,
+    "total_adsets": 2,
+    "best_ad": {
+      "campaign_name": "Tráfico - Perfil IG - Nov.25",
+      "adset_name": "Tráfico IG - Nov.25 - Abierto",
+      "ad_name": "Alto Valle no se detiene",
+      "ad_id": "120235619260750378",
+      "impressions": 165329,
+      "reach": 61667,
+      "frequency": 2.680996,
+      "clicks": 1423,
+      "spend": 79959.85,
+      "cpc": 56.19104,
+      "cpm": 483.640801,
+      "ctr": 0.860708,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 1,
+        "link_click": 1427,
+        "page_engagement": 12883,
+        "onsite_conversion.post_unlike": 6,
+        "post_engagement": 12883,
+        "post_interaction_gross": 23,
+        "post": 2,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_like": 14,
+        "onsite_conversion.post_net_save": 1,
+        "onsite_conversion.messaging_first_reply": 1,
+        "onsite_conversion.messaging_conversation_started_7d": 1,
+        "video_view": 11433,
+        "post_reaction": 20
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 79959.85,
+        "video_view": 6.993777,
+        "link_click": 56.033532,
+        "post_interaction_gross": 3476.515217,
+        "post_engagement": 6.206617,
+        "page_engagement": 6.206617,
+        "onsite_conversion.messaging_first_reply": 79959.85,
+        "onsite_conversion.messaging_conversation_started_7d": 79959.85
+      },
+      "creative": {
+        "title": "",
+        "body": "El Alto Valle no se detiene, y nosotros tampoco.\nHace más de dos décadas acompañamos su crecimiento con trabajo, visión y tecnología.\n\nEn todo este tiempo fuimos parte de proyectos que impulsaron a la región:\n🏘️ Soluciones habitacionales industrializadas en Neuquén\n🛢️ Infraestructura para YPF en Loma Campana, Añelo\n💧 Obras esenciales para el abastecimiento de agua en Lago Mari Menuco\n🛣️ Intervenciones estratégicas en la Autovía RN22\n\nMás de veinte años construyendo presente y futuro en el Alto Valle.\n\n#hdi #hormigonerahdi #hormigonhdi #calidadcertificada #hormigónelaborado #hormigón #construcción #obras #calidad",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t15.5256-10/583506077_2002856557176308_841131482425508022_n.jpg?_nc_cat=101&ccb=1-7&_nc_eui2=AeFx0aRVaDfeGAeV_w8nWRL-KyByXgQs2zkrIHJeBCzbOY_XMV5n7SwbhqsuMWuKzLw&_nc_ohc=LmeP3jpTfg0Q7kNvwGR7mnw&_nc_oc=AdkbnMVWumeSGjPsFlGiO7NeuMeyejt6RSfId6A4rLhOavk9d3EPD2ecSla9RVzrQXU&_nc_zt=23&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=_LEWHLKkiCBCORvkXhcgFA&_nc_tpa=Q5bMBQHGOx2E7DfFCpkhxXzeY0EaukhAr7SrjA5cqI_kdp2aj79b4CXvs3_qCHSyHf924BnaO9TPekwz&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AfnhnPx-Meuc1BhrGUO7DbLKaDIL0lwjGheIrX-vsYGQ8A&oe=693DF919",
+        "link_url": "",
+        "local_image_path": "output/ENTREGABLES/NOV-25/HORMIGONERA HDI/images/120235619260750378.jpg"
+      }
+    },
+    "worst_ad": {
+      "campaign_name": "Tráfico - Perfil IG - Nov.25",
+      "adset_name": "Tráfico IG - Nov.25 - Producto",
+      "ad_name": "Hormigón bombeado",
+      "ad_id": "120236098240530378",
+      "impressions": 4791,
+      "reach": 3738,
+      "frequency": 1.281701,
+      "clicks": 54,
+      "spend": 3684.78,
+      "cpc": 68.236667,
+      "cpm": 769.104571,
+      "ctr": 1.127113,
+      "actions": {
+        "link_click": 51,
+        "page_engagement": 479,
+        "post_engagement": 479,
+        "post_interaction_gross": 4,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_like": 3,
+        "onsite_conversion.post_net_save": 1,
+        "video_view": 424,
+        "post_reaction": 3
+      },
+      "cost_per_actions": {
+        "video_view": 8.690519,
+        "link_click": 72.250588,
+        "post_interaction_gross": 921.195,
+        "post_engagement": 7.692651,
+        "page_engagement": 7.692651
+      },
+      "creative": {
+        "title": "",
+        "body": "¡Optimizá tu obra con hormigón bombeado! 💪🏽\n\n👉 Contamos con equipos especializados para cada tipo de trabajo, maximizando la productividad y reduciendo costos.\n\nPara más información, ingresá a 🌐 www.hormigonerahdi.com.ar\n\n#altovalle #neuquen #hormigon #construccion #obras #hdi #hormigonerahdi #hormigonhdi #hormigonelaborado",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/589896834_1312252670672501_4738782556425155843_n.jpg?_nc_cat=103&ccb=1-7&_nc_eui2=AeEAa77856llOuRIts5_venYXfrh3ZH5BBBd-uHdkfkEEEke4DA3lVFIxTalhnk1ul0&_nc_ohc=AOO2tZlWlqsQ7kNvwGi6sm2&_nc_oc=AdmhqYYdgdllR56LBqR225yyxi44u4vVVIz0eXRiB2Ji3HXr_LX5O2Eoqff_4lc5zdA&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=Mkm4yfYkejCCYGpbTHKGPg&_nc_tpa=Q5bMBQEtwhVzMUg4R0EhGP-OemyNweVR5N_gWJM2gbusHWb8tXXD_8SHXCMRiY0i7b8rUaL_AtZNkPiV&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AfkjAX1_MIB6rnGC6jF1Yt6fLqJLwcW4qP8S-qnFoI6ddg&oe=693E23CA",
+        "link_url": "",
+        "local_image_path": "output/ENTREGABLES/NOV-25/HORMIGONERA HDI/images/120236098240530378.jpg"
+      }
+    },
+    "adsets_analysis": [
+      {
+        "name": "Tráfico IG - Nov.25 - Abierto",
+        "reach": 61667,
+        "frequency": 2.680996,
+        "spend": 79959.85,
+        "objective_type": "link_click",
+        "objective_label": "Clics al perfil/enlace",
+        "objective_short_label": "clics",
+        "main_result": 1427,
+        "cost_per_result": 56.033532,
+        "conversations": 1,
+        "cost_per_conversation": 79959.85
+      },
+      {
+        "name": "Tráfico IG - Nov.25 - Producto",
+        "reach": 24963,
+        "frequency": 1.903217,
+        "spend": 35608.23,
+        "objective_type": "link_click",
+        "objective_label": "Clics al perfil/enlace",
+        "objective_short_label": "clics",
+        "main_result": 728,
+        "cost_per_result": 48.912404,
+        "conversations": 1,
+        "cost_per_conversation": 35608.23
+      }
+    ],
+    "insights": [
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "media",
+        "titulo": "Costo por conversación alto en 'Tráfico IG - Nov.25 - Abierto'",
+        "descripcion": "Estás pagando $79,960 por cada conversación. Hay margen para optimizar.",
+        "metrica": "1 conversaciones a $79,960 c/u",
+        "accion": "Refinar audiencia o mejorar oferta/copy"
+      },
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "media",
+        "titulo": "Costo por conversación alto en 'Tráfico IG - Nov.25 - Producto'",
+        "descripcion": "Estás pagando $35,608 por cada conversación. Hay margen para optimizar.",
+        "metrica": "1 conversaciones a $35,608 c/u",
+        "accion": "Refinar audiencia o mejorar oferta/copy"
+      }
+    ]
+  }
+}

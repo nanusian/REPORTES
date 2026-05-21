@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Campaña - CP VERITECNICA</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f5f5;
+            color: #2d3748;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 3px solid #4A5568;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 42px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 10px;
+        }
+
+        .header .subtitle {
+            font-size: 24px;
+            color: #718096;
+            font-weight: 300;
+        }
+
+        .header .period {
+            font-size: 18px;
+            color: #4A5568;
+            margin-top: 15px;
+            font-weight: 500;
+        }
+
+        /* Section */
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #4A5568;
+        }
+
+        /* Metrics Grid */
+        .metrics-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .metric-card {
+            flex: 1;
+            min-width: 200px;
+            background: #f7fafc;
+            padding: 25px;
+            border-left: 4px solid #4A5568;
+            border-radius: 4px;
+        }
+
+        .metric-value {
+            font-size: 32px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 8px;
+        }
+
+        .metric-label {
+            font-size: 13px;
+            color: #718096;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+        }
+
+        thead {
+            background: #4A5568;
+            color: white;
+        }
+
+        th {
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #e2e8f0;
+            font-size: 14px;
+        }
+
+        tbody tr:hover {
+            background: #f7fafc;
+        }
+
+        /* Insights */
+        .insights {
+            margin: 30px 0;
+        }
+
+        .insight {
+            background: #f7fafc;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 4px solid #4A5568;
+            border-radius: 4px;
+        }
+
+        .insight-alerta {
+            border-left-color: #E53E3E;
+            background: #FFF5F5;
+        }
+
+        .insight-oportunidad {
+            border-left-color: #D69E2E;
+            background: #FFFAF0;
+        }
+
+        .insight-exito {
+            border-left-color: #38A169;
+            background: #F0FFF4;
+        }
+
+        .insight-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 8px;
+        }
+
+        .insight-description {
+            font-size: 14px;
+            color: #4A5568;
+            margin-bottom: 8px;
+        }
+
+        .insight-action {
+            font-size: 13px;
+            color: #2D3748;
+            font-weight: 500;
+        }
+
+        /* AdSet Detail */
+        .adset-detail {
+            margin: 40px 0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .adset-header {
+            background: #4A5568;
+            color: white;
+            padding: 20px 25px;
+        }
+
+        .adset-title {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .adset-metrics {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .adset-metric {
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .adset-metric-value {
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        .adset-metric-label {
+            font-size: 12px;
+            opacity: 0.9;
+            text-transform: uppercase;
+        }
+
+        /* Tabla comparativa de anuncios */
+        .comparison-table-wrap {
+            overflow-x: auto;
+            background: white;
+        }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        .comparison-table thead tr {
+            background: #edf2f7;
+        }
+
+        .comparison-table th {
+            padding: 11px 14px;
+            text-align: center;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+            color: #4A5568;
+            border-bottom: 2px solid #cbd5e0;
+            white-space: nowrap;
+        }
+
+        .comparison-table th.col-ad {
+            text-align: left;
+            min-width: 200px;
+        }
+
+        .comparison-table td {
+            padding: 14px;
+            border-bottom: 1px solid #e2e8f0;
+            text-align: center;
+            vertical-align: middle;
+            color: #2d3748;
+        }
+
+        .comparison-table td.col-ad {
+            text-align: left;
+        }
+
+        .comparison-table tbody tr:hover {
+            background: #f7fafc;
+        }
+
+        .comparison-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        .ad-cell {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .ad-thumb {
+            flex-shrink: 0;
+            width: 60px;
+            height: 60px;
+            border-radius: 6px;
+            overflow: hidden;
+            background: #edf2f7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #e2e8f0;
+        }
+
+        .ad-thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .ad-cell-name {
+            font-weight: 600;
+            color: #1a202c;
+            font-size: 14px;
+        }
+
+        .metric-highlight {
+            font-weight: 700;
+            color: #1a202c;
+        }
+
+        .tag-best {
+            display: inline-block;
+            background: #c6f6d5;
+            color: #22543d;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 2px 6px;
+            border-radius: 10px;
+            margin-left: 4px;
+            vertical-align: middle;
+        }
+
+        .tag-low {
+            display: inline-block;
+            background: #fed7d7;
+            color: #742a2a;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 2px 6px;
+            border-radius: 10px;
+            margin-left: 4px;
+            vertical-align: middle;
+        }
+
+        /* Glossary */
+        .glossary {
+            background: #f7fafc;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+        }
+
+        .glossary-item {
+            margin-bottom: 20px;
+        }
+
+        .glossary-term {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 5px;
+        }
+
+        .glossary-definition {
+            font-size: 14px;
+            color: #4A5568;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+            text-align: center;
+            color: #718096;
+            font-size: 13px;
+        }
+
+        @media print {
+            @page { size: A4 landscape; margin: 12mm 15mm; }
+            body { background: white; padding: 0; font-size: 11px; }
+            .container { box-shadow: none; padding: 0; max-width: 100%; }
+
+            /* Header compacto */
+            .header { padding: 16px 20px; margin-bottom: 14px; }
+            .header h1 { font-size: 22px; }
+            .header .subtitle { font-size: 14px; }
+
+            /* Métricas resumen más pequeñas */
+            .metrics-grid { gap: 8px; margin-bottom: 14px; }
+            .metric-card { padding: 10px 12px; }
+            .metric-value { font-size: 20px; }
+            .metric-label { font-size: 10px; }
+
+            /* Secciones sin sombra */
+            .adset-detail { box-shadow: none; border: 1px solid #e2e8f0; margin-bottom: 14px; page-break-inside: avoid; }
+            .adset-header { padding: 10px 14px; }
+            .adset-title { font-size: 13px; }
+
+            /* Tablas compactas */
+            .comparison-table-wrap { overflow: visible; }
+            .comparison-table { font-size: 10px; width: 100%; }
+            .comparison-table th { padding: 6px 8px; font-size: 9px; }
+            .comparison-table td { padding: 6px 8px; }
+            .comparison-table th.col-ad { min-width: 140px; }
+
+            /* Miniaturas más pequeñas */
+            .ad-thumb { width: 36px; height: 36px; flex-shrink: 0; }
+            .ad-cell { gap: 7px; }
+            .ad-cell-name { font-size: 11px; }
+            .tag-best, .tag-low { font-size: 9px; padding: 1px 4px; }
+
+            /* Insights compactos */
+            .insights { margin-top: 12px; }
+            .insight { padding: 8px 12px; margin-bottom: 6px; }
+            .insight-title { font-size: 11px; }
+            .insight-description, .insight-action { font-size: 10px; }
+
+            /* No cortar filas entre páginas */
+            .comparison-table tbody tr { page-break-inside: avoid; }
+            .adset-metrics { gap: 6px; }
+            .adset-metric { padding: 6px 10px; }
+        }
+
+        /* RESPONSIVE MOBILE */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .header .subtitle {
+                font-size: 18px;
+            }
+
+            .section-title {
+                font-size: 24px;
+            }
+
+            /* Tablas responsive */
+            table {
+                font-size: 12px;
+            }
+
+            table th, table td {
+                padding: 8px 4px;
+            }
+
+            /* Hacer tablas scrolleables horizontalmente */
+            .table-container {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            /* Métricas en columna */
+            .metrics-grid {
+                flex-direction: column;
+            }
+
+            .metric-card {
+                min-width: 100%;
+            }
+
+            /* Anuncios en columna */
+            .ad-header {
+                flex-direction: column;
+            }
+
+            .ad-image-container {
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+            }
+
+            .ad-image {
+                width: 100%;
+                height: auto;
+            }
+
+            .ad-metrics {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+
+            .ad-metric {
+                min-width: calc(50% - 5px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- HEADER -->
+        <div class="header">
+            <h1>CP VERITECNICA</h1>
+            <div class="subtitle">Reporte de Campaña Publicitaria</div>
+            <div class="period">Abril 2026</div>
+        </div>
+
+        <!-- RESUMEN EJECUTIVO -->
+        <div class="section">
+            <h2 class="section-title">Resumen Ejecutivo</h2>
+
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">$199.987,00</div>
+                    <div class="metric-label">Inversión Total (ARS)</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">190.162</div>
+                    <div class="metric-label">Alcance Total</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">541.667</div>
+                    <div class="metric-label">Impresiones</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">3</div>
+                    <div class="metric-label">Anuncios Corridos</div>
+                </div>
+            </div>
+
+            <h3 style="font-size: 20px; margin: 30px 0 15px 0; color: #1a202c;">Rendimiento por Campaña</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Campaña</th>
+                        <th>Alcance</th>
+                        <th>Frecuencia</th>
+                        <th>Inversión</th>
+                        <th>Resultado Principal</th>
+                        <th>Costo por Resultado</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td><strong>Reconocimiento- MOFU - Always ON</strong></td>
+                        <td>178.444</td>
+                        <td>3.04</td>
+                        <td>$199.987,00</td>
+                        <td>16.747 reproducciones</td>
+                        <td>$11,94</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Insights y Recomendaciones</h2>
+            <div class="insights">
+
+                <div class="insight insight-alerta">
+                    <div class="insight-title">⚠️ Costo por click alto en 'SERGIO WENLEN'</div>
+                    <div class="insight-description">CPC de $350 es 50% más alto que el promedio ($209). Estás pagando de más por cada click.</div>
+                    <div class="insight-action">→ Optimizar segmentación o pausar si no convierte</div>
+                </div>
+
+                <div class="insight insight-oportunidad">
+                    <div class="insight-title">💡 Subinversión en anuncio con potencial: 'Antes de salir'</div>
+                    <div class="insight-description">Este anuncio tiene buen CTR (0.20%) pero recibe poca inversión ($8,641). Podría escalar.</div>
+                    <div class="insight-action">→ Aumentar presupuesto para este anuncio</div>
+                </div>
+
+                <div class="insight insight-oportunidad">
+                    <div class="insight-title">💡 Subinversión en anuncio con potencial: 'TURISMO PATAGONIA'</div>
+                    <div class="insight-description">Este anuncio tiene buen CTR (0.25%) pero recibe poca inversión ($7,538). Podría escalar.</div>
+                    <div class="insight-action">→ Aumentar presupuesto para este anuncio</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Glosario de Métricas</h2>
+            <div class="glossary">
+                <div class="glossary-item">
+                    <div class="glossary-term">Impresiones</div>
+                    <div class="glossary-definition">Cantidad de veces que tu anuncio fue mostrado en pantalla.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">Alcance</div>
+                    <div class="glossary-definition">Número de personas únicas que vieron tu anuncio al menos una vez.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">Frecuencia</div>
+                    <div class="glossary-definition">Promedio de veces que cada persona vio tu anuncio. Idealmente entre 2-4.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">CTR (Click-Through Rate)</div>
+                    <div class="glossary-definition">Porcentaje de personas que hicieron click después de ver el anuncio.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">CPC (Costo Por Click)</div>
+                    <div class="glossary-definition">Cuánto pagaste en promedio por cada click en tu anuncio.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">CPM (Costo Por Mil impresiones)</div>
+                    <div class="glossary-definition">Cuánto pagaste por cada 1,000 veces que tu anuncio fue mostrado.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Comparativa por Campaña</h2>
+
+            <div class="adset-detail">
+                <div class="adset-header">
+                    <div class="adset-title">Reconocimiento- MOFU - Always ON</div>
+                    <div class="adset-metrics">
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">16.747</div>
+                            <div class="adset-metric-label">Reproducciones de video</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">$11,94</div>
+                            <div class="adset-metric-label">Costo por resultado</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">$199.987,00</div>
+                            <div class="adset-metric-label">Inversión Total</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">178.444</div>
+                            <div class="adset-metric-label">Alcance</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">3.04</div>
+                            <div class="adset-metric-label">Frecuencia</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comparison-table-wrap">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th class="col-ad">Anuncio</th>
+                                <th>Alcance</th>
+                                <th>Impresiones</th>
+                                <th>Frecuencia</th>
+                                <th>Inversión</th>
+                                <th>CTR</th>
+                                <th>CPC</th>
+                                <th>CPM</th>
+                                <th>Reproducciones</th>
+                                <th>Costo / reprod.</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div class="ad-thumb"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE3ZDAxMDAwMGNiMDEwMDAwM2MwMjAwMDA1OTAyMDAwMDcyMDIwMDAwZTAwMjAwMDBiOTAzMDAwMGQzMDMwMDAwZjcwMzAwMDAxMDA0MDAwMDE2MDUwMDAwAP/bAIQABgcHDQkNDAwMDBENDg0REREQEBERExASERIQExMUExUVExQTFBMXFxcTFBUXGRkXFRccGxwXGxkZGx4bHhsbFgEGBgYLCAsKCwsKDQkLCQ0MDAoKDAwPCwwLDAsPEA4NDg4NDhAODQ0KDQ0ODw4QEA4PEAwODBAPEBAPFxkXFxfB/8IAEQgAQABAAwEiAAIRAQMRAf/EAEgAAAIDAQEAAAAAAAAAAAAAAAMEAAECBQYQAAIBAgQDBwMEAwAAAAAAAAERACExAhBBUQNhcQQSIIGRofAiwfEwsdHhEzJy/9oADAMBAAIAAwAAAAHw+ywRBqFEUZjJMVexObxvmdFGHD7JQ7FXpV0lTyqARyx9PzzdTrTmn1HKGGWyEGJOc+k5iPYauyLZYDUrNrXj/9oACAEBAAEFAlFl3oDFFKxZHDiZCjgMBihxkzsnGHB4nA7VwjMfH4b4faODiPE7XwxO08fDxMXfUUGGYzwuHxO92eLsyOPgGKKA/VKQiAKKEid4ZCsUw4jhn+SEuKLLhxRRReDhZDEBMWMTvTvQ45//2gAIAQMAAT8BIUJgMXgB8XDwd4gNOcTD3SQ2sv/aAAgBAgABPwEFwYYcMaizOGAx+AmCuX//2gAIAQEABj8C/RoHACCzYeMYsVRV/OswjEPq+lkgJirc4Sw/6N/SPl5hHdVTUjDS9doe7gr/AMhafYGPCEFst9vTwY8IAA7is6mv9Q0FyqG1V9oSEmrGj73taAGuEcj8t4b/AKVv161lAsrZf//aAAgBAQABPyEZBpeFrUEdfIShGyCXcEMVQqtK+ZilSqBZdkIRGE9/T98nPgDDNgg4CgAGrFPYJfGamwFqb9XaFnIr2owFRhpjpd3gxDejqiTcwNl0gK4AgHdDQ86hUc0KxUK2VqKAjyZaDWONKwjH9RgVnUVHpAky14aJH3Bq6wIoXtVJgeuwhTWBkiWASgCg0rrA2MIM7VX2jQZLQGkoNh5wHYgtL+0rPcfxB+UE1E5vtHnLBbaepD3nwDmmkOUIOQw1l10JTeEgRAbfCIeWhsPyYu0MuXP/2gAMAwEAAgADAAAAEP2+yLSqxZ+oBCNMBP/aAAgBAwABPxDUGNtkBoSTzzKMlLZgKJ1fEGbdYAKjV81Fsv/aAAgBAgABPxDQRF8owADMXiCw04aO0tP/2gAIAQEAAT8Q5MEABdAh/fNcgqsckB+E5R9YbCJglTDI0EDqQIXWokTq1NTSVEAyIJokl0AjqIBGs+Iy4eukEdAZSC+wmspN4M9EtBHVwMo5yZ6K6IJuB6YBTkGpR/eo0RFICiZyRVJJeuVrXG6Nv4MoxUdpuReuvJc7QkEl7onagnYH99CbBtR0BRLSQw/o/gDwDZEtAj2j+y8ALehh82D+POEvRZdhDqeUx+BKQfBzhT1GoN+8WRYeQqUH5eUIHWeT5aVrQJS8cPVcqiMrBubhdv8AYQyY1gUXVAwpNicmA8vOJKhpaG/OILkNL2lRo9N9DAlokaFRc/3T5jNj3QIsE//Z" alt=""/></div>
+                                        <span class="ad-cell-name">Antes de salir</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">19.512</td>
+                                <td>30.654</td>
+                                <td>1.57</td>
+                                <td class="metric-highlight">$8.641,21</td>
+                                <td>0.20%</td>
+                                <td>$144,02</td>
+                                <td>$281,90</td>
+                                <td class="metric-highlight">1414</td>
+                                <td>$6,11<span class="tag-best">MENOR</span></td>
+                            </tr>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div class="ad-thumb"><img src="data:image/jpeg;base64,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" alt=""/></div>
+                                        <span class="ad-cell-name">SERGIO WENLEN</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">153.699</td>
+                                <td>488.172</td>
+                                <td>3.18</td>
+                                <td class="metric-highlight">$183.808,06</td>
+                                <td>0.11%</td>
+                                <td>$350,11</td>
+                                <td>$376,52</td>
+                                <td class="metric-highlight">14541<span class="tag-best">MEJOR</span></td>
+                                <td>$12,64</td>
+                            </tr>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div class="ad-thumb"><img src="data:image/jpeg;base64,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" alt=""/></div>
+                                        <span class="ad-cell-name">TURISMO PATAGONIA</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">16.951</td>
+                                <td>22.841</td>
+                                <td>1.35</td>
+                                <td class="metric-highlight">$7.537,73</td>
+                                <td>0.25%<span class="tag-best">MEJOR</span></td>
+                                <td>$132,24</td>
+                                <td>$330,01</td>
+                                <td class="metric-highlight">792</td>
+                                <td>$9,52</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            Reporte generado el 06 de May de 2026 a las 09:27
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,524 @@
+{
+  "metadata": {
+    "cliente": "CP VERITECNICA",
+    "periodo": "2026-04-01_2026-04-30",
+    "fecha_generacion": "2026-05-06 09:24",
+    "ad_account_id": "act_3064053850451135"
+  },
+  "resumen": {
+    "inversion_total": 199987.0,
+    "alcance_total": 190162,
+    "impresiones_totales": 541667,
+    "total_anuncios": 3,
+    "total_conjuntos": 1
+  },
+  "conjuntos_de_anuncios": [
+    {
+      "adset_name": "Reconocimiento- MOFU - Always ON",
+      "impressions": 541667,
+      "reach": 178444,
+      "frequency": 3.035501,
+      "spend": 199987.0,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 4,
+        "link_click": 414,
+        "page_engagement": 17240,
+        "onsite_conversion.messaging_welcome_message_view": 5,
+        "onsite_conversion.post_unlike": 28,
+        "post_engagement": 17240,
+        "post_interaction_gross": 79,
+        "comment": 2,
+        "post_interaction_net": 107,
+        "onsite_conversion.messaging_first_reply": 4,
+        "post": 8,
+        "onsite_conversion.post_net_comment": 2,
+        "onsite_conversion.post_net_like": 41,
+        "onsite_conversion.messaging_conversation_started_7d": 4,
+        "video_view": 16747,
+        "post_reaction": 69
+      },
+      "cost_per_actions": {
+        "video_view": 11.941661,
+        "link_click": 483.060386,
+        "post_interaction_gross": 2531.481013,
+        "onsite_conversion.total_messaging_connection": 49996.75,
+        "post_engagement": 11.600174,
+        "page_engagement": 11.600174,
+        "onsite_conversion.messaging_first_reply": 49996.75,
+        "onsite_conversion.messaging_welcome_message_view": 39997.4,
+        "onsite_conversion.messaging_conversation_started_7d": 49996.75
+      }
+    }
+  ],
+  "anuncios": [
+    {
+      "campaign_name": "Reconocimiento- MOFU",
+      "adset_name": "Reconocimiento- MOFU - Always ON",
+      "ad_name": "Antes de salir",
+      "ad_id": "6987037204889",
+      "impressions": 30654,
+      "reach": 19512,
+      "frequency": 1.571033,
+      "clicks": 60,
+      "spend": 8641.21,
+      "cpc": 144.020167,
+      "cpm": 281.895022,
+      "ctr": 0.195733,
+      "actions": {
+        "link_click": 28,
+        "page_engagement": 1449,
+        "post_engagement": 1449,
+        "post_interaction_gross": 7,
+        "comment": 1,
+        "post_interaction_net": 7,
+        "onsite_conversion.post_net_comment": 1,
+        "onsite_conversion.post_net_like": 6,
+        "video_view": 1414,
+        "post_reaction": 6
+      },
+      "cost_per_actions": {
+        "video_view": 6.111181,
+        "link_click": 308.614643,
+        "post_interaction_gross": 1234.458571,
+        "post_engagement": 5.963568,
+        "page_engagement": 5.963568
+      },
+      "creative": {
+        "title": "",
+        "body": "Antes de salir a la ruta, revisá tu vehículo\n\nViajá seguro y tranquilo.\n\nVeritécnica. Cuidamos tu camino. 🛣️\n\nEncontranos en\n📍 Planta PIN – Neuquén\nParque Industrial Neuquén (Autovía Norte, Lote 11)\nSistema: Provincial y Nacional\n(atención a Particulares y Transporte de cargas/pasajeros).\n🕒 Horarios:\n• Provincial: Lun a vie 8:00–18:00 / Sáb 8:30–13:00\n📞 (0299) 410-5555\n• Nacional: Lun a vie 6:30–20:15 / Sáb 6:30–13:15\n📞 299-5079810 / 299-5259305\n\n📍 Planta Añelo – Añelo\nParque Industrial Añelo (12B)\nSistema: Provincial\n(atención a Particulares y Transporte de cargas/pasajeros).\n🕒 Horarios:\nLun a vie 8:00–17:00 (ingreso de vehículos hasta las 16:30)\n📞 (0299) 509-6791\n\n#rto #vtv #revisiontecnica #seguridadvial #transitoseguro vehiculos autos motos camiones transporte controlvehicular normativa circulacionsegura neuquen añelo patagonia argentina 🚘",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t15.5256-10/651166691_1146808874140505_6967436048368085076_n.jpg?_nc_cat=108&ccb=1-7&_nc_eui2=AeHcbDryXR66QxwKbogzMnHkZ2bmE3VQ42xnZuYTdVDjbGA2EV9_3x73RkvEjKxCBek&_nc_ohc=MmMeL4XjktIQ7kNvwGebxB_&_nc_oc=Ado7hMTSCnCwHta3RARBXoB1Oxi6_DorS3b9Fo0VWW_GgFdr6iAhI6qRMqTinz59rMoAK1pXTTHryGqpxIaTUuO-&_nc_zt=23&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=NI34VwydEfEjt7yAthVg6Q&_nc_tpa=Q5bMBQHtN6OXMHC0CcN6cwKeF_agQnHHsEtYzNMAJUVyfjAPDrxe0f0D_SMQqUm2oYAP3Sa5d6-VycC7&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Af48_QKr9bUocnwCNCRHNqqHhGXy-xEFMuEOWlbYAuodRw&oe=6A00F606",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/CP VERITECNICA/meta/images/6987037204889.jpg"
+      }
+    },
+    {
+      "campaign_name": "Reconocimiento- MOFU",
+      "adset_name": "Reconocimiento- MOFU - Always ON",
+      "ad_name": "SERGIO WENLEN",
+      "ad_id": "6999402434889",
+      "impressions": 488172,
+      "reach": 153699,
+      "frequency": 3.176156,
+      "clicks": 525,
+      "spend": 183808.06,
+      "cpc": 350.11059,
+      "cpm": 376.523152,
+      "ctr": 0.107544,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 4,
+        "link_click": 353,
+        "page_engagement": 14961,
+        "onsite_conversion.post_unlike": 27,
+        "post_engagement": 14961,
+        "post_interaction_gross": 67,
+        "comment": 1,
+        "post_interaction_net": 94,
+        "onsite_conversion.messaging_first_reply": 4,
+        "post": 8,
+        "onsite_conversion.post_net_comment": 1,
+        "onsite_conversion.post_net_like": 31,
+        "onsite_conversion.messaging_conversation_started_7d": 4,
+        "video_view": 14541,
+        "post_reaction": 58
+      },
+      "cost_per_actions": {
+        "video_view": 12.640675,
+        "link_click": 520.70272,
+        "post_interaction_gross": 2743.403881,
+        "onsite_conversion.total_messaging_connection": 45952.015,
+        "post_engagement": 12.285814,
+        "page_engagement": 12.285814,
+        "onsite_conversion.messaging_first_reply": 45952.015,
+        "onsite_conversion.messaging_conversation_started_7d": 45952.015
+      },
+      "creative": {
+        "title": "",
+        "body": "Más de 25 años de historias, rutas y confianza. \n\nSergio de WENLEN nos visita hace más de dos décadas y nos elige por una razón: nos tomamos la seguridad de su flota tan en serio como él.\n\nEn Veritécnica somos más que una planta de verificación; somos el socio que tu empresa necesita para operar sin pausas.\n\nOptimizá tus tiempos, garantizamos  tu seguridad.",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t51.82787-10/654603118_18074557007547418_5340375511667249237_n.jpg?_nc_cat=110&ccb=1-7&_nc_eui2=AeGYes_LNL-9Zae2yH2may-49WRKtuQPkeD1ZEq25A-R4O9WpYzzO0691KtisbvNIwM&_nc_ohc=4FKlgDqU7twQ7kNvwG0cLSJ&_nc_oc=AdoC0O-4DG9FF_HbMVY9V-vud6JClV2bAbwgE_y97qLhzgbTSu11CvZibrEqgncoUcdXwgWgfjMObxLDQS_gDh9c&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=bkbKy9653KcGg82imZuPKw&_nc_tpa=Q5bMBQGBSHLybNTQ4NWvlm7oR0-tBJvAkFM1Y1i1qCkVIacYajElQ8jyBymxWrszY4wSyUeaagZuul6N&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af4JrPwUjJop320xfaHZ8Q-LpRmIEfVJRkM-UJXdnJaaRA&oe=6A010220",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/CP VERITECNICA/meta/images/6999402434889.jpg"
+      }
+    },
+    {
+      "campaign_name": "Reconocimiento- MOFU",
+      "adset_name": "Reconocimiento- MOFU - Always ON",
+      "ad_name": "TURISMO PATAGONIA",
+      "ad_id": "52511519251493",
+      "impressions": 22841,
+      "reach": 16951,
+      "frequency": 1.347472,
+      "clicks": 57,
+      "spend": 7537.73,
+      "cpc": 132.240877,
+      "cpm": 330.008756,
+      "ctr": 0.249551,
+      "actions": {
+        "link_click": 33,
+        "page_engagement": 830,
+        "onsite_conversion.messaging_welcome_message_view": 5,
+        "onsite_conversion.post_unlike": 1,
+        "post_engagement": 830,
+        "post_interaction_gross": 5,
+        "post_interaction_net": 6,
+        "onsite_conversion.post_net_like": 4,
+        "video_view": 792,
+        "post_reaction": 5
+      },
+      "cost_per_actions": {
+        "video_view": 9.517336,
+        "link_click": 228.416061,
+        "post_interaction_gross": 1507.546,
+        "post_engagement": 9.081602,
+        "page_engagement": 9.081602,
+        "onsite_conversion.messaging_welcome_message_view": 1507.546
+      },
+      "creative": {
+        "title": "",
+        "body": "Más que un servicio, una alianza de años garantizando seguridad en cada kilómetro. 🚛💨\n\nEn Veritécnica sabemos que en el transporte regional no hay margen para el error. Por eso, acompañamos a Turismo Patagonia con un servicio de verificación técnica riguroso y eficiente.\n\nLa confianza se construye con el tiempo y se mantiene con resultados.\n\n¡Gracias, Turismo Patagonia, por seguir confiando en nuestro profesionalismo!\n\n📍 Encontranos en Neuquén para poner a punto tu flota.\n\n#veritecnica #seguridadvial  #flotascorporativas #neuquén #vacamuerta",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/678241046_2352682305137222_6612534844338832003_n.jpg?_nc_cat=103&ccb=1-7&_nc_eui2=AeF3xJbywvLHuwBt7ycx-gnP_IIIXizoVuv8ggheLOhW647mzqR1iKaYEuuVPDztPkw&_nc_ohc=r8HgogtkBs4Q7kNvwEyffs2&_nc_oc=AdrPqr9zrZg38K42U1x5o6LSnzcrDho63Acoirt5AYPXbYPzPvZ97i8gfxHt1K97DIL9uR4sjFc4rKN0YWqVL_r9&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=bAi-apnKykbxDrkjfpJvbw&_nc_tpa=Q5bMBQF4qrLjVI82AjjG1xwQmHl5ZkLopnFOCE6gYxAaE1Ah6Ta8-l6S6tFn0CYj8721vnByzkHILonO&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Af704JCyu_UVITPHNkTuzJn65z0SuvGRiCRj4ZrM7pbXDA&oe=6A010BF9",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/CP VERITECNICA/meta/images/52511519251493.jpg"
+      }
+    }
+  ],
+  "datos_diarios": [
+    {
+      "date": "2026-04-03",
+      "impressions": 17421,
+      "reach": 13199,
+      "spend": 6002.37,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-04",
+      "impressions": 22829,
+      "reach": 17632,
+      "spend": 7126.92,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-05",
+      "impressions": 25212,
+      "reach": 20745,
+      "spend": 7438.71,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-06",
+      "impressions": 24224,
+      "reach": 19652,
+      "spend": 7183.9,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-07",
+      "impressions": 20530,
+      "reach": 16216,
+      "spend": 6903.3,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-08",
+      "impressions": 20321,
+      "reach": 15968,
+      "spend": 7314.61,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-09",
+      "impressions": 18973,
+      "reach": 15024,
+      "spend": 7090.69,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-10",
+      "impressions": 17898,
+      "reach": 14047,
+      "spend": 6859.53,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-11",
+      "impressions": 18494,
+      "reach": 14942,
+      "spend": 7272.09,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-12",
+      "impressions": 20780,
+      "reach": 16950,
+      "spend": 7917.96,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-13",
+      "impressions": 20853,
+      "reach": 17547,
+      "spend": 7357.85,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-14",
+      "impressions": 19105,
+      "reach": 14702,
+      "spend": 6987.44,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-15",
+      "impressions": 18690,
+      "reach": 15186,
+      "spend": 7023.45,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-16",
+      "impressions": 18566,
+      "reach": 14009,
+      "spend": 7029.09,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-17",
+      "impressions": 18216,
+      "reach": 14405,
+      "spend": 7097.62,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-18",
+      "impressions": 19183,
+      "reach": 15328,
+      "spend": 7508.6,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-19",
+      "impressions": 20800,
+      "reach": 17060,
+      "spend": 7684.75,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-20",
+      "impressions": 21194,
+      "reach": 18275,
+      "spend": 7332.66,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-21",
+      "impressions": 19708,
+      "reach": 15930,
+      "spend": 6912.24,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-22",
+      "impressions": 17650,
+      "reach": 15217,
+      "spend": 6689.8,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-23",
+      "impressions": 17802,
+      "reach": 14387,
+      "spend": 7135.55,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-24",
+      "impressions": 17937,
+      "reach": 14112,
+      "spend": 7220.15,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-25",
+      "impressions": 18598,
+      "reach": 15073,
+      "spend": 7540.15,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-26",
+      "impressions": 19658,
+      "reach": 15767,
+      "spend": 7622.32,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-27",
+      "impressions": 18006,
+      "reach": 14502,
+      "spend": 7014.53,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-28",
+      "impressions": 16841,
+      "reach": 13199,
+      "spend": 7011.31,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-29",
+      "impressions": 16917,
+      "reach": 13004,
+      "spend": 7094.98,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-30",
+      "impressions": 15261,
+      "reach": 12586,
+      "spend": 6614.43,
+      "conversaciones": 0
+    }
+  ],
+  "analisis": {
+    "total_spend": 199987.0,
+    "total_reach": 190162,
+    "total_impressions": 541667,
+    "total_ads": 3,
+    "total_adsets": 1,
+    "best_ad": {
+      "campaign_name": "Reconocimiento- MOFU",
+      "adset_name": "Reconocimiento- MOFU - Always ON",
+      "ad_name": "SERGIO WENLEN",
+      "ad_id": "6999402434889",
+      "impressions": 488172,
+      "reach": 153699,
+      "frequency": 3.176156,
+      "clicks": 525,
+      "spend": 183808.06,
+      "cpc": 350.11059,
+      "cpm": 376.523152,
+      "ctr": 0.107544,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 4,
+        "link_click": 353,
+        "page_engagement": 14961,
+        "onsite_conversion.post_unlike": 27,
+        "post_engagement": 14961,
+        "post_interaction_gross": 67,
+        "comment": 1,
+        "post_interaction_net": 94,
+        "onsite_conversion.messaging_first_reply": 4,
+        "post": 8,
+        "onsite_conversion.post_net_comment": 1,
+        "onsite_conversion.post_net_like": 31,
+        "onsite_conversion.messaging_conversation_started_7d": 4,
+        "video_view": 14541,
+        "post_reaction": 58
+      },
+      "cost_per_actions": {
+        "video_view": 12.640675,
+        "link_click": 520.70272,
+        "post_interaction_gross": 2743.403881,
+        "onsite_conversion.total_messaging_connection": 45952.015,
+        "post_engagement": 12.285814,
+        "page_engagement": 12.285814,
+        "onsite_conversion.messaging_first_reply": 45952.015,
+        "onsite_conversion.messaging_conversation_started_7d": 45952.015
+      },
+      "creative": {
+        "title": "",
+        "body": "Más de 25 años de historias, rutas y confianza. \n\nSergio de WENLEN nos visita hace más de dos décadas y nos elige por una razón: nos tomamos la seguridad de su flota tan en serio como él.\n\nEn Veritécnica somos más que una planta de verificación; somos el socio que tu empresa necesita para operar sin pausas.\n\nOptimizá tus tiempos, garantizamos  tu seguridad.",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t51.82787-10/654603118_18074557007547418_5340375511667249237_n.jpg?_nc_cat=110&ccb=1-7&_nc_eui2=AeGYes_LNL-9Zae2yH2may-49WRKtuQPkeD1ZEq25A-R4O9WpYzzO0691KtisbvNIwM&_nc_ohc=4FKlgDqU7twQ7kNvwG0cLSJ&_nc_oc=AdoC0O-4DG9FF_HbMVY9V-vud6JClV2bAbwgE_y97qLhzgbTSu11CvZibrEqgncoUcdXwgWgfjMObxLDQS_gDh9c&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=bkbKy9653KcGg82imZuPKw&_nc_tpa=Q5bMBQGBSHLybNTQ4NWvlm7oR0-tBJvAkFM1Y1i1qCkVIacYajElQ8jyBymxWrszY4wSyUeaagZuul6N&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af4JrPwUjJop320xfaHZ8Q-LpRmIEfVJRkM-UJXdnJaaRA&oe=6A010220",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/CP VERITECNICA/meta/images/6999402434889.jpg"
+      }
+    },
+    "worst_ad": {
+      "campaign_name": "Reconocimiento- MOFU",
+      "adset_name": "Reconocimiento- MOFU - Always ON",
+      "ad_name": "TURISMO PATAGONIA",
+      "ad_id": "52511519251493",
+      "impressions": 22841,
+      "reach": 16951,
+      "frequency": 1.347472,
+      "clicks": 57,
+      "spend": 7537.73,
+      "cpc": 132.240877,
+      "cpm": 330.008756,
+      "ctr": 0.249551,
+      "actions": {
+        "link_click": 33,
+        "page_engagement": 830,
+        "onsite_conversion.messaging_welcome_message_view": 5,
+        "onsite_conversion.post_unlike": 1,
+        "post_engagement": 830,
+        "post_interaction_gross": 5,
+        "post_interaction_net": 6,
+        "onsite_conversion.post_net_like": 4,
+        "video_view": 792,
+        "post_reaction": 5
+      },
+      "cost_per_actions": {
+        "video_view": 9.517336,
+        "link_click": 228.416061,
+        "post_interaction_gross": 1507.546,
+        "post_engagement": 9.081602,
+        "page_engagement": 9.081602,
+        "onsite_conversion.messaging_welcome_message_view": 1507.546
+      },
+      "creative": {
+        "title": "",
+        "body": "Más que un servicio, una alianza de años garantizando seguridad en cada kilómetro. 🚛💨\n\nEn Veritécnica sabemos que en el transporte regional no hay margen para el error. Por eso, acompañamos a Turismo Patagonia con un servicio de verificación técnica riguroso y eficiente.\n\nLa confianza se construye con el tiempo y se mantiene con resultados.\n\n¡Gracias, Turismo Patagonia, por seguir confiando en nuestro profesionalismo!\n\n📍 Encontranos en Neuquén para poner a punto tu flota.\n\n#veritecnica #seguridadvial  #flotascorporativas #neuquén #vacamuerta",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/678241046_2352682305137222_6612534844338832003_n.jpg?_nc_cat=103&ccb=1-7&_nc_eui2=AeF3xJbywvLHuwBt7ycx-gnP_IIIXizoVuv8ggheLOhW647mzqR1iKaYEuuVPDztPkw&_nc_ohc=r8HgogtkBs4Q7kNvwEyffs2&_nc_oc=AdrPqr9zrZg38K42U1x5o6LSnzcrDho63Acoirt5AYPXbYPzPvZ97i8gfxHt1K97DIL9uR4sjFc4rKN0YWqVL_r9&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=bAi-apnKykbxDrkjfpJvbw&_nc_tpa=Q5bMBQF4qrLjVI82AjjG1xwQmHl5ZkLopnFOCE6gYxAaE1Ah6Ta8-l6S6tFn0CYj8721vnByzkHILonO&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Af704JCyu_UVITPHNkTuzJn65z0SuvGRiCRj4ZrM7pbXDA&oe=6A010BF9",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/CP VERITECNICA/meta/images/52511519251493.jpg"
+      }
+    },
+    "adsets_analysis": [
+      {
+        "name": "Reconocimiento- MOFU - Always ON",
+        "reach": 178444,
+        "frequency": 3.035501,
+        "spend": 199987.0,
+        "objective_type": "video_view",
+        "objective_label": "Reproducciones de video",
+        "objective_short_label": "reproducciones",
+        "main_result": 16747,
+        "cost_per_result": 11.941661,
+        "conversations": 4,
+        "cost_per_conversation": 49996.75
+      }
+    ],
+    "insights": [
+      {
+        "tipo": "ALERTA",
+        "prioridad": "alta",
+        "titulo": "Costo por click alto en 'SERGIO WENLEN'",
+        "descripcion": "CPC de $350 es 50% más alto que el promedio ($209). Estás pagando de más por cada click.",
+        "metrica": "CPC: $350",
+        "accion": "Optimizar segmentación o pausar si no convierte"
+      },
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "alta",
+        "titulo": "Subinversión en anuncio con potencial: 'Antes de salir'",
+        "descripcion": "Este anuncio tiene buen CTR (0.20%) pero recibe poca inversión ($8,641). Podría escalar.",
+        "metrica": "CTR: 0.20% | Inversión: $8,641",
+        "accion": "Aumentar presupuesto para este anuncio"
+      },
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "alta",
+        "titulo": "Subinversión en anuncio con potencial: 'TURISMO PATAGONIA'",
+        "descripcion": "Este anuncio tiene buen CTR (0.25%) pero recibe poca inversión ($7,538). Podría escalar.",
+        "metrica": "CTR: 0.25% | Inversión: $7,538",
+        "accion": "Aumentar presupuesto para este anuncio"
+      }
+    ]
+  }
+}

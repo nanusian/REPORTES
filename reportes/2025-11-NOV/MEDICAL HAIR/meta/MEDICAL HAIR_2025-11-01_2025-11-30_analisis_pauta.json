@@ -1,0 +1,964 @@
+{
+  "metadata": {
+    "cliente": "MEDICAL HAIR",
+    "periodo": "2025-11-01_2025-11-30",
+    "fecha_generacion": "2025-12-03 15:42",
+    "ad_account_id": "act_670505644319970"
+  },
+  "resumen": {
+    "inversion_total": 661177.0299999999,
+    "alcance_total": 146836,
+    "impresiones_totales": 336610,
+    "total_anuncios": 9,
+    "total_conjuntos": 3
+  },
+  "conjuntos_de_anuncios": [
+    {
+      "adset_name": "MESOTERAPIA",
+      "impressions": 97524,
+      "reach": 40746,
+      "frequency": 2.393462,
+      "spend": 199174.43,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 130,
+        "link_click": 490,
+        "page_engagement": 25491,
+        "onsite_conversion.messaging_welcome_message_view": 81,
+        "post_engagement": 25475,
+        "comment": 13,
+        "onsite_conversion.messaging_user_depth_2_message_send": 44,
+        "onsite_conversion.messaging_user_depth_3_message_send": 24,
+        "onsite_conversion.post_unsave": 1,
+        "post": 25,
+        "onsite_conversion.post_save": 11,
+        "onsite_conversion.post_net_save": 10,
+        "onsite_conversion.messaging_first_reply": 88,
+        "post_interaction_gross": 241,
+        "like": 16,
+        "onsite_conversion.messaging_conversation_started_7d": 112,
+        "onsite_conversion.messaging_conversation_replied_7d": 17,
+        "video_view": 24744,
+        "post_reaction": 192
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 1532.111,
+        "video_view": 8.049403,
+        "link_click": 406.478429,
+        "like": 12448.401875,
+        "post_interaction_gross": 826.449917,
+        "onsite_conversion.messaging_user_depth_2_message_send": 4526.691591,
+        "onsite_conversion.messaging_conversation_replied_7d": 11716.142941,
+        "onsite_conversion.messaging_user_depth_3_message_send": 8298.934583,
+        "post_engagement": 7.818427,
+        "page_engagement": 7.81352,
+        "onsite_conversion.messaging_first_reply": 2263.345795,
+        "onsite_conversion.messaging_welcome_message_view": 2458.94358,
+        "onsite_conversion.messaging_conversation_started_7d": 1778.343125
+      }
+    },
+    {
+      "adset_name": "CIRUGÍA",
+      "impressions": 204849,
+      "reach": 69438,
+      "frequency": 2.950099,
+      "spend": 391391.86,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 113,
+        "link_click": 447,
+        "page_engagement": 37478,
+        "onsite_conversion.messaging_welcome_message_view": 3,
+        "post_engagement": 37470,
+        "comment": 15,
+        "onsite_conversion.messaging_user_depth_2_message_send": 33,
+        "onsite_conversion.messaging_user_depth_3_message_send": 26,
+        "post": 8,
+        "onsite_conversion.post_save": 5,
+        "onsite_conversion.post_net_save": 5,
+        "onsite_conversion.messaging_first_reply": 85,
+        "post_interaction_gross": 180,
+        "like": 8,
+        "onsite_conversion.messaging_conversation_started_7d": 99,
+        "onsite_conversion.messaging_conversation_replied_7d": 1,
+        "video_view": 36843,
+        "post_reaction": 152
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 3463.644779,
+        "video_view": 10.623235,
+        "link_click": 875.597002,
+        "like": 48923.9825,
+        "post_interaction_gross": 2174.399222,
+        "onsite_conversion.messaging_user_depth_2_message_send": 11860.359394,
+        "onsite_conversion.messaging_conversation_replied_7d": 391391.86,
+        "onsite_conversion.messaging_user_depth_3_message_send": 15053.533077,
+        "post_engagement": 10.445473,
+        "page_engagement": 10.443243,
+        "onsite_conversion.messaging_first_reply": 4604.610118,
+        "onsite_conversion.messaging_welcome_message_view": 130463.953333,
+        "onsite_conversion.messaging_conversation_started_7d": 3953.453131
+      }
+    },
+    {
+      "adset_name": "CEJAS",
+      "impressions": 34237,
+      "reach": 18198,
+      "frequency": 1.881361,
+      "spend": 70610.74,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 136,
+        "link_click": 202,
+        "page_engagement": 11006,
+        "onsite_conversion.messaging_welcome_message_view": 1,
+        "post_engagement": 10983,
+        "comment": 7,
+        "onsite_conversion.messaging_user_depth_2_message_send": 47,
+        "onsite_conversion.messaging_user_depth_3_message_send": 29,
+        "post": 12,
+        "onsite_conversion.post_save": 7,
+        "onsite_conversion.post_net_save": 7,
+        "onsite_conversion.messaging_first_reply": 105,
+        "post_interaction_gross": 127,
+        "like": 23,
+        "onsite_conversion.messaging_conversation_started_7d": 125,
+        "video_view": 10654,
+        "post_reaction": 101
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 519.196618,
+        "video_view": 6.627627,
+        "link_click": 349.558119,
+        "like": 3070.032174,
+        "post_interaction_gross": 555.990079,
+        "onsite_conversion.messaging_user_depth_2_message_send": 1502.35617,
+        "onsite_conversion.messaging_user_depth_3_message_send": 2434.853103,
+        "post_engagement": 6.429094,
+        "page_engagement": 6.415659,
+        "onsite_conversion.messaging_first_reply": 672.483238,
+        "onsite_conversion.messaging_welcome_message_view": 70610.74,
+        "onsite_conversion.messaging_conversation_started_7d": 564.88592
+      }
+    }
+  ],
+  "anuncios": [
+    {
+      "campaign_name": "Mensajes - 2025",
+      "adset_name": "MESOTERAPIA",
+      "ad_name": "María",
+      "ad_id": "120213583105370016",
+      "impressions": 4364,
+      "reach": 3224,
+      "frequency": 1.353598,
+      "clicks": 78,
+      "spend": 12474.32,
+      "cpc": 159.927179,
+      "cpm": 2858.460128,
+      "ctr": 1.787351,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 5,
+        "link_click": 18,
+        "page_engagement": 1172,
+        "post_engagement": 1171,
+        "comment": 4,
+        "onsite_conversion.messaging_user_depth_2_message_send": 1,
+        "post": 3,
+        "onsite_conversion.post_save": 1,
+        "onsite_conversion.post_net_save": 1,
+        "onsite_conversion.messaging_first_reply": 3,
+        "post_interaction_gross": 19,
+        "like": 1,
+        "onsite_conversion.messaging_conversation_started_7d": 5,
+        "video_view": 1134,
+        "post_reaction": 11
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 2494.864,
+        "video_view": 11.000282,
+        "link_click": 693.017778,
+        "like": 12474.32,
+        "post_interaction_gross": 656.543158,
+        "onsite_conversion.messaging_user_depth_2_message_send": 12474.32,
+        "post_engagement": 10.652707,
+        "page_engagement": 10.643618,
+        "onsite_conversion.messaging_first_reply": 4158.106667,
+        "onsite_conversion.messaging_conversation_started_7d": 2494.864
+      },
+      "creative": {
+        "title": "",
+        "body": "¡Experimentá el cambio que tanto deseas con Medical Hair!\n\nMaría ya lo hizo ☺️\n\nContactanos y accedé a una primera consulta\n📲 (Whatsapp) + 54 9 299 15 527 6961\n📩 vía inbox \n\n#MedicalHair #Neuquén #TrasplanteCapilar #CaidadelPelo",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t15.5256-10/465757852_548167661482941_3778155032268102646_n.jpg?_nc_cat=109&ccb=1-7&_nc_eui2=AeHkRP7tFeOe-kqCZlfjupflILdxre1ZB-Agt3Gt7VkH4OG30PTYP24v_zZjSlD2x8c&_nc_ohc=48c53WvyGCoQ7kNvwG-KXsp&_nc_oc=AdnP7PcRisbYjokwinU9bGu5OnpRRbBmTpbxkv6sKCHHyVHm2ox2dvj5z6LgGOpLSz4JAajVyys5fGmxR9SgPiAZ&_nc_zt=23&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=utLgx7WF_ghm3nZ5NMctWA&_nc_tpa=Q5bMBQEqXekUaFLVWOW3bSPgXs9iaovL-jkINKw-oOQsVpL9uQgCWYGGgT6lQgpjb74j6ATJCMZyeD2Q&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AfmrV55pAL6oa4k5vM29WRrYaTMEVy_Ce5t7J5dAn9q0Lg&oe=6936650E",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/NOV-25/MEDICAL HAIR/images/120213583105370016.jpg"
+      }
+    },
+    {
+      "campaign_name": "Mensajes - 2025",
+      "adset_name": "MESOTERAPIA",
+      "ad_name": "iván",
+      "ad_id": "120231950329650016",
+      "impressions": 93160,
+      "reach": 39559,
+      "frequency": 2.354963,
+      "clicks": 1371,
+      "spend": 186700.11,
+      "cpc": 136.178053,
+      "cpm": 2004.080185,
+      "ctr": 1.471662,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 125,
+        "link_click": 472,
+        "page_engagement": 24319,
+        "onsite_conversion.messaging_welcome_message_view": 81,
+        "post_engagement": 24304,
+        "comment": 9,
+        "onsite_conversion.messaging_user_depth_2_message_send": 43,
+        "onsite_conversion.messaging_user_depth_3_message_send": 24,
+        "onsite_conversion.post_unsave": 1,
+        "post": 22,
+        "onsite_conversion.post_save": 10,
+        "onsite_conversion.post_net_save": 9,
+        "onsite_conversion.messaging_first_reply": 85,
+        "post_interaction_gross": 222,
+        "like": 15,
+        "onsite_conversion.messaging_conversation_started_7d": 107,
+        "onsite_conversion.messaging_conversation_replied_7d": 17,
+        "video_view": 23610,
+        "post_reaction": 181
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 1493.60088,
+        "video_view": 7.907671,
+        "link_click": 395.551081,
+        "like": 12446.674,
+        "post_interaction_gross": 840.991486,
+        "onsite_conversion.messaging_user_depth_2_message_send": 4341.863023,
+        "onsite_conversion.messaging_conversation_replied_7d": 10982.359412,
+        "onsite_conversion.messaging_user_depth_3_message_send": 7779.17125,
+        "post_engagement": 7.681868,
+        "page_engagement": 7.677129,
+        "onsite_conversion.messaging_first_reply": 2196.471882,
+        "onsite_conversion.messaging_welcome_message_view": 2304.93963,
+        "onsite_conversion.messaging_conversation_started_7d": 1744.860841
+      },
+      "creative": {
+        "title": "",
+        "body": "¡Experimentá el cambio que tanto deseas con Medical Hair! Iván (24 años) ya dio el gran paso y lleva 8 meses de tratamiento 🙌🏽\n\nContactanos y accedé a una primera consulta\n📲 (Whatsapp) + 54 9 299 15 527 6961\n📩 vía inbox \n\n#MedicalHair #Neuquén #TrasplanteCapilar #CaidadelPelo",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/544993181_1280857773506478_635072748649875700_n.jpg?_nc_cat=111&ccb=1-7&_nc_eui2=AeGXoHLB2thwxRP8ZmnQ9ediqv8fAjbMLASq_x8CNswsBAs7F76yTFIrax6E8GvVHZc&_nc_ohc=9INiycfkgR8Q7kNvwHw9NoV&_nc_oc=AdmaatjmQUYAJhOr4ZphBVk8G1rXp3AsQbfgJZQST_MFCuFm3zJ4eEIECN4hJ_ypi3GhrPnTPphCW6CGvRLfRAD6&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=nlYTVqBAWtBRMYW1LHjxeA&_nc_tpa=Q5bMBQHwZaUIm8zwhjxQiyTO1wd-n9ZdevGxN8WAOQvgshhhNKcWZ2STOhXkjtTj_pxwUI_c47kJ1ic8&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AfksPfXvWn1CEjbWnUYYbXLLW1w5mTj6Hycs_7hMDGkGeA&oe=6936488E",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/NOV-25/MEDICAL HAIR/images/120231950329650016.jpg"
+      }
+    },
+    {
+      "campaign_name": "Mensajes - 2025",
+      "adset_name": "CIRUGÍA",
+      "ad_name": "LUCIO -CIRUGÍA",
+      "ad_id": "120231952005800016",
+      "impressions": 17877,
+      "reach": 10558,
+      "frequency": 1.693218,
+      "clicks": 209,
+      "spend": 48019.6,
+      "cpc": 229.758852,
+      "cpm": 2686.110645,
+      "ctr": 1.1691,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 20,
+        "link_click": 58,
+        "page_engagement": 3153,
+        "post_engagement": 3151,
+        "comment": 3,
+        "onsite_conversion.messaging_user_depth_2_message_send": 5,
+        "onsite_conversion.messaging_user_depth_3_message_send": 6,
+        "onsite_conversion.messaging_first_reply": 10,
+        "post_interaction_gross": 20,
+        "like": 2,
+        "onsite_conversion.messaging_conversation_started_7d": 16,
+        "onsite_conversion.messaging_conversation_replied_7d": 1,
+        "video_view": 3073,
+        "post_reaction": 17
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 2400.98,
+        "video_view": 15.626294,
+        "link_click": 827.924138,
+        "like": 24009.8,
+        "post_interaction_gross": 2400.98,
+        "onsite_conversion.messaging_user_depth_2_message_send": 9603.92,
+        "onsite_conversion.messaging_conversation_replied_7d": 48019.6,
+        "onsite_conversion.messaging_user_depth_3_message_send": 8003.266667,
+        "post_engagement": 15.23948,
+        "page_engagement": 15.229813,
+        "onsite_conversion.messaging_first_reply": 4801.96,
+        "onsite_conversion.messaging_conversation_started_7d": 3001.225
+      },
+      "creative": {
+        "title": "",
+        "body": "Lucio llego a Medical Hair Neuquén con la esperanza de recuperar su pelo, y así fue.\n\n4 meses de evolución en un solo video 🔄\n¡Vos también podes vivir la Experiencia Medical Hair!\n\n📲 (Whatsapp) + 54 9 299 15 527 6961\n📩 vía inbox \n\nContactanos y accedé a una primera consulta. Tu mejor versión te está esperando.\n\n#CreceSiempreCrece#MedicalHair #Neuquén #TrasplanteCapilar #CaidadelPelo",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/546165772_1292961555656507_5739567488641592343_n.jpg?_nc_cat=110&ccb=1-7&_nc_eui2=AeF1BKDqe2yU7ZYKp1qA8mlXfE6_NaHmm3t8Tr81oeabe95wlYm7QUA6PvjpQ9iI4-s&_nc_ohc=75bzlEqEL7gQ7kNvwHt8TuU&_nc_oc=AdmkQFl0i8lxV2FZIkVbCb055fWO1uoAKuI0nv7Ux6zWfluLPDTdsQEjd30ej2o3-I5X9jXoiKPiuZtzO7fOuBGN&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=iHMT5OHzQwVlQhAQwgyCmw&_nc_tpa=Q5bMBQGEutrDB0F__5k6ALiUoNoLJlRgl2iaNJTpLTNDF5dgaIXsRGP2LVUObS6sVgxXVvkLZ1vFzzGj&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Afk397pf_rtrhHKwXFSx9n-TwTmrezTCa_v5tewXstNPoQ&oe=69365BAF",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/NOV-25/MEDICAL HAIR/images/120231952005800016.jpg"
+      }
+    },
+    {
+      "campaign_name": "Mensajes - 2025",
+      "adset_name": "CIRUGÍA",
+      "ad_name": "CAMBIA TU PELO-CIRUGÍA",
+      "ad_id": "120231954056720016",
+      "impressions": 13287,
+      "reach": 10253,
+      "frequency": 1.295913,
+      "clicks": 87,
+      "spend": 23995.65,
+      "cpc": 275.812069,
+      "cpm": 1805.949424,
+      "ctr": 0.654775,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 5,
+        "link_click": 42,
+        "page_engagement": 2786,
+        "post_engagement": 2786,
+        "onsite_conversion.messaging_user_depth_2_message_send": 2,
+        "onsite_conversion.messaging_user_depth_3_message_send": 1,
+        "post": 2,
+        "onsite_conversion.post_save": 2,
+        "onsite_conversion.post_net_save": 2,
+        "onsite_conversion.messaging_first_reply": 5,
+        "post_interaction_gross": 16,
+        "onsite_conversion.messaging_conversation_started_7d": 5,
+        "video_view": 2728,
+        "post_reaction": 12
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 4799.13,
+        "video_view": 8.796059,
+        "link_click": 571.325,
+        "post_interaction_gross": 1499.728125,
+        "onsite_conversion.messaging_user_depth_2_message_send": 11997.825,
+        "onsite_conversion.messaging_user_depth_3_message_send": 23995.65,
+        "post_engagement": 8.61294,
+        "page_engagement": 8.61294,
+        "onsite_conversion.messaging_first_reply": 4799.13,
+        "onsite_conversion.messaging_conversation_started_7d": 4799.13
+      },
+      "creative": {
+        "title": "",
+        "body": "Cambiá tu pelo, cambiá tu vida. \n#ActitudMedicalHair\n\nEscribinos HOY para pedir una cita y avanzá hacia lo que tanto deseás.\n📲 299 527 6961\n\n#MedicalHair\n#CreceSiempreCrece #MedicalHairNeuquen #MicroimplanteCapilar",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/545070863_992594726306755_1644111323686766301_n.jpg?_nc_cat=105&ccb=1-7&_nc_eui2=AeGCefsKJ0s7iFKo7ALqaJ-xRwGfMIaPtiFHAZ8who-2Iac4bxfTZ1a7v5qV4FNlX6M&_nc_ohc=veOGcF9YnEgQ7kNvwHAYx0-&_nc_oc=AdlElom0qOLl_dNqsNwTi2ten73Qpa6lu2mCj64GdpH1UXpq0qwjSw4ujQiO2PIoi-3ATfRP9FcRgeAbpuXLvgtC&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=Rboc5AcIg2MyvcR-aPaz7A&_nc_tpa=Q5bMBQHlpydpsx45CYhEbEUSbm6xyQdo0tSjMgRRjNEk3GrDsOp-vt0jHDJ0QFSHPpSNBhVtN0hDuxK_&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AfnJ8cQ5LKRs4EHRkBXec1r6_9OhibxwWmhkEYmtBHtH_w&oe=6936488D",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/NOV-25/MEDICAL HAIR/images/120231954056720016.jpg"
+      }
+    },
+    {
+      "campaign_name": "Mensajes - 2025",
+      "adset_name": "CEJAS",
+      "ad_name": "DR. MARTÍN - CEJAS",
+      "ad_id": "120231954268990016",
+      "impressions": 40,
+      "reach": 31,
+      "frequency": 1.290323,
+      "clicks": 2,
+      "spend": 54.16,
+      "cpc": 27.08,
+      "cpm": 1354.0,
+      "ctr": 5.0,
+      "actions": {
+        "page_engagement": 10,
+        "post_engagement": 10,
+        "video_view": 10
+      },
+      "cost_per_actions": {
+        "video_view": 5.416,
+        "post_engagement": 5.416,
+        "page_engagement": 5.416
+      },
+      "creative": {
+        "title": "",
+        "body": "El Dr. Martín Laje nos cuenta sobre la nueva tecnología de Microimplante Capilar de Cejas 🖤\n¡Una solución para toda la vida!\n\nIdeal para:\n✔ Recuperar densidad y forma natural\n✔ Controlar dirección y ángulo de crecimiento del pelo\n✔ Resultados precisos y personalizados\n\nTe contamos un poco de cómo es el proceso:\n- Diseño según proporciones faciales\n- Anestesia local\n- Implantación siguiendo la dirección natural del vello\n- ⁠\n🎯 Hasta 400 unidades foliculares por ceja para un resultado perfecto\n\n¿Te quedan dudas? ¡Escribinos! 💬 \n\n #MedicalHairNeuquen #CreceSiempreCrece",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t15.5256-10/545605118_1725871318802394_6598414462806168741_n.jpg?_nc_cat=109&ccb=1-7&_nc_eui2=AeF0-cxWfbtGny8eh6892D2hoAJ74AIjt6ygAnvgAiO3rLR3MUHlw7MfREAo-QyAdKI&_nc_ohc=jOHYOpnNcWoQ7kNvwHwmYRz&_nc_oc=Adl0reL4HjB-qMz9xjhmff5Z_jX88ZItvBL5cvaeWnnIqIOH9K7pyNR2PY0eixFtqs_GwykKEUy4Z8fiTH6rNt_g&_nc_zt=23&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=bOm-172u2RnpWw-82fwpQQ&_nc_tpa=Q5bMBQHubPNQq-WIAzPmPSCVJEq-Yq1VtL2pYOEh-0hgDbKBgqflCIcjulrvQHgpAeF5gLd7fOXzMz76&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AfkH6osOKkWjALFCQvEpZymh_GDnYnuwaZiefqOi86PRNA&oe=6936653B",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/NOV-25/MEDICAL HAIR/images/120231954268990016.jpg"
+      }
+    },
+    {
+      "campaign_name": "Mensajes - 2025",
+      "adset_name": "CEJAS",
+      "ad_name": "CHICA - CEJAS",
+      "ad_id": "120231958996110016",
+      "impressions": 34197,
+      "reach": 18198,
+      "frequency": 1.879163,
+      "clicks": 1013,
+      "spend": 70556.58,
+      "cpc": 69.651116,
+      "cpm": 2063.238881,
+      "ctr": 2.962248,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 136,
+        "link_click": 202,
+        "page_engagement": 10996,
+        "onsite_conversion.messaging_welcome_message_view": 1,
+        "post_engagement": 10973,
+        "comment": 7,
+        "onsite_conversion.messaging_user_depth_2_message_send": 47,
+        "onsite_conversion.messaging_user_depth_3_message_send": 29,
+        "post": 12,
+        "onsite_conversion.post_save": 7,
+        "onsite_conversion.post_net_save": 7,
+        "onsite_conversion.messaging_first_reply": 105,
+        "post_interaction_gross": 127,
+        "like": 23,
+        "onsite_conversion.messaging_conversation_started_7d": 125,
+        "video_view": 10644,
+        "post_reaction": 101
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 518.798382,
+        "video_view": 6.628766,
+        "link_click": 349.29,
+        "like": 3067.677391,
+        "post_interaction_gross": 555.563622,
+        "onsite_conversion.messaging_user_depth_2_message_send": 1501.20383,
+        "onsite_conversion.messaging_user_depth_3_message_send": 2432.985517,
+        "post_engagement": 6.430017,
+        "page_engagement": 6.416568,
+        "onsite_conversion.messaging_first_reply": 671.967429,
+        "onsite_conversion.messaging_welcome_message_view": 70556.58,
+        "onsite_conversion.messaging_conversation_started_7d": 564.45264
+      },
+      "creative": {
+        "title": "",
+        "body": "Ahora también realizamos Transplante Capilar de Cejas 🖤\n¡Una solución para toda la vida!\n\nIdeal para:\n✔ Recuperar densidad y forma natural\n✔ Controlar dirección y ángulo de crecimiento del pelo\n✔ Resultados precisos y personalizados\n\nTe contamos un poco de cómo es el proceso:\n- Diseño según proporciones faciales\n- Anestesia local\n- Implantación siguiendo la dirección natural del vello\n- ⁠\n🎯 Hasta 400 unidades foliculares por ceja para un resultado perfecto\n\n¿Te quedan dudas? ¡Escribinos! 💬 \n\n #MedicalHairNeuquen #CreceSiempreCrece",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t15.5256-10/546178157_1085142863826938_3635550621321760058_n.jpg?_nc_cat=101&ccb=1-7&_nc_eui2=AeH2XUaBieq7oiCzW6Mv74vyRACJ42CK83NEAInjYIrzc6sqqa2XLPBs9jeRHnc1m1c&_nc_ohc=8t_lD-IuEO4Q7kNvwE8bPS4&_nc_oc=Adn4fQdLO4-rQw3xsssW1PtkfqyqZKDygUBtkMcQJriJsdLAsdEZ-un5fX86eiC8p-JGW7OiS5dAP7Qx3ITWoCk0&_nc_zt=23&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=z70uvVl8z_NP9dTP4gZQbw&_nc_tpa=Q5bMBQFZIUlK7WLP6EekWp0s8Hg5couUNBEIHTf8VtTgnEzHRLozWAZOokGOUOzHFbGgK307PInmBceA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AflSKrqObwg_4ZSnM1ws9wVqF00JphRhlNrxR3JFbj-_dw&oe=6936559B",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/NOV-25/MEDICAL HAIR/images/120231958996110016.jpg"
+      }
+    },
+    {
+      "campaign_name": "Mensajes - 2025",
+      "adset_name": "CIRUGÍA",
+      "ad_name": "LUCIO EN GYM",
+      "ad_id": "120233752671640016",
+      "impressions": 355,
+      "reach": 299,
+      "frequency": 1.187291,
+      "clicks": 5,
+      "spend": 1470.98,
+      "cpc": 294.196,
+      "cpm": 4143.605634,
+      "ctr": 1.408451,
+      "actions": {
+        "link_click": 2,
+        "page_engagement": 65,
+        "post_engagement": 65,
+        "comment": 1,
+        "post_interaction_gross": 2,
+        "video_view": 61,
+        "post_reaction": 1
+      },
+      "cost_per_actions": {
+        "video_view": 24.114426,
+        "link_click": 735.49,
+        "post_interaction_gross": 735.49,
+        "post_engagement": 22.630462,
+        "page_engagement": 22.630462
+      },
+      "creative": {
+        "title": "",
+        "body": "Lucio llegó a Medical Hair Neuquén buscando recuperar su pelo…\ny terminó recuperando mucho más que eso: su confianza. 💪\n\nConocé su historia y animate a dar el primer paso.\nTu mejor versión te está esperando.\n\n📲 WhatsApp: +54 9 299 15 527 6961\n📩 Vía inbox\n\n#CreceSiempreCrece #MedicalHairNeuquén #MedicalHair #MicroimplanteCapilar #TrasplanteCapilar #Confianza #CambioReal",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/563433575_1436570050782073_5410497583975075159_n.jpg?_nc_cat=103&ccb=1-7&_nc_eui2=AeEPh7b0OFiBRbSlDTqS5arJlGwfP1X9gs6UbB8_Vf2CzvScO2YB-qfAFrpKGaFSFRw&_nc_ohc=IEV3E8YNuRwQ7kNvwGJkvYT&_nc_oc=AdlqF4Q7O5E_XrpP_14_RHJCxDetOoc0k0AcNBPM638oT5OLFBT3zEgpRx-sXM4LxzZ3ul-xLmsBAABqReOx6CSq&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=TMvQxq8hzcos12pbdLCg5A&_nc_tpa=Q5bMBQEOJqqehq1OjH5HTlij21o8ftzmmu2cclCFsJaQ0gTm8zqXHoNPlilSvxoNTkGQNJxLpB3AkuR7&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_Afk0TRJpka0Zv2rG7E1ZMUNcwveiT56_p0bJa4gaXpHFHQ&oe=693643B6",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/NOV-25/MEDICAL HAIR/images/120233752671640016.jpg"
+      }
+    },
+    {
+      "campaign_name": "Mensajes - 2025",
+      "adset_name": "CIRUGÍA",
+      "ad_name": "SIEMPRE CRECE",
+      "ad_id": "120235096478350016",
+      "impressions": 171640,
+      "reach": 63192,
+      "frequency": 2.716167,
+      "clicks": 1263,
+      "spend": 315071.56,
+      "cpc": 249.462835,
+      "cpm": 1835.653461,
+      "ctr": 0.735842,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 88,
+        "link_click": 344,
+        "page_engagement": 31257,
+        "onsite_conversion.messaging_welcome_message_view": 3,
+        "post_engagement": 31252,
+        "comment": 11,
+        "onsite_conversion.messaging_user_depth_2_message_send": 26,
+        "onsite_conversion.messaging_user_depth_3_message_send": 19,
+        "post": 5,
+        "onsite_conversion.post_save": 3,
+        "onsite_conversion.post_net_save": 3,
+        "onsite_conversion.messaging_first_reply": 70,
+        "post_interaction_gross": 141,
+        "like": 5,
+        "onsite_conversion.messaging_conversation_started_7d": 78,
+        "video_view": 30767,
+        "post_reaction": 122
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 3580.358636,
+        "video_view": 10.240568,
+        "link_click": 915.905698,
+        "like": 63014.312,
+        "post_interaction_gross": 2234.550071,
+        "onsite_conversion.messaging_user_depth_2_message_send": 12118.136923,
+        "onsite_conversion.messaging_user_depth_3_message_send": 16582.713684,
+        "post_engagement": 10.081645,
+        "page_engagement": 10.080032,
+        "onsite_conversion.messaging_first_reply": 4501.022286,
+        "onsite_conversion.messaging_welcome_message_view": 105023.853333,
+        "onsite_conversion.messaging_conversation_started_7d": 4039.378974
+      },
+      "creative": {
+        "title": "",
+        "body": "La tecnología del pelo por pelo ha llegado tan lejos que con #FUEZafiro, tu pelo se recupera de una vez y para siempre.\n\n#CreceSiempreCrece #MedicalHairNeuquen",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t15.5256-10/569398324_826028786825127_5161944389146077337_n.jpg?_nc_cat=102&ccb=1-7&_nc_eui2=AeFMfinecSG2HC49AGSERp_Qgf9Uue-ggoeB_1S576CCh8Exf_LDjUeK788fpyURgIc&_nc_ohc=25RfJaAT1LEQ7kNvwE3lOnd&_nc_oc=AdmGzmZE6FB46m8DEMrfuoGSym8nxvB8DFXmBiY7xc36tUvaWxlZkJmFFptDub0tDRNgilqscY5A8kG7VOfdQbhz&_nc_zt=23&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=pMaY8c1iMtWuHgy_og8XqQ&_nc_tpa=Q5bMBQHoenkcEnboDEGkJQ7iDbhOJdyEvGKPr8vwPDieRt_Ks6DshyewkXpj2DJSRWD6XQKLTWLvAWWt&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AfkR7H7PRqrFe8UpgGRoBYa_JYOFDRnhVSC8mJQuDbwx9w&oe=6936648B",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/NOV-25/MEDICAL HAIR/images/120235096478350016.jpg"
+      }
+    },
+    {
+      "campaign_name": "Mensajes - 2025",
+      "adset_name": "CIRUGÍA",
+      "ad_name": "LA TECNOLOGÍA",
+      "ad_id": "120236652933570016",
+      "impressions": 1690,
+      "reach": 1522,
+      "frequency": 1.110381,
+      "clicks": 6,
+      "spend": 2834.07,
+      "cpc": 472.345,
+      "cpm": 1676.964497,
+      "ctr": 0.35503,
+      "actions": {
+        "link_click": 1,
+        "page_engagement": 217,
+        "post_engagement": 216,
+        "post": 1,
+        "post_interaction_gross": 1,
+        "like": 1,
+        "video_view": 214
+      },
+      "cost_per_actions": {
+        "video_view": 13.243318,
+        "link_click": 2834.07,
+        "like": 2834.07,
+        "post_interaction_gross": 2834.07,
+        "post_engagement": 13.120694,
+        "page_engagement": 13.06023
+      },
+      "creative": {
+        "title": "",
+        "body": "La tecnología del pelo por pelo en Microimplante Capilar ha llegado tan lejos que con #FUEZafiro, tu pelo se recupera de una vez y para siempre.\n\n#CreceSiempreCrece #MedicalHairNeuquen",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t15.5256-10/589611603_1206361864675972_1683730421655778592_n.jpg?_nc_cat=106&ccb=1-7&_nc_eui2=AeGzvePhj61AuJeg_bGEvmPfde95x1VvpGl173nHVW-kaaReCwLjvk8LaSuHztsqF-8&_nc_ohc=XW6G-Xfza8YQ7kNvwFtlFzA&_nc_oc=AdlPCkUajm-dJWGgFS7bzpFxIpAK2FyUq5DqMlYn14H2fcCrohM-MiRtLaDGr3mmqdRk5BWgSe3EdnKWz0yqCuZu&_nc_zt=23&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=FXstwe3xyuWPsjflWyYf9Q&_nc_tpa=Q5bMBQGAszwAOWDv5gOCXSE3rrPCjjspZZxWo5hDHR7DDCy_K3sFQDaE_6fis9-44JBY-m47keGF1It6&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AfkgcxmgRP-s0xU_IgjicS2KHNPDlL_KUJsjyBC47R5fIw&oe=693670EC",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/NOV-25/MEDICAL HAIR/images/120236652933570016.jpg"
+      }
+    }
+  ],
+  "datos_diarios": [
+    {
+      "date": "2025-11-01",
+      "impressions": 0,
+      "reach": 0,
+      "spend": 0.0,
+      "conversaciones": 1
+    },
+    {
+      "date": "2025-11-02",
+      "impressions": 11458,
+      "reach": 9443,
+      "spend": 14557.49,
+      "conversaciones": 5
+    },
+    {
+      "date": "2025-11-03",
+      "impressions": 11860,
+      "reach": 8649,
+      "spend": 22902.78,
+      "conversaciones": 12
+    },
+    {
+      "date": "2025-11-04",
+      "impressions": 7454,
+      "reach": 5836,
+      "spend": 19825.27,
+      "conversaciones": 2
+    },
+    {
+      "date": "2025-11-05",
+      "impressions": 7632,
+      "reach": 5862,
+      "spend": 19454.59,
+      "conversaciones": 13
+    },
+    {
+      "date": "2025-11-06",
+      "impressions": 13837,
+      "reach": 10545,
+      "spend": 25981.83,
+      "conversaciones": 11
+    },
+    {
+      "date": "2025-11-07",
+      "impressions": 9302,
+      "reach": 7212,
+      "spend": 18723.32,
+      "conversaciones": 8
+    },
+    {
+      "date": "2025-11-08",
+      "impressions": 9057,
+      "reach": 6729,
+      "spend": 18956.18,
+      "conversaciones": 6
+    },
+    {
+      "date": "2025-11-09",
+      "impressions": 5876,
+      "reach": 4631,
+      "spend": 12782.68,
+      "conversaciones": 1
+    },
+    {
+      "date": "2025-11-10",
+      "impressions": 10692,
+      "reach": 8270,
+      "spend": 24609.44,
+      "conversaciones": 10
+    },
+    {
+      "date": "2025-11-11",
+      "impressions": 10343,
+      "reach": 7796,
+      "spend": 19520.62,
+      "conversaciones": 5
+    },
+    {
+      "date": "2025-11-12",
+      "impressions": 9760,
+      "reach": 7700,
+      "spend": 19861.15,
+      "conversaciones": 3
+    },
+    {
+      "date": "2025-11-13",
+      "impressions": 12034,
+      "reach": 8708,
+      "spend": 26439.12,
+      "conversaciones": 13
+    },
+    {
+      "date": "2025-11-14",
+      "impressions": 10689,
+      "reach": 8399,
+      "spend": 22229.37,
+      "conversaciones": 20
+    },
+    {
+      "date": "2025-11-15",
+      "impressions": 11627,
+      "reach": 8798,
+      "spend": 25374.49,
+      "conversaciones": 10
+    },
+    {
+      "date": "2025-11-16",
+      "impressions": 9554,
+      "reach": 7682,
+      "spend": 22452.5,
+      "conversaciones": 8
+    },
+    {
+      "date": "2025-11-17",
+      "impressions": 13262,
+      "reach": 10523,
+      "spend": 28842.37,
+      "conversaciones": 15
+    },
+    {
+      "date": "2025-11-18",
+      "impressions": 20092,
+      "reach": 16418,
+      "spend": 34569.09,
+      "conversaciones": 16
+    },
+    {
+      "date": "2025-11-19",
+      "impressions": 12781,
+      "reach": 10575,
+      "spend": 20770.16,
+      "conversaciones": 10
+    },
+    {
+      "date": "2025-11-20",
+      "impressions": 11672,
+      "reach": 9420,
+      "spend": 23826.55,
+      "conversaciones": 19
+    },
+    {
+      "date": "2025-11-21",
+      "impressions": 16029,
+      "reach": 12818,
+      "spend": 31617.08,
+      "conversaciones": 24
+    },
+    {
+      "date": "2025-11-22",
+      "impressions": 13833,
+      "reach": 11222,
+      "spend": 21659.67,
+      "conversaciones": 18
+    },
+    {
+      "date": "2025-11-23",
+      "impressions": 7987,
+      "reach": 6175,
+      "spend": 20152.17,
+      "conversaciones": 12
+    },
+    {
+      "date": "2025-11-24",
+      "impressions": 10735,
+      "reach": 8559,
+      "spend": 28997.32,
+      "conversaciones": 6
+    },
+    {
+      "date": "2025-11-25",
+      "impressions": 16665,
+      "reach": 12654,
+      "spend": 35123.38,
+      "conversaciones": 18
+    },
+    {
+      "date": "2025-11-26",
+      "impressions": 14673,
+      "reach": 12146,
+      "spend": 25396.47,
+      "conversaciones": 15
+    },
+    {
+      "date": "2025-11-27",
+      "impressions": 14604,
+      "reach": 11518,
+      "spend": 21285.58,
+      "conversaciones": 18
+    },
+    {
+      "date": "2025-11-28",
+      "impressions": 15447,
+      "reach": 12529,
+      "spend": 22046.78,
+      "conversaciones": 16
+    },
+    {
+      "date": "2025-11-29",
+      "impressions": 11907,
+      "reach": 9961,
+      "spend": 19035.06,
+      "conversaciones": 14
+    },
+    {
+      "date": "2025-11-30",
+      "impressions": 5748,
+      "reach": 4758,
+      "spend": 14184.52,
+      "conversaciones": 7
+    }
+  ],
+  "analisis": {
+    "total_spend": 661177.0299999999,
+    "total_reach": 146836,
+    "total_impressions": 336610,
+    "total_ads": 9,
+    "total_adsets": 3,
+    "best_ad": {
+      "campaign_name": "Mensajes - 2025",
+      "adset_name": "CIRUGÍA",
+      "ad_name": "SIEMPRE CRECE",
+      "ad_id": "120235096478350016",
+      "impressions": 171640,
+      "reach": 63192,
+      "frequency": 2.716167,
+      "clicks": 1263,
+      "spend": 315071.56,
+      "cpc": 249.462835,
+      "cpm": 1835.653461,
+      "ctr": 0.735842,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 88,
+        "link_click": 344,
+        "page_engagement": 31257,
+        "onsite_conversion.messaging_welcome_message_view": 3,
+        "post_engagement": 31252,
+        "comment": 11,
+        "onsite_conversion.messaging_user_depth_2_message_send": 26,
+        "onsite_conversion.messaging_user_depth_3_message_send": 19,
+        "post": 5,
+        "onsite_conversion.post_save": 3,
+        "onsite_conversion.post_net_save": 3,
+        "onsite_conversion.messaging_first_reply": 70,
+        "post_interaction_gross": 141,
+        "like": 5,
+        "onsite_conversion.messaging_conversation_started_7d": 78,
+        "video_view": 30767,
+        "post_reaction": 122
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 3580.358636,
+        "video_view": 10.240568,
+        "link_click": 915.905698,
+        "like": 63014.312,
+        "post_interaction_gross": 2234.550071,
+        "onsite_conversion.messaging_user_depth_2_message_send": 12118.136923,
+        "onsite_conversion.messaging_user_depth_3_message_send": 16582.713684,
+        "post_engagement": 10.081645,
+        "page_engagement": 10.080032,
+        "onsite_conversion.messaging_first_reply": 4501.022286,
+        "onsite_conversion.messaging_welcome_message_view": 105023.853333,
+        "onsite_conversion.messaging_conversation_started_7d": 4039.378974
+      },
+      "creative": {
+        "title": "",
+        "body": "La tecnología del pelo por pelo ha llegado tan lejos que con #FUEZafiro, tu pelo se recupera de una vez y para siempre.\n\n#CreceSiempreCrece #MedicalHairNeuquen",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t15.5256-10/569398324_826028786825127_5161944389146077337_n.jpg?_nc_cat=102&ccb=1-7&_nc_eui2=AeFMfinecSG2HC49AGSERp_Qgf9Uue-ggoeB_1S576CCh8Exf_LDjUeK788fpyURgIc&_nc_ohc=25RfJaAT1LEQ7kNvwE3lOnd&_nc_oc=AdmGzmZE6FB46m8DEMrfuoGSym8nxvB8DFXmBiY7xc36tUvaWxlZkJmFFptDub0tDRNgilqscY5A8kG7VOfdQbhz&_nc_zt=23&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=pMaY8c1iMtWuHgy_og8XqQ&_nc_tpa=Q5bMBQHoenkcEnboDEGkJQ7iDbhOJdyEvGKPr8vwPDieRt_Ks6DshyewkXpj2DJSRWD6XQKLTWLvAWWt&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AfkR7H7PRqrFe8UpgGRoBYa_JYOFDRnhVSC8mJQuDbwx9w&oe=6936648B",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/NOV-25/MEDICAL HAIR/images/120235096478350016.jpg"
+      }
+    },
+    "worst_ad": {
+      "campaign_name": "Mensajes - 2025",
+      "adset_name": "CEJAS",
+      "ad_name": "DR. MARTÍN - CEJAS",
+      "ad_id": "120231954268990016",
+      "impressions": 40,
+      "reach": 31,
+      "frequency": 1.290323,
+      "clicks": 2,
+      "spend": 54.16,
+      "cpc": 27.08,
+      "cpm": 1354.0,
+      "ctr": 5.0,
+      "actions": {
+        "page_engagement": 10,
+        "post_engagement": 10,
+        "video_view": 10
+      },
+      "cost_per_actions": {
+        "video_view": 5.416,
+        "post_engagement": 5.416,
+        "page_engagement": 5.416
+      },
+      "creative": {
+        "title": "",
+        "body": "El Dr. Martín Laje nos cuenta sobre la nueva tecnología de Microimplante Capilar de Cejas 🖤\n¡Una solución para toda la vida!\n\nIdeal para:\n✔ Recuperar densidad y forma natural\n✔ Controlar dirección y ángulo de crecimiento del pelo\n✔ Resultados precisos y personalizados\n\nTe contamos un poco de cómo es el proceso:\n- Diseño según proporciones faciales\n- Anestesia local\n- Implantación siguiendo la dirección natural del vello\n- ⁠\n🎯 Hasta 400 unidades foliculares por ceja para un resultado perfecto\n\n¿Te quedan dudas? ¡Escribinos! 💬 \n\n #MedicalHairNeuquen #CreceSiempreCrece",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t15.5256-10/545605118_1725871318802394_6598414462806168741_n.jpg?_nc_cat=109&ccb=1-7&_nc_eui2=AeF0-cxWfbtGny8eh6892D2hoAJ74AIjt6ygAnvgAiO3rLR3MUHlw7MfREAo-QyAdKI&_nc_ohc=jOHYOpnNcWoQ7kNvwHwmYRz&_nc_oc=Adl0reL4HjB-qMz9xjhmff5Z_jX88ZItvBL5cvaeWnnIqIOH9K7pyNR2PY0eixFtqs_GwykKEUy4Z8fiTH6rNt_g&_nc_zt=23&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=bOm-172u2RnpWw-82fwpQQ&_nc_tpa=Q5bMBQHubPNQq-WIAzPmPSCVJEq-Yq1VtL2pYOEh-0hgDbKBgqflCIcjulrvQHgpAeF5gLd7fOXzMz76&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AfkH6osOKkWjALFCQvEpZymh_GDnYnuwaZiefqOi86PRNA&oe=6936653B",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/Documents/REPORTES/NOV-25/MEDICAL HAIR/images/120231954268990016.jpg"
+      }
+    },
+    "adsets_analysis": [
+      {
+        "name": "CIRUGÍA",
+        "reach": 69438,
+        "frequency": 2.950099,
+        "spend": 391391.86,
+        "conversations": 99,
+        "cost_per_conversation": 3953.453131
+      },
+      {
+        "name": "MESOTERAPIA",
+        "reach": 40746,
+        "frequency": 2.393462,
+        "spend": 199174.43,
+        "conversations": 112,
+        "cost_per_conversation": 1778.343125
+      },
+      {
+        "name": "CEJAS",
+        "reach": 18198,
+        "frequency": 1.881361,
+        "spend": 70610.74,
+        "conversations": 125,
+        "cost_per_conversation": 564.88592
+      }
+    ],
+    "insights": [
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "media",
+        "titulo": "CTR bajo en 'CAMBIA TU PELO-CIRUGÍA'",
+        "descripcion": "CTR de 0.65% está muy por debajo del promedio (1.73%). El anuncio no está generando interés.",
+        "metrica": "CTR: 0.65%",
+        "accion": "Testear nuevo copy o creatividad más llamativa"
+      },
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "media",
+        "titulo": "CTR bajo en 'SIEMPRE CRECE'",
+        "descripcion": "CTR de 0.74% está muy por debajo del promedio (1.73%). El anuncio no está generando interés.",
+        "metrica": "CTR: 0.74%",
+        "accion": "Testear nuevo copy o creatividad más llamativa"
+      },
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "media",
+        "titulo": "CTR bajo en 'LA TECNOLOGÍA'",
+        "descripcion": "CTR de 0.36% está muy por debajo del promedio (1.73%). El anuncio no está generando interés.",
+        "metrica": "CTR: 0.36%",
+        "accion": "Testear nuevo copy o creatividad más llamativa"
+      },
+      {
+        "tipo": "ÉXITO",
+        "prioridad": "baja",
+        "titulo": "Excelente performance en 'DR. MARTÍN - CEJAS'",
+        "descripcion": "CTR de 5.00% con frecuencia controlada (1.3). Este anuncio está funcionando muy bien.",
+        "metrica": "CTR: 5.00% | Frecuencia: 1.3",
+        "accion": "Escalar presupuesto si hay margen"
+      },
+      {
+        "tipo": "ÉXITO",
+        "prioridad": "baja",
+        "titulo": "Excelente performance en 'CHICA - CEJAS'",
+        "descripcion": "CTR de 2.96% con frecuencia controlada (1.9). Este anuncio está funcionando muy bien.",
+        "metrica": "CTR: 2.96% | Frecuencia: 1.9",
+        "accion": "Escalar presupuesto si hay margen"
+      },
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "alta",
+        "titulo": "Subinversión en anuncio con potencial: 'María'",
+        "descripcion": "Este anuncio tiene buen CTR (1.79%) pero recibe poca inversión ($12,474). Podría escalar.",
+        "metrica": "CTR: 1.79% | Inversión: $12,474",
+        "accion": "Aumentar presupuesto para este anuncio"
+      },
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "alta",
+        "titulo": "Subinversión en anuncio con potencial: 'DR. MARTÍN - CEJAS'",
+        "descripcion": "Este anuncio tiene buen CTR (5.00%) pero recibe poca inversión ($54). Podría escalar.",
+        "metrica": "CTR: 5.00% | Inversión: $54",
+        "accion": "Aumentar presupuesto para este anuncio"
+      }
+    ]
+  }
+}

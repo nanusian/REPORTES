@@ -1,0 +1,84 @@
+{
+  "clientes": {
+    "PAZ": {
+      "nombre": "Paz Distribuidora",
+      "ad_account_id": "act_644969165063775",
+      "categoria": "LINE con Estética"
+    },
+    "CBS": {
+      "nombre": "CBS TECH",
+      "ad_account_id": "act_1082529013650791",
+      "categoria": "LINE con Estética"
+    },
+    "LINE": {
+      "nombre": "LINE",
+      "ad_account_id": "act_1663820047825456",
+      "categoria": "LINE con Estética"
+    },
+    "PRIMO": {
+      "nombre": "Primo",
+      "ad_account_id": "act_1456258582133391",
+      "categoria": "LINE con Estética"
+    },
+    "NIÑO FELIZ": {
+      "nombre": "Niño Feliz",
+      "ad_account_id": "act_1124141938739260",
+      "categoria": "LINE con Estética"
+    },
+    "HDI": {
+      "nombre": "HDI",
+      "ad_account_id": "act_7705227589601205",
+      "categoria": "LINE sin Estética"
+    },
+    "BARTOLOMÉ": {
+      "nombre": "Bartolomé",
+      "ad_account_id": "act_586457407081824",
+      "categoria": "LINE sin Estética"
+    },
+    "MEDICAL": {
+      "nombre": "Medical Hair",
+      "ad_account_id": "act_1124141938739260",
+      "categoria": "Estética SOMA"
+    },
+    "PERFIL": {
+      "nombre": "Perfil",
+      "ad_account_id": "act_3047423152189615",
+      "categoria": "Estética SOMA"
+    },
+    "CREAR": {
+      "nombre": "Crear",
+      "ad_account_id": "act_116915868648801",
+      "categoria": "Estética SOMA"
+    },
+    "PUERTO": {
+      "nombre": "Puerto",
+      "ad_account_id": "act_344214346730322",
+      "categoria": "Estética SOMA"
+    },
+    "FULL": {
+      "nombre": "Full",
+      "ad_account_id": "act_556858255457178",
+      "categoria": "Sin Estética"
+    },
+    "NEWCREST": {
+      "nombre": "Newcrest",
+      "ad_account_id": "act_1457497412041765",
+      "categoria": "Sin Estética"
+    },
+    "SCARLATA": {
+      "nombre": "Scarlata",
+      "ad_account_id": "act_1882382879245443",
+      "categoria": "Sin Estética"
+    },
+    "CASA INDIA": {
+      "nombre": "Casa India",
+      "ad_account_id": "act_1326213025219870",
+      "categoria": "Sin Estética"
+    },
+    "NATAL": {
+      "nombre": "Natal Construcción",
+      "ad_account_id": "act_1151088255710219",
+      "categoria": "Sin Estética"
+    }
+  }
+}

@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Campaña - HDI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f5f5;
+            color: #2d3748;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 3px solid #4A5568;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 42px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 10px;
+        }
+
+        .header .subtitle {
+            font-size: 24px;
+            color: #718096;
+            font-weight: 300;
+        }
+
+        .header .period {
+            font-size: 18px;
+            color: #4A5568;
+            margin-top: 15px;
+            font-weight: 500;
+        }
+
+        /* Section */
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #4A5568;
+        }
+
+        /* Metrics Grid */
+        .metrics-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .metric-card {
+            flex: 1;
+            min-width: 200px;
+            background: #f7fafc;
+            padding: 25px;
+            border-left: 4px solid #4A5568;
+            border-radius: 4px;
+        }
+
+        .metric-value {
+            font-size: 32px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 8px;
+        }
+
+        .metric-label {
+            font-size: 13px;
+            color: #718096;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+        }
+
+        thead {
+            background: #4A5568;
+            color: white;
+        }
+
+        th {
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #e2e8f0;
+            font-size: 14px;
+        }
+
+        tbody tr:hover {
+            background: #f7fafc;
+        }
+
+        /* Insights */
+        .insights {
+            margin: 30px 0;
+        }
+
+        .insight {
+            background: #f7fafc;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 4px solid #4A5568;
+            border-radius: 4px;
+        }
+
+        .insight-alerta {
+            border-left-color: #E53E3E;
+            background: #FFF5F5;
+        }
+
+        .insight-oportunidad {
+            border-left-color: #D69E2E;
+            background: #FFFAF0;
+        }
+
+        .insight-exito {
+            border-left-color: #38A169;
+            background: #F0FFF4;
+        }
+
+        .insight-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 8px;
+        }
+
+        .insight-description {
+            font-size: 14px;
+            color: #4A5568;
+            margin-bottom: 8px;
+        }
+
+        .insight-action {
+            font-size: 13px;
+            color: #2D3748;
+            font-weight: 500;
+        }
+
+        /* AdSet Detail */
+        .adset-detail {
+            margin: 40px 0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .adset-header {
+            background: #4A5568;
+            color: white;
+            padding: 20px 25px;
+        }
+
+        .adset-title {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .adset-metrics {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .adset-metric {
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .adset-metric-value {
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        .adset-metric-label {
+            font-size: 12px;
+            opacity: 0.9;
+            text-transform: uppercase;
+        }
+
+        /* Tabla comparativa de anuncios */
+        .comparison-table-wrap {
+            overflow-x: auto;
+            background: white;
+        }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        .comparison-table thead tr {
+            background: #edf2f7;
+        }
+
+        .comparison-table th {
+            padding: 11px 14px;
+            text-align: center;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+            color: #4A5568;
+            border-bottom: 2px solid #cbd5e0;
+            white-space: nowrap;
+        }
+
+        .comparison-table th.col-ad {
+            text-align: left;
+            min-width: 200px;
+        }
+
+        .comparison-table td {
+            padding: 14px;
+            border-bottom: 1px solid #e2e8f0;
+            text-align: center;
+            vertical-align: middle;
+            color: #2d3748;
+        }
+
+        .comparison-table td.col-ad {
+            text-align: left;
+        }
+
+        .comparison-table tbody tr:hover {
+            background: #f7fafc;
+        }
+
+        .comparison-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        .ad-cell {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .ad-thumb {
+            flex-shrink: 0;
+            width: 60px;
+            height: 60px;
+            border-radius: 6px;
+            overflow: hidden;
+            background: #edf2f7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #e2e8f0;
+        }
+
+        .ad-thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .ad-cell-name {
+            font-weight: 600;
+            color: #1a202c;
+            font-size: 14px;
+        }
+
+        .metric-highlight {
+            font-weight: 700;
+            color: #1a202c;
+        }
+
+        .tag-best {
+            display: inline-block;
+            background: #c6f6d5;
+            color: #22543d;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 2px 6px;
+            border-radius: 10px;
+            margin-left: 4px;
+            vertical-align: middle;
+        }
+
+        .tag-low {
+            display: inline-block;
+            background: #fed7d7;
+            color: #742a2a;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 2px 6px;
+            border-radius: 10px;
+            margin-left: 4px;
+            vertical-align: middle;
+        }
+
+        /* Glossary */
+        .glossary {
+            background: #f7fafc;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+        }
+
+        .glossary-item {
+            margin-bottom: 20px;
+        }
+
+        .glossary-term {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 5px;
+        }
+
+        .glossary-definition {
+            font-size: 14px;
+            color: #4A5568;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+            text-align: center;
+            color: #718096;
+            font-size: 13px;
+        }
+
+        @media print {
+            @page { size: A4 landscape; margin: 12mm 15mm; }
+            body { background: white; padding: 0; font-size: 11px; }
+            .container { box-shadow: none; padding: 0; max-width: 100%; }
+
+            /* Header compacto */
+            .header { padding: 16px 20px; margin-bottom: 14px; }
+            .header h1 { font-size: 22px; }
+            .header .subtitle { font-size: 14px; }
+
+            /* Métricas resumen más pequeñas */
+            .metrics-grid { gap: 8px; margin-bottom: 14px; }
+            .metric-card { padding: 10px 12px; }
+            .metric-value { font-size: 20px; }
+            .metric-label { font-size: 10px; }
+
+            /* Secciones sin sombra */
+            .adset-detail { box-shadow: none; border: 1px solid #e2e8f0; margin-bottom: 14px; page-break-inside: avoid; }
+            .adset-header { padding: 10px 14px; }
+            .adset-title { font-size: 13px; }
+
+            /* Tablas compactas */
+            .comparison-table-wrap { overflow: visible; }
+            .comparison-table { font-size: 10px; width: 100%; }
+            .comparison-table th { padding: 6px 8px; font-size: 9px; }
+            .comparison-table td { padding: 6px 8px; }
+            .comparison-table th.col-ad { min-width: 140px; }
+
+            /* Miniaturas más pequeñas */
+            .ad-thumb { width: 36px; height: 36px; flex-shrink: 0; }
+            .ad-cell { gap: 7px; }
+            .ad-cell-name { font-size: 11px; }
+            .tag-best, .tag-low { font-size: 9px; padding: 1px 4px; }
+
+            /* Insights compactos */
+            .insights { margin-top: 12px; }
+            .insight { padding: 8px 12px; margin-bottom: 6px; }
+            .insight-title { font-size: 11px; }
+            .insight-description, .insight-action { font-size: 10px; }
+
+            /* No cortar filas entre páginas */
+            .comparison-table tbody tr { page-break-inside: avoid; }
+            .adset-metrics { gap: 6px; }
+            .adset-metric { padding: 6px 10px; }
+        }
+
+        /* RESPONSIVE MOBILE */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .header .subtitle {
+                font-size: 18px;
+            }
+
+            .section-title {
+                font-size: 24px;
+            }
+
+            /* Tablas responsive */
+            table {
+                font-size: 12px;
+            }
+
+            table th, table td {
+                padding: 8px 4px;
+            }
+
+            /* Hacer tablas scrolleables horizontalmente */
+            .table-container {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            /* Métricas en columna */
+            .metrics-grid {
+                flex-direction: column;
+            }
+
+            .metric-card {
+                min-width: 100%;
+            }
+
+            /* Anuncios en columna */
+            .ad-header {
+                flex-direction: column;
+            }
+
+            .ad-image-container {
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+            }
+
+            .ad-image {
+                width: 100%;
+                height: auto;
+            }
+
+            .ad-metrics {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+
+            .ad-metric {
+                min-width: calc(50% - 5px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- HEADER -->
+        <div class="header">
+            <h1>HDI</h1>
+            <div class="subtitle">Reporte de Campaña Publicitaria</div>
+            <div class="period">Abril 2026</div>
+        </div>
+
+        <!-- RESUMEN EJECUTIVO -->
+        <div class="section">
+            <h2 class="section-title">Resumen Ejecutivo</h2>
+
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">$369.885,24</div>
+                    <div class="metric-label">Inversión Total (ARS)</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">202.123</div>
+                    <div class="metric-label">Alcance Total</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">519.172</div>
+                    <div class="metric-label">Impresiones</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">9</div>
+                    <div class="metric-label">Anuncios Corridos</div>
+                </div>
+            </div>
+
+            <h3 style="font-size: 20px; margin: 30px 0 15px 0; color: #1a202c;">Rendimiento por Campaña</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Campaña</th>
+                        <th>Alcance</th>
+                        <th>Frecuencia</th>
+                        <th>Inversión</th>
+                        <th>Resultado Principal</th>
+                        <th>Costo por Resultado</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td><strong>Tráfico IG - Nov.25 - BRAND</strong></td>
+                        <td>109.487</td>
+                        <td>2.30</td>
+                        <td>$149.954,67</td>
+                        <td>2.892 clics</td>
+                        <td>$51,85</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>Tráfico IG - Nov.25 - Producto</strong></td>
+                        <td>68.080</td>
+                        <td>3.15</td>
+                        <td>$99.987,57</td>
+                        <td>5.190 clics</td>
+                        <td>$19,27</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>NQN</strong></td>
+                        <td>12.430</td>
+                        <td>3.09</td>
+                        <td>$84.962,15</td>
+                        <td>21 conversaciones</td>
+                        <td>$4.045,82</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>CIPO</strong></td>
+                        <td>5.594</td>
+                        <td>2.68</td>
+                        <td>$34.980,85</td>
+                        <td>6 conversaciones</td>
+                        <td>$5.830,14</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Insights y Recomendaciones</h2>
+            <div class="insights">
+
+                <div class="insight insight-oportunidad">
+                    <div class="insight-title">💡 CTR bajo en 'TELEFONOS'</div>
+                    <div class="insight-description">CTR de 0.90% está muy por debajo del promedio (2.73%). El anuncio no está generando interés.</div>
+                    <div class="insight-action">→ Testear nuevo copy o creatividad más llamativa</div>
+                </div>
+
+                <div class="insight insight-oportunidad">
+                    <div class="insight-title">💡 CTR bajo en 'TELÉFONO'</div>
+                    <div class="insight-description">CTR de 0.90% está muy por debajo del promedio (2.73%). El anuncio no está generando interés.</div>
+                    <div class="insight-action">→ Testear nuevo copy o creatividad más llamativa</div>
+                </div>
+
+                <div class="insight insight-alerta">
+                    <div class="insight-title">⚠️ Costo por click alto en 'TELEFONOS'</div>
+                    <div class="insight-description">CPC de $246 es 50% más alto que el promedio ($82). Estás pagando de más por cada click.</div>
+                    <div class="insight-action">→ Optimizar segmentación o pausar si no convierte</div>
+                </div>
+
+                <div class="insight insight-alerta">
+                    <div class="insight-title">⚠️ Costo por click alto en 'TELÉFONO'</div>
+                    <div class="insight-description">CPC de $259 es 50% más alto que el promedio ($82). Estás pagando de más por cada click.</div>
+                    <div class="insight-action">→ Optimizar segmentación o pausar si no convierte</div>
+                </div>
+
+                <div class="insight insight-éxito">
+                    <div class="insight-title">📊 Excelente performance en '6 líneas'</div>
+                    <div class="insight-description">CTR de 2.64% con frecuencia controlada (1.3). Este anuncio está funcionando muy bien.</div>
+                    <div class="insight-action">→ Escalar presupuesto si hay margen</div>
+                </div>
+
+                <div class="insight insight-éxito">
+                    <div class="insight-title">📊 Excelente performance en 'PROFESIONALES'</div>
+                    <div class="insight-description">CTR de 2.41% con frecuencia controlada (3.2). Este anuncio está funcionando muy bien.</div>
+                    <div class="insight-action">→ Escalar presupuesto si hay margen</div>
+                </div>
+
+                <div class="insight insight-éxito">
+                    <div class="insight-title">📊 Excelente performance en 'SI ESTÁS EN ALTO VALLE'</div>
+                    <div class="insight-description">CTR de 12.50% con frecuencia controlada (1.2). Este anuncio está funcionando muy bien.</div>
+                    <div class="insight-action">→ Escalar presupuesto si hay margen</div>
+                </div>
+
+                <div class="insight insight-oportunidad">
+                    <div class="insight-title">💡 Subinversión en anuncio con potencial: 'SI ESTÁS EN ALTO VALLE'</div>
+                    <div class="insight-description">Este anuncio tiene buen CTR (12.50%) pero recibe poca inversión ($55). Podría escalar.</div>
+                    <div class="insight-action">→ Aumentar presupuesto para este anuncio</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Glosario de Métricas</h2>
+            <div class="glossary">
+                <div class="glossary-item">
+                    <div class="glossary-term">Impresiones</div>
+                    <div class="glossary-definition">Cantidad de veces que tu anuncio fue mostrado en pantalla.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">Alcance</div>
+                    <div class="glossary-definition">Número de personas únicas que vieron tu anuncio al menos una vez.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">Frecuencia</div>
+                    <div class="glossary-definition">Promedio de veces que cada persona vio tu anuncio. Idealmente entre 2-4.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">CTR (Click-Through Rate)</div>
+                    <div class="glossary-definition">Porcentaje de personas que hicieron click después de ver el anuncio.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">CPC (Costo Por Click)</div>
+                    <div class="glossary-definition">Cuánto pagaste en promedio por cada click en tu anuncio.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">CPM (Costo Por Mil impresiones)</div>
+                    <div class="glossary-definition">Cuánto pagaste por cada 1,000 veces que tu anuncio fue mostrado.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Comparativa por Campaña</h2>
+
+            <div class="adset-detail">
+                <div class="adset-header">
+                    <div class="adset-title">Tráfico IG - Nov.25 - BRAND</div>
+                    <div class="adset-metrics">
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">2.892</div>
+                            <div class="adset-metric-label">Clics al perfil/enlace</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">$51,85</div>
+                            <div class="adset-metric-label">Costo por resultado</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">$149.954,67</div>
+                            <div class="adset-metric-label">Inversión Total</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">109.487</div>
+                            <div class="adset-metric-label">Alcance</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">2.30</div>
+                            <div class="adset-metric-label">Frecuencia</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comparison-table-wrap">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th class="col-ad">Anuncio</th>
+                                <th>Alcance</th>
+                                <th>Impresiones</th>
+                                <th>Frecuencia</th>
+                                <th>Inversión</th>
+                                <th>CTR</th>
+                                <th>CPC</th>
+                                <th>CPM</th>
+                                <th>Clics</th>
+                                <th>CPC</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div class="ad-thumb"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE3ZjAxMDAwMGQxMDEwMDAwNGYwMjAwMDA3MTAyMDAwMGIxMDIwMDAwMDMwMzAwMDBlYzAzMDAwMDA2MDQwMDAwMzIwNDAwMDA1NzA0MDAwMDc2MDUwMDAwAP/bAIQABgcHDQkNDAwMDBENDg0REREQEBERExASERIQExMUExUVExQTFBMXFxcTFBUXGRkXFRccGxwXGxkZGx4bHhsbFgEGBgYLCAsKCwsKDQkLCQ0MDAoKDAwPCwwLDAsPEA4NDg4NDhAODQ0KDQ0ODw4QEA4PEAwODBAPEBAPFxkXFxfB/8IAEQgAQABAAwEiAAIRAQMRAf/EAEoAAAIDAQEBAAAAAAAAAAAAAAIEAQMFAAYHEAACAQICBwYGAwEAAAAAAAAAAREhMQJBEFFhcYGRoQMSFCCx8AQTwdHh8SIyUpL/2gAMAwEAAgADAAAAAfSO+bY4d8EmAK0lhnms1Gkx+bv2LV2PSrTWTtuF0xpqUcQ6UlVB8vfRMJVSJxYIX9HsEa9WuxAdZcZxEPRVTHnLX0DH/9oACAEBAAEFAhpEYRYcB3cIlgGsOjxeAw9usRh+IR4pM8Wpx/E4TF8Rhwni8Gjs/iMWA8biF8bjPFYh/G42Y/iO+d4Z3SDFQkk7x3idEjHoej5yHjFUxtofk8Mj5MGHsoMSMXZj7IWEQu0xdkYO2WM7ixGJYkRhY+zg7ShJ/9oACAEDAAE/AVU7r1PkQ9T5DFSx38Ws771jr5abiDukH//aAAgBAgABPwHFGGraW9wfNw/7w/8ASPmYf9Yf+kKtVVGJLFRqUeH7P/CH2GD/AAqbDD/GiULRXTXfo70Ccn//2gAIAQEABj8CFwzL9S/Uv1L9T86LkpNi/i6bNZ/TFyP6vXY/q+RXTCik5ayy5GXIytFuJl+iqWi5fz2Leexfz0K6cvJDU+9eiUyq73qant8n/9oACAEBAAE/IalmavLYivUc9kU6n9IGJnM42Ip1Ipoz6FH1IynIuLMhuGphxtT9to2e8hBCLURdXwhrkdD8IZ2rwOCaIWiPUhNQyosu4j16jCJcuBtXyFTMSq4Mm5NZqjkmrKew0o16qCySVCsrPUanLTzyDqvef0XyiU4jWTWewfmSzUzdvXrZWPOpuSN4IokI6iDgcHCsVZFGt0KsN7QZ6aCVhhCsQ5fk1IR2M1vyGmojYQNk0e9g6ko3r7GQs80M2PeNdIRaxy0CQx9ROTCTJ7HR8zLJ7CwCcui46euqoHfiIkmR9R//2gAMAwEAAgADAAAAEKeUcU8eQj1WEYrlsf/aAAgBAwABPxBnQk29STZ+yHCtoaKWglW0G0m112lSXU4+T2ZFP3uV2qUH/9oACAECAAE/EIEJ1oTm2e0froIp3DMXwtUz9PoKUOYCWJ+cA//aAAgBAQABPxCdYgetEToCdxmEGlJCuYPQO6WX3dw9mX4ZFD8BBRQGxFHMuYr8xyzVfMSuBgKvehRoga3t1yzkKn4oM5HouWV4uuESd6Cno3bI1LknvTR+yEsigj17ACQqySKq70SqdCRkCjt6jWc3UoxjmKyhkVLIIYyHZ2Liq3vghUSwlIOLfmaOk9o58yltyTuEq9XvgYKt1olUe+idRlEITZ6kcgdjiR9RNr0/c9k+5al24ZuajE2mxLLLXwJFCuJhru7o/ZKVXqzKD7N7+w2cqaDchrkTRG3NoIuDVR51LiXVVyz0NiOf6jyyArvO4idUt5KHuRnJfqM1YL09dDJG5TR1X5I1ZUnpOgMX7MZCLJ7jZQBOqzIKj//Z" alt=""/></div>
+                                        <span class="ad-cell-name">Alto Valle no se detiene</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">8.960</td>
+                                <td>10.550</td>
+                                <td>1.18</td>
+                                <td class="metric-highlight">$6.064,99</td>
+                                <td>1.21%</td>
+                                <td>$47,38</td>
+                                <td>$574,88</td>
+                                <td class="metric-highlight">128</td>
+                                <td>$47,38</td>
+                            </tr>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div class="ad-thumb"><img src="data:image/jpeg;base64,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" alt=""/></div>
+                                        <span class="ad-cell-name">+ de 2 décadas</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">99.958</td>
+                                <td>232.159</td>
+                                <td>2.32</td>
+                                <td class="metric-highlight">$139.219,32</td>
+                                <td>1.18%</td>
+                                <td>$50,64</td>
+                                <td>$599,67</td>
+                                <td class="metric-highlight">2734<span class="tag-best">MEJOR</span></td>
+                                <td>$50,92</td>
+                            </tr>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div style="width:60px;height:60px;background:#edf2f7;border-radius:6px;display:flex;align-items:center;justify-content:center;color:#a0aec0;font-size:20px;">📷</div>
+                                        <span class="ad-cell-name">SI ESTÁS EN ALTO VALLE</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">55</td>
+                                <td>64</td>
+                                <td>1.16</td>
+                                <td class="metric-highlight">$55,34</td>
+                                <td>12.50%<span class="tag-best">MEJOR</span></td>
+                                <td>$6,92</td>
+                                <td>$864,69</td>
+                                <td class="metric-highlight">2</td>
+                                <td>$27,67<span class="tag-best">MENOR</span></td>
+                            </tr>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div style="width:60px;height:60px;background:#edf2f7;border-radius:6px;display:flex;align-items:center;justify-content:center;color:#a0aec0;font-size:20px;">📷</div>
+                                        <span class="ad-cell-name">Avance VMOS</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">6.393</td>
+                                <td>8.657</td>
+                                <td>1.35</td>
+                                <td class="metric-highlight">$4.615,02</td>
+                                <td>1.26%</td>
+                                <td>$42,34</td>
+                                <td>$533,10</td>
+                                <td class="metric-highlight">28</td>
+                                <td>$164,82</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="adset-detail">
+                <div class="adset-header">
+                    <div class="adset-title">Tráfico IG - Nov.25 - Producto</div>
+                    <div class="adset-metrics">
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">5.190</div>
+                            <div class="adset-metric-label">Clics al perfil/enlace</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">$19,27</div>
+                            <div class="adset-metric-label">Costo por resultado</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">$99.987,57</div>
+                            <div class="adset-metric-label">Inversión Total</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">68.080</div>
+                            <div class="adset-metric-label">Alcance</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">3.15</div>
+                            <div class="adset-metric-label">Frecuencia</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comparison-table-wrap">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th class="col-ad">Anuncio</th>
+                                <th>Alcance</th>
+                                <th>Impresiones</th>
+                                <th>Frecuencia</th>
+                                <th>Inversión</th>
+                                <th>CTR</th>
+                                <th>CPC</th>
+                                <th>CPM</th>
+                                <th>Clics</th>
+                                <th>CPC</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div class="ad-thumb"><img src="data:image/jpeg;base64,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" alt=""/></div>
+                                        <span class="ad-cell-name">Hormigón visto</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">1.867</td>
+                                <td>2.118</td>
+                                <td>1.13</td>
+                                <td class="metric-highlight">$913,25</td>
+                                <td>1.61%</td>
+                                <td>$26,86</td>
+                                <td>$431,19</td>
+                                <td class="metric-highlight">27</td>
+                                <td>$33,82</td>
+                            </tr>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div class="ad-thumb"><img src="data:image/jpeg;base64,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" alt=""/></div>
+                                        <span class="ad-cell-name">6 líneas</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">1.154</td>
+                                <td>1.552</td>
+                                <td>1.34</td>
+                                <td class="metric-highlight">$1.482,29</td>
+                                <td>2.64%<span class="tag-best">MEJOR</span></td>
+                                <td>$36,15</td>
+                                <td>$955,08</td>
+                                <td class="metric-highlight">30</td>
+                                <td>$49,41</td>
+                            </tr>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div style="width:60px;height:60px;background:#edf2f7;border-radius:6px;display:flex;align-items:center;justify-content:center;color:#a0aec0;font-size:20px;">📷</div>
+                                        <span class="ad-cell-name">PROFESIONALES</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">65.712</td>
+                                <td>210.675</td>
+                                <td>3.21</td>
+                                <td class="metric-highlight">$97.592,03</td>
+                                <td>2.41%</td>
+                                <td>$19,23</td>
+                                <td>$463,23</td>
+                                <td class="metric-highlight">5133<span class="tag-best">MEJOR</span></td>
+                                <td>$19,01<span class="tag-best">MENOR</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="adset-detail">
+                <div class="adset-header">
+                    <div class="adset-title">NQN</div>
+                    <div class="adset-metrics">
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">21</div>
+                            <div class="adset-metric-label">Conversaciones iniciadas</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">$4.045,82</div>
+                            <div class="adset-metric-label">Costo por resultado</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">$84.962,15</div>
+                            <div class="adset-metric-label">Inversión Total</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">12.430</div>
+                            <div class="adset-metric-label">Alcance</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">3.09</div>
+                            <div class="adset-metric-label">Frecuencia</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comparison-table-wrap">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th class="col-ad">Anuncio</th>
+                                <th>Alcance</th>
+                                <th>Impresiones</th>
+                                <th>Frecuencia</th>
+                                <th>Inversión</th>
+                                <th>CTR</th>
+                                <th>CPC</th>
+                                <th>CPM</th>
+                                <th>Conversaciones</th>
+                                <th>Costo / conv.</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div style="width:60px;height:60px;background:#edf2f7;border-radius:6px;display:flex;align-items:center;justify-content:center;color:#a0aec0;font-size:20px;">📷</div>
+                                        <span class="ad-cell-name">TELEFONOS</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">12.430</td>
+                                <td>38.393</td>
+                                <td>3.09</td>
+                                <td class="metric-highlight">$84.962,15</td>
+                                <td>0.90%</td>
+                                <td>$245,56</td>
+                                <td>$2.212,96</td>
+                                <td class="metric-highlight">21</td>
+                                <td>$4.045,82</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="adset-detail">
+                <div class="adset-header">
+                    <div class="adset-title">CIPO</div>
+                    <div class="adset-metrics">
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">6</div>
+                            <div class="adset-metric-label">Conversaciones iniciadas</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">$5.830,14</div>
+                            <div class="adset-metric-label">Costo por resultado</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">$34.980,85</div>
+                            <div class="adset-metric-label">Inversión Total</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">5.594</div>
+                            <div class="adset-metric-label">Alcance</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">2.68</div>
+                            <div class="adset-metric-label">Frecuencia</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comparison-table-wrap">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th class="col-ad">Anuncio</th>
+                                <th>Alcance</th>
+                                <th>Impresiones</th>
+                                <th>Frecuencia</th>
+                                <th>Inversión</th>
+                                <th>CTR</th>
+                                <th>CPC</th>
+                                <th>CPM</th>
+                                <th>Conversaciones</th>
+                                <th>Costo / conv.</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td class="col-ad">
+                                    <div class="ad-cell">
+                                        <div style="width:60px;height:60px;background:#edf2f7;border-radius:6px;display:flex;align-items:center;justify-content:center;color:#a0aec0;font-size:20px;">📷</div>
+                                        <span class="ad-cell-name">TELÉFONO</span>
+                                    </div>
+                                </td>
+                                <td class="metric-highlight">5.594</td>
+                                <td>15.004</td>
+                                <td>2.68</td>
+                                <td class="metric-highlight">$34.980,85</td>
+                                <td>0.90%</td>
+                                <td>$259,12</td>
+                                <td>$2.331,43</td>
+                                <td class="metric-highlight">6</td>
+                                <td>$5.830,14</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            Reporte generado el 06 de May de 2026 a las 09:27
+        </div>
+
+    </div>
+</body>
+</html>

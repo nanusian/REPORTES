@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Campaña - CREAR</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f5f5;
+            color: #2d3748;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 3px solid #4A5568;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 42px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 10px;
+        }
+
+        .header .subtitle {
+            font-size: 24px;
+            color: #718096;
+            font-weight: 300;
+        }
+
+        .header .period {
+            font-size: 18px;
+            color: #4A5568;
+            margin-top: 15px;
+            font-weight: 500;
+        }
+
+        /* Section */
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #4A5568;
+        }
+
+        /* Metrics Grid */
+        .metrics-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .metric-card {
+            flex: 1;
+            min-width: 200px;
+            background: #f7fafc;
+            padding: 25px;
+            border-left: 4px solid #4A5568;
+            border-radius: 4px;
+        }
+
+        .metric-value {
+            font-size: 32px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 8px;
+        }
+
+        .metric-label {
+            font-size: 13px;
+            color: #718096;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+        }
+
+        thead {
+            background: #4A5568;
+            color: white;
+        }
+
+        th {
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #e2e8f0;
+            font-size: 14px;
+        }
+
+        tbody tr:hover {
+            background: #f7fafc;
+        }
+
+        /* Insights */
+        .insights {
+            margin: 30px 0;
+        }
+
+        .insight {
+            background: #f7fafc;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 4px solid #4A5568;
+            border-radius: 4px;
+        }
+
+        .insight-alerta {
+            border-left-color: #E53E3E;
+            background: #FFF5F5;
+        }
+
+        .insight-oportunidad {
+            border-left-color: #D69E2E;
+            background: #FFFAF0;
+        }
+
+        .insight-exito {
+            border-left-color: #38A169;
+            background: #F0FFF4;
+        }
+
+        .insight-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 8px;
+        }
+
+        .insight-description {
+            font-size: 14px;
+            color: #4A5568;
+            margin-bottom: 8px;
+        }
+
+        .insight-action {
+            font-size: 13px;
+            color: #2D3748;
+            font-weight: 500;
+        }
+
+        /* AdSet Detail */
+        .adset-detail {
+            margin: 40px 0;
+            padding: 30px;
+            background: #f7fafc;
+            border-radius: 8px;
+        }
+
+        .adset-header {
+            background: #4A5568;
+            color: white;
+            padding: 20px;
+            margin: -30px -30px 20px -30px;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .adset-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .adset-metrics {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .adset-metric {
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .adset-metric-value {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .adset-metric-label {
+            font-size: 12px;
+            opacity: 0.9;
+            text-transform: uppercase;
+        }
+
+        /* Ad Item */
+        .ad-item {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-left: 4px solid #718096;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .ad-header {
+            display: flex;
+            gap: 25px;
+            margin-bottom: 20px;
+        }
+
+        .ad-image-container {
+            flex-shrink: 0;
+            width: 400px;
+            height: 400px;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #f7fafc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #e2e8f0;
+        }
+
+        .ad-image {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        .ad-info {
+            flex: 1;
+        }
+
+        .ad-name {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 12px;
+        }
+
+        .ad-copy {
+            font-size: 14px;
+            color: #4A5568;
+            line-height: 1.6;
+            font-style: italic;
+            padding: 15px;
+            background: #f7fafc;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+
+        .ad-metrics {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding-top: 15px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .ad-metric {
+            flex: 1;
+            min-width: 100px;
+            text-align: center;
+        }
+
+        .ad-metric-value {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 5px;
+        }
+
+        .ad-metric-label {
+            font-size: 11px;
+            color: #718096;
+            text-transform: uppercase;
+        }
+
+        /* Glossary */
+        .glossary {
+            background: #f7fafc;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+        }
+
+        .glossary-item {
+            margin-bottom: 20px;
+        }
+
+        .glossary-term {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 5px;
+        }
+
+        .glossary-definition {
+            font-size: 14px;
+            color: #4A5568;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+            text-align: center;
+            color: #718096;
+            font-size: 13px;
+        }
+
+        @media print {
+            body { background: white; padding: 0; }
+            .container { box-shadow: none; padding: 20px; }
+        }
+
+        /* RESPONSIVE MOBILE */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .header .subtitle {
+                font-size: 18px;
+            }
+
+            .section-title {
+                font-size: 24px;
+            }
+
+            /* Tablas responsive */
+            table {
+                font-size: 12px;
+            }
+
+            table th, table td {
+                padding: 8px 4px;
+            }
+
+            /* Hacer tablas scrolleables horizontalmente */
+            .table-container {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            /* Métricas en columna */
+            .metrics-grid {
+                flex-direction: column;
+            }
+
+            .metric-card {
+                min-width: 100%;
+            }
+
+            /* Anuncios en columna */
+            .ad-header {
+                flex-direction: column;
+            }
+
+            .ad-image-container {
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+            }
+
+            .ad-image {
+                width: 100%;
+                height: auto;
+            }
+
+            .ad-metrics {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+
+            .ad-metric {
+                min-width: calc(50% - 5px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- HEADER -->
+        <div class="header">
+            <h1>CREAR</h1>
+            <div class="subtitle">Reporte de Campaña Publicitaria</div>
+            <div class="period">Noviembre 2025</div>
+        </div>
+
+        <!-- RESUMEN EJECUTIVO -->
+        <div class="section">
+            <h2 class="section-title">Resumen Ejecutivo</h2>
+
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">$52.694,70</div>
+                    <div class="metric-label">Inversión Total (ARS)</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">6.155</div>
+                    <div class="metric-label">Alcance Total</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">13.191</div>
+                    <div class="metric-label">Impresiones</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">1</div>
+                    <div class="metric-label">Anuncios Corridos</div>
+                </div>
+            </div>
+
+            <h3 style="font-size: 20px; margin: 30px 0 15px 0; color: #1a202c;">Rendimiento por Conjunto de Anuncios</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Conjunto de Anuncios</th>
+                        <th>Alcance</th>
+                        <th>Frecuencia</th>
+                        <th>Inversión</th>
+                        <th>Conversaciones</th>
+                        <th>Costo/Conv.</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td><strong>Lote en Terrazas inversores</strong></td>
+                        <td>6.155</td>
+                        <td>2.14</td>
+                        <td>$52.694,70</td>
+                        <td>15</td>
+                        <td>$3.512,98</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Glosario de Métricas</h2>
+            <div class="glossary">
+                <div class="glossary-item">
+                    <div class="glossary-term">Impresiones</div>
+                    <div class="glossary-definition">Cantidad de veces que tu anuncio fue mostrado en pantalla.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">Alcance</div>
+                    <div class="glossary-definition">Número de personas únicas que vieron tu anuncio al menos una vez.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">Frecuencia</div>
+                    <div class="glossary-definition">Promedio de veces que cada persona vio tu anuncio. Idealmente entre 2-4.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">CTR (Click-Through Rate)</div>
+                    <div class="glossary-definition">Porcentaje de personas que hicieron click después de ver el anuncio.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">CPC (Costo Por Click)</div>
+                    <div class="glossary-definition">Cuánto pagaste en promedio por cada click en tu anuncio.</div>
+                </div>
+                <div class="glossary-item">
+                    <div class="glossary-term">CPM (Costo Por Mil impresiones)</div>
+                    <div class="glossary-definition">Cuánto pagaste por cada 1,000 veces que tu anuncio fue mostrado.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="adset-detail">
+                <div class="adset-header">
+                    <div class="adset-title">Lote en Terrazas inversores</div>
+                    <div class="adset-metrics">
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">15</div>
+                            <div class="adset-metric-label">Conversaciones</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">$3.512,98</div>
+                            <div class="adset-metric-label">Costo por Conversación</div>
+                        </div>
+                        <div class="adset-metric">
+                            <div class="adset-metric-value">$52.694,70</div>
+                            <div class="adset-metric-label">Inversión Total</div>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 style="font-size: 18px; margin-bottom: 20px; color: #1a202c;">Anuncios en este conjunto</h3>
+
+                <div class="ad-item">
+                    <div class="ad-header">
+                        <div class="ad-image-container">
+                            <img src="data:image/jpeg;base64,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" class="ad-image" alt="Ad Creative"/>
+                        </div>
+                        <div class="ad-info">
+                            <div class="ad-name">Lote en Terrazas inversores</div>
+                            <div class="ad-copy">"VENTA. Terreno único en Terrazas del Neuquén, ideal inversión inmobiliaria. La ciudad que más crece en el país te espera. Estamos para asesorarte, contáctanos.
+#inmobiliaria #neuquén #venta #inversion..."</div>
+                        </div>
+                    </div>
+                    <div class="ad-metrics">
+                        <div class="ad-metric">
+                            <div class="ad-metric-value">6.155</div>
+                            <div class="ad-metric-label">Alcance</div>
+                        </div>
+                        <div class="ad-metric">
+                            <div class="ad-metric-value">2.14</div>
+                            <div class="ad-metric-label">Frecuencia</div>
+                        </div>
+                        <div class="ad-metric">
+                            <div class="ad-metric-value">1.90%</div>
+                            <div class="ad-metric-label">CTR</div>
+                        </div>
+                        <div class="ad-metric">
+                            <div class="ad-metric-value">$209,94</div>
+                            <div class="ad-metric-label">CPC</div>
+                        </div>
+                        <div class="ad-metric">
+                            <div class="ad-metric-value">$3.994,75</div>
+                            <div class="ad-metric-label">CPM</div>
+                        </div>
+                        <div class="ad-metric">
+                            <div class="ad-metric-value">$52.694,70</div>
+                            <div class="ad-metric-label">Inversión</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            Reporte generado el 03 de December de 2025 a las 12:59
+        </div>
+
+    </div>
+</body>
+</html>

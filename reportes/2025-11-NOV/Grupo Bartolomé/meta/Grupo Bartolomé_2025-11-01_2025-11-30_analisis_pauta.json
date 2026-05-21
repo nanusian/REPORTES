@@ -1,0 +1,389 @@
+{
+  "metadata": {
+    "cliente": "Grupo Bartolomé",
+    "periodo": "2025-11-01_2025-11-30",
+    "fecha_generacion": "2025-12-09 12:35",
+    "ad_account_id": "act_586457407081824"
+  },
+  "resumen": {
+    "inversion_total": 63805.41,
+    "alcance_total": 190824,
+    "impresiones_totales": 254708,
+    "total_anuncios": 2,
+    "total_conjuntos": 2
+  },
+  "conjuntos_de_anuncios": [
+    {
+      "adset_name": "Views - Clínica Deportiva - Nov.25",
+      "impressions": 239256,
+      "reach": 175746,
+      "frequency": 1.361374,
+      "spend": 59998.15,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 1,
+        "link_click": 168,
+        "page_engagement": 17853,
+        "onsite_conversion.post_unlike": 6,
+        "post_engagement": 17853,
+        "comment": 1,
+        "post_interaction_gross": 46,
+        "post": 4,
+        "onsite_conversion.post_net_like": 35,
+        "onsite_conversion.messaging_first_reply": 1,
+        "onsite_conversion.messaging_conversation_started_7d": 1,
+        "video_view": 17639,
+        "post_reaction": 41
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 59998.15,
+        "video_view": 3.401448,
+        "link_click": 357.131845,
+        "post_interaction_gross": 1304.307609,
+        "post_engagement": 3.360676,
+        "page_engagement": 3.360676,
+        "onsite_conversion.messaging_first_reply": 59998.15,
+        "onsite_conversion.messaging_conversation_started_7d": 59998.15
+      }
+    },
+    {
+      "adset_name": "Views - LA RUFINA - Tendido Gas",
+      "impressions": 15452,
+      "reach": 15078,
+      "frequency": 1.024804,
+      "spend": 3807.26,
+      "actions": {
+        "link_click": 17,
+        "page_engagement": 939,
+        "post_engagement": 939,
+        "post_interaction_gross": 1,
+        "onsite_conversion.post_net_like": 1,
+        "video_view": 921,
+        "post_reaction": 1
+      },
+      "cost_per_actions": {
+        "video_view": 4.133833,
+        "link_click": 223.956471,
+        "post_interaction_gross": 3807.26,
+        "post_engagement": 4.05459,
+        "page_engagement": 4.05459
+      }
+    }
+  ],
+  "anuncios": [
+    {
+      "campaign_name": "Campaña | Views",
+      "adset_name": "Views - Clínica Deportiva - Nov.25",
+      "ad_name": "Views - Clínica Deportiva - Nov.25",
+      "ad_id": "120236030391250078",
+      "impressions": 239256,
+      "reach": 175746,
+      "frequency": 1.361374,
+      "clicks": 480,
+      "spend": 59998.15,
+      "cpc": 124.996146,
+      "cpm": 250.769678,
+      "ctr": 0.200622,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 1,
+        "link_click": 168,
+        "page_engagement": 17853,
+        "onsite_conversion.post_unlike": 6,
+        "post_engagement": 17853,
+        "comment": 1,
+        "post_interaction_gross": 46,
+        "post": 4,
+        "onsite_conversion.post_net_like": 35,
+        "onsite_conversion.messaging_first_reply": 1,
+        "onsite_conversion.messaging_conversation_started_7d": 1,
+        "video_view": 17639,
+        "post_reaction": 41
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 59998.15,
+        "video_view": 3.401448,
+        "link_click": 357.131845,
+        "post_interaction_gross": 1304.307609,
+        "post_engagement": 3.360676,
+        "page_engagement": 3.360676,
+        "onsite_conversion.messaging_first_reply": 59998.15,
+        "onsite_conversion.messaging_conversation_started_7d": 59998.15
+      },
+      "creative": {
+        "title": "",
+        "body": "✨ Así vivimos la clínica deportiva del 1° de noviembre ✨\n Una jornada llena de energía y aprendizaje, realizada en conjunto con la Municipalidad de Cervantes y la Secretaría de Deporte.\nAgradecemos profundamente a los profesionales que nos acompañaron y a cada persona que se sumó con entusiasmo. \n¡Fue un día increíble para compartir, crecer y seguir impulsando el deporte en Cervantes! 🙌🏃‍♀️⚽🏃‍♂️\n\n@municipalidad_cervantes @rionegrodeporte @psi.giulianomassarella \n\n#Cervantes #JornadaDeportiva #GrupoBartolome #RioNegro #Patagonia",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t15.5256-10/583350681_1283382763539367_7246851753433274314_n.jpg?_nc_cat=101&ccb=1-7&_nc_eui2=AeF4f0U7idKL_B_u-k0Z0u5YC3w7wN_1Xo4LfDvA3_VejqQ-7h_ov0oBOhdJJqUKy-E&_nc_ohc=6pKeC3LUt04Q7kNvwFpyZeU&_nc_oc=Adnc6skMmc3LKtL1VfKosrmirDJ-KyHCs60bFIJN6oqlWpltl0cCpb0QG0m1tp2ZY6o&_nc_zt=23&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=dgupnosRKVjhLRFk-emy8A&_nc_tpa=Q5bMBQFPbDkZbwoSmiVKmpUUAdJxfBYNRTQdwFdptWu3Gy4wW031twcXI2NSVubfgE_0AN9bEtvveXpp&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AflQieFyaH5VOgqIfrr0Sw5KsAcftu_H0cCRZOADI-WXhg&oe=693E2196",
+        "link_url": "",
+        "local_image_path": "output/ENTREGABLES/NOV-25/Grupo Bartolomé/images/120236030391250078.jpg"
+      }
+    },
+    {
+      "campaign_name": "Campaña | Views",
+      "adset_name": "Views - LA RUFINA - Tendido Gas",
+      "ad_name": "LA RUFINA - Tendido Gas",
+      "ad_id": "120236582312400078",
+      "impressions": 15452,
+      "reach": 15078,
+      "frequency": 1.024804,
+      "clicks": 31,
+      "spend": 3807.26,
+      "cpc": 122.814839,
+      "cpm": 246.3927,
+      "ctr": 0.200621,
+      "actions": {
+        "link_click": 17,
+        "page_engagement": 939,
+        "post_engagement": 939,
+        "post_interaction_gross": 1,
+        "onsite_conversion.post_net_like": 1,
+        "video_view": 921,
+        "post_reaction": 1
+      },
+      "cost_per_actions": {
+        "video_view": 4.133833,
+        "link_click": 223.956471,
+        "post_interaction_gross": 3807.26,
+        "post_engagement": 4.05459,
+        "page_engagement": 4.05459
+      },
+      "creative": {
+        "title": "",
+        "body": "Continuando con la obra de tendido de gas natural en el loteo LA RUFINA, se procedió con éxito al cruce de la RN22, en conjunto con Camuzzi Gas, Vialidad Nacional, Telecom y representantes Municipales y Provinciales.\n\nAgradecemos a todos por la colaboración y felicitamos al Municipio de Cervantes por la concreción de esta tunelera, una obra que, sin dudas, será muy importante para muchos vecinos de la localidad. \n\nPara nosotros es un orgullo y un placer poder contribuir a ello 🙌🏻\n\n@camuzzigas @vialidadnacional @telecomarg   @municipalidad_cervantes @barrio.larufina\n\n#loteos #inmobiliaria #cervantes #desarrolloinmobiliario #terreno #grupobartolome #rionegro #patagonia",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/589535003_877779701584615_8797261290607346778_n.jpg?_nc_cat=110&ccb=1-7&_nc_eui2=AeGwgCikAm4KP7qJO-kSwNjzdgzvejwBnBB2DO96PAGcECUckUGXg_aO-P7cXvI8IeM&_nc_ohc=zBWlSXrd5pAQ7kNvwF0yQzH&_nc_oc=AdmBWAYT25hsbNTlPNzyYI00Eq17hoBSx5YIpj3j467VRV1nQZ1HXTX3uOl9SGaXFTU&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=xFxVX7s_kB3zIFDRcI1Iow&_nc_tpa=Q5bMBQGYNc9tYWE--2BNdjn-dEhjv6wkuRL8jV97gTMMJgdYh5dOog71c0PFPOcBb7z9tIYN6Q2ThKN1&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AfmpYFEV9SFxdJ6q4IFWC6EZJWzv389mnKyN58I2ACKVcw&oe=693E1683",
+        "link_url": "",
+        "local_image_path": "output/ENTREGABLES/NOV-25/Grupo Bartolomé/images/120236582312400078.jpg"
+      }
+    }
+  ],
+  "datos_diarios": [
+    {
+      "date": "2025-11-17",
+      "impressions": 16017,
+      "reach": 15847,
+      "spend": 3612.65,
+      "conversaciones": 1
+    },
+    {
+      "date": "2025-11-18",
+      "impressions": 17537,
+      "reach": 17019,
+      "spend": 4110.96,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-19",
+      "impressions": 16936,
+      "reach": 16652,
+      "spend": 4111.99,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-20",
+      "impressions": 17347,
+      "reach": 17009,
+      "spend": 4395.4,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-21",
+      "impressions": 17124,
+      "reach": 17124,
+      "spend": 4404.17,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-22",
+      "impressions": 17232,
+      "reach": 16962,
+      "spend": 4503.83,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-23",
+      "impressions": 19927,
+      "reach": 19927,
+      "spend": 5034.35,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-24",
+      "impressions": 19472,
+      "reach": 18635,
+      "spend": 4482.31,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-25",
+      "impressions": 17814,
+      "reach": 16795,
+      "spend": 4022.91,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-26",
+      "impressions": 16685,
+      "reach": 16110,
+      "spend": 4117.76,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-27",
+      "impressions": 15717,
+      "reach": 15234,
+      "spend": 4167.85,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-28",
+      "impressions": 14929,
+      "reach": 14470,
+      "spend": 4223.84,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-29",
+      "impressions": 16233,
+      "reach": 15629,
+      "spend": 4562.68,
+      "conversaciones": 0
+    },
+    {
+      "date": "2025-11-30",
+      "impressions": 31738,
+      "reach": 30224,
+      "spend": 8054.71,
+      "conversaciones": 0
+    }
+  ],
+  "analisis": {
+    "total_spend": 63805.41,
+    "total_reach": 190824,
+    "total_impressions": 254708,
+    "total_ads": 2,
+    "total_adsets": 2,
+    "best_ad": {
+      "campaign_name": "Campaña | Views",
+      "adset_name": "Views - Clínica Deportiva - Nov.25",
+      "ad_name": "Views - Clínica Deportiva - Nov.25",
+      "ad_id": "120236030391250078",
+      "impressions": 239256,
+      "reach": 175746,
+      "frequency": 1.361374,
+      "clicks": 480,
+      "spend": 59998.15,
+      "cpc": 124.996146,
+      "cpm": 250.769678,
+      "ctr": 0.200622,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 1,
+        "link_click": 168,
+        "page_engagement": 17853,
+        "onsite_conversion.post_unlike": 6,
+        "post_engagement": 17853,
+        "comment": 1,
+        "post_interaction_gross": 46,
+        "post": 4,
+        "onsite_conversion.post_net_like": 35,
+        "onsite_conversion.messaging_first_reply": 1,
+        "onsite_conversion.messaging_conversation_started_7d": 1,
+        "video_view": 17639,
+        "post_reaction": 41
+      },
+      "cost_per_actions": {
+        "onsite_conversion.total_messaging_connection": 59998.15,
+        "video_view": 3.401448,
+        "link_click": 357.131845,
+        "post_interaction_gross": 1304.307609,
+        "post_engagement": 3.360676,
+        "page_engagement": 3.360676,
+        "onsite_conversion.messaging_first_reply": 59998.15,
+        "onsite_conversion.messaging_conversation_started_7d": 59998.15
+      },
+      "creative": {
+        "title": "",
+        "body": "✨ Así vivimos la clínica deportiva del 1° de noviembre ✨\n Una jornada llena de energía y aprendizaje, realizada en conjunto con la Municipalidad de Cervantes y la Secretaría de Deporte.\nAgradecemos profundamente a los profesionales que nos acompañaron y a cada persona que se sumó con entusiasmo. \n¡Fue un día increíble para compartir, crecer y seguir impulsando el deporte en Cervantes! 🙌🏃‍♀️⚽🏃‍♂️\n\n@municipalidad_cervantes @rionegrodeporte @psi.giulianomassarella \n\n#Cervantes #JornadaDeportiva #GrupoBartolome #RioNegro #Patagonia",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t15.5256-10/583350681_1283382763539367_7246851753433274314_n.jpg?_nc_cat=101&ccb=1-7&_nc_eui2=AeF4f0U7idKL_B_u-k0Z0u5YC3w7wN_1Xo4LfDvA3_VejqQ-7h_ov0oBOhdJJqUKy-E&_nc_ohc=6pKeC3LUt04Q7kNvwFpyZeU&_nc_oc=Adnc6skMmc3LKtL1VfKosrmirDJ-KyHCs60bFIJN6oqlWpltl0cCpb0QG0m1tp2ZY6o&_nc_zt=23&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=dgupnosRKVjhLRFk-emy8A&_nc_tpa=Q5bMBQFPbDkZbwoSmiVKmpUUAdJxfBYNRTQdwFdptWu3Gy4wW031twcXI2NSVubfgE_0AN9bEtvveXpp&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AflQieFyaH5VOgqIfrr0Sw5KsAcftu_H0cCRZOADI-WXhg&oe=693E2196",
+        "link_url": "",
+        "local_image_path": "output/ENTREGABLES/NOV-25/Grupo Bartolomé/images/120236030391250078.jpg"
+      }
+    },
+    "worst_ad": {
+      "campaign_name": "Campaña | Views",
+      "adset_name": "Views - LA RUFINA - Tendido Gas",
+      "ad_name": "LA RUFINA - Tendido Gas",
+      "ad_id": "120236582312400078",
+      "impressions": 15452,
+      "reach": 15078,
+      "frequency": 1.024804,
+      "clicks": 31,
+      "spend": 3807.26,
+      "cpc": 122.814839,
+      "cpm": 246.3927,
+      "ctr": 0.200621,
+      "actions": {
+        "link_click": 17,
+        "page_engagement": 939,
+        "post_engagement": 939,
+        "post_interaction_gross": 1,
+        "onsite_conversion.post_net_like": 1,
+        "video_view": 921,
+        "post_reaction": 1
+      },
+      "cost_per_actions": {
+        "video_view": 4.133833,
+        "link_click": 223.956471,
+        "post_interaction_gross": 3807.26,
+        "post_engagement": 4.05459,
+        "page_engagement": 4.05459
+      },
+      "creative": {
+        "title": "",
+        "body": "Continuando con la obra de tendido de gas natural en el loteo LA RUFINA, se procedió con éxito al cruce de la RN22, en conjunto con Camuzzi Gas, Vialidad Nacional, Telecom y representantes Municipales y Provinciales.\n\nAgradecemos a todos por la colaboración y felicitamos al Municipio de Cervantes por la concreción de esta tunelera, una obra que, sin dudas, será muy importante para muchos vecinos de la localidad. \n\nPara nosotros es un orgullo y un placer poder contribuir a ello 🙌🏻\n\n@camuzzigas @vialidadnacional @telecomarg   @municipalidad_cervantes @barrio.larufina\n\n#loteos #inmobiliaria #cervantes #desarrolloinmobiliario #terreno #grupobartolome #rionegro #patagonia",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t15.5256-10/589535003_877779701584615_8797261290607346778_n.jpg?_nc_cat=110&ccb=1-7&_nc_eui2=AeGwgCikAm4KP7qJO-kSwNjzdgzvejwBnBB2DO96PAGcECUckUGXg_aO-P7cXvI8IeM&_nc_ohc=zBWlSXrd5pAQ7kNvwF0yQzH&_nc_oc=AdmBWAYT25hsbNTlPNzyYI00Eq17hoBSx5YIpj3j467VRV1nQZ1HXTX3uOl9SGaXFTU&_nc_zt=23&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=xFxVX7s_kB3zIFDRcI1Iow&_nc_tpa=Q5bMBQGYNc9tYWE--2BNdjn-dEhjv6wkuRL8jV97gTMMJgdYh5dOog71c0PFPOcBb7z9tIYN6Q2ThKN1&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AfmpYFEV9SFxdJ6q4IFWC6EZJWzv389mnKyN58I2ACKVcw&oe=693E1683",
+        "link_url": "",
+        "local_image_path": "output/ENTREGABLES/NOV-25/Grupo Bartolomé/images/120236582312400078.jpg"
+      }
+    },
+    "adsets_analysis": [
+      {
+        "name": "Views - Clínica Deportiva - Nov.25",
+        "reach": 175746,
+        "frequency": 1.361374,
+        "spend": 59998.15,
+        "objective_type": "video_view",
+        "objective_label": "Reproducciones de video",
+        "objective_short_label": "reproducciones",
+        "main_result": 17639,
+        "cost_per_result": 3.401448,
+        "conversations": 1,
+        "cost_per_conversation": 59998.15
+      },
+      {
+        "name": "Views - LA RUFINA - Tendido Gas",
+        "reach": 15078,
+        "frequency": 1.024804,
+        "spend": 3807.26,
+        "objective_type": "video_view",
+        "objective_label": "Reproducciones de video",
+        "objective_short_label": "reproducciones",
+        "main_result": 921,
+        "cost_per_result": 4.133833,
+        "conversations": 0,
+        "cost_per_conversation": 0
+      }
+    ],
+    "insights": [
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "media",
+        "titulo": "Costo por conversación alto en 'Views - Clínica Deportiva - Nov.25'",
+        "descripcion": "Estás pagando $59,998 por cada conversación. Hay margen para optimizar.",
+        "metrica": "1 conversaciones a $59,998 c/u",
+        "accion": "Refinar audiencia o mejorar oferta/copy"
+      }
+    ]
+  }
+}

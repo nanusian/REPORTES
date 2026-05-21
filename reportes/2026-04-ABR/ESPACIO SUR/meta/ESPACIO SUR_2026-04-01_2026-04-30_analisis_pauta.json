@@ -1,0 +1,583 @@
+{
+  "metadata": {
+    "cliente": "ESPACIO SUR",
+    "periodo": "2026-04-01_2026-04-30",
+    "fecha_generacion": "2026-05-06 07:39",
+    "ad_account_id": "act_222680728831622"
+  },
+  "resumen": {
+    "inversion_total": 149965.78,
+    "alcance_total": 10006,
+    "impresiones_totales": 25307,
+    "total_anuncios": 3,
+    "total_conjuntos": 1
+  },
+  "conjuntos_de_anuncios": [
+    {
+      "adset_name": "MENSAJES VARIOS",
+      "impressions": 25307,
+      "reach": 8352,
+      "frequency": 3.030053,
+      "spend": 149965.78,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 42,
+        "link_click": 181,
+        "page_engagement": 245,
+        "onsite_conversion.post_unlike": 3,
+        "post_engagement": 236,
+        "like": 9,
+        "post_interaction_gross": 23,
+        "comment": 1,
+        "post_interaction_net": 26,
+        "onsite_conversion.messaging_user_depth_2_message_send": 19,
+        "onsite_conversion.messaging_first_reply": 32,
+        "post": 3,
+        "onsite_conversion.post_save": 3,
+        "onsite_conversion.post_net_comment": 1,
+        "onsite_conversion.messaging_user_depth_3_message_send": 14,
+        "onsite_conversion.post_net_save": 3,
+        "onsite_conversion.post_net_like": 13,
+        "onsite_conversion.messaging_user_depth_5_message_send": 739,
+        "onsite_conversion.messaging_conversation_started_7d": 39,
+        "video_view": 32,
+        "post_reaction": 16
+      },
+      "cost_per_actions": {
+        "video_view": 4686.430625,
+        "link_click": 828.540221,
+        "like": 16662.864444,
+        "post_interaction_gross": 6520.251304,
+        "onsite_conversion.total_messaging_connection": 3570.61381,
+        "post_engagement": 635.44822,
+        "onsite_conversion.messaging_user_depth_5_message_send": 202.93069,
+        "onsite_conversion.messaging_user_depth_2_message_send": 7892.935789,
+        "onsite_conversion.messaging_user_depth_3_message_send": 10711.841429,
+        "page_engagement": 612.105224,
+        "onsite_conversion.messaging_first_reply": 4686.430625,
+        "onsite_conversion.messaging_conversation_started_7d": 3845.27641
+      }
+    }
+  ],
+  "anuncios": [
+    {
+      "campaign_name": "MENSAJES VARIOS",
+      "adset_name": "MENSAJES VARIOS",
+      "ad_name": "cocinas",
+      "ad_id": "120211185690850277",
+      "impressions": 2360,
+      "reach": 1452,
+      "frequency": 1.625344,
+      "clicks": 59,
+      "spend": 14431.67,
+      "cpc": 244.604576,
+      "cpm": 6115.114407,
+      "ctr": 2.5,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 5,
+        "link_click": 24,
+        "page_engagement": 27,
+        "onsite_conversion.post_unlike": 1,
+        "post_engagement": 26,
+        "like": 1,
+        "post_interaction_gross": 2,
+        "post_interaction_net": 3,
+        "onsite_conversion.messaging_user_depth_2_message_send": 2,
+        "onsite_conversion.messaging_first_reply": 4,
+        "post": 1,
+        "onsite_conversion.messaging_user_depth_3_message_send": 1,
+        "onsite_conversion.post_net_like": 0,
+        "onsite_conversion.messaging_user_depth_5_message_send": 7,
+        "onsite_conversion.messaging_conversation_started_7d": 5,
+        "post_reaction": 1
+      },
+      "cost_per_actions": {
+        "link_click": 601.319583,
+        "like": 14431.67,
+        "post_interaction_gross": 7215.835,
+        "onsite_conversion.total_messaging_connection": 2886.334,
+        "post_engagement": 555.064231,
+        "onsite_conversion.messaging_user_depth_5_message_send": 2061.667143,
+        "onsite_conversion.messaging_user_depth_2_message_send": 7215.835,
+        "onsite_conversion.messaging_user_depth_3_message_send": 14431.67,
+        "page_engagement": 534.506296,
+        "onsite_conversion.messaging_first_reply": 3607.9175,
+        "onsite_conversion.messaging_conversation_started_7d": 2886.334
+      },
+      "creative": {
+        "title": "",
+        "body": "",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t45.1600-4/564476272_25143523261911028_3546129408486993743_n.png?_nc_cat=100&ccb=1-7&_nc_eui2=AeHpJ2H1Fa0w6iZebivVqSdgPr36WDpjw4I-vfpYOmPDgkb_jgzlMh98z9IMjzlaFKk&_nc_ohc=Bjs7891Ya14Q7kNvwECUm4r&_nc_oc=AdqKpwYwYiiHQwBHUvSVCGj0tfANHUmkmxS-ZogjrB6sf_FkHfsg1YDCU4xYVLMAOIVIoXtjVfVYDlwQScTxRxJ2&_nc_zt=1&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=yH0HPzV3KS9AHSmezbwXzg&_nc_tpa=Q5bMBQH3A8qIi0t1uO0Tcabb-yJdNoC83XtPVaxlrLpUU5kIRLdT9Zr_tnFxGeWnEgzNPhHCJEKBRQhE&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af7UBkecT28qKdg33rev09nyqA9jVCUPx6sbn4lnOYfjpA&oe=6A01047F",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/ESPACIO SUR/meta/images/120211185690850277.png"
+      }
+    },
+    {
+      "campaign_name": "MENSAJES VARIOS",
+      "adset_name": "MENSAJES VARIOS",
+      "ad_name": "Parrillas - oct 25",
+      "ad_id": "120234544785330277",
+      "impressions": 1518,
+      "reach": 884,
+      "frequency": 1.717195,
+      "clicks": 25,
+      "spend": 8652.06,
+      "cpc": 346.0824,
+      "cpm": 5699.644269,
+      "ctr": 1.646904,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 2,
+        "link_click": 12,
+        "page_engagement": 15,
+        "post_engagement": 14,
+        "like": 1,
+        "post_interaction_gross": 1,
+        "post_interaction_net": 1,
+        "onsite_conversion.messaging_user_depth_2_message_send": 1,
+        "onsite_conversion.messaging_first_reply": 1,
+        "post": 1,
+        "onsite_conversion.messaging_user_depth_3_message_send": 1,
+        "onsite_conversion.messaging_user_depth_5_message_send": 345,
+        "onsite_conversion.messaging_conversation_started_7d": 2,
+        "video_view": 1
+      },
+      "cost_per_actions": {
+        "video_view": 8652.06,
+        "link_click": 721.005,
+        "like": 8652.06,
+        "post_interaction_gross": 8652.06,
+        "onsite_conversion.total_messaging_connection": 4326.03,
+        "post_engagement": 618.004286,
+        "onsite_conversion.messaging_user_depth_5_message_send": 25.078435,
+        "onsite_conversion.messaging_user_depth_2_message_send": 8652.06,
+        "onsite_conversion.messaging_user_depth_3_message_send": 8652.06,
+        "page_engagement": 576.804,
+        "onsite_conversion.messaging_first_reply": 8652.06,
+        "onsite_conversion.messaging_conversation_started_7d": 4326.03
+      },
+      "creative": {
+        "title": "",
+        "body": "",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t45.1600-4/567749910_10162111288703494_2221887578279174931_n.png?_nc_cat=102&ccb=1-7&_nc_eui2=AeEZj5V-pmTf9FOsrzlx6ujH_yEQyPjKdtv_IRDI-Mp2257-7JW-NhPzIv2cdzABI28&_nc_ohc=AgwFJIoI1VwQ7kNvwFJQKYP&_nc_oc=Adrzi9wCdjsMWKeE8r0riwU_BWCVVkZ0UmNJs4R2cQflM7ktlhNiuYS47gWK-awrOZqiHjHQqUR2vjpfvP8kFMIg&_nc_zt=1&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=JsJNu9N6SuJWobSjYS2Uow&_nc_tpa=Q5bMBQGkXHgLud4xphe94sqsHLSUjFGg_oPGe9S_NvUBNNOLxIlC8w4akog2rx8iQ6BA46EGyoty7OsG&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af7OumdgKUd8nyExfVGfwyrd-Vptnv_5EQzEYeRBG8F3Uw&oe=6A010140",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/ESPACIO SUR/meta/images/120234544785330277.png"
+      }
+    },
+    {
+      "campaign_name": "MENSAJES VARIOS",
+      "adset_name": "MENSAJES VARIOS",
+      "ad_name": "Vestidor - oct 25",
+      "ad_id": "120234544838890277",
+      "impressions": 21429,
+      "reach": 7670,
+      "frequency": 2.793872,
+      "clicks": 415,
+      "spend": 126882.05,
+      "cpc": 305.73988,
+      "cpm": 5921.043912,
+      "ctr": 1.936628,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 35,
+        "link_click": 145,
+        "page_engagement": 203,
+        "onsite_conversion.post_unlike": 2,
+        "post_engagement": 196,
+        "like": 7,
+        "post_interaction_gross": 20,
+        "comment": 1,
+        "post_interaction_net": 22,
+        "onsite_conversion.messaging_user_depth_2_message_send": 16,
+        "onsite_conversion.messaging_first_reply": 27,
+        "post": 1,
+        "onsite_conversion.post_save": 3,
+        "onsite_conversion.post_net_comment": 1,
+        "onsite_conversion.messaging_user_depth_3_message_send": 12,
+        "onsite_conversion.post_net_save": 3,
+        "onsite_conversion.post_net_like": 13,
+        "onsite_conversion.messaging_user_depth_5_message_send": 387,
+        "onsite_conversion.messaging_conversation_started_7d": 32,
+        "video_view": 31,
+        "post_reaction": 15
+      },
+      "cost_per_actions": {
+        "video_view": 4092.969355,
+        "link_click": 875.048621,
+        "like": 18126.007143,
+        "post_interaction_gross": 6344.1025,
+        "onsite_conversion.total_messaging_connection": 3625.201429,
+        "post_engagement": 647.357398,
+        "onsite_conversion.messaging_user_depth_5_message_send": 327.860594,
+        "onsite_conversion.messaging_user_depth_2_message_send": 7930.128125,
+        "onsite_conversion.messaging_user_depth_3_message_send": 10573.504167,
+        "page_engagement": 625.034729,
+        "onsite_conversion.messaging_first_reply": 4699.335185,
+        "onsite_conversion.messaging_conversation_started_7d": 3965.064063
+      },
+      "creative": {
+        "title": "",
+        "body": "",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t45.1600-4/568321615_10162111288643494_1130601024913375052_n.png?_nc_cat=107&ccb=1-7&_nc_eui2=AeHcreFkT7oB1QiXVBWPkiHNu00aTaTKL267TRpNpMovbvmlqB3Cerlva5nfC7sC7og&_nc_ohc=iqIsXlC-d3cQ7kNvwHOlEX-&_nc_oc=AdqGLhIf_6Yxrp_rx9NQYQXL1oaF0S063UQJi2LH2KaF1hgfn0BoYX0V5oO6BmoaqLiBb5eTWEWfw-FD92VfTF2U&_nc_zt=1&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=X2Q7gMdB3RzNlMHymy-4yg&_nc_tpa=Q5bMBQHeQF8Aa1vnXz4DLkVUvZEsTpAmc3u-Az6E737ANkER3mYdrshi9uxdKkOUwxBaW6VR3d2Nex4P&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af67q1JeJ0fzvy-RFH4x1zCvTb9FjeNxX0sJ8nLhv8Hb_A&oe=6A00EC85",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/ESPACIO SUR/meta/images/120234544838890277.png"
+      }
+    }
+  ],
+  "datos_diarios": [
+    {
+      "date": "2026-04-01",
+      "impressions": 0,
+      "reach": 0,
+      "spend": 0.0,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-03",
+      "impressions": 960,
+      "reach": 772,
+      "spend": 5184.9,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-04",
+      "impressions": 1804,
+      "reach": 1420,
+      "spend": 7468.73,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-05",
+      "impressions": 1389,
+      "reach": 1141,
+      "spend": 6266.03,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-06",
+      "impressions": 974,
+      "reach": 744,
+      "spend": 5580.32,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-07",
+      "impressions": 1379,
+      "reach": 1126,
+      "spend": 7852.2,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-04-08",
+      "impressions": 1216,
+      "reach": 918,
+      "spend": 5584.86,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-09",
+      "impressions": 1316,
+      "reach": 1021,
+      "spend": 6346.54,
+      "conversaciones": 3
+    },
+    {
+      "date": "2026-04-10",
+      "impressions": 981,
+      "reach": 767,
+      "spend": 5008.32,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-11",
+      "impressions": 861,
+      "reach": 679,
+      "spend": 6078.92,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-12",
+      "impressions": 849,
+      "reach": 661,
+      "spend": 4536.52,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-04-13",
+      "impressions": 922,
+      "reach": 658,
+      "spend": 7694.0,
+      "conversaciones": 3
+    },
+    {
+      "date": "2026-04-14",
+      "impressions": 1041,
+      "reach": 721,
+      "spend": 5983.66,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-15",
+      "impressions": 873,
+      "reach": 575,
+      "spend": 4918.38,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-16",
+      "impressions": 1058,
+      "reach": 737,
+      "spend": 5349.34,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-04-17",
+      "impressions": 738,
+      "reach": 573,
+      "spend": 5480.62,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-18",
+      "impressions": 1008,
+      "reach": 789,
+      "spend": 5699.5,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-04-19",
+      "impressions": 658,
+      "reach": 478,
+      "spend": 4456.59,
+      "conversaciones": 3
+    },
+    {
+      "date": "2026-04-20",
+      "impressions": 866,
+      "reach": 604,
+      "spend": 7036.62,
+      "conversaciones": 3
+    },
+    {
+      "date": "2026-04-21",
+      "impressions": 949,
+      "reach": 672,
+      "spend": 5732.42,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-22",
+      "impressions": 783,
+      "reach": 513,
+      "spend": 4939.2,
+      "conversaciones": 3
+    },
+    {
+      "date": "2026-04-23",
+      "impressions": 765,
+      "reach": 495,
+      "spend": 4979.77,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-24",
+      "impressions": 647,
+      "reach": 459,
+      "spend": 4542.89,
+      "conversaciones": 3
+    },
+    {
+      "date": "2026-04-25",
+      "impressions": 565,
+      "reach": 402,
+      "spend": 4447.63,
+      "conversaciones": 2
+    },
+    {
+      "date": "2026-04-26",
+      "impressions": 728,
+      "reach": 525,
+      "spend": 4751.81,
+      "conversaciones": 1
+    },
+    {
+      "date": "2026-04-27",
+      "impressions": 645,
+      "reach": 407,
+      "spend": 4605.87,
+      "conversaciones": 3
+    },
+    {
+      "date": "2026-04-28",
+      "impressions": 559,
+      "reach": 381,
+      "spend": 3898.33,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-29",
+      "impressions": 431,
+      "reach": 296,
+      "spend": 3429.2,
+      "conversaciones": 0
+    },
+    {
+      "date": "2026-04-30",
+      "impressions": 342,
+      "reach": 230,
+      "spend": 2112.61,
+      "conversaciones": 0
+    }
+  ],
+  "analisis": {
+    "total_spend": 149965.78,
+    "total_reach": 10006,
+    "total_impressions": 25307,
+    "total_ads": 3,
+    "total_adsets": 1,
+    "best_ad": {
+      "campaign_name": "MENSAJES VARIOS",
+      "adset_name": "MENSAJES VARIOS",
+      "ad_name": "Vestidor - oct 25",
+      "ad_id": "120234544838890277",
+      "impressions": 21429,
+      "reach": 7670,
+      "frequency": 2.793872,
+      "clicks": 415,
+      "spend": 126882.05,
+      "cpc": 305.73988,
+      "cpm": 5921.043912,
+      "ctr": 1.936628,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 35,
+        "link_click": 145,
+        "page_engagement": 203,
+        "onsite_conversion.post_unlike": 2,
+        "post_engagement": 196,
+        "like": 7,
+        "post_interaction_gross": 20,
+        "comment": 1,
+        "post_interaction_net": 22,
+        "onsite_conversion.messaging_user_depth_2_message_send": 16,
+        "onsite_conversion.messaging_first_reply": 27,
+        "post": 1,
+        "onsite_conversion.post_save": 3,
+        "onsite_conversion.post_net_comment": 1,
+        "onsite_conversion.messaging_user_depth_3_message_send": 12,
+        "onsite_conversion.post_net_save": 3,
+        "onsite_conversion.post_net_like": 13,
+        "onsite_conversion.messaging_user_depth_5_message_send": 387,
+        "onsite_conversion.messaging_conversation_started_7d": 32,
+        "video_view": 31,
+        "post_reaction": 15
+      },
+      "cost_per_actions": {
+        "video_view": 4092.969355,
+        "link_click": 875.048621,
+        "like": 18126.007143,
+        "post_interaction_gross": 6344.1025,
+        "onsite_conversion.total_messaging_connection": 3625.201429,
+        "post_engagement": 647.357398,
+        "onsite_conversion.messaging_user_depth_5_message_send": 327.860594,
+        "onsite_conversion.messaging_user_depth_2_message_send": 7930.128125,
+        "onsite_conversion.messaging_user_depth_3_message_send": 10573.504167,
+        "page_engagement": 625.034729,
+        "onsite_conversion.messaging_first_reply": 4699.335185,
+        "onsite_conversion.messaging_conversation_started_7d": 3965.064063
+      },
+      "creative": {
+        "title": "",
+        "body": "",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn2-1.fna.fbcdn.net/v/t45.1600-4/568321615_10162111288643494_1130601024913375052_n.png?_nc_cat=107&ccb=1-7&_nc_eui2=AeHcreFkT7oB1QiXVBWPkiHNu00aTaTKL267TRpNpMovbvmlqB3Cerlva5nfC7sC7og&_nc_ohc=iqIsXlC-d3cQ7kNvwHOlEX-&_nc_oc=AdqGLhIf_6Yxrp_rx9NQYQXL1oaF0S063UQJi2LH2KaF1hgfn0BoYX0V5oO6BmoaqLiBb5eTWEWfw-FD92VfTF2U&_nc_zt=1&_nc_ht=scontent.fnqn2-1.fna&edm=AAT1rw8EAAAA&_nc_gid=X2Q7gMdB3RzNlMHymy-4yg&_nc_tpa=Q5bMBQHeQF8Aa1vnXz4DLkVUvZEsTpAmc3u-Az6E737ANkER3mYdrshi9uxdKkOUwxBaW6VR3d2Nex4P&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af67q1JeJ0fzvy-RFH4x1zCvTb9FjeNxX0sJ8nLhv8Hb_A&oe=6A00EC85",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/ESPACIO SUR/meta/images/120234544838890277.png"
+      }
+    },
+    "worst_ad": {
+      "campaign_name": "MENSAJES VARIOS",
+      "adset_name": "MENSAJES VARIOS",
+      "ad_name": "Parrillas - oct 25",
+      "ad_id": "120234544785330277",
+      "impressions": 1518,
+      "reach": 884,
+      "frequency": 1.717195,
+      "clicks": 25,
+      "spend": 8652.06,
+      "cpc": 346.0824,
+      "cpm": 5699.644269,
+      "ctr": 1.646904,
+      "actions": {
+        "onsite_conversion.total_messaging_connection": 2,
+        "link_click": 12,
+        "page_engagement": 15,
+        "post_engagement": 14,
+        "like": 1,
+        "post_interaction_gross": 1,
+        "post_interaction_net": 1,
+        "onsite_conversion.messaging_user_depth_2_message_send": 1,
+        "onsite_conversion.messaging_first_reply": 1,
+        "post": 1,
+        "onsite_conversion.messaging_user_depth_3_message_send": 1,
+        "onsite_conversion.messaging_user_depth_5_message_send": 345,
+        "onsite_conversion.messaging_conversation_started_7d": 2,
+        "video_view": 1
+      },
+      "cost_per_actions": {
+        "video_view": 8652.06,
+        "link_click": 721.005,
+        "like": 8652.06,
+        "post_interaction_gross": 8652.06,
+        "onsite_conversion.total_messaging_connection": 4326.03,
+        "post_engagement": 618.004286,
+        "onsite_conversion.messaging_user_depth_5_message_send": 25.078435,
+        "onsite_conversion.messaging_user_depth_2_message_send": 8652.06,
+        "onsite_conversion.messaging_user_depth_3_message_send": 8652.06,
+        "page_engagement": 576.804,
+        "onsite_conversion.messaging_first_reply": 8652.06,
+        "onsite_conversion.messaging_conversation_started_7d": 4326.03
+      },
+      "creative": {
+        "title": "",
+        "body": "",
+        "image_url": "",
+        "thumbnail_url": "https://scontent.fnqn9-1.fna.fbcdn.net/v/t45.1600-4/567749910_10162111288703494_2221887578279174931_n.png?_nc_cat=102&ccb=1-7&_nc_eui2=AeEZj5V-pmTf9FOsrzlx6ujH_yEQyPjKdtv_IRDI-Mp2257-7JW-NhPzIv2cdzABI28&_nc_ohc=AgwFJIoI1VwQ7kNvwFJQKYP&_nc_oc=Adrzi9wCdjsMWKeE8r0riwU_BWCVVkZ0UmNJs4R2cQflM7ktlhNiuYS47gWK-awrOZqiHjHQqUR2vjpfvP8kFMIg&_nc_zt=1&_nc_ht=scontent.fnqn9-1.fna&edm=AAT1rw8EAAAA&_nc_gid=JsJNu9N6SuJWobSjYS2Uow&_nc_tpa=Q5bMBQGkXHgLud4xphe94sqsHLSUjFGg_oPGe9S_NvUBNNOLxIlC8w4akog2rx8iQ6BA46EGyoty7OsG&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af7OumdgKUd8nyExfVGfwyrd-Vptnv_5EQzEYeRBG8F3Uw&oe=6A010140",
+        "link_url": "",
+        "local_image_path": "/Users/laureanomedeot/REPORTES/reportes/2026-04-ABR/ESPACIO SUR/meta/images/120234544785330277.png"
+      }
+    },
+    "adsets_analysis": [
+      {
+        "name": "MENSAJES VARIOS",
+        "reach": 8352,
+        "frequency": 3.030053,
+        "spend": 149965.78,
+        "objective_type": "onsite_conversion.messaging_conversation_started_7d",
+        "objective_label": "Conversaciones iniciadas",
+        "objective_short_label": "conversaciones",
+        "main_result": 39,
+        "cost_per_result": 3845.27641,
+        "conversations": 39,
+        "cost_per_conversation": 3845.27641
+      }
+    ],
+    "insights": [
+      {
+        "tipo": "ÉXITO",
+        "prioridad": "baja",
+        "titulo": "Excelente performance en 'cocinas'",
+        "descripcion": "CTR de 2.50% con frecuencia controlada (1.6). Este anuncio está funcionando muy bien.",
+        "metrica": "CTR: 2.50% | Frecuencia: 1.6",
+        "accion": "Escalar presupuesto si hay margen"
+      },
+      {
+        "tipo": "OPORTUNIDAD",
+        "prioridad": "alta",
+        "titulo": "Subinversión en anuncio con potencial: 'cocinas'",
+        "descripcion": "Este anuncio tiene buen CTR (2.50%) pero recibe poca inversión ($14,432). Podría escalar.",
+        "metrica": "CTR: 2.50% | Inversión: $14,432",
+        "accion": "Aumentar presupuesto para este anuncio"
+      }
+    ]
+  }
+}
