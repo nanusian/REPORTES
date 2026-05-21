@@ -1,7 +1,0 @@
-# Google Ads API Configuration
-developer_token: "m3JVKeIeI6w4ReYMPXue4A"
-client_id: "1013023880186-3d80cv632j08mtgphqm1m15vvvv2if5j.apps.googleusercontent.com"
-client_secret: "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"
-refresh_token: "1//0hszK63Qj4395CgYIARAAGBESNwF-L9IrugXKlfmKRSgrgj7OAUXJvBCRP66QYTUOVIeHwlOSBjoa-vvCLAKrAE-OnMzr4eZm3RA"
-login_customer_id: "3781294757"
-use_proto_plus: True
