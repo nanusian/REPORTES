@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Carpetas internas LINE (no subir al repo)
+config/
+docs/
+scripts/
+
+# Archivos internos
+*.pdf
+*.txt
+*.md
+!README.md
+
+# Windows
+Thumbs.db
+ehthumbs.db
